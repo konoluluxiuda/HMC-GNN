@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # === 配置 ===
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-MKG_DIR = os.path.dirname(CURRENT_DIR)
+MKG_DIR = CURRENT_DIR
 DATA_ROOT = os.path.join(MKG_DIR, 'dataset', 'NEWHERB')
 KGE_DIR = os.path.join(DATA_ROOT, 'kge_data')
 FEATURE_DIR = os.path.join(DATA_ROOT, 'features')

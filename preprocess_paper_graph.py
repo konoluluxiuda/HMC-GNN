@@ -10,7 +10,7 @@ from tqdm import tqdm
 # 1. 配置与路径
 # =================================================================
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-MKG_DIR = os.path.dirname(CURRENT_DIR)
+MKG_DIR = CURRENT_DIR
 DATA_ROOT = os.path.join(MKG_DIR, 'dataset', 'NEWHERB')
 KGE_DIR = os.path.join(DATA_ROOT, 'kge_data')
 OUTPUT_DIR = os.path.join(DATA_ROOT, 'paper_graph_data')
