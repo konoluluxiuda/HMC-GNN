@@ -1,0 +1,7 @@
+associated_with
+belongs_to_meridian
+has_component
+has_effect
+has_property
+interacts_with
+treats_disease

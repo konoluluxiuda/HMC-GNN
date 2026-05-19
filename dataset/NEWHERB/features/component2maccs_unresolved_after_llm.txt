@@ -1,0 +1,162 @@
+NO_SMILES	(X{2212})-Clusin	NO_LLM_SMILES
+NO_SMILES	Ah18	NO_LLM_SMILES
+NO_SMILES	Ah19A	NO_LLM_SMILES
+NO_SMILES	Ah19B	NO_LLM_SMILES
+NO_SMILES	Ah20	NO_LLM_SMILES
+NO_SMILES	Ah21	NO_LLM_SMILES
+NO_SMILES	Az Iii	NO_LLM_SMILES
+NO_SMILES	Az Iv	NO_LLM_SMILES
+NO_SMILES	Baimuxinal	NO_LLM_SMILES
+NO_SMILES	Bicyclosesquiphellandrene	NO_LLM_SMILES
+NO_SMILES	Cpb-53-641-1	NO_LLM_SMILES
+NO_SMILES	Cpb5212-1492-1	NO_LLM_SMILES
+NO_SMILES	Cpb5212-1492-2	NO_LLM_SMILES
+NO_SMILES	Crenulatin	NO_LLM_SMILES
+NO_SMILES	Cthd0233276-15	NO_LLM_SMILES
+NO_SMILES	Cthd0233276-21	NO_LLM_SMILES
+NO_SMILES	Fomefficinic Acid A	NO_LLM_SMILES
+NO_SMILES	Fomefficinic Acid B	NO_LLM_SMILES
+NO_SMILES	Fomefficinic Acid D	NO_LLM_SMILES
+NO_SMILES	Fomefficinic Acid E	NO_LLM_SMILES
+NO_SMILES	Glespinoside A	NO_LLM_SMILES
+NO_SMILES	HAI	NO_LLM_SMILES
+NO_SMILES	Hemolysin	NO_LLM_SMILES
+NO_SMILES	Hydrogenase	NO_LLM_SMILES
+NO_SMILES	Hydroginkgolic Acid	NO_LLM_SMILES
+NO_SMILES	Hydroginkgolinic Acid	NO_LLM_SMILES
+NO_SMILES	I-23	NO_LLM_SMILES
+NO_SMILES	Jinkohol I	NO_LLM_SMILES
+NO_SMILES	Jinkohol Ii	NO_LLM_SMILES
+NO_SMILES	Kudos	NO_LLM_SMILES
+NO_SMILES	Labroda	NO_LLM_SMILES
+NO_SMILES	Np02140176-38-K	NO_LLM_SMILES
+NO_SMILES	Np02140176-40	NO_LLM_SMILES
+NO_SMILES	Np02140176-41-Kna	NO_LLM_SMILES
+NO_SMILES	Np02140176-42-K	NO_LLM_SMILES
+NO_SMILES	Palmidin B	NO_LLM_SMILES
+NO_SMILES	Ppi	NO_LLM_SMILES
+NO_SMILES	Pq-2	NO_LLM_SMILES
+NO_SMILES	Ruixianglangdusu A	NO_LLM_SMILES
+NO_SMILES	Stellarria Cyclopeptide	NO_LLM_SMILES
+NO_SMILES	Stevenin	NO_LLM_SMILES
+NO_SMILES	Suimiyain A	NO_LLM_SMILES
+NO_SMILES	UND	NO_LLM_SMILES
+NO_SMILES	Upl	NO_LLM_SMILES
+NO_SMILES	Xambioona	NO_LLM_SMILES
+INVALID_SMILES	(5Z,9Z)-3,6,10-Trimethyl-7,8,11,11A-Tetrahydrocyclodeca[B]Furan-2(4H)-One	NO_LLM_SMILES
+INVALID_SMILES	(5Î’,25S)-Spirostan-3Î’,15Î‘,23Î‘-Diol-3-O-D-Glucopyranosyl-(1â†’2)-Î’-D-Galactopyranoside	NO_LLM_SMILES
+INVALID_SMILES	1,1-Dimethyl-2-(3-Methyl-1,3-Butadiene)Cyclo-Propane	INVALID_LLM_SMILES:CC1=C(C)C=CC1C2(C)C2
+INVALID_SMILES	1-Methyl-2-Pentadecyl-4(1H)-Quinolone	INVALID_LLM_SMILES:CCCCCCCCCCCCCCCCc1cc(=O)c2ccccc2[n+]1C
+INVALID_SMILES	16Î‘,23,28,30-Tetrahydroxyolean-11,13(18)-Dien-3Î’-Yl-Î’-D-Glucopyranosyl-(1â†’3)-Î’-D-Fucopyranoside	NO_LLM_SMILES
+INVALID_SMILES	17?-Ethoxyphaeophorbidea	NO_LLM_SMILES
+INVALID_SMILES	2-(8-Methyl-2,8,9-Trihydroxy-2-Hydroxymethylbicyclo[5.3.0]Decan-7-Yl)Isopropanol Glucoside	NO_LLM_SMILES
+INVALID_SMILES	2-N-Pentacosyl-5,7-Dihydroxy-6,8-Dimethyl Chromone	INVALID_LLM_SMILES:CCCCCCCCCCCCCCCCCCCCCCCCCOc1cc(O)c2c(=O)c(cc(O)c2c1C)C
+INVALID_SMILES	20,23-Dihydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Lupan-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6(C)C)O)C)C)C)OC7C(C(C(C(O7)COC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)OC1C(C(C(C(O1)CO)O)O)O
+INVALID_SMILES	20-Hydroxylganoderic Acid G	NO_LLM_SMILES
+INVALID_SMILES	20S,22R,23S,24R-16Î’,23,22,25-Diepoxy-Cycloartane-3Î’,23,24-Triol 3-O-(6-O-Trans-Isoferuloyl-Î’-D-Glucopyranosyl)-(1â†’2)-Î’-D-Glucopyranosyl-(1â†’2)-Î’-D-Xylopyranoside	NO_LLM_SMILES
+INVALID_SMILES	23-Hydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-O-[O-Î’-D-Glucopyranosyl-(1â†’4)-Î’-D-Glucopyranosyl-(1â†’4)]-Î‘-L-Arabinopyranosyl)Oxy]Lup-20(29)-En-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	23-Hydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-O-[Î’-D-Glucopyranosyl-(1â†’4)]-Î‘-L-Arabinopyranosyl)Oxy]Lup-20(29)-En-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	3,11,22-Trioxo-16Î‘-Hydroxy-(20S,24)-Epoxy-Cucurbit-5,23-Diene-2Î’-O-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC12CCC3C(C1C(C45C=CC(=O)C(C4)(C(CC5)O)O)OC6C(C(C(C(O6)CO)O)O)O)CCC7(C3(CCC(=O)C7=O)C)C(=O)O
+INVALID_SMILES	3,5-Didecanoylpyridine	INVALID_LLM_SMILES:CCCCCCCCCC(=O)c1cc(cncc1)C(=O)CCCCCCCCC
+INVALID_SMILES	3-Epioleanolic Acid	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6(C)C)O)C)C)C(=O)O)C
+INVALID_SMILES	3-Hydroxy-2-Oxo-3-Friedelen-20Î‘-Carboxylic Acid	NO_LLM_SMILES
+INVALID_SMILES	3-O-Trans-P-Coumaroyltormentic Acid	INVALID_LLM_SMILES:CC1(C2CCC3(C(C2(CCC1O)C)C(=C)C4C3(CCC5C4(CCC(C5(C)C)O)C)C)C(=O)OC6C(C(C(C(O6)CO)O)O)OC(=O)C=CC7=CC=C(C=C7)O
+INVALID_SMILES	3-O-[Bis-Î‘-L-Rhamnopyranosyl-(1â†’2 And 1â†’4)-Î’-D-Glucopyranosyl]-22R,25R-Spirost-5-Ene-3Î’,20Î‘-Diol	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CC=C6C5(CCC(C6)OC7C(C(C(C(O7)CO)O)OC8C(C(C(C(O8)C)O)O)O)OC9C(C(C(C(O9)C)O)O)O)C)C)C)CO
+INVALID_SMILES	3-O-Î’-D-Galactopyranosyl(1â†’2)-[Î’-D-Xylopyranosyl(1â†’3)]-Î’-D-6-O-Ethylglucoronopyranosyl-Quillaic Acid	NO_LLM_SMILES
+INVALID_SMILES	3-O-Î’-D-Galactopyranosyl-(1â†’2)-Î’-D-Glucuronopyranosyl-Gypsogenin-28-O-Î’-D-Xylopyranosyl(1â†’4)-[Î’-D-6-O-Acetylglucopyranosyl(1â†’3)]-Î‘-L-Rhamnopyranosyl(1â†’2)-Î’-D-Fucopyranoside	NO_LLM_SMILES
+INVALID_SMILES	30-Norhederagenin-3-O-Î’-D-Xylosyl(1â†’2)-Î‘-L-Arabinopyranoside	INVALID_LLM_SMILES:CC12CCC3C(C1CCC4C2(CCC5C4(CCC6C5(CCC(C6)(C)C(=O)O)C)C)C)OC7C(C(C(C(O7)CO)O)O)OC8C(C(C(C(O8)CO)O)O)O
+INVALID_SMILES	3Î‘,4Î’-Dihydroxy-15,16-Epoxy-12-Oxo-Cleroda-13(16),14-Dien	INVALID_LLM_SMILES:CC1CCC2C(C3C(C2(C)C)CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)(C(=O)C6=C(O6)C(=C)C)O
+INVALID_SMILES	3Î’-Oxo-Formyl-7Î’,12Î’-Dihydroxy-5Î‘-Lanost-11,15,23-Trioxo-8-En(E)-26-0Ic Acid	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester	NO_LLM_SMILES
+INVALID_SMILES	3Î’-[(Î‘-L-Arabinopyranosyl)Oxy]-Urs-11,13(18)-Dien-28-Oic Acid Î’-D-Glucopyranosyl Ester	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6(C)C)O[C@H]7O[C@@H]([C@@H]([C@H]([C@H]7O)O)O)CO)C)C)C(=O)O[C@H]8O[C@@H]([C@@H]([C@H]([C@H]8O)O)O)CO)C
+INVALID_SMILES	3Î’-{O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-[O-Î‘-L-Rham-Nopyranosyl-(1â†’2)-O-Î’-D-Glucopyranosyl(1â†’4)-O-Î’-D-Glucuronopyranosyl]}-16Î‘-Hydroxy-13Î’, 28-Epoxyoleanane	NO_LLM_SMILES
+INVALID_SMILES	4'-Hydroxyimperatorin 4'-O-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1=C(C(=O)OC1)C2=CC3=C(C=C2)OCO3C4=CC(=C(C=C4)OC5C(C(C(C(O5)CO)O)O)O)O
+INVALID_SMILES	5',6'-Dehydroguiachrysine	NO_LLM_SMILES
+INVALID_SMILES	5,7-Dimethoxyphenanthrene-2,6-Diol	INVALID_LLM_SMILES:COc1cc2c(cc1O)c3cc(OC)c(O)cc3c2O
+INVALID_SMILES	5-Ene-Methyl-7,12-Didehydroxy-Cholate-3-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-Î’-D-Glucuronopyranoside	NO_LLM_SMILES
+INVALID_SMILES	7,8-Dehydropenstemoside	NO_LLM_SMILES
+INVALID_SMILES	7,9-Dimethoxy-2,3-Methylendioxybenzophenanthridine	INVALID_LLM_SMILES:COc1cc2c(cc1OC)Cc3c4c(cc5c3OCO5)ccc6c4[nH]cc6c2
+INVALID_SMILES	7-(2',6'-Dihydroxy-7'-Methyl-3'-Methyleneocta-7'-En-1-Oxy)-8-Methoxycoumarin	INVALID_LLM_SMILES:COc1c2ccccc2oc1c1ccc(OC(CC(C)(C=C)C(C)(C)O)cc1
+INVALID_SMILES	Acetyljujuboside B	NO_LLM_SMILES
+INVALID_SMILES	Acevaltrate	INVALID_LLM_SMILES:CC(=O)OCC1C(C2C(C(C1OC(=O)C)(C)C)OC(=O)C)OC(=O)C
+INVALID_SMILES	Acevaltratum	NO_LLM_SMILES
+INVALID_SMILES	Adenine	INVALID_LLM_SMILES:Nc1ncnc2ncnc12
+INVALID_SMILES	Alisol A Monoacetate	INVALID_LLM_SMILES:CC(=O)OC1CCC2(C1(CCC34C2CCC5(C3CCC(C5(C)C)O)C)C)CO
+INVALID_SMILES	Aseanostatin P1	NO_LLM_SMILES
+INVALID_SMILES	Astin B	NO_LLM_SMILES
+INVALID_SMILES	Astragaloside Iv	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5(C)C)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC8C(C(C(C(O8)C(=O)O)O)O)O
+INVALID_SMILES	Beiwutine	NO_LLM_SMILES
+INVALID_SMILES	Bruceene	NO_LLM_SMILES
+INVALID_SMILES	Cacticin	NO_LLM_SMILES
+INVALID_SMILES	Casuariin	INVALID_LLM_SMILES:C1C(C(OC(=O)C2=CC(=C(C(=C2)O)O)O)OC(=O)C3=CC(=C(C(=C3)O)O)O)OC(=O)C4=CC(=C(C(=C4)O)O)O
+INVALID_SMILES	Chiisanogenin	INVALID_LLM_SMILES:CC1CCC2(C(C1)O)C3=CC(=O)C4C(C3(CC2)C)(C5CC(C5(C)C)CCC6C6(C)C)OC4=O
+INVALID_SMILES	Cyclolinopeptide I	NO_LLM_SMILES
+INVALID_SMILES	Cytochrome C	NO_LLM_SMILES
+INVALID_SMILES	Delsemine B	NO_LLM_SMILES
+INVALID_SMILES	Di-O-Methyltetrahydrofuriguaiacin B	NO_LLM_SMILES
+INVALID_SMILES	Dicyclopentadiene Diepoxide	INVALID_LLM_SMILES:C1C2C3C4C1C5C2C3C45.O1.O2
+INVALID_SMILES	Ent-12Î‘,16-Epoxy-2Î’,15Î‘,19-Trihydroxypimar-8(14)-Ene	NO_LLM_SMILES
+INVALID_SMILES	Ethyl-N-Buthy-Uralsaponin A Esters	NO_LLM_SMILES
+INVALID_SMILES	Ganoderic Acid Î–	NO_LLM_SMILES
+INVALID_SMILES	Ginsenoyne A	NO_LLM_SMILES
+INVALID_SMILES	Ginsenoyne D	NO_LLM_SMILES
+INVALID_SMILES	Goshuyuamide I	NO_LLM_SMILES
+INVALID_SMILES	Goshuyuamideii	NO_LLM_SMILES
+INVALID_SMILES	Hederagenin	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)O)C)C)C(=O)O)C
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-3-Acetyl-Î’-D-Xylopyranosyl-(1â†’6)-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1C(C(C(C(O1)OC2C(C(C(C(O2)OC3C(C(C(C(O3)COC4C(C(C(C(O4)COC(=O)C)O)O)O)O)O)O)O)O)O)O)O)O)C5(CCC6(C7CCC8(C(C7CCC6C5(C)C)CC=C9C8(CCC1(C9CCC1(C(=O)O)O)C)C)C)C)C
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-6-Acetyl-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranoside	NO_LLM_SMILES
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)(C)C(=O)OC7C(C(C(C(O7)COC8C(C(C(C(O8)CO)O)O)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)C)C)C)OC1C(C(C(C(O1)COC2C(C(C(C(O2)CO)O)O)O)O)O)O
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Xylopyranosyl-(1â†’6)-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)(C)C(=O)OC7C(C(C(C(O7)COC8C(C(C(C(O8)CO)O)O)O)O)O)OC9C(C(C(C(O9)C)O)O)O)OC1C(C(C(C(O1)CO)O)O)O)C)C)O
+INVALID_SMILES	Hederagenin-3-O-Î’-D-Glucopyranosyl(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Glucopyranosyl(1â†’6)-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6(C)C)O)C)C)C(=O)OC7C(C(C(C(O7)COC8C(C(C(C(O8)CO)O)O)O)OC9C(C(C(C(O9)CO)O)O)O)O)O)OC1C(C(C(C(O1)COC2C(C(C(C(O2)CO)O)O)O)O)O)O
+INVALID_SMILES	Hexanorcucurbitacin F	NO_LLM_SMILES
+INVALID_SMILES	Isotetrandrine,Tetrandrine	INVALID_LLM_SMILES:COC1=C(C=C(C=C1)CC2C3C4C5C(CC3N(C)C)C6=CC(=C(C=C6OC)OC)OC)C7=CC(=C(C=C7OC)OC)OC
+INVALID_SMILES	Jujuboside A	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC8C(C(C(C(O8)C(=O)O)O)O)O
+INVALID_SMILES	Jujuboside A1	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5(C)C)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC(=O)C8=CC=CC=C8
+INVALID_SMILES	Jujuboside B1	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5(C)C)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC(=O)C8=CC=CC=C8
+INVALID_SMILES	Jujuboside C	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)O)C)C)OC(=O)C7=CC=CC=C7
+INVALID_SMILES	Jujuboside D	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5(C)C)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC(=O)C8=CC=CC=C8
+INVALID_SMILES	Julibroside J12	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J15	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J16	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J17	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J18	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J20	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J25	NO_LLM_SMILES
+INVALID_SMILES	Julibroside J9	NO_LLM_SMILES
+INVALID_SMILES	Laminarin	NO_LLM_SMILES
+INVALID_SMILES	Leoheteronin D	NO_LLM_SMILES
+INVALID_SMILES	Leoheteronin E	INVALID_LLM_SMILES:CC1=C(C(=O)OC2C1C3C(C2)OC(=O)C4C3(CCC5C4(CCC6C5(CCC7C6(CCC8C7(CCC9C8(CCC1C9(CCC(=C)C1=O)C)C)C)C)C)C)C
+INVALID_SMILES	Lipohypaconitine	NO_LLM_SMILES
+INVALID_SMILES	Lycopene	NO_LLM_SMILES
+INVALID_SMILES	Macrostemonoside E	INVALID_LLM_SMILES:CC1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O
+INVALID_SMILES	Manassantin A	NO_LLM_SMILES
+INVALID_SMILES	Methyl Ganoderate I	NO_LLM_SMILES
+INVALID_SMILES	Methyl-N-Butyl-Uralsaponin A Esters	NO_LLM_SMILES
+INVALID_SMILES	Michelalbine	NO_LLM_SMILES
+INVALID_SMILES	Pingbeisaponin	NO_LLM_SMILES
+INVALID_SMILES	Piperitylhonokiol	NO_LLM_SMILES
+INVALID_SMILES	Polyphyllin â…¡	NO_LLM_SMILES
+INVALID_SMILES	Procyanidin B2 3,3'-Di-O-Gallate	INVALID_LLM_SMILES:C1C(C(OC2=CC(=CC(=C2C3=C(C(=C4C(=C3)O)C(C(C4=O)O)C5=C(C=C(C=C5)O)O)O)O)O)C6=C(C=C(C=C6)O)O)OC(=O)C7=CC(=C(C(=C7)O)O)O
+INVALID_SMILES	Rel-(7R,8R,7'R,8'R)-3,4,3',4'-Dimethylenedioxy-5,5'-Dimethoxy-7,7'-Epoxylignan	INVALID_LLM_SMILES:COC1=CC(=C(C(=C1OC)O2C3C(COC4=CC(=C(C(=C4OC)OC)O2)C5=CC(=C(C(=C5OC)OC)O3)OC)OC)OC)OC
+INVALID_SMILES	Rhatannin	NO_LLM_SMILES
+INVALID_SMILES	Rugosin A	INVALID_LLM_SMILES:CC1C2C(C(C(C(O2)C3=CC(=C(C(=C3)O)O)O)OC4C(C(C(C(O4)C5=CC(=C(C(=C5)O)O)O)O)O)O)O)OC(=O)C6=CC(=C(C(=C6)O)O)O
+INVALID_SMILES	Rugosin B	INVALID_LLM_SMILES:CC1C2C(C(C(C(O2)OC3C(C(C(C(O3)CO)O)O)OC4C(C(C(C(O4)C)O)O)O)O)O)OC(=O)C5=CC(=C(C(=C5)O)O)O
+INVALID_SMILES	Rutundanonic Acid	NO_LLM_SMILES
+INVALID_SMILES	Sanjoinine G1	NO_LLM_SMILES
+INVALID_SMILES	Sennoside B	NO_LLM_SMILES
+INVALID_SMILES	Solasodine 3-O-Î‘-L-Rhamnopyranosyl (1â†’2)-O-[Î’-D-Glucopyranosyl (1â†’4)]-Î’-D-Glucopyranoside	INVALID_LLM_SMILES:CC1C(C(C(C(O1)OC2C(C(C(C(O2)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O)O)C5C6CC7N8C9C(C6(CC5O)C)CCC7C8CC9
+INVALID_SMILES	Stemanthrene C	NO_LLM_SMILES
+INVALID_SMILES	Sterculinine Ii	NO_LLM_SMILES
+INVALID_SMILES	Timosaponin A- Iii	INVALID_LLM_SMILES:CC1C2C(CC3C2(CCC4C3CCC5C4(CCC(C5)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)C)OC8C(C(C(C(O8)CO)O)O)O
+INVALID_SMILES	Trigonegenin B	NO_LLM_SMILES
+INVALID_SMILES	Triptofordin A	NO_LLM_SMILES
+INVALID_SMILES	Triptofordin B2	NO_LLM_SMILES
+INVALID_SMILES	Tuberostemonine J	NO_LLM_SMILES
+INVALID_SMILES	Vitamin B12	INVALID_LLM_SMILES:CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=N6)C(=C7C(C(C(=N7)C=C8C(C(C(=N8)C(=C4[N-]5)C)CCC(=O)N)(C)C)CCC(=O)N)(C)CO)CCC(=O)N)(C)CC(=O)N)C)CCC(=O)N)C)CO
+INVALID_SMILES	Yunaconitine	INVALID_LLM_SMILES:CC1C2C(CC3C4CC5C6(C)C(CC(C6OC)OC)OC4C(CC3C2(C)OC1OC)OC)OC
+INVALID_SMILES	[6',6''-Dimethylpyrano-(2',3':7,8)]-4'-Methoxy-3-Arylcoumarin	NO_LLM_SMILES
+INVALID_SMILES	Î’2-Solamargine	INVALID_LLM_SMILES:CC1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4CCC5(C(C4)CCC6C5CCC7C6(CCC8C7CC=C9C8(CCC1%10C9=CC(=O)OC1%10)C)C)C)C)C)O)O)O

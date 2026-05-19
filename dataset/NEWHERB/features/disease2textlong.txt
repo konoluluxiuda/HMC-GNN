@@ -1,0 +1,2703 @@
+3-Methylglutaric Aciduria	3-甲基戊二酸尿症。一种因亮氨酸代谢障碍导致3-甲基戊二酸蓄积的常染色体隐性遗传病。
+4-Hydroxyphenylpyruvic Aciduria	4-羟基苯丙酮酸尿症。一种因酪氨酸代谢障碍导致尿液中4-羟基苯丙酮酸异常增多的遗传性疾病。
+5-Oxoprolinase Deficiency	5-氧脯氨酸酶缺乏症。一种因5-氧脯氨酸酶缺陷导致5-氧脯氨酸蓄积的遗传性代谢疾病。
+Abdominal Aortic Aneurysm	腹主动脉瘤。一种因腹主动脉壁局部异常扩张形成的动脉瘤，可导致破裂风险。
+Abdominal Colic	腹绞痛。一种因肠道平滑肌痉挛引起的突发性腹部剧痛综合征。
+Abdominal Distention	腹胀。一种因胃肠道积气、积液或腹腔占位性病变导致的腹部膨隆症状。
+Abdominal Mass	腹部肿块。腹腔内可触及的异常组织增生，可能由肿瘤、囊肿或炎症引起。
+Abdominal Pain	腹痛。由腹腔脏器病变或功能紊乱引起的腹部不适或疼痛症状。
+Abdominal Wall Muscle Weakness	腹壁肌力减弱。因肌肉萎缩或神经损伤导致的腹壁支撑功能下降。
+Abducens Palsy	外展神经麻痹。因第六对脑神经损伤导致眼球外展运动受限的神经疾病。
+Abetalipoproteinemia	无β脂蛋白血症。一种因微粒体甘油三酯转移蛋白缺陷导致脂肪吸收障碍的常染色体隐性遗传病。
+Abnormal Apolipoprotein Level	异常载脂蛋白水平。一种因载脂蛋白合成、代谢异常导致血脂运输功能障碍的病理状态。
+Abnormal Autonomic Nervous System Physiology	自主神经系统生理功能异常。一种因自主神经调节失衡导致心率、血压或消化等生理功能紊乱的病理状态。
+Abnormal Basophil Morphology	嗜碱性粒细胞形态异常。一种外周血或骨髓中嗜碱性粒细胞形态结构出现病理性改变的血液学表现。
+Abnormal Bleeding	异常出血。指非外伤性或超出正常生理范围的出血现象，可由凝血功能障碍或血管病变引起。
+Abnormal Blistering Of The Skin	皮肤异常水疱。一种因表皮细胞连接破坏或基底膜带损伤导致皮肤出现水疱的病理状态。
+Abnormal Bone Structure	骨结构异常。因遗传、代谢或发育异常导致的骨骼形态或密度改变。
+Abnormal C-Peptide Level	C肽水平异常。指C肽分泌过高或过低，常见于胰岛β细胞功能紊乱或外源性胰岛素使用。
+Abnormal Circulating Aldosterone	异常循环醛固酮。一种因醛固酮分泌失调导致电解质紊乱和血压异常的病理状态。
+Abnormal Circulating Renin	异常循环肾素。一种因肾素分泌失调导致血浆肾素水平异常的病理状态。
+Abnormal Eating Behavior	异常进食行为。一种偏离正常饮食模式的病理状态，常表现为进食频率、数量或方式异常。
+Abnormal Echocardiogram	异常超声心动图。一种通过超声波检测发现心脏结构或功能异常的无创影像学表现。
+Abnormal Ekg	异常心电图。一种记录心脏电活动异常的图形表现，可能提示心律失常或心肌缺血等病理状态。
+Abnormal Electroretinogram	视网膜电图异常。一种视网膜光感受器细胞功能异常导致的电生理检查结果偏离正常范围的状态。
+Abnormal Enchondral Ossification	软骨内骨化异常。一种因软骨内成骨过程障碍导致骨骼发育畸形的病理状态。
+Abnormal Enzyme/Coenzyme Activity	酶/辅酶活性异常。由酶或辅酶功能失调引起的代谢障碍，可导致生化反应紊乱。
+Abnormal Erythrocyte Morphology	红细胞形态异常。指红细胞在大小、形状或染色特征上出现病理改变的血液学表现。
+Abnormal Eyelash Morphology	睫毛形态异常。一种睫毛生长方向、长度或结构出现先天或后天性改变的眼部疾病。
+Abnormal Foot Bone Ossification	足骨异常骨化。一种因骨化过程紊乱导致足部骨骼发育异常的病理状态。
+Abnormal Globus Pallidus Morphology	苍白球形态异常。一种因基底节区结构发育异常或获得性损伤导致的运动功能障碍。
+Abnormal Glycosylation	异常糖基化。一种因糖基转移酶缺陷导致糖蛋白或糖脂糖链结构异常的代谢性疾病。
+Abnormal Granulocytopoietic Cell Morphology	粒细胞生成细胞形态异常。一种因粒细胞系前体细胞发育异常导致形态学改变的病理性状态。
+Abnormal Hair Pattern	毛发分布异常。一种表现为毛发生长位置、密度或方向偏离正常生理模式的症状。
+Abnormal Hair Quantity	毛发数量异常。一种表现为毛发过多或过少的病理性状态，可由遗传、内分泌或药物因素引起。
+Abnormal Head Movements	异常头部运动。一种以不自主、重复性头部晃动或扭转为主要表现的运动障碍。
+Abnormal Hemoglobin	异常血红蛋白。一种因血红蛋白分子结构或合成异常导致的遗传性血液疾病。
+Abnormal Immunoglobulin Level	异常免疫球蛋白水平。指血液中免疫球蛋白浓度异常增高或降低的病理状态。
+Abnormal Intestine Morphology	肠道形态异常。一种因发育缺陷或后天损伤导致肠道结构异常的病理状态。
+Abnormal Involuntary Eye Movements	异常不自主眼球运动。一种由神经系统病变引起的眼球不自主节律性摆动或跳动。
+Abnormal Isoelectric Focusing Of Serum Transferrin	血清转铁蛋白等电聚焦异常。一种因转铁蛋白糖基化缺陷导致血清蛋白电泳图谱异常的先天性糖基化障碍。
+Abnormal Large Intestine Morphology	大肠形态异常。一种因先天发育异常或后天病变导致大肠结构或形态改变的病理性状态。
+Abnormal Leukocyte Morphology	白细胞形态异常。指外周血白细胞在形态、大小或结构上出现病理改变，常见于感染、血液系统疾病等。
+Abnormal Levels Of Creatine Kinase In Blood	血肌酸激酶异常。血液中肌酸激酶浓度超出正常范围，多由肌肉损伤或心肌梗死引起。
+Abnormal Light- And Dark-Adapted Electroretinogram	异常明暗适应视网膜电图。一种视网膜功能异常，表现为光适应和暗适应状态下视网膜电图的波形或振幅异常。
+Abnormal Lower Motor Neuron Morphology	下运动神经元形态异常。一种以下运动神经元结构发育或形态改变为特征的病理状态。
+Abnormal Metaphyseal Vascular Invasion	干骺端血管侵入异常。一种因血管异常侵入生长板导致骨骼发育障碍的病理状态。
+Abnormal Middle Ear Reflexes	中耳反射异常。一种因中耳肌肉反射弧受损导致的声导抗测试异常状态。
+Abnormal Mitochondria In Muscle Tissue	肌肉组织线粒体异常。一种因线粒体结构或功能缺陷导致肌肉能量代谢障碍的病理状态。
+Abnormal Mitochondrial Morphology	线粒体形态异常。一种因基因突变或代谢紊乱导致线粒体结构改变的功能障碍性疾病。
+Abnormal Oral Glucose Tolerance	口服葡萄糖耐量异常。一种表现为口服葡萄糖后血糖调节能力受损的糖尿病前期状态。
+Abnormal Pattern Of Respiration	呼吸模式异常。一种由神经、肌肉或肺部疾病导致的呼吸节律或深度异常的状态。
+Abnormal Platelet Function	血小板功能异常。一种因血小板黏附、聚集或释放功能缺陷导致的出血性疾病。
+Abnormal Platelet Morphology	血小板形态异常。指血小板在数量正常的情况下出现大小、形状或结构异常的病理状态。
+Abnormal Prolactin Level	泌乳素水平异常。一种由垂体功能紊乱或药物影响导致血清泌乳素浓度偏离正常范围的病理状态。
+Abnormal Rapid Eye Movement Sleep	异常快速眼动睡眠。一种睡眠障碍，表现为快速眼动期出现肌张力不消失或梦境行为异常。
+Abnormal Renal Morphology	肾脏形态异常。指肾脏大小、轮廓或结构出现先天性或获得性改变的病理状态。
+Abnormal Renal Physiology	肾功能异常。肾脏生理功能紊乱导致滤过、重吸收或分泌功能障碍的病理状态。
+Abnormal Serum Dehydroepiandrosterone Level	血清脱氢表雄酮水平异常。一种因肾上腺激素分泌失调导致血清DHEA浓度偏离正常范围的病理状态。
+Abnormal Serum Testosterone Level	血清睾酮水平异常。指血清中睾酮浓度偏离正常范围，可能由内分泌失调或性腺功能障碍引起。
+Abnormal Social Behavior	社交行为异常。一种表现为社交互动模式显著偏离正常范围的精神行为障碍。
+Abnormal Subcutaneous Fat Tissue Distribution	皮下脂肪组织分布异常。皮下脂肪在身体各区域分布比例失调的病理状态。
+Abnormal Thrombocyte Morphology	血小板形态异常。指血小板在数量正常的情况下出现大小、形状或结构异常的病理状态。
+Abnormal Thrombosis	异常血栓形成。一种因凝血机制失调导致血管内病理性血栓形成的病理状态。
+Abnormal Upper Motor Neuron Morphology	上运动神经元形态异常。上运动神经元结构出现异常改变，常导致肌张力增高和病理反射。
+Abnormal Urinary Color	尿色异常。尿液颜色偏离正常范围，可由药物、食物或病理因素引起。
+Abnormal Urine Alpha-Ketoglutarate Concentration	尿α-酮戊二酸浓度异常。尿液中α-酮戊二酸水平偏离正常范围，常见于有机酸代谢障碍或线粒体疾病。
+Abnormality Of Acetylcarnitine Metabolism	乙酰肉碱代谢异常。一种因乙酰肉碱代谢途径缺陷导致能量生成障碍的遗传性代谢疾病。
+Abnormality Of Amino Acid Metabolism	氨基酸代谢异常。由氨基酸分解或合成障碍引起的一类遗传性代谢疾病。
+Abnormality Of B Cell Physiology	B细胞生理功能异常。指B淋巴细胞发育、活化或抗体分泌功能出现障碍的病理状态。
+Abnormality Of Blood And Blood-Forming Tissues	血液及造血组织异常。指造血系统功能或结构异常导致血细胞数量、形态或功能改变的一组疾病。
+Abnormality Of Body Height	身高异常。指身高显著偏离同年龄、同性别正常人群标准范围的生长障碍状态。
+Abnormality Of Bone Marrow Cell Morphology	骨髓细胞形态异常。骨髓造血细胞在形态、大小或结构上出现病理改变的征象。
+Abnormality Of Branched Chain Family Amino Acid Metabolism	支链氨基酸代谢异常。一种因支链氨基酸转氨酶或脱氢酶缺陷导致的遗传性代谢疾病。
+Abnormality Of Calcium-Phosphate Metabolism	钙磷代谢异常。一种因钙磷调节失衡导致骨骼病变或血钙异常的代谢性疾病。
+Abnormality Of Carboxylic Acid Metabolism	羧酸代谢异常。因羧酸代谢途径缺陷导致有机酸蓄积的遗传性代谢疾病。
+Abnormality Of Cardiovascular System Morphology	心血管系统形态异常。指心脏或血管结构发育异常或获得性改变的病理状态。
+Abnormality Of Chromosome Stability	染色体稳定性异常。一种因DNA修复机制缺陷导致染色体易断裂或重排的遗传性疾病。
+Abnormality Of Circulating Adrenocorticotropin Level	循环促肾上腺皮质激素水平异常。指血液中促肾上腺皮质激素浓度过高或过低的病理状态，常由垂体疾病或应激反应引起。
+Abnormality Of Circulating Enzyme Level	循环酶水平异常。指血液中酶浓度偏离正常范围，可能由组织损伤或代谢紊乱引起。
+Abnormality Of Coagulation	凝血功能异常。指血液凝固机制障碍导致出血或血栓形成的病理状态。
+Abnormality Of Color Vision	色觉异常。一种因视锥细胞功能缺陷导致颜色辨别能力受损的视觉障碍。
+Abnormality Of Connective Tissue	结缔组织异常。一类因胶原蛋白或弹性蛋白缺陷导致皮肤、骨骼、关节等结构功能异常的疾病。
+Abnormality Of Creatine Metabolism	肌酸代谢异常。一种因肌酸合成或转运障碍导致脑肌酸缺乏的遗传代谢性疾病。
+Abnormality Of Dental Color	牙齿颜色异常。因遗传、药物或外伤等因素导致牙齿颜色偏离正常范围的口腔临床表现。
+Abnormality Of Dental Enamel	牙釉质异常。一种因发育障碍或后天因素导致牙釉质结构或颜色异常的疾病。
+Abnormality Of Earlobe	耳垂异常。指耳垂在形态、结构或大小上出现的先天性或后天性发育异常。
+Abnormality Of Exocrine Pancreas Physiology	胰腺外分泌生理功能异常。由胰腺外分泌功能障碍引起的消化酶分泌不足或失衡。
+Abnormality Of Extrapyramidal Motor Function	锥体外系运动功能障碍。一种由基底节等结构病变导致的运动协调障碍，主要表现为震颤、肌强直和运动迟缓。
+Abnormality Of Eye Movement	眼球运动异常。由神经系统病变或眼肌功能障碍导致的眼球活动范围或协调性异常。
+Abnormality Of Fatty-Acid Metabolism	脂肪酸代谢异常。因脂肪酸分解或合成障碍导致能量代谢紊乱的遗传性疾病。
+Abnormality Of Female External Genitalia	女性外生殖器异常。指女性外阴、阴蒂或阴道口等外部生殖器官的结构或形态发育异常。
+Abnormality Of Female Internal Genitalia	女性内生殖器异常。指子宫、输卵管或卵巢的结构或功能先天性或后天性异常。
+Abnormality Of Glycosphingolipid Metabolism	鞘糖脂代谢异常。一类由鞘糖脂合成或降解酶缺陷引起的遗传性代谢疾病。
+Abnormality Of Hair Texture	毛发质地异常。一种因毛干结构或成分改变导致头发粗糙、易断或失去光泽的病理状态。
+Abnormality Of Histidine Metabolism	组氨酸代谢异常。一种因组氨酸代谢途径缺陷导致血组氨酸升高的遗传性代谢疾病。
+Abnormality Of Immune System Physiology	免疫系统生理异常。指免疫系统功能失调导致防御、监视或自稳机制紊乱的病理状态。
+Abnormality Of Iron Homeostasis	铁稳态异常。一种因铁吸收、储存或利用失调导致的体内铁代谢失衡病理状态。
+Abnormality Of Leucine Metabolism	亮氨酸代谢异常。一种因亮氨酸分解代谢途径缺陷导致血氨升高的遗传代谢病。
+Abnormality Of Lipid Metabolism	脂质代谢异常。因遗传或继发因素导致脂质合成、分解或转运障碍的病理状态。
+Abnormality Of Male Internal Genitalia	男性内生殖器异常。指睾丸、附睾等男性内生殖器官结构或功能发育异常的一类疾病。
+Abnormality Of Masticatory Muscle	咀嚼肌异常。一种因发育异常、创伤或神经损伤导致的咀嚼肌功能或结构障碍。
+Abnormality Of Metabolism/Homeostasis	代谢/稳态异常。机体物质能量转换或内环境稳定调节功能失调的病理状态。
+Abnormality Of Mitochondrial Metabolism	线粒体代谢异常。因线粒体功能缺陷导致能量生成障碍的遗传性或获得性疾病。
+Abnormality Of Movement	运动异常。由神经系统功能障碍引起的非自主性或协调性运动障碍。
+Abnormality Of Neck Blood Vessel	颈部血管异常。指颈部动脉或静脉结构、功能异常，可导致血流障碍或血管病变。
+Abnormality Of Nervous System Morphology	神经系统形态异常。指神经系统结构发育异常或获得性损伤导致的形态学改变。
+Abnormality Of Neuronal Migration	神经元迁移异常。一种因神经元迁移过程受阻导致大脑皮层结构紊乱的发育性畸形。
+Abnormality Of Neutrophil Physiology	中性粒细胞生理功能异常。一种因中性粒细胞趋化、吞噬或杀伤功能缺陷导致的免疫功能障碍。
+Abnormality Of Neutrophils	中性粒细胞异常。指中性粒细胞数量、形态或功能出现异常的病理状态，常见于感染或血液系统疾病。
+Abnormality Of Ocular Abduction	眼球外展异常。一种因神经或肌肉功能障碍导致眼球向外侧运动受限的眼科疾病。
+Abnormality Of Renal Excretion	肾脏排泄异常。指肾脏在排泄代谢废物或调节电解质过程中出现功能障碍的病理状态。
+Abnormality Of Reproductive System Physiology	生殖系统生理功能异常。指生殖系统生理功能出现障碍，常表现为激素分泌失调或生殖周期紊乱。
+Abnormality Of Skeletal Muscles	骨骼肌异常。由遗传、代谢或外伤等因素导致的骨骼肌结构或功能异常。
+Abnormality Of Skin Pigmentation	皮肤色素沉着异常。由黑色素代谢紊乱导致的皮肤颜色改变性疾病。
+Abnormality Of Temperature Regulation	体温调节异常。因下丘脑功能障碍或代谢紊乱导致机体产热与散热失衡的病理状态。
+Abnormality Of The Abdominal Wall	腹壁异常。指腹壁结构或功能出现先天性或后天性缺陷的病理状态。
+Abnormality Of The Ankles	踝关节异常。指踝关节结构或功能出现先天或后天性异常，可导致疼痛、活动受限或畸形。
+Abnormality Of The Anus	肛门异常。指肛门先天性或后天性结构或功能异常，常导致排便障碍或局部畸形。
+Abnormality Of The Autonomic Nervous System	自主神经系统异常。一种因自主神经功能失调导致心率、血压或消化等生理过程紊乱的疾病。
+Abnormality Of The Basal Ganglia	基底节异常。一种由基底神经节结构或功能异常引起的运动障碍或认知功能障碍疾病。
+Abnormality Of The Cerebral Vasculature	脑血管异常。指脑血管结构或功能异常，可导致脑血流障碍或血管破裂。
+Abnormality Of The Cerebral White Matter	脑白质异常。指大脑白质结构或功能改变，常由髓鞘损伤或发育异常引起。
+Abnormality Of The Coagulation Cascade	凝血级联异常。一种因凝血因子或通路功能失调导致出血或血栓形成的病理状态。
+Abnormality Of The Corticospinal Tract	皮质脊髓束异常。一种因皮质脊髓束发育或损伤导致的运动功能障碍，常表现为肌无力或痉挛。
+Abnormality Of The Ear	耳部异常。指由先天发育或后天因素导致的耳部结构或功能异常。
+Abnormality Of The Endocrine System	内分泌系统异常。由内分泌腺结构或功能紊乱导致激素分泌失调的病理状态。
+Abnormality Of The Extraocular Muscles	眼外肌异常。一种由先天发育异常或后天损伤导致的眼外肌结构或功能障碍。
+Abnormality Of The Face	面部异常。指面部结构或形态的先天性或后天性发育缺陷或畸形。
+Abnormality Of The Fallopian Tube	输卵管异常。指输卵管结构或功能异常，常导致不孕或异位妊娠。
+Abnormality Of The Fingernails	指甲异常。指由遗传、感染或外伤等因素引起的指甲形态、颜色或结构的改变。
+Abnormality Of The Gallbladder	胆囊异常。泛指胆囊结构或功能异常，包括形态变异、炎症或功能障碍等病理状态。
+Abnormality Of The Gastric Mucosa	胃黏膜异常。指胃黏膜结构或功能出现病变，常由炎症、萎缩或化生引起。
+Abnormality Of The Genital System	生殖系统异常。指生殖器官结构或功能先天性或后天性发育障碍的病理状态。
+Abnormality Of The Genitourinary System	泌尿生殖系统异常。指涉及肾脏、输尿管、膀胱或生殖器官的结构或功能异常的一类疾病。
+Abnormality Of The Gingiva	牙龈异常。一种涉及牙龈组织形态、颜色或质地改变的口腔疾病，常由炎症或增生引起。
+Abnormality Of The Immune System	免疫系统异常。指免疫系统功能失调，可表现为免疫缺陷、自身免疫或过敏反应等病理状态。
+Abnormality Of The Intervertebral Disk	椎间盘异常。一种因椎间盘退变、损伤或结构改变导致疼痛或功能障碍的病理状态。
+Abnormality Of The Intrinsic Pathway	内源性途径异常。一种因凝血因子Ⅷ、Ⅸ、Ⅺ缺乏导致凝血功能障碍的出血性疾病。
+Abnormality Of The Kidney	肾脏异常。指肾脏结构或功能出现任何偏离正常状态的病理改变。
+Abnormality Of The Knee	膝关节异常。泛指膝关节结构或功能异常，常由创伤、退变或炎症引起。
+Abnormality Of The Labia	阴唇异常。指大小、形状或结构发育异常的外生殖器畸形，可能为先天性或后天性因素所致。
+Abnormality Of The Larynx	喉部异常。指喉部结构或功能出现先天或后天性改变，可导致声音、呼吸或吞咽障碍。
+Abnormality Of The Liver	肝脏异常。指肝脏在结构或功能上出现的任何病理改变，可由多种病因引起。
+Abnormality Of The Lower Limb	下肢异常。指下肢结构或功能发育异常，包括骨骼、关节或肌肉的先天性或后天性病变。
+Abnormality Of The Lymphatic System	淋巴系统异常。指淋巴管、淋巴结或淋巴器官的结构或功能异常，可导致水肿或免疫功能失调。
+Abnormality Of The Menstrual Cycle	月经周期异常。一种由内分泌失调或器质性疾病引起的月经频率、规律性或出血量改变的状态。
+Abnormality Of The Mitochondrion	线粒体异常。由线粒体结构或功能缺陷导致能量代谢障碍的遗传性或获得性疾病。
+Abnormality Of The Mouth	口腔异常。指口腔结构或功能出现先天性或后天性异常的状态。
+Abnormality Of The Musculature	肌肉组织异常。指肌肉结构或功能出现先天或后天性缺陷的病理状态。
+Abnormality Of The Neck	颈部异常。指颈部结构或功能出现异常，可能由先天畸形、创伤或疾病引起。
+Abnormality Of The Nervous System	神经系统异常。指由遗传、感染或外伤等因素导致神经系统结构或功能异常的一类疾病。
+Abnormality Of The Nose	鼻部异常。指由先天发育、外伤或疾病引起的鼻腔或外鼻结构或功能异常。
+Abnormality Of The Optic Nerve	视神经异常。指视神经结构或功能异常，可导致视力下降或视野缺损的病理状态。
+Abnormality Of The Pancreas	胰腺异常。指胰腺在结构或功能上的任何异常改变，可能由先天缺陷、炎症或肿瘤等引起。
+Abnormality Of The Pancreatic Islet Cells	胰岛细胞异常。指胰岛细胞结构或功能紊乱，常导致胰岛素分泌失调及相关代谢疾病。
+Abnormality Of The Penis	阴茎异常。指阴茎在形态、结构或功能上的先天性或后天性异常。
+Abnormality Of The Peritoneum	腹膜异常。指腹膜结构或功能异常，常由炎症、肿瘤或先天缺陷引起。
+Abnormality Of The Periventricular White Matter	脑室周围白质异常。一种脑室周围白质结构或信号改变，常见于缺血、炎症或发育异常等病因。
+Abnormality Of The Pharynx	咽部异常。指咽部结构或功能出现异常，可能由先天畸形、炎症或肿瘤等引起。
+Abnormality Of The Philtrum	人中异常。一种因胚胎发育障碍导致的人中沟形态或深度异常的面部先天性畸形。
+Abnormality Of The Pleura	胸膜异常。指胸膜结构或功能异常，可由炎症、肿瘤或损伤等病因引起。
+Abnormality Of The Respiratory System	呼吸系统异常。指呼吸系统结构或功能出现障碍，常由先天畸形、感染或炎症引起。
+Abnormality Of The Retinal Vasculature	视网膜血管异常。指视网膜动脉、静脉或毛细血管的结构或功能异常，可导致视力障碍。
+Abnormality Of The Sacroiliac Joint	骶髂关节异常。一种由炎症、创伤或退行性变引起的骶髂关节结构或功能紊乱。
+Abnormality Of The Scrotum	阴囊异常。指阴囊在形态、结构或功能上的先天性或后天性异常改变。
+Abnormality Of The Spleen	脾脏异常。指脾脏在结构、大小或功能上的任何偏离正常状态的表现。
+Abnormality Of The Testis	睾丸异常。指睾丸在结构、功能或发育上出现任何先天性或后天性异常的状态。
+Abnormality Of The Tongue	舌异常。指舌部在形态、结构或功能上出现的先天性或后天性异常改变。
+Abnormality Of The Tonsils	扁桃体异常。指扁桃体在形态、大小或功能上出现的先天性或获得性病变。
+Abnormality Of The Upper Urinary Tract	上尿路异常。指肾脏或输尿管的结构或功能异常，常由先天畸形或梗阻引起。
+Abnormality Of The Urinary System	泌尿系统异常。指肾脏、输尿管、膀胱或尿道在结构或功能上出现的先天性或后天性病变。
+Abnormality Of The Uterus	子宫异常。指子宫结构或形态的先天性或后天性异常，可能导致生育问题或月经紊乱。
+Abnormality Of The Vasculature	血管系统异常。指血管结构或功能发生病理改变，可导致血流障碍或组织缺血。
+Abnormality Of The Wrist	腕关节异常。指腕部结构或功能出现偏离正常状态的病理改变，常由创伤、炎症或退行性病变引起。
+Abnormality Of Thyroid Physiology	甲状腺生理功能异常。由甲状腺激素分泌、合成或调节失调引起的内分泌紊乱。
+Abnormality Of Tryptophan Metabolism	色氨酸代谢异常。一种因色氨酸代谢途径缺陷导致尿液中代谢产物异常的遗传性疾病。
+Abnormality Of Tyrosine Metabolism	酪氨酸代谢异常。一种因酪氨酸代谢途径缺陷导致神经系统损害及肝肾功能异常的遗传性疾病。
+Abnormality Of Vision	视觉异常。由眼部结构或神经通路病变导致的视觉功能紊乱。
+Abnormality Of Visual Evoked Potentials	视觉诱发电位异常。一种由视觉通路病变导致的视觉诱发电位波形、潜伏期或振幅异常。
+Abnormality Of Vitamin D Metabolism	维生素D代谢异常。因维生素D合成、活化或分解过程紊乱导致的钙磷代谢障碍性疾病。
+Abnormality Of Vitamin Metabolism	维生素代谢异常。由维生素合成、吸收或利用障碍引起的一类代谢性疾病。
+Absence Of Bactericidal Oxidative Respiratory Burst In Phagocytes	吞噬细胞杀菌性氧化呼吸爆发缺失。一种因吞噬细胞NADPH氧化酶缺陷导致杀菌功能受损的遗传性免疫缺陷病。
+Absence Of Lymph Node Germinal Center	淋巴结生发中心缺失。一种因免疫应答缺陷导致淋巴结内缺乏生发中心的病理状态。
+Absence Of Pubertal Development	青春期发育缺失。因下丘脑-垂体-性腺轴功能异常导致第二性征完全未出现的病理状态。
+Absence Of Secondary Sex Characteristics	第二性征缺失。因性激素分泌不足或靶器官不敏感导致的性发育停滞状态。
+Absence Seizures	失神发作。一种以短暂意识丧失和动作中止为特征的癫痫发作类型。
+Absent Achilles Reflex	跟腱反射消失。因跟腱反射弧损伤导致的踝关节跖屈反射缺失体征。
+Absent Axillary Hair	腋毛缺如。一种因遗传、内分泌异常或生理性发育延迟导致的腋窝毛发缺失状态。
+Absent Facial Hair	无面部毛发。一种因遗传、激素异常或疾病导致的面部毛囊完全缺失的状态。
+Absent Pubic Hair	阴毛缺失。一种因激素水平异常或发育障碍导致的阴部毛发完全缺如的状态。
+Absent Specific Antibody Response	特异性抗体反应缺失。一种因免疫系统无法产生针对特定抗原的特异性抗体而导致的免疫缺陷状态。
+Abulia	意志缺失症。一种因前额叶皮质损伤导致意志力和自发性行为显著减退的神经精神症状。
+Acanthocytosis	棘形红细胞增多症。一种因红细胞膜脂质代谢异常导致外周血出现棘状红细胞的病理状态。
+Acanthosis Nigricans	黑棘皮症。一种以皮肤色素沉着和天鹅绒样增厚为特征的皮肤病，常与胰岛素抵抗相关。
+Accelerated Atherosclerosis	加速性动脉粥样硬化。一种因血管损伤或代谢异常导致动脉粥样硬化进程急剧加快的病理状态。
+Accelerated Skeletal Maturation	骨骼成熟加速。一种因生长激素异常导致骨骼发育超前于实际年龄的病理状态。
+Achalasia	贲门失弛缓症。一种因食管下括约肌弛缓障碍导致吞咽困难和食物反流的神经肌肉疾病。
+Acid-Related Diseases	酸相关疾病。一类因胃酸分泌异常或黏膜防御功能减弱导致的消化道疾病。
+Acne	痤疮。一种由毛囊皮脂腺单位慢性炎症引起的常见皮肤病，主要特征为粉刺、丘疹和脓疱。
+Acne Vulgaris	寻常痤疮。一种由毛囊皮脂腺单位慢性炎症引起的常见皮肤病，主要表现为粉刺、丘疹和脓疱。
+Acral Ulceration	肢端溃疡。一种发生于四肢末端（手足）的皮肤或黏膜组织缺损，常见于血管病变或创伤。
+Acrocyanosis	肢端发绀。一种因末梢血管收缩导致手足持续性对称性青紫的周围血管疾病。
+Acth Syndrome, Ectopic	异位促肾上腺皮质激素综合征。由非垂体肿瘤异位分泌促肾上腺皮质激素引起的库欣综合征。
+Action Tremor	动作性震颤。一种在自主运动时出现或加重的节律性不自主震颤。
+Acute Cardiac Allograft Rejection	急性心脏移植排斥反应。因受体免疫系统攻击供体心脏导致的急性移植物功能障碍。
+Acute Coronary Syndromes	急性冠脉综合征。由冠状动脉血流急剧减少引起的心肌缺血综合征，常表现为胸痛和心电图改变。
+Acute Hepatic Failure	急性肝衰竭。由多种病因引起的短期内肝细胞大量坏死导致的严重肝功能不全综合征。
+Acute Hepatic Steatosis	急性肝脂肪变性。因短期内大量脂肪在肝细胞内蓄积导致的肝脏急性病变。
+Acute Hepatitis	急性肝炎。由病毒感染、药物或毒素引起的肝脏急性炎症性疾病。
+Acute Hyperammonaemia	急性高氨血症。一种因氨代谢紊乱导致血氨急剧升高，引发脑水肿和意识障碍的危重病症。
+Acute Kidney Injury	急性肾损伤。因多种病因导致肾功能在短期内急剧下降的临床综合征。
+Acute Leukaemia	急性白血病。一种造血干细胞的恶性克隆性疾病，以骨髓中异常原始细胞急剧增殖为特征。
+Acute Lung Injury	急性肺损伤。由多种病因引起的弥漫性肺部炎症和肺泡上皮损伤综合征。
+Acute Lymphoblastic Leukaemia	急性淋巴细胞白血病。一种由淋巴祖细胞恶性增殖导致的造血系统恶性肿瘤。
+Acute Migraine	急性偏头痛。一种以反复发作的搏动性头痛为特征的神经系统疾病。
+Acute Non-Lymphocytic Leukaemia	急性非淋巴细胞白血病。一种由髓系造血干细胞恶性增殖导致的快速进展性血液系统肿瘤。
+Acute Otitis Media	急性中耳炎。由细菌或病毒感染引起的中耳急性炎症，常见症状为耳痛和发热。
+Acute Ureteric Colic	急性输尿管绞痛。因结石嵌顿导致输尿管痉挛引起的突发性剧烈腰腹部疼痛。
+Acutely Decompensated Congestive Heart Failure	急性失代偿性充血性心力衰竭。因心脏泵血功能急剧恶化导致的呼吸困难、体液潴留等急性症状群。
+Adenocarcinoma Of Lung (Disorder)	肺腺癌。一种起源于支气管黏膜腺体细胞的恶性肿瘤，常见于肺外周并易早期转移。
+Adenoma Sebaceum	皮脂腺腺瘤。一种由皮脂腺良性增生形成的面部皮肤肿瘤，常见于结节性硬化症患者。
+Adenomatous Polyposis	腺瘤性息肉病。一种以结直肠内出现大量腺瘤性息肉为特征的常染色体显性遗传病。
+Adipose Tissue Loss	脂肪组织减少。因脂肪细胞萎缩或减少导致皮下及内脏脂肪储量下降的病理状态。
+Adrenal Hyperplasia	肾上腺皮质增生症。一种因肾上腺皮质激素合成酶缺陷导致肾上腺皮质增生的遗传性疾病。
+Adrenal Pheochromocytoma	肾上腺嗜铬细胞瘤。一种起源于肾上腺髓质嗜铬细胞的肿瘤，主要症状为阵发性或持续性高血压。
+Adrenocortical Adenoma	肾上腺皮质腺瘤。一种起源于肾上腺皮质细胞的良性肿瘤，通常无功能或分泌少量激素。
+Adrenocortical Carcinoma	肾上腺皮质癌。一种起源于肾上腺皮质细胞的恶性肿瘤，常导致皮质醇或醛固酮异常分泌。
+Adrenocorticotrophic Hormone-Secreting Pituitary Tumor	促肾上腺皮质激素分泌型垂体瘤。一种因垂体肿瘤过度分泌ACTH导致皮质醇增多的内分泌疾病。
+Adrenocorticotrophic Hormone-Secreting Tumor	促肾上腺皮质激素分泌瘤。一种因垂体或异位肿瘤分泌过量促肾上腺皮质激素导致皮质醇增多的内分泌肿瘤。
+Adrenocorticotropic Hormone Deficiency	促肾上腺皮质激素缺乏症。因垂体ACTH分泌不足导致肾上腺皮质功能减退的内分泌疾病。
+Adrenocorticotropic Hormone Excess	促肾上腺皮质激素过多症。因垂体或异位肿瘤导致促肾上腺皮质激素分泌过多，引发皮质醇增多症。
+Adrenocorticotropin Deficient Adrenal Insufficiency	促肾上腺皮质激素缺乏性肾上腺皮质功能减退症。因促肾上腺皮质激素分泌不足导致肾上腺皮质激素合成减少的内分泌疾病。
+Adult Onset	成人发病。指成年期开始出现症状的疾病，区别于先天或儿童期发病。
+Adult Respiratory Distress Syndrome	成人呼吸窘迫综合征。一种由多种病因引起的急性弥漫性肺损伤，导致严重低氧血症和呼吸衰竭。
+Advanced Eruption Of Teeth	牙齿早萌。一种牙齿萌出时间显著早于正常生理年龄的发育异常。
+Advanced Lung Cancer	晚期肺癌。指肺癌已发生远处转移或局部广泛浸润的终末阶段。
+Advanced Ossification Of Carpal Bones	腕骨晚期骨化。一种因腕骨骨骺过早闭合导致的骨质过度硬化病理状态。
+Adverse Effects In Chemotherapy	化疗不良反应。因化疗药物引起的治疗相关毒性反应，常见骨髓抑制、消化道症状等。
+Adverse Reaction To Drug	药物不良反应。因使用药物导致的有害且非预期的临床表现或症状。
+Affective Disorders, Psychotic	精神病性情感障碍。一种同时具有情感症状和精神病性症状（如妄想或幻觉）的精神障碍。
+African Trypanosomiasis	非洲锥虫病。一种由布氏锥虫经采采蝇叮咬传播、导致睡眠障碍和神经症状的寄生虫病。
+Aganglionic Megacolon	先天性巨结肠。一种因肠道神经节细胞缺失导致结肠持续性扩张的先天性消化道畸形。
+Aggregation And Activation Of Platelets	血小板聚集与活化。血小板受刺激后相互黏附并释放活性物质的过程。
+Aggressive Behavior	攻击行为。一种以蓄意伤害他人或自身为特征的行为障碍，常由情绪冲动或心理因素引发。
+Agitation	激越。一种以精神紧张、坐立不安和过度活动为特征的精神运动性兴奋状态。
+Agnosia	失认症。一种因大脑特定区域损伤导致无法识别感官信息但感官功能正常的神经心理障碍。
+Aids Related Dementia	艾滋病相关痴呆。由HIV病毒直接或间接损害中枢神经系统导致的认知功能障碍综合征。
+Akinesia	运动不能。一种因神经系统损伤导致自主运动能力完全丧失的运动障碍。
+Albinism	白化病。一种因酪氨酸酶缺乏导致黑色素合成障碍的遗传性疾病。
+Alcohol Abuse	酒精滥用。一种因长期过量饮酒导致身体、心理和社会功能损害的行为障碍。
+Alcohol Dependence	酒精依赖。一种因长期过量饮酒导致躯体依赖和心理渴求的成瘾性疾病。
+Alcohol Withdrawal Syndrome	酒精戒断综合征。长期酗酒者突然停饮后出现自主神经功能亢进、震颤及意识障碍的症候群。
+Alcohol-Related Disorders	酒精相关障碍。由长期或过量饮酒导致的一系列生理、心理及行为障碍综合征。
+Alcoholic Intoxication	酒精中毒。因过量摄入酒精导致中枢神经系统功能抑制的急性中毒状态。
+Alcoholic Intoxication, Chronic	慢性酒精中毒。长期过量饮酒导致中枢神经系统受损的器质性疾病。
+Alcoholism	酒精依赖症。一种因长期过量饮酒导致生理依赖和心理渴求的慢性成瘾性疾病。
+Alexia	失读症。一种因大脑特定区域损伤导致后天性阅读能力丧失的获得性障碍。
+Alk-Positive Advanced Or Metastatic Nsclc	ALK阳性晚期或转移性非小细胞肺癌。一种由ALK基因融合驱动，已进展至晚期或发生远处转移的肺癌亚型。
+Alk-Positive Nsclc	ALK阳性非小细胞肺癌。一种由ALK基因重排驱动、常见于非吸烟者的肺癌亚型。
+Allergic Airway Inflammation	过敏性气道炎症。由过敏原暴露引发的以气道黏膜炎症和气道高反应性为特征的疾病。
+Allergic Conjunctivitis	过敏性结膜炎。一种由过敏原引发的眼结膜非感染性炎症，主要表现为眼痒和充血。
+Allergic Diseases	过敏性疾病。由免疫系统对通常无害物质产生过度反应引起的一类疾病。
+Allergic Reaction	过敏反应。一种由免疫系统对通常无害物质过度反应引起的病理生理过程。
+Allergic Rhinitis	过敏性鼻炎。一种由IgE介导的鼻黏膜非感染性炎性疾病，常见症状为阵发性喷嚏和清水样涕。
+Allergy	过敏。一种由免疫系统对通常无害物质产生过度反应引起的疾病。
+Alopecia	脱发。一种由遗传、免疫或环境因素导致的毛发部分或全部脱落性疾病。
+Alopecia Areata	斑秃。一种自身免疫性疾病，导致局部毛发突然脱落，形成圆形或椭圆形脱发区。
+Alopecia Totalis	全秃。一种自身免疫性疾病，导致头皮全部毛发完全脱落。
+Alopecia Universalis	普秃。一种自身免疫性疾病，导致全身毛发完全脱落，包括头发、眉毛和体毛。
+Alveolar Cell Carcinoma	肺泡细胞癌。一种起源于肺泡上皮细胞的恶性肿瘤，常表现为弥漫性肺部浸润和咳大量黏液痰。
+Alveolar Rhabdomyosarcoma	肺泡状横纹肌肉瘤。一种起源于横纹肌母细胞的恶性肿瘤，常见于青少年，以快速生长和早期转移为特征。
+Alzheimer's Disease	阿尔茨海默病。一种以进行性认知功能障碍和行为损害为特征的神经系统退行性疾病。
+Amblyopia	弱视。一种因视觉发育期异常视觉经验导致单眼或双眼最佳矫正视力下降的疾病。
+Amenorrhea	闭经。一种因下丘脑-垂体-卵巢轴功能失调或子宫病变导致的月经停止超过6个月的病理状态。
+Aminoaciduria	氨基酸尿症。因肾小管重吸收障碍或代谢异常导致尿中氨基酸排出增多的病理状态。
+Amphetamine-Related Disorders	苯丙胺相关障碍。因滥用苯丙胺类药物导致的精神和行为障碍综合征。
+Amyloidosis	淀粉样变性病。一种由淀粉样蛋白异常沉积在器官组织中导致功能障碍的病理状态。
+Amyoplasia	肌发育不全。一种先天性肌肉组织缺失或严重发育不良的骨骼肌发育障碍。
+Amyotrophic Lateral Sclerosis	肌萎缩侧索硬化。一种因上下运动神经元退行性变导致进行性肌无力和萎缩的神经系统疾病。
+Anal Atresia	肛门闭锁。一种因胚胎期肛门直肠发育异常导致肛门完全缺失或闭锁的先天性畸形。
+Anal Pain	肛门疼痛。肛门及直肠末端区域因肛裂、痔疮或炎症等引起的疼痛症状。
+Anal Stenosis	肛门狭窄。一种因瘢痕组织形成或先天发育异常导致的肛管腔径缩小的病理状态。
+Analgesics	镇痛药。一类通过抑制中枢或外周疼痛信号传导来缓解疼痛的药物。
+Anaplastic Large Cell Lymphomas	间变性大细胞淋巴瘤。一种由ALK基因异常导致、以CD30阳性大细胞增生为特征的T细胞淋巴瘤。
+Anarthria	运动性失语症。因大脑运动性语言中枢受损导致完全丧失口语表达能力的言语障碍。
+Androgen Insufficiency	雄激素不敏感综合征。一种因雄激素受体缺陷导致靶组织对雄激素反应低下的遗传性疾病。
+Androgen-Independent Prostate Cancer	雄激素非依赖性前列腺癌。一种不依赖雄激素生长、对传统内分泌治疗耐药的前列腺癌亚型。
+Anemia	贫血。一种因红细胞减少或血红蛋白不足导致组织缺氧的病理状态。
+Anemia, Hemolytic	溶血性贫血。一种因红细胞破坏加速、寿命缩短超过骨髓代偿能力而发生的贫血。
+Anesthesia	麻醉。一种通过药物可逆性抑制神经系统功能，导致感觉丧失的状态。
+Angina	心绞痛。因冠状动脉供血不足导致心肌急剧缺血缺氧引起的胸痛综合征。
+Angina Pectoris	心绞痛。一种因冠状动脉供血不足导致心肌急剧缺血缺氧引起的胸痛综合征。
+Angioedema	血管性水肿。一种因血管通透性增加导致皮肤黏膜突发性肿胀的过敏反应性疾病。
+Angiogenesis	血管生成。机体在生理或病理状态下形成新生血管的生物学过程。
+Angiokeratoma	血管角皮瘤。一种由真皮浅层毛细血管扩张和表皮角化过度构成的良性皮肤病变。
+Angular Cheilitis	口角炎。一种因营养缺乏或感染导致口角皮肤黏膜皲裂、糜烂的炎症性疾病。
+Anhidrosis	无汗症。一种因汗腺功能障碍导致皮肤完全或部分无法分泌汗液的病理状态。
+Anisocytosis	红细胞大小不均。一种红细胞体积大小变异度显著增大的血液学异常表现。
+Ankle Clonus	踝阵挛。一种由锥体束损伤导致的深反射亢进，表现为跟腱被快速拉伸时足部节律性摆动。
+Ankle Contracture	踝关节挛缩。因软组织病变导致踝关节活动范围受限的病理状态。
+Ankle Weakness	踝关节无力。因踝关节周围肌肉力量减退或神经损伤导致的关节稳定性下降。
+Ankylosing Spondylitis	强直性脊柱炎。一种主要累及骶髂关节和脊柱的慢性炎症性自身免疫病。
+Ankylosis	关节强直。因关节内纤维性或骨性粘连导致关节活动功能丧失的病理状态。
+Anodontia	无牙症。一种先天性牙齿完全缺失的发育异常疾病。
+Anorexia	神经性厌食症。一种因心理因素导致主动拒食、体重显著下降的进食障碍。
+Anorexia Nervosa	神经性厌食症。一种因过度恐惧肥胖而刻意节食导致体重显著下降的心理障碍。
+Anosmia	嗅觉丧失症。一种因嗅觉通路损伤或功能障碍导致完全或部分丧失嗅觉的病症。
+Anterior Hypopituitarism	前叶垂体功能减退症。因垂体前叶激素分泌不足导致多种内分泌功能紊乱的疾病。
+Anti-Thyroid Peroxidase Antibody Positivity	抗甲状腺过氧化物酶抗体阳性。一种自身免疫性甲状腺疾病的血清学标志，常见于桥本甲状腺炎。
+Antigen-Induced Decrease In Coronary Flow And Cardiac Anaphylaxis	抗原诱导性冠脉流量减少与心脏过敏反应。由抗原暴露引发的冠脉血流急剧下降及心肌过敏反应综合征。
+Antinuclear Antibody Positivity	抗核抗体阳性。一种自身免疫性疾病的血清学标志，提示体内存在针对细胞核成分的自身抗体。
+Antiphospholipid Syndrome	抗磷脂综合征。一种因抗磷脂抗体导致动静脉血栓形成和妊娠并发症的自身免疫性疾病。
+Anxiety	焦虑症。一种以过度恐惧、担忧和回避行为为核心特征的常见精神障碍。
+Anxiety Disorders	焦虑障碍。一种以过度恐惧、担忧及伴随生理症状为特征的精神障碍。
+Aortic Aneurysm	主动脉瘤。主动脉壁因退行性变或损伤导致的局部异常扩张性疾病。
+Aortic Arch Aneurysm	主动脉弓动脉瘤。主动脉弓部位血管壁异常扩张形成的瘤样病变，常由动脉粥样硬化或高血压引起。
+Aortic Valve Calcification	主动脉瓣钙化。一种因钙盐沉积导致主动脉瓣叶增厚、硬化的退行性病变。
+Apathy	情感淡漠。一种以情感反应缺乏、兴趣减退和动机下降为特征的精神症状。
+Aphasia	失语症。一种因大脑语言中枢受损导致理解或表达语言能力障碍的神经功能障碍。
+Aplasia Of The Uterus	子宫发育不全。一种因胚胎期副中肾管发育障碍导致的子宫先天性缺失。
+Aplasia/Hypoplasia Involving The Central Nervous System	中枢神经系统发育不全/发育不良。由胚胎期神经管发育缺陷导致脑组织或脊髓部分或完全缺失的先天性畸形。
+Aplasia/Hypoplasia Of The Skin	皮肤发育不全/发育不良。一种因胚胎发育异常导致皮肤组织部分或完全缺失的先天性疾病。
+Aplastic Anemia	再生障碍性贫血。一种由骨髓造血功能衰竭导致全血细胞减少的造血干细胞疾病。
+Apnea	呼吸暂停。一种因呼吸中枢抑制或气道阻塞导致的睡眠中反复出现呼吸中断的病理状态。
+Apneic Episodes In Infancy	婴儿呼吸暂停。指婴儿期出现的呼吸暂停发作，通常由中枢神经系统发育不成熟或呼吸道阻塞引起。
+Apneic Episodes Precipitated By Illness, Fatigue, Stress	疾病、疲劳、压力诱发的呼吸暂停发作。由感染、过度疲劳或精神压力等因素引发的暂时性呼吸停止现象。
+Apraxia	失用症。一种因大脑损伤导致执行已习得运动技能能力丧失的神经障碍。
+Areflexia	反射消失。一种因反射弧受损导致深部腱反射完全丧失的神经系统体征。
+Areflexia Of Lower Limbs	下肢无反射。一种因周围神经或脊髓损伤导致下肢腱反射消失的神经系统体征。
+Argininuria	精氨酸尿症。一种因精氨酸酶缺乏导致精氨酸在尿液中异常增多的遗传性代谢疾病。
+Arrhythmia	心律失常。心脏冲动的频率、节律、起源部位或传导速度异常的一种病理状态。
+Arterial Dissection	动脉夹层。动脉壁内膜撕裂导致血液进入血管壁分层形成的病理状态。
+Arterial Occlusion	动脉闭塞。因血栓形成或栓塞导致动脉管腔堵塞，引起组织缺血坏死的病理状态。
+Arterial Rupture	动脉破裂。因动脉壁结构异常或外力损伤导致的血管全层撕裂。
+Arterial Thrombosis	动脉血栓形成。因动脉内膜损伤、血流改变或血液高凝状态导致的动脉内血凝块形成。
+Arteriosclerosis	动脉硬化。一种因动脉壁增厚、硬化导致血管弹性减低的退行性病变。
+Arthralgia	关节痛。一种以关节部位疼痛为主要表现的临床症状，可由多种疾病或损伤引起。
+Arthritis	关节炎。一种以关节炎症为主要表现的退行性或自身免疫性疾病。
+Arthropathy	关节病。由炎症、退行性变或代谢异常引起的关节结构或功能异常性疾病。
+Ascending Tubular Aorta Aneurysm	升主动脉瘤。一种因主动脉壁薄弱导致的升主动脉管状段永久性扩张病变。
+Ascites	腹水。腹腔内游离液体病理性积聚的临床症状，多由肝硬化或恶性肿瘤引起。
+Aseptic Meningitis	无菌性脑膜炎。一种由非细菌性病原体或药物反应引起的脑膜炎症，以发热、头痛和脑膜刺激征为主要表现。
+Aseptic Necrosis	无菌性坏死。因非感染因素导致骨组织血液供应中断而引起的骨细胞死亡。
+Aspiration	吸入。因异物（如食物、胃内容物）被吸入呼吸道导致的病理过程。
+Asthma	哮喘。一种由气道慢性炎症引起反复发作性喘息和呼吸困难的疾病。
+Asthma, Aspirin-Induced	阿司匹林诱发哮喘。一种由阿司匹林等非甾体抗炎药引发的支气管痉挛和呼吸道炎症反应。
+Astigmatism	散光。一种因角膜或晶状体曲率异常导致光线无法在视网膜上形成单一焦点的屈光不正。
+Astrocytic Tumors	星形细胞肿瘤。起源于星形胶质细胞的中枢神经系统肿瘤，可表现为头痛、癫痫等症状。
+Astrocytoma	星形细胞瘤。一种起源于星形胶质细胞的中枢神经系统肿瘤，常表现为局部神经功能缺损或颅内压增高。
+Astrocytosis	星形细胞增生症。一种以中枢神经系统星形胶质细胞数量病理性增多为特征的病理改变。
+Asymmetric, Linear Skin Defects	不对称线性皮肤缺损。一种以单侧、线状排列的皮肤缺损为特征的先天性异常。
+Ataxia	共济失调。一种因小脑功能障碍导致的运动协调能力丧失的神经系统症状。
+Atherosclerosis	动脉粥样硬化。一种因脂质沉积导致动脉壁形成斑块并引发血管硬化的慢性疾病。
+Atherosclerotic Cardiovascular Disease	动脉粥样硬化性心血管疾病。因动脉内膜脂质沉积形成粥样斑块导致的心血管系统病变。
+Atherothrombosis	动脉粥样硬化性血栓形成。动脉粥样斑块破裂或侵蚀后引发血小板聚集和血栓形成的病理过程。
+Athetosis	手足徐动症。一种因基底节病变导致肢体出现缓慢、不规则、不自主扭转运动的神经系统疾病。
+Atlantoaxial Dislocation	寰枢椎脱位。因创伤或先天畸形导致第一、二颈椎关节失去正常对合关系的骨科急症。
+Atonic Seizures	失张力发作。一种因大脑神经元异常放电导致突发性全身肌张力丧失的癫痫发作类型。
+Atopic Asthma	特应性哮喘。一种由过敏原触发、以可逆性气道高反应性和慢性炎症为特征的变态反应性疾病。
+Atopic Dermatitis	特应性皮炎。一种与遗传过敏体质相关的慢性炎症性皮肤病，主要表现为剧烈瘙痒和湿疹样皮损。
+Atransferrinemia	无转铁蛋白血症。一种因转铁蛋白缺乏导致铁转运障碍的遗传性代谢疾病。
+Atresia Of The External Auditory Canal	外耳道闭锁。一种因外耳道发育不全或未形成导致的先天性畸形，常引起传导性听力损失。
+Atrial Fibrillation	心房颤动。一种因心房电活动异常导致心率不规则且常增快的常见心律失常。
+Atrial Flutter	心房扑动。一种因心房内大折返环导致心房规律快速搏动（250-350次/分）的心律失常。
+Atrial Standstill	心房静止。一种因心房肌电活动丧失导致心房机械收缩功能完全停止的心律失常。
+Atrophic Scars	萎缩性瘢痕。因真皮层胶原蛋白流失导致的皮肤凹陷性疤痕。
+Attention Deficit Hyperactivity Disorder	注意缺陷多动障碍。一种以注意力不集中、多动和冲动为主要特征的神经发育障碍。
+Attention-Deficit Hyperactivity Disorder	注意缺陷多动障碍。一种以注意力不集中、多动和冲动为主要特征的神经发育障碍。
+Attenuation Of Retinal Blood Vessels	视网膜血管变细。一种因血管壁增厚或管腔狭窄导致视网膜血管直径减小的病理改变。
+Atypical Absence Seizures	非典型失神发作。一种表现为短暂意识障碍但发作起止较缓慢的癫痫发作类型。
+Atypical Nevi In Non-Sun Exposed Areas	非日光暴露部位非典型痣。发生在非紫外线暴露部位、具有不规则形态和颜色特征的良性黑色素细胞增生。
+Atypical Nevus	非典型痣。一种形态学不典型的良性黑色素细胞病变，具有不规则边界和颜色不均等特征。
+Atypical Scarring Of Skin	皮肤非典型瘢痕。一种因成纤维细胞异常增殖导致的皮肤瘢痕组织过度生长病变。
+Auditory Hallucinations	幻听。一种在没有外部声源时出现听觉感知的幻觉症状。
+Autism	自闭症谱系障碍。一种以社交互动障碍、语言交流障碍和刻板重复行为为核心的神经发育障碍。
+Autistic Behavior	自闭症行为。一种以社交互动障碍、语言交流异常和刻板重复动作为核心特征的神经发育障碍。
+Autistic Disorder	自闭症。一种以社交互动障碍、语言交流障碍和刻板重复行为为主要特征的神经发育障碍。
+Autoimmune Cardiomyopathy	自身免疫性心肌病。由自身免疫反应攻击心肌组织导致心脏结构和功能异常的疾病。
+Autoimmune Diseases	自身免疫性疾病。免疫系统异常攻击自身组织导致的一类慢性炎症性疾病。
+Autoimmune Hemolytic Anemia	自身免疫性溶血性贫血。一种因自身抗体攻击红细胞导致溶血和贫血的自身免疫性疾病。
+Autoimmune Neutropenia	自身免疫性中性粒细胞减少症。一种因自身抗体破坏中性粒细胞导致的获得性粒细胞缺乏症。
+Autoimmune Thrombocytopenia	自身免疫性血小板减少症。一种因自身抗体破坏血小板导致出血风险的免疫性疾病。
+Autoimmunity	自身免疫。机体免疫系统异常攻击自身组织的一类病理状态。
+Autonomic Bladder Dysfunction	自主神经性膀胱功能障碍。一种因自主神经系统损伤导致的膀胱感觉减退和排尿功能异常。
+Autophagic Vacuoles	自噬泡。细胞自噬过程中形成的囊泡结构，用于降解受损细胞器和蛋白质。
+Axial Dystonia	轴性肌张力障碍。一种以躯干中轴肌肉持续性不自主收缩导致姿势异常为特征的运动障碍病。
+Axial Muscle Weakness	中轴肌无力。一种因躯干核心肌群力量减退导致姿势控制和稳定性下降的病症。
+Axonal Degeneration	轴突变性。一种因轴突结构破坏导致神经信号传导障碍的病理过程。
+Axonal Degeneration/Regeneration	轴突变性/再生。轴突损伤后发生的沃勒变性及后续神经纤维修复过程。
+Axonal Regeneration	轴突再生。受损神经元轴突重新生长和延伸以恢复神经功能的修复过程。
+Azoospermia	无精子症。精液中完全缺乏精子，主要由睾丸生精功能障碍或输精管道阻塞所致。
+B Lymphocytopenia	B淋巴细胞减少症。一种因B淋巴细胞数量或功能缺陷导致体液免疫受损的免疫缺陷病。
+B-Cell Immunodeficiency	B细胞免疫缺陷。由B淋巴细胞功能异常导致抗体生成缺陷的原发性免疫缺陷病。
+B-Cell Lymphoma	B细胞淋巴瘤。一种起源于B淋巴细胞的恶性肿瘤，常表现为淋巴结肿大或结外器官受累。
+B-Cell Malignancies	B细胞恶性肿瘤。一组起源于B淋巴细胞的恶性增殖性疾病，常见类型包括淋巴瘤和白血病。
+B-Lineage Malignancies	B系恶性疾病。起源于B淋巴细胞系的一组血液系统恶性肿瘤，包括白血病和淋巴瘤等。
+B12 Deficiency	维生素B12缺乏症。一种因摄入不足或吸收障碍导致DNA合成受阻的代谢性疾病。
+Babinski Sign	巴宾斯基征。一种病理反射，表现为刺激足底时大拇趾背屈而其余四趾扇形展开。
+Back Pain	背痛。由肌肉劳损、椎间盘退变或外伤等因素引起的背部疼痛综合征。
+Bacterial Endocarditis	细菌性心内膜炎。一种由细菌感染引起的心脏内膜炎症，常导致瓣膜赘生物形成。
+Bacterial Infections	细菌感染。由细菌侵入人体并在体内繁殖引起的疾病，常导致局部或全身性炎症反应。
+Band Keratopathy	带状角膜病变。一种由钙盐沉积于角膜前弹力层导致的角膜变性性疾病。
+Barrett Esophagus	巴雷特食管。一种因长期胃食管反流导致食管下段黏膜被化生柱状上皮取代的癌前病变。
+Barrett's Esophageal Adenocarcinoma	巴雷特食管腺癌。一种由胃食管反流病引起的巴雷特食管恶变形成的食管恶性肿瘤。
+Bartter Disease	巴特综合征。一种因肾小管离子转运障碍导致低钾血症和代谢性碱中毒的遗传性疾病。
+Basal Cell Carcinoma	基底细胞癌。一种由基底细胞恶性增殖引起的、常见于日光暴露部位的皮肤恶性肿瘤。
+Basal Ganglia Calcification	基底节钙化。一种因钙盐在基底节异常沉积导致的神经系统疾病，常伴随运动障碍。
+Basal Ganglia Diseases	基底神经节疾病。一组由基底神经节结构或功能异常引起的运动障碍性疾病。
+Behcet's Disease	白塞病。一种以复发性口腔溃疡、生殖器溃疡和眼炎为主要特征的系统性血管炎。
+Benign Neoplasm Of The Central Nervous System	中枢神经系统良性肿瘤。一种起源于中枢神经组织的非恶性肿瘤，通常生长缓慢且边界清晰。
+Benign Prostatic Hyperplasia	良性前列腺增生。一种因年龄增长和雄激素作用导致前列腺腺体及基质增生的良性疾病。
+Beta Thalassemia	β地中海贫血。一种因β珠蛋白基因突变导致血红蛋白合成不足的遗传性溶血性贫血。
+Beta-Cell Dysfunction	β细胞功能障碍。一种因胰岛β细胞分泌胰岛素能力受损导致的代谢紊乱。
+Bifid Scrotum	分叉状阴囊。一种因胚胎期生殖结节融合不全导致的先天性畸形，表现为阴囊中部出现纵向凹陷。
+Bilateral Elbow Dislocations	双侧肘关节脱位。因外力导致双侧尺桡骨与肱骨远端关节面对合关系丧失的创伤性疾病。
+Bilateral Sensorineural Hearing Impairment	双侧感音神经性听力障碍。一种因内耳、听神经或听觉中枢病变导致的双耳声音感知能力下降的疾病。
+Bile Duct Proliferation	胆管增生。一种以肝内胆管数量异常增多为特征的病理改变，常见于胆道梗阻或慢性肝病。
+Biliary Cirrhosis	胆汁性肝硬化。一种由胆道系统长期损伤导致胆汁淤积引起的慢性进行性肝病。
+Biliary Tract Abnormality	胆道异常。指胆道系统结构或功能异常，常由先天畸形、结石或炎症引起。
+Bipolar Affective Disorder	双相情感障碍。一种以躁狂与抑郁发作交替出现为特征的心境障碍。
+Bipolar Disorder	双相情感障碍。一种以躁狂发作和抑郁发作交替出现为特征的心境障碍。
+Bladder Cancer	膀胱癌。一种起源于膀胱黏膜上皮细胞的恶性肿瘤，主要症状包括无痛性肉眼血尿。
+Bladder Diverticulum	膀胱憩室。膀胱壁局部向外膨出的囊袋状结构，多由膀胱出口梗阻或肌层薄弱所致。
+Bladder Neoplasm	膀胱肿瘤。膀胱内组织异常增生形成的赘生物，多为恶性且常见血尿症状。
+Blurred Vision	视力模糊。一种由屈光不正、眼部疾病或神经系统病变等引起的视物不清症状。
+Bone Cyst	骨囊肿。一种因骨内液体积聚形成的良性肿瘤样病变，常见于儿童长骨干骺端。
+Bone Marrow Hypocellularity	骨髓增生减低。一种因骨髓造血细胞数量减少导致全血细胞减少的病理状态。
+Bone Marrow Transplantation	骨髓移植。一种通过静脉输注造血干细胞重建受者正常造血与免疫功能的治疗方法。
+Bone Metastases	骨转移。恶性肿瘤细胞通过血行或淋巴途径扩散至骨骼形成的继发性病灶。
+Bone Pain	骨痛。由骨骼损伤、炎症或肿瘤等引起的局部或广泛性骨骼疼痛症状。
+Bowel Diverticulosis	肠道憩室病。一种因肠壁薄弱导致结肠黏膜向外膨出形成囊袋的解剖结构异常。
+Bowel Incontinence	大便失禁。一种因肛门括约肌功能障碍或神经损伤导致无法控制排便的病理状态。
+Bowing Of Limbs Due To Multiple Fractures	多发性骨折致肢体弯曲。因反复骨折导致骨骼结构改变引起的肢体弓状畸形。
+Bowing Of The Legs	膝外翻。一种因维生素D缺乏或骨骼发育异常导致下肢向外弯曲的骨骼畸形。
+Brachycephaly	短头畸形。一种因冠状缝过早闭合导致头颅前后径缩短的颅骨畸形。
+Bradycardia	心动过缓。一种心率低于正常范围（成人＜60次/分）的心律失常。
+Bradykinesia	运动迟缓。一种因神经系统病变导致的自主运动减慢和幅度减小的症状。
+Bradyopsia	缓视症。一种因视网膜神经节细胞功能异常导致视觉信号处理延迟的视觉障碍。
+Brain Abscess	脑脓肿。由细菌、真菌等病原体侵入脑实质引起的局限性化脓性炎症。
+Brain Atrophy	脑萎缩。一种因脑组织体积缩小、神经细胞减少导致的神经系统退行性病变。
+Brain Cancer	脑癌。一种起源于脑组织或由其他部位转移至脑部的恶性肿瘤，常引起头痛、癫痫等症状。
+Brain Injury	脑损伤。由外力、缺氧或疾病导致脑组织结构或功能损害的病理状态。
+Brain Ischemia	脑缺血。因脑部血液供应不足导致脑组织缺氧性损伤的病理状态。
+Breast Cancer	乳腺癌。一种起源于乳腺上皮细胞的恶性肿瘤，主要表现为乳房肿块或异常分泌物。
+Breathing Dysregulation	呼吸调节障碍。一种因呼吸中枢功能异常导致节律或深度失调的病理状态。
+Brittle Hair	脆发症。一种因毛干结构异常导致头发易断裂、干燥无光泽的病理状态。
+Broad-Based Gait	宽基步态。一种因小脑病变导致双足间距增宽、步态不稳的神经系统体征。
+Bronchiectasis	支气管扩张症。一种因支气管壁破坏导致气道不可逆性扩张的慢性呼吸道疾病。
+Bronchiolar Carcinoma	细支气管癌。一种起源于细支气管上皮的恶性肿瘤，常表现为周围型肺部结节。
+Bronchitis	支气管炎。一种由感染或刺激物引起的支气管黏膜急性或慢性炎症。
+Bronchogenic Cyst	支气管源性囊肿。一种因胚胎期支气管发育异常形成的先天性肺囊性病变。
+Bronchomalacia	支气管软化症。一种因支气管软骨结构异常导致气道塌陷的呼吸系统疾病。
+Bronchospasm	支气管痉挛。一种因气道平滑肌突然收缩导致呼吸困难的可逆性病理状态。
+Bruising Susceptibility	易瘀伤倾向。因血管脆性增加或凝血功能障碍导致轻微外伤后易出现皮下出血的病理状态。
+Bruxism	磨牙症。一种在睡眠或清醒时无意识地磨牙或紧咬牙的副功能运动障碍。
+Bulbar Palsy	延髓麻痹。一种因延髓运动神经核或延髓神经病变导致吞咽、构音障碍的综合征。
+Bulbar Signs	延髓麻痹体征。由延髓神经核或神经损伤引起的构音障碍、吞咽困难等症候群。
+Buphthalmos	牛眼。一种因先天性青光眼导致婴幼儿眼球异常增大的眼科疾病。
+C1-C2 Subluxation	寰枢椎半脱位。因创伤或类风湿关节炎导致的第一、二颈椎关节对位异常。
+Cachexia	恶病质。一种由慢性疾病引起的严重消耗状态，以进行性体重减轻和肌肉萎缩为特征。
+Calcaneovalgus Deformity	跟骨外翻畸形。一种因足部位置异常导致足跟外翻、足背屈的先天性足部畸形。
+Calcific Stippling	钙化点状影。一种因钙盐在软骨或软组织中异常沉积形成的影像学表现。
+Calcification Of The Aorta	主动脉钙化。一种因钙盐沉积导致主动脉壁硬化和弹性减弱的退行性病变。
+Calcification Of The Small Brain Vessels	小脑血管钙化。一种因钙盐沉积于脑小血管壁导致的血管硬化性疾病。
+Calcinosis	钙质沉着症。一种因钙盐异常沉积在皮肤、皮下组织或内脏器官导致的病理状态。
+Calcinosis Cutis	皮肤钙质沉着症。一种因不溶性钙盐沉积于皮肤组织导致的代谢性皮肤病。
+Calcium Oxalate Nephrolithiasis	草酸钙肾结石病。一种因尿液中草酸钙过饱和形成结晶，在肾脏沉积导致的结石性疾病。
+Calf Muscle Pseudohypertrophy	腓肠肌假性肥大。一种因脂肪和结缔组织异常增生导致小腿外观膨大但肌力减弱的遗传性疾病。
+Camptodactyly	屈曲指。一种因肌腱或韧带挛缩导致手指在近端指间关节持续屈曲的先天性畸形。
+Camptodactyly Of Finger	手指屈曲畸形。一种因肌腱或关节异常导致手指持续性屈曲挛缩的先天性疾病。
+Cancer	癌症。一种因细胞异常增殖并可能侵袭或转移至身体其他部位的疾病。
+Capillary Hemangioma	毛细血管瘤。一种由毛细血管异常增生形成的良性血管肿瘤，常见于婴幼儿皮肤。
+Carcinoma	癌。一种起源于上皮组织的恶性肿瘤，具有侵袭性和转移能力。
+Carcinoma In Situ	原位癌。一种局限于上皮层内、未突破基底膜的早期恶性肿瘤。
+Carcinoma, Transitional Cell	移行细胞癌。一种起源于尿路上皮的恶性肿瘤，常见于膀胱，主要症状为无痛性肉眼血尿。
+Cardiac Arrest	心脏骤停。因心脏机械活动突然停止导致有效循环中断的致命性临床综合征。
+Cardiac Arrhythmias	心律失常。心脏冲动的频率、节律、起源部位或传导速度异常的一组心脏疾病。
+Cardiac Conduction Abnormality	心脏传导异常。由心脏电传导系统功能障碍引起的心律失常或传导阻滞。
+Cardiac Dysrhythmias	心律失常。由心脏电传导系统异常引起的心跳节律或频率紊乱。
+Cardiac Myxoma	心脏黏液瘤。一种最常见的心脏原发性良性肿瘤，通常发生于左心房，可导致血流阻塞或栓塞。
+Cardiac Surgery	心脏外科手术。通过外科手段治疗心脏及大血管疾病的外科专科。
+Cardiomegaly	心脏肥大。一种因心脏负荷过重或心肌病变导致心脏体积异常增大的病理状态。
+Cardiomyocyte Mitochondrial Proliferation	心肌细胞线粒体增生。一种以心肌细胞内线粒体数量异常增多为特征的病理改变。
+Cardiorespiratory Arrest	心搏呼吸骤停。因心脏泵血功能和肺通气功能同时停止导致的全身循环中断状态。
+Cardiovascular Diseases	心血管疾病。一类涉及心脏和血管结构功能异常的疾病总称，主要病因包括动脉粥样硬化、高血压等。
+Catalepsy	强直性昏厥。一种以肌肉僵硬、身体保持固定姿势为特征的神经系统症状。
+Cataplexy	猝倒症。一种因情绪激动诱发肌张力突然丧失的发作性睡病伴发症状。
+Cataract	白内障。一种因晶状体蛋白质变性导致晶状体混浊的视觉障碍性疾病。
+Cavernous Hemangioma	海绵状血管瘤。一种由异常扩张的血管窦组成的良性血管畸形，常见于脑和肝脏。
+Cellular Immunodeficiency	细胞免疫缺陷。一种因T淋巴细胞功能异常导致机体抗感染能力下降的免疫系统疾病。
+Cellulitis	蜂窝织炎。一种由细菌感染引起的皮肤及皮下组织弥漫性化脓性炎症。
+Central Adrenal Insufficiency	中枢性肾上腺功能不全。因下丘脑-垂体病变导致促肾上腺皮质激素分泌不足引起的肾上腺皮质功能减退。
+Central And Peripheral Nervous System Diseases	中枢与周围神经系统疾病。一类累及脑、脊髓及周围神经的疾病总称，包括结构异常、功能紊乱或退行性病变。
+Central Apnea	中枢性睡眠呼吸暂停。一种因呼吸中枢驱动信号暂时中断导致的睡眠中呼吸反复停顿的疾病。
+Central Heterochromia	中央异色症。一种虹膜中央与周边颜色不同的先天性虹膜色素异常。
+Central Nervous System Degeneration	中枢神经系统退行性病变。一类由神经元进行性丧失导致运动、认知功能衰退的神经系统疾病。
+Central Nervous System Diseases	中枢神经系统疾病。一类累及大脑、脊髓或周围神经的结构或功能异常的疾病总称。
+Central Sleep Apnea	中枢性睡眠呼吸暂停。一种因中枢神经系统呼吸驱动信号异常导致的睡眠中反复呼吸暂停的疾病。
+Cerebellar Hemorrhage	小脑出血。一种因小脑血管破裂导致突发共济失调和意识障碍的急性脑卒中。
+Cerebral Amyloid Angiopathy	脑淀粉样血管病。一种β-淀粉样蛋白沉积于大脑皮质及软脑膜血管导致的脑血管病变。
+Cerebral Atrophy	脑萎缩。一种因脑组织体积缩小、神经元丧失导致的进行性神经系统退行性病变。
+Cerebral Calcification	脑钙化。一种因钙盐在大脑组织中异常沉积导致的神经系统疾病。
+Cerebral Cortical Atrophy	大脑皮质萎缩症。一种因大脑皮质神经元丧失导致认知功能障碍的退行性疾病。
+Cerebral Edema	脑水肿。因脑组织水分异常增多导致颅内压增高的病理状态。
+Cerebral Hemorrhage	脑出血。一种因脑血管破裂导致血液进入脑实质的急性脑血管疾病。
+Cerebral Infarction	脑梗死。因脑部血液供应障碍导致脑组织缺血缺氧性坏死的脑血管疾病。
+Cerebral Ischemia	脑缺血。因脑部血液供应不足导致脑组织缺氧性损伤的病理过程。
+Cerebral Oxidative Damage	脑氧化损伤。一种因自由基过度产生导致脑组织细胞结构与功能受损的病理过程。
+Cerebral Palsy	脑性瘫痪。一种因发育中脑部非进行性损伤导致的运动和姿势发育障碍综合征。
+Cerebral Vasculitis	脑部血管炎。一种由免疫介导的脑血管壁炎症性疾病，可导致脑缺血或出血。
+Cerebral Vasospasm	脑血管痉挛。一种因颅内动脉持续性收缩导致脑血流减少的病理状态。
+Cerebral Venous Thrombosis	脑静脉血栓形成。一种因脑静脉系统内血栓形成导致颅内压增高和神经功能缺损的脑血管疾病。
+Cerebrovascular Accident	脑血管意外。因脑部血管突然破裂或阻塞导致脑组织缺血缺氧的急性疾病。
+Cerebrovascular Ischaemia	脑血管缺血。因脑部血液供应不足导致脑组织缺氧的病理状态。
+Cervical Cancer	宫颈癌。一种由人乳头瘤病毒感染引起的恶性肿瘤，主要发生在子宫颈上皮细胞。
+Cervical Spinal Cord Atrophy	颈髓萎缩。一种因颈椎段脊髓组织进行性退化导致运动和感觉功能障碍的神经系统疾病。
+Chagas' Disease	恰加斯病。一种由克氏锥虫经锥蝽叮咬传播，导致心脏和消化道慢性病变的寄生虫病。
+Chemical And Drug Induced Liver Injury	药物性肝损伤。由药物或其代谢产物直接或间接引起的肝脏炎症或损伤性疾病。
+Chemodectoma	颈动脉体瘤。一种起源于颈动脉体化学感受器的良性神经内分泌肿瘤。
+Chest Pain	胸痛。由心血管、呼吸系统或消化道疾病等多种病因引起的胸前区不适或疼痛症状。
+Childhood Seizure Disorders	儿童期癫痫。一组由脑神经元异常放电引起的儿童时期发作性运动、感觉或意识障碍的疾病。
+Childhood-Onset Short-Trunk Short Stature	儿童期发病短躯干型矮小症。一种因脊柱生长异常导致躯干不成比例短小的生长障碍。
+Childhood-Onset Truncal Obesity	儿童期发病的躯干性肥胖。一种在儿童期发病、以躯干脂肪异常堆积为主要特征的肥胖类型。
+Cholangiocarcinoma	胆管癌。一种起源于胆管上皮细胞的恶性肿瘤，常引起黄疸和腹痛。
+Cholecystitis	胆囊炎。由胆结石阻塞或细菌感染引起的胆囊壁炎症性疾病。
+Cholelithiasis	胆石症。因胆汁成分异常在胆囊或胆管内形成结石的疾病，可引发胆绞痛。
+Cholestasis	胆汁淤积。因胆汁生成或排泄障碍导致胆汁在肝内或肝外积聚的病理状态。
+Cholestatic Liver Disease	胆汁淤积性肝病。因胆汁分泌或排泄障碍导致胆汁在肝内淤积的肝脏疾病。
+Cholesterol-Related Diseases	胆固醇相关疾病。由胆固醇代谢异常引起的一类疾病，主要表现为动脉粥样硬化或脂质沉积。
+Chondrosarcoma	软骨肉瘤。一种起源于软骨细胞的恶性肿瘤，常见于骨盆、股骨等部位。
+Chorea	舞蹈症。一种由基底节病变导致的不自主、无节律的舞蹈样动作的神经系统疾病。
+Chorioretinal Coloboma	脉络膜视网膜缺损。一种因胚胎期眼裂闭合不全导致的脉络膜和视网膜组织先天性缺损。
+Choroid Plexus Cyst	脉络丛囊肿。一种常见于胎儿期的良性囊肿，由脉络丛内脑脊液积聚形成。
+Choroid Plexus Papilloma	脉络丛乳头状瘤。一种起源于脑室脉络丛上皮的良性肿瘤，常导致脑脊液分泌过多和颅内压增高。
+Choroidal Neovascularization	脉络膜新生血管。一种因脉络膜血管异常生长导致黄斑区出血、水肿的眼底病变。
+Chronic Angina Pectoris	慢性心绞痛。一种因冠状动脉供血不足导致反复发作性胸痛的临床综合征。
+Chronic Axonal Neuropathy	慢性轴索性神经病。一种因轴突变性导致进行性感觉运动障碍的周围神经病变。
+Chronic Constipation	慢性便秘。一种以排便困难、次数减少或排便不尽感持续超过三个月的功能性肠病。
+Chronic Depression	慢性抑郁症。一种持续两年以上、以长期情绪低落和兴趣减退为特征的心境障碍。
+Chronic Diarrhea	慢性腹泻。一种持续超过4周、以排便次数增多及粪质稀薄为主要特征的消化系统症状。
+Chronic Experimental Allergic Encephalomyelitis	慢性实验性变态反应性脑脊髓炎。一种由髓鞘蛋白免疫诱导产生的慢性中枢神经系统脱髓鞘动物模型疾病。
+Chronic Fatigue	慢性疲劳综合征。一种以持续半年以上、无法通过休息缓解的严重疲劳为特征的疾病。
+Chronic Heart Failure	慢性心力衰竭。因心脏结构和功能长期异常导致心输出量无法满足机体代谢需求的临床综合征。
+Chronic Hemolytic Anemia	慢性溶血性贫血。一种因红细胞过早破坏导致骨髓代偿性增生但无法维持正常红细胞计数的疾病。
+Chronic Hepatic Failure	慢性肝衰竭。由长期肝损伤导致肝脏合成、解毒等功能严重障碍的终末期肝病。
+Chronic Hepatitis C	慢性丙型肝炎。由丙型肝炎病毒持续感染引起的肝脏慢性炎症性疾病。
+Chronic Ileitis	慢性回肠炎。一种因克罗恩病或感染等导致的回肠慢性非特异性炎症性疾病。
+Chronic Inflammatory Diseases	慢性炎症性疾病。由免疫系统异常激活导致组织持续炎症反应的一类疾病。
+Chronic Irritative Conjunctivitis	慢性刺激性结膜炎。一种由长期物理或化学刺激引起的结膜持续性炎症反应。
+Chronic Kidney Disease	慢性肾脏病。由各种原因引起的肾脏结构或功能异常持续超过3个月的临床综合征。
+Chronic Lactic Acidosis	慢性乳酸性酸中毒。一种因乳酸持续堆积导致血液pH值降低的代谢性酸中毒。
+Chronic Lung Diseases	慢性肺疾病。由长期暴露于有害颗粒或气体引起，以持续性呼吸道症状和气流受限为特征的疾病。
+Chronic Metabolic Acidosis	慢性代谢性酸中毒。因体内固定酸积聚或碳酸氢盐持续丢失导致的长期酸碱平衡紊乱。
+Chronic Neuropathic Pain	慢性神经病理性疼痛。由神经系统原发损害或功能障碍引起的持续性疼痛综合征。
+Chronic Noninfectious Lymphadenopathy	慢性非感染性淋巴结病。一种由非感染因素引起的淋巴结持续肿大性疾病。
+Chronic Obstructive Pulmonary Disease	慢性阻塞性肺疾病。一种以持续气流受限为特征，常由吸烟引起的肺部疾病。
+Chronic Otitis Media	慢性中耳炎。一种因急性中耳炎未愈或反复发作导致的中耳黏膜慢性化脓性炎症。
+Chronic Pain	慢性疼痛。一种持续或反复发作超过3个月的疼痛，常由组织损伤或神经系统功能障碍引起。
+Chronic Pathological Pain	慢性病理性疼痛。由组织损伤或神经系统病变导致的持续性疼痛综合征。
+Chronic Primary Insomnia	慢性原发性失眠。一种排除其他疾病、持续存在入睡或维持睡眠困难的睡眠障碍。
+Chronic Renal Failure	慢性肾功能衰竭。因肾脏结构或功能持续损害导致肾小球滤过率进行性下降的临床综合征。
+Chronic Rhinitis	慢性鼻炎。一种由感染、过敏或环境因素引起的鼻黏膜长期炎症性疾病。
+Chronic Rhinitis Due To Narrow Nasal Airway	慢性鼻炎（因鼻气道狭窄）。由鼻腔结构狭窄导致气流受限引发的鼻黏膜长期炎症。
+Chronic Stable Angina	慢性稳定性心绞痛。一种因冠状动脉粥样硬化导致心肌供血不足引起的胸痛综合征。
+Chronic Tendon Injury	慢性肌腱损伤。因肌腱长期过度使用或反复微创伤导致的持续性肌腱疼痛与功能障碍。
+Chronic Urticaria	慢性荨麻疹。一种以反复发作的风团和瘙痒为特征、持续超过6周的过敏性疾病。
+Cigarette-Paper Scars	卷烟纸样瘢痕。一种因真皮弹性纤维断裂导致的皮肤萎缩性瘢痕，呈薄纸样外观。
+Cirrhosis	肝硬化。一种由多种病因引起的慢性进行性肝病，以肝组织弥漫性纤维化为特征。
+Clinodactyly	手指弯曲畸形。一种因中指骨发育异常导致手指向桡侧或尺侧偏斜的先天性畸形。
+Clonus	阵挛。一种由中枢神经系统损伤导致的腱反射亢进，表现为肌肉节律性收缩与松弛交替出现的病理反射。
+Clumsiness	动作笨拙。一种表现为动作协调能力受损的运动功能障碍。
+Cns Hypomyelination	中枢神经系统髓鞘形成不良。一种因髓鞘发育缺陷导致神经传导功能障碍的遗传性疾病。
+Coagulative Disorders	凝血功能障碍。因凝血因子异常或血小板功能障碍导致的出血或血栓形成倾向。
+Coarse Hair	粗发。一种因毛干结构异常或代谢障碍导致毛发直径增粗、质地粗糙的毛发疾病。
+Cocaine Dependence	可卡因依赖。一种因长期滥用可卡因导致生理和心理依赖的慢性复发性脑病。
+Cocaine Overdose	可卡因过量。因摄入过量可卡因导致中枢神经系统过度兴奋及心血管功能紊乱的中毒状态。
+Cocaine-Related Disorders	可卡因相关障碍。因滥用可卡因导致的精神行为障碍，表现为依赖、戒断或中毒症状。
+Coeliac Disease	乳糜泻。一种因对麸质不耐受引发小肠黏膜损伤的自身免疫性疾病。
+Cognition Disorders	认知障碍。由脑部损伤或疾病引起的记忆、思维或判断等功能受损的综合征。
+Cognitive Deficits	认知功能障碍。由多种病因导致的认知领域功能下降，表现为记忆、注意或执行功能受损。
+Cognitive Disorders	认知障碍。由脑部损伤或疾病导致记忆、思维等认知功能受损的综合征。
+Cognitive Impairment	认知功能障碍。一种由多种病因导致记忆、思维等认知领域功能下降的临床状态。
+Cold Air-Induced Bronchoconstriction	冷空气诱发支气管收缩。一种因寒冷空气刺激导致气道平滑肌痉挛的支气管高反应性表现。
+Cold Paresis	冷麻痹。一种在寒冷环境下出现或加重的局部肌肉无力症状，常见于某些神经肌肉疾病。
+Cold-Induced Hand Cramps	寒冷性手部痉挛。因寒冷刺激导致手部肌肉不自主收缩的血管神经反应性疾病。
+Cold-Sensitive Myotonia	冷敏感性肌强直。一种遇冷诱发或加重的肌肉强直性疾病，由离子通道基因突变导致。
+Colitis	结肠炎。一种由感染、缺血或免疫因素引起的结肠黏膜炎症性疾病。
+Colon Adenocarcinoma	结肠腺癌。一种起源于结肠腺上皮细胞的恶性肿瘤，主要症状包括便血和肠梗阻。
+Colon Cancer	结肠癌。一种起源于结肠黏膜上皮的恶性肿瘤，主要症状包括便血和排便习惯改变。
+Colonic Diverticula	结肠憩室。结肠黏膜及黏膜下层经肌层向外膨出形成的袋状结构，常无症状或伴发憩室炎。
+Colonic Neoplasms	结肠肿瘤。发生在结肠黏膜上皮的异常增生性疾病，包括良性和恶性肿瘤。
+Colorectal Cancer	结直肠癌。一种起源于结肠或直肠黏膜上皮的恶性肿瘤，主要症状包括便血和排便习惯改变。
+Colorectal Neoplasms	结直肠肿瘤。起源于结肠或直肠黏膜上皮的异常增生性疾病，包括良性与恶性病变。
+Coma	昏迷。一种由严重脑功能障碍导致的持续性意识丧失状态。
+Combined Immunodeficiency	联合免疫缺陷。一种由T细胞和B细胞功能联合缺陷导致的严重免疫系统疾病。
+Comedonal Acne	粉刺性痤疮。一种以毛囊皮脂腺导管角化异常形成粉刺为主要特征的痤疮亚型。
+Compensated Hemolytic Anemia	代偿性溶血性贫血。一种骨髓造血功能增强足以代偿红细胞破坏的慢性溶血状态。
+Compensated Hypothyroidism	代偿性甲状腺功能减退症。甲状腺激素水平正常但促甲状腺激素轻度升高，提示甲状腺处于早期或轻度失代偿状态。
+Complete Heart Block With Broad Qrs Complexes	完全性心脏阻滞伴宽QRS波群。一种因希氏束以下传导阻滞导致心室率缓慢且QRS波增宽的心律失常。
+Confusion	意识模糊。一种以思维混乱、定向力障碍和注意力不集中为特征的急性认知功能障碍。
+Congenital Adrenal Hyperplasia	先天性肾上腺皮质增生症。一种因肾上腺皮质激素合成酶基因缺陷导致的先天性代谢障碍疾病。
+Congenital Agranulocytosis	先天性粒细胞缺乏症。一种因基因突变导致骨髓粒细胞生成障碍的遗传性免疫缺陷病。
+Congenital Cataract	先天性白内障。一种出生时即存在的晶状体混浊，多由遗传因素或孕期感染引起。
+Congenital Giant Melanocytic Nevus	先天性巨大黑色素细胞痣。一种出生时即存在的巨大色素性皮肤病变，由黑色素细胞异常增生引起，具有恶变潜能。
+Congenital Glaucoma	先天性青光眼。一种因前房角发育异常导致房水排出受阻、眼压升高的婴幼儿眼病。
+Congenital Hemolytic Anemia	先天性溶血性贫血。一种因遗传性红细胞缺陷或血红蛋白异常导致红细胞过早破坏的贫血性疾病。
+Congenital Hypoplastic Anemia	先天性再生不良性贫血。一种因骨髓造血功能先天性发育不全导致全血细胞减少的遗传性疾病。
+Congenital Lactic Acidosis	先天性乳酸性酸中毒。一种因先天性代谢缺陷导致乳酸堆积引起的代谢性酸中毒。
+Congenital Onset	先天性发病。指出生时即存在的疾病状态，通常由遗传因素或宫内发育异常导致。
+Congenital Sensorineural Hearing Impairment	先天性感音神经性听力障碍。一种因内耳或听神经发育异常导致的出生时即存在的听力下降。
+Congenital Stationary Night Blindness	先天性静止性夜盲。一种因视网膜视杆细胞功能先天缺陷导致的夜间视力障碍。
+Congenital, Generalized Hypertrichosis	先天性全身性多毛症。一种因基因突变导致全身毛发过度生长的遗传性疾病。
+Congestive Heart Failure	充血性心力衰竭。因心脏泵血功能下降导致体液潴留和器官灌注不足的临床综合征。
+Conjugated Hyperbilirubinemia	结合性高胆红素血症。一种因结合胆红素排泄障碍导致其在血液中蓄积的肝胆系统疾病。
+Conjunctival Hamartoma	结膜错构瘤。一种由正常结膜组织异常混合构成的先天性良性肿瘤。
+Conjunctivitis	结膜炎。一种由感染、过敏或刺激引起的结膜炎症，主要症状为眼红和分泌物增多。
+Constipation	便秘。一种因肠道蠕动减慢或功能障碍导致排便困难或次数减少的常见症状。
+Contractures Of The Interphalangeal Joint Of The Thumb	拇指指间关节挛缩。因创伤、炎症或神经损伤导致关节周围软组织纤维化，引起关节活动受限的病理状态。
+Contractures Of The Joints Of The Lower Limbs	下肢关节挛缩。因关节周围软组织纤维化导致的下肢关节活动范围永久性受限。
+Convulsions	惊厥。一种由大脑神经元异常放电引起的全身或局部肌肉不自主收缩的发作性症状。
+Corneal Neovascularization	角膜新生血管。因角膜缺氧或炎症导致角膜内异常血管生长的病理状态。
+Coronary Artery Disease	冠状动脉疾病。因冠状动脉粥样硬化导致心肌缺血、缺氧而引起的心脏病。
+Coronary Artery Stenosis	冠状动脉狭窄。因冠状动脉粥样硬化导致血管腔变窄，引起心肌供血不足的病理状态。
+Coronary Atherosclerosis	冠状动脉粥样硬化。因脂质沉积导致冠状动脉斑块形成，引发心肌缺血的慢性血管病变。
+Coronary Heart Disease	冠状动脉粥样硬化性心脏病。因冠状动脉粥样硬化导致心肌缺血、缺氧而引起的心脏病。
+Coronary Thrombosis	冠状动脉血栓形成。因冠状动脉内血栓堵塞导致心肌缺血坏死的急性冠脉综合征。
+Cortical Cataract	皮质性白内障。晶状体皮质发生混浊导致视力下降的年龄相关性白内障类型。
+Cortical Dysplasia	皮质发育不良。一种因大脑皮层神经元迁移异常导致皮质结构紊乱的先天性疾病。
+Cortical Myoclonus	皮质性肌阵挛。一种由大脑皮层神经元异常放电引起的短暂、闪电样肌肉抽搐。
+Cough	咳嗽。一种由呼吸道刺激或炎症引发的反射性防御动作，常见于呼吸道感染或异物吸入。
+Craniofacial Dystonia	颅面肌张力障碍。一种因神经系统异常导致头颈部肌肉不自主收缩的运动障碍病。
+Crohn's Disease	克罗恩病。一种以消化道透壁性炎症为特征的慢性肉芽肿性炎性肠病。
+Cryptorchidism	隐睾症。一种因睾丸未能正常下降至阴囊而停留在腹腔或腹股沟区的先天性异常。
+Cushing's Disease	库欣病。一种因垂体腺瘤导致促肾上腺皮质激素过量分泌引起的皮质醇增多症。
+Cushing's Syndrome	库欣综合征。一种因皮质醇长期过量分泌引起的临床综合征，典型表现为向心性肥胖和高血压。
+Cutaneous Melanoma	皮肤黑色素瘤。一种由皮肤黑色素细胞恶性转化导致的侵袭性皮肤癌。
+Cutaneous Photosensitivity	皮肤光敏感。一种因皮肤对紫外线异常敏感而出现红斑、瘙痒等光毒性反应的病理状态。
+Cutaneous T-Cell Lymphoma	皮肤T细胞淋巴瘤。一种原发于皮肤的T淋巴细胞恶性增殖性疾病，常表现为红斑、斑块或肿瘤。
+Cutis Laxa	皮肤松弛症。一种因弹性纤维异常导致皮肤松弛下垂的遗传性或获得性疾病。
+Cutis Marmorata	大理石样皮肤。一种因皮肤血管对寒冷过度反应，导致网状青紫色斑纹的生理现象。
+Cystathioninuria	胱硫醚尿症。一种因胱硫醚酶缺乏导致胱硫醚在尿液中异常增多的遗传性代谢疾病。
+Cystic Fibrosis	囊性纤维化。一种由CFTR基因突变导致外分泌腺功能障碍的常染色体隐性遗传病。
+Cystic Hygroma	囊状水瘤。一种因淋巴系统发育异常导致颈部或腋窝形成囊性肿块的先天性疾病。
+Cystinuria	胱氨酸尿症。一种因肾小管转运缺陷导致尿中胱氨酸过度排出的遗传性代谢疾病。
+D-2-Hydroxyglutaric Aciduria	D-2-羟基戊二酸尿症。一种因D-2-羟基戊二酸脱氢酶缺陷导致有机酸在体内蓄积的遗传代谢病。
+Dark Urine	尿色加深。尿液颜色异常变深，多由胆红素尿、血红蛋白尿或药物代谢物等因素引起。
+Decerebrate Rigidity	去大脑强直。一种因中脑以上脑干损伤导致的伸肌持续性过度紧张状态。
+Decrease In T Cell Count	T细胞计数减少。一种因免疫缺陷、感染或药物等因素导致T淋巴细胞数量下降的病理状态。
+Decreased Activity Of Mitochondrial Complex I	线粒体复合体I活性降低。一种因线粒体电子传递链功能障碍导致能量代谢紊乱的遗传性或获得性疾病。
+Decreased Activity Of Mitochondrial Complex Ii	线粒体复合体II活性降低。一种因线粒体呼吸链功能障碍导致能量代谢异常的遗传性疾病。
+Decreased Activity Of Mitochondrial Complex Iii	线粒体复合体III活性降低。一种因线粒体呼吸链功能障碍导致能量代谢异常的遗传性或获得性疾病。
+Decreased Activity Of Mitochondrial Complex Iv	线粒体复合体IV活性降低。一种因线粒体呼吸链功能障碍导致细胞能量代谢紊乱的遗传性疾病。
+Decreased Activity Of Nadph Oxidase	NADPH氧化酶活性降低。一种因NADPH氧化酶功能缺陷导致活性氧生成不足的遗传性疾病。
+Decreased Activity Of The Pyruvate Dehydrogenase Complex	丙酮酸脱氢酶复合体活性降低。一种因酶复合体功能缺陷导致丙酮酸代谢障碍的遗传性疾病。
+Decreased Adenosylcobalamin	腺苷钴胺缺乏症。一种因维生素B12代谢障碍导致腺苷钴胺水平下降的代谢性疾病。
+Decreased Amplitude Of Sensory Action Potentials	感觉神经动作电位波幅降低。周围神经病变导致感觉神经动作电位幅度减低的电生理学表现。
+Decreased Body Weight	体重减轻。因热量摄入不足或消耗增加导致体重显著下降的病理状态。
+Decreased Carnitine Level In Liver	肝肉碱水平降低。因肉碱合成不足或代谢异常导致的肝脏肉碱浓度下降。
+Decreased Circulating Acth Level	循环促肾上腺皮质激素水平降低。一种因下丘脑-垂体功能障碍导致血液中促肾上腺皮质激素浓度下降的病理状态。
+Decreased Circulating Aldosterone Level	循环醛固酮水平降低。一种因醛固酮分泌不足或代谢异常导致的激素缺乏状态。
+Decreased Circulating Androgen Level	循环雄激素水平降低。一种因雄激素分泌不足或代谢异常导致血液中睾酮等水平下降的病理状态。
+Decreased Circulating Cortisol Level	循环皮质醇水平降低。一种因肾上腺皮质功能减退或垂体病变导致血中皮质醇浓度下降的病理状态。
+Decreased Circulating Parathyroid Hormone Level	循环甲状旁腺激素水平降低。一种因甲状旁腺功能减退导致血钙降低、血磷升高的内分泌紊乱。
+Decreased Circulating Renin Level	循环肾素水平降低。一种因肾素分泌减少或代谢异常导致的肾素浓度低于正常范围的病理状态。
+Decreased Fertility	生育力下降。指育龄夫妇未采取避孕措施正常同居一年后未能怀孕的状态。
+Decreased Fertility In Males	男性生育力降低。由精子生成障碍、性功能障碍或激素异常等因素导致的生殖能力下降状态。
+Decreased Fetal Movement	胎动减少。妊娠期胎儿活动频率显著降低，可能提示胎儿宫内窘迫或胎盘功能异常。
+Decreased Glomerular Filtration Rate	肾小球滤过率降低。指单位时间内经肾小球滤过的血浆量减少，反映肾功能受损的状态。
+Decreased Glucosephosphate Isomerase Activity	葡萄糖磷酸异构酶活性降低症。一种因葡萄糖磷酸异构酶活性下降导致溶血性贫血的遗传性代谢疾病。
+Decreased Hdl Cholesterol Concentration	高密度脂蛋白胆固醇降低。一种因代谢异常导致高密度脂蛋白水平低于正常值的脂质紊乱状态。
+Decreased Ldl Cholesterol Concentration	低密度脂蛋白胆固醇浓度降低。一种因代谢异常或药物作用导致血液中低密度脂蛋白胆固醇水平低于正常范围的状态。
+Decreased Level Of Gaba In Serum	血清γ-氨基丁酸水平降低。一种因GABA合成不足或代谢异常导致神经抑制功能减弱的生化异常。
+Decreased Level Of Plasminogen	纤溶酶原缺乏症。一种因纤溶酶原水平降低导致纤维蛋白溶解功能受损的遗传性或获得性疾病。
+Decreased Liver Function	肝功能减退。因肝细胞损伤或代谢障碍导致肝脏合成、解毒等功能下降的病理状态。
+Decreased Methionine Synthase Activity	甲硫氨酸合酶活性降低。一种因甲硫氨酸合酶功能缺陷导致同型半胱氨酸代谢障碍的遗传性或获得性疾病。
+Decreased Methylcobalamin	甲基钴胺素缺乏症。因维生素B12吸收或代谢障碍导致甲基钴胺素水平不足的代谢性疾病。
+Decreased Methylmalonyl-Coa Mutase Activity	甲基丙二酰辅酶A变位酶活性降低。一种因甲基丙二酰辅酶A变位酶功能缺陷导致有机酸代谢障碍的遗传性疾病。
+Decreased Motor Nerve Conduction Velocity	运动神经传导速度减慢。一种因髓鞘损害或轴突变性导致运动神经信号传导延迟的病理状态。
+Decreased Muscle Glycogen Content	肌肉糖原含量减少。因糖原合成不足或分解加速导致的骨骼肌糖原储备降低。
+Decreased Muscle Mass	肌肉减少症。一种因衰老、营养不良或疾病导致的骨骼肌质量与功能下降的综合征。
+Decreased Number Of Large Peripheral Myelinated Nerve Fibers	大髓鞘周围神经纤维数量减少。一种因大直径有髓神经纤维缺失导致感觉运动障碍的周围神经病变。
+Decreased Number Of Peripheral Myelinated Nerve Fibers	周围有髓神经纤维数量减少。一种因周围神经髓鞘纤维缺失导致感觉运动障碍的病理改变。
+Decreased Number Of Small Peripheral Myelinated Nerve Fibers	小周围有髓神经纤维数量减少。一种因周围神经系统中细有髓纤维缺失导致的神经病变。
+Decreased Plasma Carnitine	血浆肉碱减少症。一种因肉碱合成不足或流失过多导致血浆肉碱水平降低的代谢紊乱。
+Decreased Plasma Free Carnitine	血浆游离肉碱缺乏症。一种因肉碱合成不足或流失过多导致的代谢紊乱，可致能量代谢障碍。
+Decreased Plasma Total Carnitine	血浆总肉碱减少症。一种因肉碱合成不足或流失过多导致的代谢紊乱，主要表现为血浆肉碱水平降低。
+Decreased Platelet Glycoprotein Iib-Iiia	血小板糖蛋白IIb-IIIa减少症。一种因血小板膜糖蛋白数量或功能异常导致凝血功能障碍的出血性疾病。
+Decreased Proportion Of Cd4-Positive T Cells	CD4阳性T细胞比例降低。一种因HIV感染或免疫缺陷导致CD4+T细胞在淋巴细胞中占比下降的免疫异常状态。
+Decreased Pulmonary Function	肺功能减退。因肺部通气或换气功能下降导致的呼吸功能障碍。
+Decreased Pyruvate Carboxylase Activity	丙酮酸羧化酶活性降低。一种因丙酮酸羧化酶功能缺陷导致乳酸中毒和神经功能障碍的代谢性疾病。
+Decreased Resting Energy Expenditure	静息能量消耗降低。一种因代谢率下降导致基础状态下能量消耗减少的病理状态。
+Decreased Sensory Nerve Conduction Velocity	感觉神经传导速度减慢。一种因周围神经病变导致感觉神经信号传递速度下降的生理异常。
+Decreased Serum Ceruloplasmin	血清铜蓝蛋白降低。一种因铜蓝蛋白合成减少或代谢异常导致的血清铜蓝蛋白水平下降的病理状态。
+Decreased Serum Creatinine	血清肌酐降低。血清肌酐浓度低于正常范围，常见于肌肉萎缩、营养不良或肝功能异常等情况。
+Decreased Serum Estradiol	血清雌二醇降低。一种因卵巢功能减退或内分泌失调导致血液中雌激素水平下降的病理状态。
+Decreased Serum Ferritin	血清铁蛋白降低。一种因铁储备不足导致血清铁蛋白水平低于正常范围的病理状态。
+Decreased Serum Insulin-Like Growth Factor 1	血清胰岛素样生长因子1降低。一种因生长激素分泌不足或受体缺陷导致的生长因子水平下降的病理状态。
+Decreased Serum Iron	血清铁降低。一种因铁摄入不足或丢失过多导致血清铁含量低于正常范围的病理状态。
+Decreased Serum Testosterone Level	血清睾酮水平降低。因睾丸功能减退或下丘脑-垂体轴异常导致的血液中睾酮浓度低于正常范围。
+Decreased Skull Ossification	颅骨骨化不全。一种因颅骨钙化不足导致颅缝闭合延迟的发育异常。
+Decreased Small Intestinal Mucosa Lactase Activity	小肠黏膜乳糖酶活性降低。一种因小肠黏膜乳糖酶分泌不足导致乳糖消化障碍的消化系统疾病。
+Decreased Taste Sensation	味觉减退。一种因味觉传导通路受损或味蕾功能障碍导致的味觉敏感度下降。
+Decreased Testosterone In Males	男性睾酮减少症。一种因睾丸功能减退或下丘脑-垂体轴异常导致血清睾酮水平低于正常范围的病理状态。
+Decreased Urinary Potassium	尿钾减少。尿液中钾离子排泄量低于正常值的病理状态，常与肾小管功能障碍或钾摄入不足相关。
+Deep Venous Thrombosis	深静脉血栓形成。因静脉血流滞缓或高凝状态导致深静脉内血液异常凝结的血管疾病。
+Defective Dehydrogenation Of Isovaleryl Coa And Butyryl Coa	异戊酰辅酶A和丁酰辅酶A脱氢缺陷症。一种因支链氨基酸代谢障碍导致有机酸蓄积的遗传性代谢病。
+Defective Production Of Nfkb1-Dependent Cytokines	NF-κB1依赖性细胞因子生成缺陷。一种因NF-κB1信号通路异常导致免疫细胞因子合成受损的遗传性疾病。
+Defective T Cell Proliferation	T细胞增殖缺陷。一种因T细胞增殖能力受损导致免疫应答功能低下的病理状态。
+Deficiency Or Absence Of Cytochrome B(-245)	细胞色素B(-245)缺乏或缺失症。一种因NADPH氧化酶复合物缺陷导致慢性肉芽肿病的遗传性疾病。
+Degenerative Polyarthritis	退行性多关节炎。一种由关节软骨退行性变引起的慢性进行性多关节炎症性疾病。
+Dehydration	脱水。机体因水分摄入不足或丢失过多导致细胞外液减少的病理状态。
+Delayed Ability To Walk	行走能力延迟。一种因神经肌肉发育迟缓导致婴幼儿无法在正常年龄范围内独立行走的发育障碍。
+Delayed Cns Myelination	中枢神经系统髓鞘形成延迟。一种因髓鞘发育迟缓导致神经传导功能障碍的发育异常。
+Delayed Epiphyseal Ossification	骨骺骨化延迟。因骨骺软骨内成骨过程受阻导致的骨骼发育异常。
+Delayed Gross Motor Development	大运动发育迟缓。婴幼儿粗大运动技能未达到相应月龄发育里程碑的神经发育障碍。
+Delayed Oxidation Of Acetaldehyde	乙醛氧化延迟。一种因乙醛脱氢酶活性不足导致乙醛代谢受阻的遗传性代谢缺陷。
+Delayed Skeletal Maturation	骨骼成熟延迟。一种因生长激素缺乏或慢性疾病导致骨龄显著落后于实际年龄的发育异常。
+Delayed Social Development	社会性发展迟缓。一种因神经发育异常导致社交互动和沟通能力落后于同龄人的状态。
+Delayed Speech And Language Development	言语和语言发育迟缓。一种因发育障碍或环境因素导致儿童语言能力明显落后于同龄人的状态。
+Delirium	谵妄。一种由多种病因导致的急性、波动性意识障碍和认知功能下降的临床综合征。
+Delusional Disorder	妄想障碍。一种以持续、固定的非怪异妄想为特征，但社会功能相对完好的精神障碍。
+Delusions	妄想。一种以脱离现实、无法通过说理纠正的固定错误信念为核心症状的精神病性症状。
+Dementia	痴呆症。一种由脑部疾病引起的以进行性认知功能减退为核心症状的临床综合征。
+Demyelinating Peripheral Neuropathy	脱髓鞘性周围神经病。一种因周围神经髓鞘破坏导致感觉异常和肌力减弱的神经系统疾病。
+Dense Calcifications In The Cerebellar Dentate Nucleus	小脑齿状核致密钙化。一种因钙盐在小脑齿状核异常沉积导致的神经系统病变。
+Depigmentation/Hyperpigmentation Of Skin	皮肤色素减退/沉着。因黑色素代谢异常导致皮肤局部颜色变浅或加深的病理改变。
+Depletion Of Mitochondrial Dna In Muscle Tissue	肌肉组织线粒体DNA耗竭综合征。由线粒体DNA复制缺陷导致肌肉能量代谢障碍的遗传性疾病。
+Deposits Immunoreactive To Beta-Amyloid Protein	β-淀粉样蛋白免疫反应性沉积。一种由β-淀粉样蛋白异常聚集形成的病理性沉积，常见于阿尔茨海默病患者脑组织。
+Depressed Mood	抑郁情绪。一种以持续情绪低落、兴趣减退为核心特征的情感障碍状态。
+Depression	抑郁症。一种以持续情绪低落和兴趣减退为核心症状的心境障碍。
+Depression, Postpartum	产后抑郁症。一种在分娩后因激素变化和心理适应引发的情绪障碍，表现为持续情绪低落和兴趣减退。
+Depressive Disorder	抑郁症。一种以持续情绪低落和兴趣减退为核心症状的心境障碍。
+Depressive Disorder, Treatment-Resistant	难治性抑郁症。一种对至少两种足量足疗程抗抑郁药物治疗无效的重性抑郁障碍。
+Depressivity	抑郁状态。一种以持续情绪低落、兴趣减退为核心症状的情感障碍综合征。
+Dermal Atrophy	皮肤萎缩。一种因真皮层结缔组织减少导致皮肤变薄、起皱的退行性病变。
+Dermatitis	皮炎。一种由内外因素引起的皮肤炎症反应，主要表现为红斑、水肿和瘙痒。
+Dermatological Disorders	皮肤病。一类涉及皮肤及其附属器结构或功能异常的所有疾病总称。
+Descending Thoracic Aorta Aneurysm	降主动脉瘤。一种因胸主动脉壁薄弱导致局部异常扩张的血管疾病。
+Detrusor Hyperreflexia	逼尿肌反射亢进。一种因神经系统损伤导致逼尿肌过度收缩引起的膀胱功能障碍。
+Developmental Disabilities	发育障碍。一组由先天或早期发育异常导致认知、社交或生活技能受损的神经发育疾病。
+Developmental Regression	发育倒退。已获得的技能或能力出现明显退化的神经发育障碍。
+Developmental Stagnation	发育停滞。因遗传、营养或环境因素导致儿童生长发育速度明显减慢或暂停的状态。
+Dexamethasone-Suppresible Primary Hyperaldosteronism	地塞米松可抑制性原发性醛固酮增多症。一种因基因突变导致醛固酮分泌过多但可被地塞米松抑制的遗传性疾病。
+Diabetes Insipidus	尿崩症。一种因抗利尿激素缺乏或抵抗导致多尿、烦渴的代谢性疾病。
+Diabetes Mellitus	糖尿病。一种因胰岛素分泌不足或作用缺陷导致血糖持续升高的代谢性疾病。
+Diabetes Mellitus Type 1	1型糖尿病。一种因自身免疫破坏胰岛β细胞导致胰岛素绝对缺乏的代谢性疾病。
+Diabetes Mellitus Type 2	2型糖尿病。一种因胰岛素抵抗和相对分泌不足导致血糖持续升高的代谢性疾病。
+Diabetes Mellitus, Non-Insulin-Dependent	非胰岛素依赖型糖尿病。一种因胰岛素抵抗或相对分泌不足导致的慢性代谢性疾病。
+Diabetic Angiopathy	糖尿病血管病变。由长期高血糖引起的血管系统损伤，可累及大血管和微血管。
+Diabetic Cardiovascular Dysfunction	糖尿病性心血管功能障碍。由长期高血糖导致的心脏和血管结构和功能异常。
+Diabetic Complications	糖尿病并发症。由长期血糖控制不良导致的多系统器官损害。
+Diabetic Dyslipidemia	糖尿病性血脂异常。糖尿病患者因胰岛素抵抗和代谢紊乱导致的特征性血脂异常。
+Diabetic Endothelial Dysfunction	糖尿病性内皮功能障碍。一种由高血糖引起的血管内皮细胞功能异常，主要表现为血管舒张功能受损。
+Diabetic Ketoacidosis	糖尿病酮症酸中毒。因胰岛素严重缺乏导致脂肪分解产生酮体，引发代谢性酸中毒的急性并发症。
+Diabetic Nephropathy	糖尿病肾病。由长期糖尿病引起的肾小球硬化及肾功能进行性减退的微血管并发症。
+Diabetic Neuropathy	糖尿病神经病变。一种由长期高血糖损害周围神经导致的糖尿病并发症。
+Diabetic Retinopathy	糖尿病视网膜病变。一种由长期高血糖导致视网膜微血管损伤的糖尿病并发症。
+Diaminoaciduria	二氨基酸尿症。一种因肾小管重吸收障碍导致尿中二氨基酸排泄异常的遗传性代谢疾病。
+Diaphragmatic Paralysis	膈肌麻痹。因膈神经损伤导致膈肌运动功能障碍，引起呼吸困难的一种疾病。
+Diaphragmatic Weakness	膈肌无力。因膈神经损伤或肌肉病变导致膈肌收缩功能减退的病理状态。
+Diaphyseal Cortical Sclerosis	骨干皮质硬化症。一种因骨皮质异常增厚导致骨干膨大和骨髓腔狭窄的骨骼发育异常。
+Diaphyseal Sclerosis	骨干硬化症。一种因骨皮质异常增厚导致骨干膨大和髓腔狭窄的骨发育异常疾病。
+Diaphyseal Thickening	骨干增厚。一种因骨膜新生骨形成导致骨干皮质异常增厚的骨骼病变。
+Diarrhea	腹泻。一种因肠道分泌增多或吸收障碍导致排便次数增多、粪便稀薄的症状。
+Dicarboxylic Aciduria	二羧酸尿症。一种因脂肪酸β氧化缺陷导致尿液中二羧酸异常增多的遗传代谢性疾病。
+Dietary Shortage	营养缺乏症。因长期饮食摄入不足导致必需营养素缺乏的病理状态。
+Difficulty Adjusting From Light To Dark	暗适应障碍。一种因视网膜感光细胞功能异常导致从明亮环境转入暗处时视觉恢复延迟的症状。
+Difficulty Climbing Stairs	爬楼梯困难。一种因下肢肌力减退或关节功能障碍导致的运动受限症状。
+Difficulty Running	跑步困难。一种因肌肉骨骼、神经或心肺系统功能障碍导致的运动能力受限症状。
+Difficulty Standing	站立困难。因神经肌肉功能障碍或骨骼关节病变导致的站立能力受损状态。
+Difficulty Walking	行走困难。因神经、肌肉或骨骼系统功能障碍导致的步行能力受损状态。
+Diffuse Cerebral Atrophy	弥漫性脑萎缩。一种因神经元广泛丧失导致全脑体积缩小的退行性病变。
+Diffuse Hepatic Steatosis	弥漫性肝脂肪变性。一种因肝细胞内脂肪异常蓄积导致肝脏弥漫性病变的代谢性疾病。
+Diffuse Mesangial Sclerosis	弥漫性系膜硬化症。一种以肾小球系膜基质弥漫性增生硬化为特征的慢性肾脏病变。
+Diffuse Nuclear Cataract	弥漫性核性白内障。晶状体核部蛋白质变性导致中央区域弥漫性混浊的年龄相关性病变。
+Dilatation	扩张。一种因管腔压力增高或管壁薄弱导致的器官或管腔病理性扩大状态。
+Dilated Cardiomyopathy	扩张型心肌病。一种以心室扩大和收缩功能障碍为主要特征的原发性心肌疾病。
+Dilated Fourth Ventricle	第四脑室扩张。因脑脊液循环受阻导致第四脑室病理性扩大的脑室系统异常。
+Disabling Peak-Dose Dyskinesias	致残性峰剂量异动症。一种因长期左旋多巴治疗引起的、在血药浓度达峰时出现的严重不自主运动障碍。
+Dislocated Radial Head	桡骨头脱位。桡骨头从肱尺关节或环状韧带中脱离的创伤性损伤。
+Disorders Associated With Nmdar Hypofunction	NMDAR功能低下相关疾病。由N-甲基-D-天冬氨酸受体功能减退引起的精神神经障碍，常见认知缺陷和精神症状。
+Disorders Of Bone Mineralization	骨矿化障碍。因骨基质矿化异常导致骨密度和骨强度降低的代谢性骨病。
+Disorders Of Initiating And Maintaining Sleep	睡眠始发与维持障碍。一种以入睡困难或睡眠维持困难为主要特征的睡眠障碍性疾病。
+Disseminated Intravascular Coagulation	弥散性血管内凝血。一种因凝血系统过度激活导致全身微血栓形成和消耗性凝血障碍的危重症。
+Distal Amyotrophy	远端肌萎缩。一种主要累及四肢远端肌肉的进行性肌纤维萎缩性疾病。
+Distal Lower Limb Amyotrophy	远端下肢肌萎缩。一种因神经损伤导致下肢远端肌肉萎缩的神经系统疾病。
+Distal Lower Limb Muscle Weakness	远端下肢肌无力。一种因神经或肌肉病变导致的足部和下肢远端肌肉力量减退的症状。
+Distal Muscle Weakness	远端肌无力。一种以四肢末端肌肉力量减退为主要特征的神经肌肉疾病。
+Distal Renal Tubular Acidosis	远端肾小管酸中毒。一种因远端肾小管泌氢功能障碍导致的代谢性酸中毒。
+Distal Sensory Impairment	远端感觉障碍。一种因周围神经病变导致四肢末端感觉减退或缺失的神经系统症状。
+Distal Sensory Impairment Of All Modalities	远端全感觉障碍。一种表现为四肢末端所有感觉形态减退或消失的神经病变。
+Distal Upper Limb Muscle Weakness	远端上肢肌无力。一种因神经损伤或肌肉病变导致手部和前臂肌力减退的临床症状。
+Dorsocervical Fat Pad	颈背脂肪垫。一种因长期皮质醇增多导致的颈背部脂肪异常堆积，常见于库欣综合征患者。
+Downbeat Nystagmus	下跳性眼震。一种由小脑病变引起的眼球不自主向下跳动的眼球震颤。
+Doxorubicin-Induced Apoptosis	多柔比星诱导的细胞凋亡。一种由蒽环类抗肿瘤药物多柔比星触发程序性细胞死亡的病理过程。
+Drooling	流涎症。一种因唾液分泌过多或吞咽功能障碍导致唾液不自主外流的状态。
+Drowsiness	嗜睡症。一种以持续或过度困倦、难以保持清醒状态为特征的睡眠障碍。
+Drug Allergy	药物过敏。一种由特定药物引发的异常免疫反应，可导致皮疹、呼吸困难等症状。
+Drug Dependence	药物依赖。一种因反复使用成瘾性物质导致生理和心理渴求的慢性复发性脑病。
+Drug-Induced Dyskinesias	药物诱发性运动障碍。因长期使用多巴胺能药物引起的异常不自主运动综合征。
+Drusen	玻璃膜疣。一种因视网膜色素上皮细胞代谢产物沉积形成的黄色小体，常见于年龄相关性黄斑变性。
+Dry Hair	干发症。一种因皮脂分泌不足或过度清洁导致头发干燥、易断裂的常见症状。
+Dry Skin	皮肤干燥症。一种因皮脂分泌减少或环境因素导致皮肤缺乏油脂和水分的状态。
+Duchenne Muscular Dystrophy	杜氏肌营养不良症。一种由抗肌萎缩蛋白基因突变引起的进行性肌肉萎缩和无力遗传病。
+Duodenal Ulcer	十二指肠溃疡。一种因胃酸和胃蛋白酶消化作用导致的十二指肠黏膜局限性缺损。
+Dysarthria	构音障碍。一种因神经系统损伤导致发音器官运动控制失调的言语障碍。
+Dyscalculia	计算障碍。一种因大脑对数字信息处理异常导致数学能力显著受损的特定学习障碍。
+Dysdiadochokinesis	轮替运动障碍。一种因小脑病变导致快速交替运动能力受损的神经系统体征。
+Dysesthesia	感觉迟钝。一种由神经系统损伤引起的异常感觉，表现为自发性或诱发性的不适感。
+Dysgenesis Of The Cerebellar Vermis	小脑蚓部发育不全。一种因胚胎期小脑蚓部发育异常导致的先天性畸形。
+Dysgerminoma	卵巢无性细胞瘤。一种起源于卵巢原始生殖细胞的恶性肿瘤，多见于年轻女性。
+Dysgraphia	书写障碍。一种因神经发育异常导致书写能力受损的学习障碍。
+Dyskinesia	运动障碍。一种因神经系统功能异常导致的不自主运动疾病。
+Dyskinesia, Drug-Induced	药物性运动障碍。因长期使用多巴胺受体阻滞剂等药物引起的异常不自主运动综合征。
+Dyslexia	阅读障碍。一种由神经发育异常导致的以字词识别困难为主要表现的学习障碍。
+Dyslipidemia	血脂异常。一种因脂质代谢紊乱导致血浆脂质水平和组分异常的代谢性疾病。
+Dysmenorrhea	痛经。一种因前列腺素分泌增加引起子宫痉挛性收缩的妇科常见症状。
+Dyspareunia	性交疼痛。一种在性交过程中出现持续性或反复性生殖器疼痛的临床症状。
+Dysphagia	吞咽困难。一种因食道功能障碍或神经肌肉疾病导致的吞咽能力受损症状。
+Dysphasia	言语障碍。一种因大脑语言中枢受损导致语言理解和表达功能受损的神经功能障碍。
+Dysphonia	发声障碍。一种因声带或喉部神经病变导致声音质量异常的嗓音疾病。
+Dysphoric Mood	心境不良。一种以烦躁、焦虑和不满感为特征的情绪状态。
+Dysplastic Gangliocytoma Of The Cerebellum	小脑发育不良性神经节细胞瘤。一种罕见的小脑良性肿瘤，由发育异常的神经节细胞构成，常导致共济失调。
+Dyspnea	呼吸困难。一种主观感受到呼吸费力或气不够用的常见临床症状。
+Dysregulation Of Apoptosis	细胞凋亡失调。一种因细胞程序性死亡过程失控导致的疾病，可引发过度增殖或异常清除。
+Dystrophic Fingernails	营养不良性指甲。因局部营养障碍或外伤导致的指甲形态、质地异常。
+Dysuria	排尿困难。一种因尿道或膀胱刺激导致排尿时疼痛或灼热感的症状。
+Early Stage Hormone Sensitive Prostate Cancer	早期激素敏感性前列腺癌。一种对雄激素剥夺治疗敏感且局限于前列腺区域的恶性肿瘤。
+Easy Fatigability	易疲劳。一种以持续或过早出现疲劳感为主要特征的非特异性症状。
+Ecchymosis	瘀斑。皮下出血导致的紫红色皮肤变色，常见于外伤或凝血功能障碍。
+Echolalia	模仿言语。一种不自主地重复他人话语的症状，常见于孤独症谱系障碍及抽动秽语综合征。
+Eclampsia	子痫。妊娠期高血压疾病的最严重阶段，以新发抽搐或昏迷为特征。
+Ectopic Kidney	异位肾。一种因胚胎期肾脏未能正常上升至腰部而位于盆腔、腹部等非常规位置的先天性畸形。
+Eczema	湿疹。一种由内外因素引起的皮肤炎症反应，以剧烈瘙痒和皮疹多形性为特征。
+Eczematoid Dermatitis	湿疹样皮炎。一种表现为红斑、丘疹和水疱的皮肤炎症反应，常由过敏或刺激因素引发。
+Edema	水肿。组织间隙过量的体液潴留导致的局部或全身性肿胀。
+Edema Of The Dorsum Of Hands	手背水肿。因局部炎症、过敏或循环障碍导致手背部组织间隙液体异常积聚的体征。
+Edema Of The Lower Limbs	下肢水肿。因液体在组织间隙异常积聚导致的下肢肿胀症状。
+Eeg Abnormality	脑电图异常。一种脑电活动模式偏离正常范围的生理学改变，常提示中枢神经系统功能障碍。
+Eicosanoid-Mediated Disorders	类二十烷酸介导疾病。由类二十烷酸代谢异常引起的一类涉及炎症反应和免疫调节紊乱的疾病。
+Elbow Ankylosis	肘关节强直。因创伤、炎症或手术导致肘关节活动度丧失的病理状态。
+Elbow Dislocation	肘关节脱位。一种因外力导致尺桡骨与肱骨远端关节面对合关系失常的损伤。
+Elbow Flexion Contracture	肘关节屈曲挛缩。因关节周围软组织挛缩导致肘关节无法完全伸展的病理状态。
+Elevated 8(9)-Cholestenol	8(9)-胆甾烯醇升高症。一种因固醇27-羟化酶缺陷导致胆甾烯醇异常蓄积的遗传代谢病。
+Elevated 8-Dehydrocholesterol	8-脱氢胆固醇升高症。一种因DHCR7基因突变导致胆固醇合成障碍的先天性代谢缺陷。
+Elevated Alkaline Phosphatase	碱性磷酸酶升高。血清碱性磷酸酶水平高于正常值，常见于肝胆疾病或骨骼病变。
+Elevated Alkaline Phosphatase Of Bone Origin	骨源性碱性磷酸酶升高。因成骨细胞活性增强导致血清碱性磷酸酶水平升高的病理状态。
+Elevated Alpha-Fetoprotein	甲胎蛋白升高。一种血清甲胎蛋白水平异常增高的病理状态，常见于肝癌、畸胎瘤等疾病。
+Elevated Apolipoprotein A-Ii Level	载脂蛋白A-II升高症。一种因载脂蛋白A-II水平异常增高导致的脂质代谢紊乱。
+Elevated Apolipoprotein B Level	载脂蛋白B水平升高。一种因载脂蛋白B浓度异常增高导致动脉粥样硬化风险升高的代谢异常状态。
+Elevated C-Reactive Protein Level	C反应蛋白升高。一种由感染、炎症或组织损伤引发的急性时相反应蛋白水平增高状态。
+Elevated Calcitonin	降钙素升高。一种因甲状腺C细胞分泌过多降钙素导致的激素异常状态。
+Elevated Circulating Catecholamine Level	循环儿茶酚胺水平升高。一种因嗜铬细胞瘤或应激导致血液中肾上腺素和去甲肾上腺素浓度异常增高的病理状态。
+Elevated Circulating Follicle Stimulating Hormone Level	卵泡刺激素水平升高。一种因卵巢功能减退或下丘脑-垂体轴异常导致血清FSH浓度超出正常范围的病理状态。
+Elevated Circulating Luteinizing Hormone Level	黄体生成素水平升高。一种因下丘脑-垂体-性腺轴功能紊乱导致血清黄体生成素异常增高的病理状态。
+Elevated Circulating Parathyroid Hormone Level	高循环甲状旁腺激素水平。一种因甲状旁腺功能亢进或代偿性升高导致血钙代谢异常的病理状态。
+Elevated Creatine Kinase After Exercise	运动后肌酸激酶升高。因剧烈运动导致肌肉损伤而引起的血清肌酸激酶水平暂时性增高。
+Elevated Diastolic Blood Pressure	舒张期高血压。一种以舒张压持续高于90mmHg为主要特征的心血管异常状态。
+Elevated Erythrocyte Sedimentation Rate	红细胞沉降率增高。一种非特异性炎症指标升高，常见于感染、风湿性疾病及组织损伤等病理状态。
+Elevated Hemoglobin A1C	糖化血红蛋白升高。一种反映过去2-3个月平均血糖水平的临床指标升高状态。
+Elevated Hepatic Iron Concentration	肝铁浓度升高。肝脏中铁含量异常增高的病理状态，常由遗传性血色素沉着症或输血性铁过载引起。
+Elevated Hepatic Transaminase	肝转氨酶升高。由肝细胞损伤或炎症导致血液中转氨酶水平异常增高的病理状态。
+Elevated Intracellular Cystine	细胞内胱氨酸蓄积症。一种因胱氨酸转运蛋白缺陷导致胱氨酸在细胞内异常蓄积的遗传代谢病。
+Elevated Levels Of Phytanic Acid	植烷酸升高症。一种因植烷酸代谢障碍导致其在血液中异常蓄积的遗传代谢性疾病。
+Elevated Long Chain Fatty Acids	长链脂肪酸升高症。因脂肪酸代谢障碍导致血液中长链脂肪酸浓度异常增高的病理状态。
+Elevated Mean Arterial Pressure	平均动脉压增高。一种因外周血管阻力增加或心输出量升高导致的动脉平均压力持续升高状态。
+Elevated Plasma Acylcarnitine Levels	血浆酰基肉碱水平升高。一种因脂肪酸氧化代谢障碍导致酰基肉碱在血液中异常蓄积的代谢紊乱。
+Elevated Plasma Branched Chain Amino Acids	血浆支链氨基酸升高。血液中亮氨酸、异亮氨酸和缬氨酸浓度异常增高的代谢紊乱状态。
+Elevated Plasma Citrulline	血浆瓜氨酸升高。一种因尿素循环障碍或肠道功能异常导致血浆瓜氨酸水平增高的代谢异常。
+Elevated Red Cell Adenosine Deaminase Activity	红细胞腺苷脱氨酶活性增高。一种因红细胞内腺苷脱氨酶活性异常升高导致的代谢紊乱，常见于免疫缺陷疾病。
+Elevated Serum 11-Deoxycortisol	血清11-脱氧皮质醇升高。因11β-羟化酶缺乏导致皮质醇前体物质蓄积的代谢异常。
+Elevated Serum Acid Phosphatase	血清酸性磷酸酶升高。血清中酸性磷酸酶水平增高，常见于前列腺癌或骨转移等疾病。
+Elevated Serum Creatine Phosphokinase	血清肌酸磷酸激酶升高。血清中肌酸磷酸激酶水平异常增高，常见于肌肉损伤或心肌梗死。
+Elevated Serum Creatinine	血清肌酐升高。指血液中肌酐浓度超出正常范围，通常反映肾功能受损或肾小球滤过率下降。
+Elevated Serum Long-Chain Fatty Acids	血清长链脂肪酸升高。血液中长链脂肪酸浓度异常增高，常见于代谢紊乱或脂肪酸氧化障碍。
+Elevated Sweat Chloride	汗液氯化物增高症。一种因囊性纤维化跨膜传导调节蛋白基因突变导致汗液中氯化物浓度升高的遗传性疾病。
+Elevated Systolic Blood Pressure	收缩期血压升高。一种以收缩压持续高于正常值但未达高血压诊断标准为特征的心血管状态。
+Elevated Tissue Non-Specific Alkaline Phosphatase	组织非特异性碱性磷酸酶升高。一种因骨骼疾病、肝胆病变等导致血清中该酶水平升高的病理状态。
+Elevated Transferrin Saturation	转铁蛋白饱和度升高。一种因铁代谢异常导致血清转铁蛋白结合铁能力过高的病理状态。
+Elevated Urinary Catecholamines	尿儿茶酚胺增高。尿液中儿茶酚胺类物质浓度异常升高，常见于嗜铬细胞瘤等疾病。
+Elevated Urinary Delta-Aminolevulinic Acid	尿δ-氨基酮戊酸升高。尿液中δ-ALA含量异常增高，主要用于诊断铅中毒和卟啉病。
+Elevated Urinary Dopamine	尿多巴胺升高。尿液中多巴胺水平异常增高，常与嗜铬细胞瘤或神经内分泌肿瘤相关。
+Elevated Urinary Epinephrine	尿肾上腺素增高。尿液中肾上腺素水平升高，常由嗜铬细胞瘤或应激反应引起。
+Elevated Urinary Homovanillic Acid	尿高香草酸升高。尿液中高香草酸水平异常增高，常见于神经母细胞瘤等儿茶酚胺代谢异常疾病。
+Elevated Urinary Norepinephrine	尿去甲肾上腺素升高。尿液中去甲肾上腺素水平异常增高，常由嗜铬细胞瘤或应激反应引起。
+Elevated Urinary Vanillylmandelic Acid	尿香草扁桃酸升高。尿液中儿茶酚胺代谢产物增多，提示嗜铬细胞瘤等神经内分泌肿瘤可能。
+Elliptocytosis	椭圆形红细胞增多症。一种由红细胞膜蛋白基因突变导致红细胞呈椭圆形的遗传性溶血性贫血。
+Emg Abnormality	肌电图异常。一种由神经或肌肉病变导致的电生理活动异常表现。
+Emotional Blunting	情感迟钝。一种以情感反应减弱、表情贫乏为特征的精神症状，常见于抑郁症或精神分裂症。
+Emotional Diseases	情绪障碍。由心理因素引发以情绪失调为核心症状的精神疾病总称。
+Emotional Lability	情绪不稳。一种因神经系统调节异常导致情绪表达失控、易快速波动的病理状态。
+Emphysema	肺气肿。一种因肺泡壁破坏导致肺弹性减退、气体交换障碍的慢性肺部疾病。
+Encephalitis	脑炎。一种由感染或自身免疫反应引起的脑实质炎症性疾病。
+Endometrial Neoplasms	子宫内膜肿瘤。起源于子宫内膜上皮细胞的异常增生性疾病，包括良性与恶性病变。
+Endometriosis	子宫内膜异位症。一种因子宫内膜组织异位生长于子宫外部位引起的慢性炎症性疾病。
+Endotoxin-Mediated Diseases	内毒素介导性疾病。由革兰氏阴性菌内毒素引发全身性炎症反应的一类疾病。
+Enlarged Cisterna Magna	大池扩大。一种因脑脊液循环异常或小脑萎缩导致后颅窝脑池扩大的先天性发育异常。
+Enlarged Joints	关节肿大。关节因炎症、积液或骨质增生导致的体积增大现象。
+Enlarged Polycystic Ovaries	多囊卵巢增大。一种因内分泌代谢异常导致卵巢增大并伴多囊样改变的常见妇科疾病。
+Enlargement Of The Ankles	踝部肿大。因水肿、炎症或组织增生导致的踝关节周围软组织体积增大。
+Enlargement Of The Wrists	腕部增大。因骨骼异常增生或软组织肿胀导致的腕关节区域体积增大。
+Enterocolitis	小肠结肠炎。一种由感染或炎症引起小肠和结肠黏膜同时受累的消化道疾病。
+Enteroviral Dermatomyositis Syndrome	肠道病毒性皮肌炎综合征。由肠道病毒感染引起的以皮肤红斑和近端肌群炎症为特征的疾病。
+Enteroviral Hepatitis	肠道病毒性肝炎。由肠道病毒感染引起的肝脏炎症性疾病。
+Enthesitis	附着点炎。肌腱、韧带或关节囊附着于骨骼处的炎症性疾病，常伴疼痛和僵硬。
+Enuresis	遗尿症。一种在睡眠中不自主排尿的疾病，常见于儿童，多与发育延迟或遗传因素相关。
+Eosinophilia	嗜酸性粒细胞增多症。一种外周血嗜酸性粒细胞计数异常增高的病理状态，常见于过敏性疾病或寄生虫感染。
+Ependymoma	室管膜瘤。一种起源于脑室或脊髓中央管室管膜细胞的神经上皮肿瘤。
+Epidermal Hyperplasia	表皮增生。一种因表皮细胞过度增殖导致皮肤或黏膜层增厚的病理改变。
+Epididymitis	附睾炎。一种由细菌感染或尿液反流引起的附睾急性或慢性炎症性疾病。
+Epilepsy	癫痫。一种由脑部神经元异常放电引起的慢性脑功能障碍性疾病。
+Epilepsy, Frontal Lobe	额叶癫痫。一种起源于额叶皮层，以突发性运动症状和夜间发作为特征的局灶性癫痫综合征。
+Epileptic Encephalopathy	癫痫性脑病。一种由癫痫活动导致进行性脑功能障碍的严重神经系统疾病。
+Epileptic Seizures	癫痫发作。由脑部神经元异常放电引起的短暂性功能障碍。
+Epileptic Spasms	癫痫性痉挛。一种婴儿期出现的癫痫发作类型，特征为成串的点头、弯腰或抱球样动作。
+Epiphora	溢泪。因泪液分泌过多或排出受阻导致的持续性流泪症状。
+Epiphyseal Dysplasia	骨骺发育不良。一种因骨骺生长板发育异常导致身材矮小和关节畸形的遗传性骨病。
+Episodic Abdominal Pain	发作性腹痛。一种以反复发作的腹部疼痛为主要特征的临床症状。
+Episodic Ammonia Intoxication	发作性氨中毒。一种因尿素循环缺陷导致血氨周期性升高的代谢性疾病。
+Episodic Ataxia	发作性共济失调。一种由离子通道基因突变导致反复发作性运动协调障碍的神经系统疾病。
+Episodic Fever	发作性发热。一种以反复发作的发热为特征，常由感染、炎症或自身免疫性疾病引起的症状。
+Episodic Flaccid Weakness	发作性弛缓性无力。一种以反复发作的肌肉张力减退和肌力丧失为特征的神经系统症状。
+Episodic Generalized Hypotonia	发作性全身肌张力减退。一种以反复发作的全身性肌肉张力突然降低为特征的神经系统疾病。
+Episodic Hemiplegia	发作性偏瘫。一种以反复发作的单侧肢体瘫痪为特征的神经系统疾病。
+Episodic Hyperhidrosis	发作性多汗症。一种以短暂、反复发作的全身或局部汗液分泌过多为特征的自主神经功能紊乱。
+Episodic Hypertension	发作性高血压。一种以阵发性血压骤升为特征，常由嗜铬细胞瘤等病因引发的临床综合征。
+Episodic Hypokalemia	发作性低钾血症。一种因钾摄入不足或丢失过多导致血钾周期性降低的电解质紊乱。
+Episodic Ketoacidosis	发作性酮症酸中毒。一种因代谢紊乱导致酮体蓄积，反复出现酸中毒发作的病症。
+Episodic Metabolic Acidosis	发作性代谢性酸中毒。一种因有机酸蓄积或碱丢失导致反复发作的血浆碳酸氢盐浓度降低的病理状态。
+Episodic Paroxysmal Anxiety	发作性焦虑障碍。一种以反复突发性强烈恐惧和躯体症状为特征的焦虑症。
+Episodic Peripheral Neuropathy	发作性周围神经病。一种以反复发作的肢体感觉或运动障碍为特征的周围神经病变。
+Episodic Quadriplegia	发作性四肢瘫痪。一种因周期性血钾异常导致短暂性四肢弛缓性瘫痪的神经肌肉疾病。
+Episodic Respiratory Distress	发作性呼吸窘迫。一种以反复发作的呼吸困难、呼吸频率异常为主要特征的临床症状。
+Episodic Vomiting	发作性呕吐。一种以反复、突发性呕吐发作为特征的功能性胃肠病。
+Epispadias	尿道上裂。一种先天性尿道开口位于阴茎背侧的泌尿系统畸形。
+Epistaxis	鼻出血。一种因鼻腔血管破裂导致血液从前鼻孔流出的常见症状。
+Er Beta-Positive Prostate Tumors	雌激素受体β阳性前列腺肿瘤。一种表达雌激素受体β的前列腺肿瘤，与激素调控异常相关。
+Erectile Dysfunction	勃起功能障碍。一种因血流不足或神经损伤导致无法获得或维持足够勃起的病理状态。
+Eruptive Xanthomas	发疹性黄瘤。一种因高甘油三酯血症导致皮肤出现黄色丘疹的脂质代谢障碍性疾病。
+Erythema	红斑。一种因皮肤毛细血管扩张充血导致的局部皮肤发红现象。
+Erythematous Plaque	红斑块。一种因局部炎症或血管扩张导致的皮肤红色斑块状病变。
+Erythroderma	红皮病。一种以全身皮肤弥漫性潮红、脱屑为主要特征的严重炎症性皮肤病。
+Erythroid Hypoplasia	红系细胞发育不全。一种因骨髓红系前体细胞减少导致红细胞生成障碍的血液疾病。
+Erythromelalgia	红斑肢痛症。一种以四肢末端阵发性血管扩张、皮肤温度升高和灼痛为特征的血管功能障碍性疾病。
+Esophageal Neoplasms	食管肿瘤。起源于食管上皮或间叶组织的异常增生性疾病，可表现为吞咽困难等症状。
+Esophageal Stricture	食管狭窄。由食管壁损伤后瘢痕形成或肿瘤压迫导致的管腔持续性缩窄。
+Esophageal Ulceration	食管溃疡。食管黏膜因胃酸反流、感染或药物损伤形成的局限性深层缺损。
+Esophageal Varix	食管静脉曲张。一种因门静脉高压导致食管黏膜下静脉异常扩张的病理状态。
+Esophagitis	食管炎。食管黏膜的炎症性疾病，常由胃酸反流或感染引起。
+Esotropia	内斜视。一种因眼外肌功能失调导致单眼或双眼向内偏斜的眼位异常。
+Essential Hypertension	原发性高血压。一种病因未明，以动脉血压持续升高为主要表现的心血管综合征。
+Essential Thrombocythemia	原发性血小板增多症。一种以骨髓巨核细胞过度增殖导致外周血小板持续增多为特征的克隆性骨髓增殖性肿瘤。
+Estrogen Disorders	雌激素紊乱。因雌激素分泌异常导致的内分泌失调疾病，常表现为月经紊乱或代谢异常。
+Ethylmalonic Aciduria	乙基丙二酸尿症。一种因ETHE1基因突变导致乙基丙二酸蓄积的有机酸代谢障碍性疾病。
+Everted Lower Lip Vermilion	下唇外翻。一种因口轮匝肌松弛或外伤导致下唇黏膜向外翻转的解剖异常。
+Ewing's Sarcoma	尤因肉瘤。一种主要发生于儿童和青少年长骨或骨盆的恶性小圆细胞肿瘤。
+Exaggerated Startle Response	惊跳反应过度。一种对轻微刺激产生过度强烈惊吓反应的神经系统异常表现。
+Excessive Collagen Deposition	胶原过度沉积。一种因胶原蛋白合成与降解失衡导致结缔组织异常增生的病理状态。
+Excessive Daytime Sleepiness	日间过度嗜睡。一种以日间难以保持清醒和清醒度下降为主要特征的睡眠障碍症状。
+Excessive Postoperative Bleeding	术后出血过多。因手术创伤导致血管损伤或凝血功能障碍引起的异常大量出血。
+Excessive Salivation	唾液分泌过多。一种因唾液腺过度活跃或神经调节异常导致唾液分泌量显著增多的症状。
+Exercise Intolerance	运动不耐受。因心肺功能异常或代谢障碍导致机体对体力活动耐受能力下降的病理状态。
+Exercise-Induced Muscle Cramps	运动性肌肉痉挛。一种因剧烈运动导致肌肉不自主强直收缩的急性疼痛症状。
+Exercise-Induced Muscle Fatigue	运动性肌肉疲劳。因运动导致肌肉收缩能力暂时下降的生理现象，常伴有无力感和酸痛。
+Exercise-Induced Muscle Stiffness	运动性肌肉僵硬。因剧烈运动后乳酸堆积或肌肉微损伤导致的肌肉僵硬和活动受限。
+Exercise-Induced Myalgia	运动性肌痛。一种因剧烈运动导致肌肉组织损伤引发的疼痛综合征。
+Exercise-Induced Myoglobinuria	运动性肌红蛋白尿。因剧烈运动导致横纹肌溶解，肌红蛋白释放入尿液的病理状态。
+Exercise-Induced Rhabdomyolysis	运动性横纹肌溶解症。因剧烈运动导致横纹肌细胞破坏、肌红蛋白释放入血的临床综合征。
+Exertional Dyspnea	劳力性呼吸困难。一种在体力活动时出现呼吸困难的症状，常见于心肺疾病患者。
+Exostoses	外生骨疣。一种由软骨帽覆盖的良性骨肿瘤，通常表现为骨表面的无痛性隆起。
+Exotropia	外斜视。一种眼位异常疾病，表现为单眼或双眼持续性向外偏斜。
+External Ophthalmoplegia	外眼肌麻痹。由眼外肌运动神经受损导致的眼球运动障碍。
+Extraadrenal Pheochromocytoma	肾上腺外嗜铬细胞瘤。一种发生于肾上腺外嗜铬组织的、分泌儿茶酚胺的神经内分泌肿瘤。
+Extrahepatic Cholestasis	肝外胆汁淤积。因肝外胆管阻塞导致胆汁排出受阻的病理状态。
+Extramedullary Hematopoiesis	髓外造血。一种在骨髓外组织如肝脾中代偿性生成血细胞的病理过程。
+Exudative Age-Related Macular Degeneration	渗出性年龄相关性黄斑变性。一种因黄斑区脉络膜新生血管渗漏出血导致中心视力丧失的眼底疾病。
+Eye Diseases	眼病。泛指影响视觉系统结构和功能的各种疾病总称。
+Eye Inflammation	眼炎。由感染、外伤或自身免疫反应引起的眼球及附属器官炎症性疾病。
+Eyelid Coloboma	眼睑缺损。一种因胚胎期眼睑发育不全导致的先天性眼睑全层组织缺损。
+Eyelid Myoclonias	眼睑肌阵挛。一种表现为眼睑不自主、快速、重复抽动的运动障碍疾病。
+Eyelid Myokymia	眼睑肌纤维颤搐。一种由疲劳、压力或咖啡因等因素诱发的眼轮匝肌微细震颤。
+Facial Diplegia	面部双瘫。一种因双侧第七对脑神经同时受损导致两侧面部肌肉瘫痪的神经系统疾病。
+Facial Flushing After Alcohol Intake	酒精性面部潮红。因乙醛脱氢酶活性不足导致饮酒后面部血管扩张的生理反应。
+Facial Myokymia	面肌纤维颤搐。一种由面神经异常放电引起的面部肌肉持续、波浪样不自主收缩的神经系统症状。
+Facial Palsy	面瘫。一种因面神经受损导致面部肌肉运动功能丧失的周围性神经疾病。
+Facial Paralysis	面瘫。一种因面神经受损导致面部肌肉运动功能丧失的神经系统疾病。
+Facial Telangiectasia	面部毛细血管扩张症。一种因皮肤浅表血管持续性扩张导致面部出现红色细线状皮损的血管病变。
+Fair Hair	金发。一种由黑色素生成减少或分布不均导致的毛发颜色变浅的遗传性状。
+Falls	跌倒。因意外从高处或同一平面坠落导致的身体损伤事件。
+Fasciculations	肌束震颤。一种因运动神经元自发放电导致的骨骼肌肌束不自主细微抽动。
+Fasting Hyperinsulinemia	空腹高胰岛素血症。一种以空腹状态下胰岛素水平异常升高为特征的代谢紊乱，常与胰岛素抵抗相关。
+Fasting Hypoglycemia	空腹低血糖。一种因长时间禁食导致血糖水平异常降低的代谢紊乱状态。
+Fat Malabsorption	脂肪吸收不良。因消化酶缺乏或肠道病变导致脂肪消化吸收障碍的病症。
+Fatigable Weakness	易疲劳性肌无力。一种在持续活动后肌力减退、休息后缓解的神经肌肉接头疾病。
+Fatigable Weakness Of Bulbar Muscles	延髓肌易疲劳性无力。一种因神经肌肉接头传递障碍导致延髓支配肌群活动后无力加重的自身免疫性疾病。
+Fatigable Weakness Of Distal Limb Muscles	远端肢体肌肉易疲劳性无力。一种表现为四肢末端肌力进行性下降且易疲劳的神经肌肉疾病。
+Fatigable Weakness Of Neck Muscles	颈肌易疲劳性无力。一种因神经肌肉接头传递障碍导致颈部肌肉活动后无力加重的症状。
+Fatigable Weakness Of Respiratory Muscles	呼吸肌易疲劳性无力。一种因神经肌肉接头功能障碍导致呼吸肌在活动后出现异常疲乏的病症。
+Fatigable Weakness Of Swallowing Muscles	吞咽肌易疲劳性无力。一种因神经肌肉接头传递障碍导致吞咽肌活动后无力加重的症状。
+Fatiguable Weakness Of Proximal Limb Muscles	近端肢体肌肉易疲劳性无力。一种因神经肌肉接头传递障碍导致肢体近端肌力进行性下降的疾病。
+Fatigue	疲劳。一种以持续倦怠、精力不足为主要表现的主观症状，常与生理或心理因素相关。
+Fatty Replacement Of Skeletal Muscle	骨骼肌脂肪替代。一种因肌肉组织被脂肪细胞取代导致进行性肌无力的退行性病变。
+Fava Bean-Induced Hemolytic Anemia	蚕豆病。一种因食用蚕豆或接触花粉后诱发红细胞破坏的遗传性溶血性疾病。
+Febrile Seizures	热性惊厥。一种婴幼儿期因发热诱发的良性、自限性惊厥发作。
+Feeding Difficulties	喂养困难。因口腔运动功能障碍或吞咽协调异常导致的进食障碍。
+Feeding Difficulties In Infancy	婴儿喂养困难。指婴幼儿因口腔运动功能障碍或行为问题导致的进食障碍。
+Female Hypogonadism	女性性腺功能减退症。一种因卵巢功能衰竭导致雌激素水平不足的内分泌疾病。
+Female Infertility	女性不孕症。因生殖系统结构异常、内分泌失调或排卵障碍等导致女性无法受孕的疾病。
+Female Sexual Dysfunction	女性性功能障碍。由生理、心理或社会因素引起的女性性反应周期持续或反复出现的障碍。
+Femoral Bowing	股骨弯曲。一种因先天性发育异常或代谢性骨病导致的股骨向前或向外弓状畸形的病理状态。
+Femoral Hernia	股疝。腹腔内脏器通过股环向股管突出的腹外疝。
+Fever	发热。因致热原作用或体温调节中枢功能障碍导致的病理性体温升高。
+Fibroadenoma Of The Breast	乳腺纤维腺瘤。一种由腺体和纤维组织构成的良性肿瘤，常见于年轻女性，通常表现为无痛性肿块。
+Fibroma	纤维瘤。一种由纤维结缔组织过度增生形成的良性肿瘤。
+Fibrosarcoma	纤维肉瘤。一种由成纤维细胞恶性增殖形成的软组织恶性肿瘤。
+Fibrosing Alveolitis	纤维化性肺泡炎。一种以肺泡壁进行性纤维化和炎症导致肺弥散功能下降的间质性肺疾病。
+Fibrosis	纤维化。组织器官因慢性炎症或损伤导致结缔组织异常增生的病理改变。
+Fine Hair	细发。一种毛发直径较正常偏细的生理性或遗传性特征。
+Finger Clinodactyly	手指弯曲畸形。一种因指骨发育异常导致手指向桡侧或尺侧偏斜的先天性畸形。
+Finger Swelling	手指肿胀。因局部炎症、创伤或循环障碍导致的手指组织液体积聚。
+Firm Muscles	肌肉强直。一种因肌肉持续不自主收缩导致肌张力异常增高的病理状态。
+First Dorsal Interossei Muscle Atrophy	第一骨间背侧肌萎缩。一种因尺神经深支损伤导致手部虎口区肌肉萎缩的神经肌肉疾病。
+Flavivirus Infection	黄病毒感染。由黄病毒科病毒引起，经蚊虫或蜱传播的急性传染病，常见发热、皮疹及神经系统症状。
+Flexion Contracture	屈曲挛缩。因关节周围软组织病变导致关节无法完全伸直的状态。
+Flexion Contracture Of Finger	手指屈曲挛缩。因肌腱、韧带或皮肤挛缩导致手指无法完全伸直的一种畸形状态。
+Flexion Contracture Of Toe	趾屈曲挛缩。因肌腱缩短或关节僵硬导致足趾持续性异常弯曲的畸形状态。
+Flushing	潮红。一种因血管扩张导致面部、颈部或胸部皮肤暂时性发红和发热的症状。
+Focal Clonic Seizures	局灶性阵挛发作。一种由大脑局部异常放电引起的、表现为身体特定部位节律性抽动的癫痫发作类型。
+Focal Cortical Dysplasia Type Ii	局灶性皮质发育不良II型。一种由皮层神经元迁移障碍导致药物难治性癫痫的先天性脑畸形。
+Focal Dystonia	局灶性肌张力障碍。一种由中枢神经系统功能障碍引起的、特定身体部位出现不自主肌肉收缩的神经系统疾病。
+Focal Impaired Awareness Seizure	局灶性意识障碍性发作。一种起源于大脑局部区域并伴有意识障碍的癫痫发作类型。
+Focal Ischemia	局灶性脑缺血。因局部脑组织血流中断导致氧和葡萄糖供应不足的缺血性损伤。
+Focal Myoclonic Seizures	局灶性肌阵挛发作。一种由大脑局部异常放电引起的、以特定肌群短暂快速抽动为特征的癫痫发作类型。
+Focal Segmental Glomerulosclerosis	局灶节段性肾小球硬化。一种以部分肾小球节段性硬化为特征的肾小球疾病，常导致蛋白尿和肾功能下降。
+Focal Seizures, Afebril	局灶性癫痫发作，无热性。一种不伴发热、由大脑局部神经元异常放电引起的短暂性神经功能障碍。
+Focal Tonic Seizures	局灶性强直发作。一种由大脑局部异常放电引起的癫痫发作，表现为身体特定部位持续性肌肉僵硬。
+Focal-Onset Seizure	局灶性发作。一种起源于大脑局部区域的癫痫发作，可伴意识障碍或局灶性神经症状。
+Folate-Unresponsive Megaloblastic Anemia	叶酸无反应性巨幼细胞性贫血。一种对叶酸治疗无效、由维生素B12缺乏或吸收障碍引起的巨幼红细胞增生异常。
+Follicular Thyroid Carcinoma	滤泡状甲状腺癌。一种起源于甲状腺滤泡上皮细胞、易发生血行转移的恶性肿瘤。
+Foot Acroosteolysis	足部肢端骨质溶解症。一种因遗传、代谢或环境因素导致足部末端指/趾骨进行性骨质吸收的病理改变。
+Foot Osteomyelitis	足部骨髓炎。由细菌感染引起的足部骨骼及骨髓组织的化脓性炎症。
+Fractures Of The Long Bones	长骨骨折。因外力作用导致四肢长骨连续性中断的常见创伤性疾病。
+Freckling	雀斑。一种因皮肤黑色素细胞局部增多形成的褐色点状色素沉着斑。
+Frequent Falls	频繁跌倒。一种因平衡功能障碍或神经系统疾病导致反复意外跌倒的临床症状。
+Frontal Balding	额部脱发。一种因雄激素作用导致前额发际线后退的常见脱发类型。
+Frontal Lobe Epilepsy	额叶癫痫。一种起源于额叶皮层，以突发性运动症状和夜间发作为特征的局灶性癫痫。
+Frontalis Muscle Weakness	额肌无力。一种因额肌收缩功能减退导致前额皮肤皱纹减少或消失的神经肌肉疾病。
+Frontotemporal Cerebral Atrophy	额颞叶脑萎缩。一种以额叶和颞叶进行性神经元退变为特征的神经退行性疾病。
+Frontotemporal Dementia	额颞叶痴呆。一种由额叶和颞叶神经元退行性病变导致的人格改变和行为障碍疾病。
+Fulminant Hepatic Failure	暴发性肝衰竭。由严重肝损伤导致肝功能迅速恶化，出现肝性脑病和凝血障碍的临床综合征。
+Functional Intestinal Obstruction	功能性肠梗阻。一种因肠道动力障碍导致内容物通过受阻但无机械性阻塞的病理状态。
+Functional Motor Deficit	功能性运动障碍。一种由心理因素而非器质性病变导致的运动功能异常。
+Fundus Albipunctatus	眼底白点症。一种先天性视网膜疾病，特征为眼底遍布白色斑点伴夜盲。
+Fungal Diseases	真菌病。由真菌感染引起的一类疾病，可侵犯皮肤、黏膜或内脏器官。
+Furrowed Tongue	裂纹舌。一种舌背出现深浅不一沟裂的良性舌部病变，多与先天发育异常有关。
+Gain Weight In Morbid Obesity	病态肥胖性体重增加。因能量摄入长期远超消耗导致体重异常增加并引发严重健康风险的病理状态。
+Gait Ataxia	步态共济失调。一种因小脑功能障碍导致的行走不稳和协调障碍的神经系统症状。
+Gait Disturbance	步态障碍。因神经系统或肌肉骨骼系统病变导致的行走姿势和协调性异常。
+Gait Imbalance	步态失衡。因神经系统或肌肉骨骼系统病变导致的行走稳定性障碍。
+Galactorrhea	乳溢症。一种因催乳素异常分泌导致非哺乳期乳汁自发性流出的病理状态。
+Galactosuria	半乳糖尿症。因半乳糖代谢障碍导致尿液中半乳糖异常增多的遗传性代谢疾病。
+Ganglioneuroblastoma	神经节母细胞瘤。一种由原始神经细胞构成的恶性肿瘤，兼具神经节细胞瘤和神经母细胞瘤特征。
+Ganglioneuroma	神经节细胞瘤。一种由分化良好的神经节细胞和神经纤维构成的良性周围神经肿瘤。
+Gangrene	坏疽。因血液供应中断导致组织坏死并继发感染的病理状态。
+Gastric Cancer	胃癌。一种起源于胃黏膜上皮的恶性肿瘤，主要与幽门螺杆菌感染和饮食习惯相关。
+Gastric Emptying Disorders	胃排空障碍。一类因胃动力异常导致胃内容物排空延迟或加速的功能性疾病。
+Gastric Ulcer	胃溃疡。一种因胃黏膜防御机制减弱或胃酸侵蚀导致的胃壁局部组织缺损病变。
+Gastroesophageal Reflux	胃食管反流。一种因食管下括约肌功能障碍导致胃内容物反流入食管的病理状态。
+Gastrointestinal Arteriovenous Malformation	胃肠道动静脉畸形。一种因胃肠道血管发育异常导致动静脉直接连接的先天性血管病变。
+Gastrointestinal Cancers	胃肠道癌。起源于消化道任何部位的恶性肿瘤，常见症状包括吞咽困难、腹痛或便血。
+Gastrointestinal Dysmotility	胃肠道动力障碍。一种因胃肠神经肌肉功能失调导致蠕动异常的功能性疾病。
+Gastrointestinal Hemorrhage	胃肠道出血。指发生在食管至直肠之间消化道的出血性疾病，常表现为呕血或黑便。
+Gastrointestinal Infarctions	胃肠道梗死。因肠道血供中断导致局部组织缺血坏死的急腹症。
+Gastrointestinal Inflammation	胃肠道炎症。由感染、自身免疫或理化因素引起的消化道黏膜炎症性疾病。
+Gastrointestinal Stromal Tumors	胃肠道间质瘤。一种起源于胃肠道间质干细胞的肿瘤，常见症状包括腹痛和消化道出血。
+Gastrointestinal Telangiectasia	胃肠道毛细血管扩张症。一种因血管发育异常导致消化道黏膜血管扩张、易引发出血的血管病变。
+Gastroparesis	胃轻瘫。一种因胃排空延迟导致的以恶心、呕吐和早饱为主要症状的胃动力障碍性疾病。
+Gaze-Evoked Horizontal Nystagmus	凝视诱发水平性眼震。一种因眼球向侧方凝视时诱发的水平方向不自主节律性眼球震颤。
+Generalized Aminoaciduria	广泛性氨基酸尿症。一种因肾小管重吸收功能障碍导致尿中多种氨基酸异常增多的代谢性疾病。
+Generalized Amyloid Deposition	全身性淀粉样变性。一种因淀粉样蛋白异常沉积在全身多器官导致的进行性器质性病变。
+Generalized Amyotrophy	全身性肌萎缩。一种因运动神经元损伤导致全身肌肉进行性萎缩和无力为特征的神经系统疾病。
+Generalized Arterial Calcification	广泛性动脉钙化。一种因ENPP1或ABCC6基因突变导致全身动脉中钙盐异常沉积的遗传性疾病。
+Generalized Clonic Seizures	全身性阵挛发作。一种以全身肌肉对称性、节律性收缩为特征的癫痫发作类型。
+Generalized Dystonia	全身性肌张力障碍。一种因神经系统异常导致全身肌肉持续性不自主收缩的运动障碍疾病。
+Generalized Edema	全身性水肿。因心力衰竭、肾病等导致液体在全身组织间隙异常积聚的病理状态。
+Generalized Hirsutism	全身性多毛症。一种因雄激素过多或毛囊对雄激素敏感导致的全身毛发过度生长疾病。
+Generalized Hyperpigmentation	泛发性色素沉着症。一种因黑色素过度沉积导致皮肤大面积颜色加深的病理状态。
+Generalized Hyperreflexia	全身性反射亢进。一种因中枢神经系统抑制通路受损导致全身腱反射异常增强的病理状态。
+Generalized Hypopigmentation Of Hair	毛发普遍色素减退。一种因黑色素生成减少导致全身毛发颜色变浅的遗传性或获得性疾病。
+Generalized Hypotonia Due To Defect At The Neuromuscular Junction	全身性肌张力减退。由神经肌肉接头处传递缺陷导致的全身性肌张力降低。
+Generalized Joint Laxity	全身性关节松弛。一种因结缔组织异常导致关节活动范围超过正常生理限度的遗传性疾病。
+Generalized Limb Muscle Atrophy	广泛性肢体肌肉萎缩。一种因神经损伤或肌肉病变导致四肢肌肉广泛性体积缩小的退行性改变。
+Generalized Muscle Hypertrophy	全身性肌肉肥大。一种因肌肉纤维体积普遍性增大导致的肌肉组织异常增生性疾病。
+Generalized Muscle Weakness	全身性肌无力。一种表现为全身多组肌肉力量减退的临床症状，常见于神经肌肉疾病或全身性疾病。
+Generalized Myoclonic Seizures	全面性肌阵挛发作。一种表现为全身肌肉短暂快速抽动的癫痫发作类型。
+Generalized Osteoporosis	全身性骨质疏松症。一种因骨量减少和骨微结构破坏导致骨脆性增加的全身性骨骼疾病。
+Generalized Reticulate Brown Pigmentation	泛发性网状棕色色素沉着症。一种以全身皮肤出现网状棕色色素斑为特征的色素异常性皮肤病。
+Generalized Tonic Seizures	全面性强直发作。一种表现为全身肌肉持续收缩的癫痫发作类型，常伴意识丧失。
+Generalized Tonic-Clonic Seizures	全面性强直-阵挛发作。一种以意识丧失及全身肌肉强直-阵挛交替为特征的癫痫发作类型。
+Generalized Tonic-Clonic Seizures With Focal Onset	局灶性起源的全面性强直-阵挛发作。由大脑局部病灶起始，迅速扩散至双侧大脑半球的癫痫发作类型。
+Generalized-Onset Seizure	全面性发作。一种起源于双侧大脑半球并迅速扩散至全脑的癫痫发作类型。
+Genetic Disorder	遗传性疾病。由基因突变或染色体异常引起的疾病，可影响身体结构和功能。
+Genital Warts	尖锐湿疣。一种由人乳头瘤病毒感染引起的性传播疾病，主要表现为生殖器部位出现疣状赘生物。
+Genitourinary Tumors	泌尿生殖系统肿瘤。发生于泌尿系统及生殖器官的肿瘤性疾病总称。
+Genu Varum	膝内翻。一种因胫骨内翻畸形导致双下肢并拢时膝关节间距增大的下肢畸形。
+Gestational Hypertension	妊娠期高血压。妊娠20周后出现的高血压，不伴蛋白尿或器官功能障碍。
+Giant Melanosomes In Melanocytes	巨黑素体症。黑素细胞内出现异常巨大黑素颗粒的色素沉着性皮肤病。
+Giant Platelets	巨大血小板。一种因血小板生成异常导致血小板体积显著增大的血液系统形态学异常。
+Giardiasis Infections	贾第鞭毛虫病。由蓝氏贾第鞭毛虫寄生小肠引起的以腹泻和吸收不良为特征的肠道原虫感染。
+Gingival Bleeding	牙龈出血。因牙龈组织炎症或创伤导致的毛细血管破裂出血现象。
+Gingival Overgrowth	牙龈增生。一种因药物副作用或炎症导致牙龈组织过度生长的口腔病变。
+Gingivitis	牙龈炎。一种由牙菌斑引起的牙龈组织炎症性疾病，表现为牙龈红肿和出血。
+Glaucoma	青光眼。一种因眼内压升高导致视神经进行性损伤的不可逆性致盲眼病。
+Glial Proliferation	神经胶质细胞增生。一种由中枢神经系统损伤或疾病引起的神经胶质细胞异常增殖反应。
+Glioblastoma	胶质母细胞瘤。一种起源于星形胶质细胞的高度恶性脑肿瘤，以快速浸润生长和预后差为特征。
+Glioma	神经胶质瘤。一种起源于神经胶质细胞的颅内肿瘤，常表现为头痛、癫痫或神经功能障碍。
+Gliosis	神经胶质增生。中枢神经系统损伤后星形胶质细胞异常增殖的病理反应。
+Global Brain Atrophy	全脑萎缩。一种因脑组织广泛性体积缩小导致的神经系统退行性病变。
+Glomerulonephritis	肾小球肾炎。一种由免疫介导的肾小球损伤导致的炎症性疾病，常表现为血尿和蛋白尿。
+Glomerulopathy	肾小球病。一组以肾小球结构和功能异常为特征的肾脏疾病，常导致蛋白尿或血尿。
+Glomerulosclerosis	肾小球硬化症。一种由肾小球毛细血管袢损伤导致系膜基质增生和硬化的病理改变。
+Glomus Jugular Tumor	颈静脉球瘤。一种起源于颈静脉球部化学感受器的血管性肿瘤，常引起搏动性耳鸣和听力下降。
+Glucocortocoid-Insensitive Primary Hyperaldosteronism	糖皮质激素不敏感性原发性醛固酮增多症。一种因肾上腺皮质自主分泌过多醛固酮且对糖皮质激素治疗无反应的疾病。
+Glutaric Aciduria	戊二酸尿症。一种因戊二酰辅酶A脱氢酶缺乏导致有机酸代谢障碍的常染色体隐性遗传病。
+Glutathione Synthetase Deficiency	谷胱甘肽合成酶缺乏症。一种因谷胱甘肽合成酶基因突变导致谷胱甘肽合成障碍的遗传性代谢疾病。
+Glycosuria	糖尿症。尿中出现过量葡萄糖，通常由血糖过高或肾小管重吸收功能障碍引起。
+Gm2-Ganglioside Accumulation	GM2神经节苷脂贮积症。一种因溶酶体酶缺陷导致GM2神经节苷脂在神经组织异常沉积的遗传代谢病。
+Goiter	甲状腺肿。甲状腺组织增生或肥大导致颈部前部可见肿胀的疾病。
+Gonadal Neoplasm	性腺肿瘤。发生于卵巢或睾丸的异常组织增生，可为良性或恶性。
+Gonadotropin Deficiency	促性腺激素缺乏症。一种因下丘脑或垂体功能障碍导致促性腺激素分泌不足的内分泌疾病。
+Gout	痛风。一种因尿酸代谢异常导致尿酸盐结晶沉积在关节引起的炎症性关节炎。
+Grammar-Specific Speech Disorder	语法特异性言语障碍。一种以语法结构使用困难为主要特征的发育性语言障碍。
+Granulocytopenia	粒细胞减少症。一种因粒细胞生成减少或破坏增加导致外周血粒细胞绝对值降低的疾病。
+Granuloma, Plasma Cell	浆细胞肉芽肿。一种以浆细胞浸润为主的慢性炎性增生性病变，常见于口腔或呼吸道。
+Granulomatosis	肉芽肿病。一种以肉芽肿形成为特征的慢性炎症性疾病，常由感染、自身免疫或异物反应引起。
+Green Urine	绿尿症。因服用某些药物、感染或代谢异常导致尿液呈绿色的罕见症状。
+Guillain-Barre Syndrome	吉兰-巴雷综合征。一种免疫介导的周围神经病，主要特征为急性进行性对称性肢体无力。
+Gynecomastia	男性乳腺发育症。一种因雌激素与雄激素比例失调导致的男性乳腺组织异常增生疾病。
+Haemorrhagic Conditions	出血性疾病。因凝血功能障碍导致自发性或创伤后出血倾向的一组疾病。
+Hallucinations	幻觉。一种在没有外部刺激的情况下产生的虚假感知体验，常见于精神疾病或神经系统疾病。
+Hamartoma	错构瘤。由正常组织异常混合构成的良性肿瘤样畸形。
+Hamartomatous Polyposis	错构瘤性息肉病。一种由错构瘤性息肉在胃肠道多发性生长为特征的遗传性疾病。
+Hamstring Contractures	腘绳肌挛缩。因腘绳肌纤维化导致膝关节伸展和髋关节屈曲活动受限的病理状态。
+Hand Muscle Atrophy	手部肌肉萎缩。因神经损伤或废用导致的手部肌肉体积缩小和功能减退。
+Hand Muscle Weakness	手部肌无力。一种因神经损伤或肌肉病变导致手部肌肉力量减退的症状。
+Hand Tremor	手震颤。一种因神经系统功能障碍导致手部不自主节律性抖动的运动障碍。
+Handgrip Myotonia	手抓握肌强直。一种因肌肉松弛障碍导致手部抓握后无法迅速放松的遗传性肌病。
+Hangover From Alcohol	酒精性宿醉。因过量饮酒导致脱水、炎症反应和乙醛堆积引起的暂时性生理不适状态。
+Hashimoto Thyroiditis	桥本甲状腺炎。一种由自身免疫反应导致甲状腺组织被淋巴细胞浸润和破坏的慢性炎症性疾病。
+Hcv Infection	丙型肝炎病毒感染。由丙型肝炎病毒引起的肝脏炎症性疾病，可导致慢性肝炎和肝硬化。
+Head And Neck Cancer	头颈癌。发生于口腔、咽喉等头颈部区域的恶性肿瘤，常与吸烟、饮酒及HPV感染相关。
+Head Titubation	头震颤。一种以头部不自主节律性摆动为特征的神经系统症状。
+Head Tremor	头部震颤。一种以头部不自主节律性晃动为特征的神经系统运动障碍。
+Headache	头痛。一种由多种病因引起的头部疼痛症状，常见于神经系统疾病或全身性疾病。
+Hearing Abnormality	听力异常。由听觉系统结构或功能障碍导致的听力下降或丧失的病理状态。
+Hearing Disorder	听力障碍。由听觉系统结构或功能异常导致的声音感知能力下降的病理状态。
+Hearing Impairment	听力障碍。因听觉系统结构或功能异常导致声音感知能力下降的感官缺陷。
+Heart Disease	心脏病。由冠状动脉疾病、心律失常或结构异常等引起的心脏功能或结构异常的疾病总称。
+Heart Failure	心力衰竭。因心脏结构或功能异常导致心输出量无法满足机体代谢需求的临床综合征。
+Heart Transplant	心脏移植。一种将捐献者的健康心脏植入终末期心脏病患者体内的外科手术。
+Heat Intolerance	热不耐受。一种因体温调节功能障碍导致对高温环境适应能力下降的病理状态。
+Heinz Body Anemia	海因茨体贫血。一种因氧化损伤导致血红蛋白变性形成包涵体，引发溶血性贫血的疾病。
+Helminth Infection	蠕虫感染。由寄生性蠕虫侵入人体引起的寄生虫病，可导致营养不良或器官损伤。
+Hemangiomatosis	血管瘤病。一种以多发性血管瘤在皮肤或内脏器官广泛分布为特征的良性血管发育异常。
+Hematemesis	呕血。因上消化道出血经口腔呕出的临床症状，常见于消化性溃疡或食管静脉曲张破裂。
+Hematochezia	便血。指消化道出血经肛门排出，常见于下消化道病变如痔疮或结肠炎。
+Hematologic Malignancies	血液系统恶性肿瘤。起源于造血或淋巴系统的恶性克隆增殖性疾病。
+Hematuria	血尿。尿液中出现红细胞，可能由泌尿系统疾病或全身性疾病引起。
+Hemiclonic Seizures	偏侧阵挛发作。一种表现为身体单侧节律性抽搐的癫痫发作类型。
+Hemihypertrophy	偏侧肥大。一种以身体单侧肢体或躯干不对称过度生长为特征的先天性发育异常。
+Hemiparesis	偏瘫。因脑卒中或脑损伤导致身体一侧肢体运动功能减弱的神经系统症状。
+Hemiplegia	偏瘫。因大脑运动皮质或锥体束损伤导致一侧肢体完全性运动功能丧失的神经系统症状。
+Hemiplegia/Hemiparesis	偏瘫/轻偏瘫。因对侧大脑运动皮质或锥体束损伤导致单侧肢体完全或不完全瘫痪的神经系统症状。
+Hemivertebrae	半椎体畸形。一种因椎体发育不全导致脊柱侧凸的先天性骨骼畸形。
+Hemoglobin H	血红蛋白H病。一种因α珠蛋白基因缺失导致异常血红蛋白四聚体形成的溶血性贫血。
+Hemoglobinuria	血红蛋白尿。因血管内溶血导致血红蛋白通过尿液排出的病理现象。
+Hemolytic Anemia	溶血性贫血。一种因红细胞破坏加速、寿命缩短，超过骨髓代偿能力而发生的贫血。
+Hemolytic-Uremic Syndrome	溶血性尿毒症综合征。一种以微血管病性溶血性贫血、血小板减少和急性肾损伤为特征的疾病。
+Hemoptysis	咯血。一种因呼吸道或肺部出血导致咳出血液或带血痰液的症状。
+Hemorrhage	出血。血液从血管或心脏逸出至组织间隙、体腔或体外的病理现象。
+Hemorrhagic Ovarian Cyst	出血性卵巢囊肿。一种因卵巢囊肿内出血引起的急腹症，常见症状为突发下腹痛。
+Heparin-Induced Thrombocytopenia Type Ii	肝素诱导性血小板减少症II型。一种由肝素触发的免疫反应导致血小板活化和血栓形成的药物不良反应。
+Hepatic Calcification	肝钙化。一种因肝脏组织内钙盐异常沉积导致的病理改变，常见于慢性炎症或创伤后。
+Hepatic Cysts	肝囊肿。一种由先天性胆管发育异常或后天性因素导致的肝脏内囊性病变。
+Hepatic Encephalopathy	肝性脑病。由严重肝病引起的、以代谢紊乱为基础的中枢神经系统功能失调综合征。
+Hepatic Failure	肝衰竭。由多种因素引起肝脏合成、解毒等功能严重障碍的临床综合征。
+Hepatic Fibrosis	肝纤维化。一种因慢性肝损伤导致肝脏内细胞外基质过度沉积的病理过程。
+Hepatic Necrosis	肝坏死。因缺血、中毒或感染导致的肝细胞死亡，常表现为肝功能急剧恶化。
+Hepatic Periportal Necrosis	肝门静脉周围坏死。一种因缺血或中毒导致肝门管区肝细胞凝固性坏死的病理改变。
+Hepatic Steatosis	肝脂肪变性。因肝细胞内甘油三酯过度蓄积导致的肝脏代谢性疾病。
+Hepatitis	肝炎。由病毒、酒精或药物等因素引起的肝脏炎症性疾病。
+Hepatitis B Virus Infection	乙型肝炎病毒感染。由乙型肝炎病毒引起的肝脏炎症性疾病，可导致肝功能异常和慢性化。
+Hepatitis C Virus Infection	丙型肝炎病毒感染。由丙型肝炎病毒引起的肝脏炎症性疾病，可导致慢性肝炎和肝硬化。
+Hepatitis Virus Infection	肝炎病毒感染。由肝炎病毒引起的肝脏炎症性疾病，可导致肝功能异常。
+Hepatocellular Adenoma	肝细胞腺瘤。一种由肝细胞构成的良性肿瘤，常见于长期口服避孕药的女性。
+Hepatocellular Carcinoma	肝细胞癌。一种起源于肝细胞的恶性肿瘤，常与慢性肝病及病毒感染相关。
+Hepatocellular Necrosis	肝细胞坏死。由缺血、中毒或病毒感染引起的肝细胞不可逆性死亡。
+Hepatolenticular Degeneration	肝豆状核变性。一种因铜代谢障碍导致铜在肝脏和脑部豆状核沉积的常染色体隐性遗传病。
+Hepatomegaly	肝肿大。一种因肝脏体积异常增大，常由感染、代谢疾病或肿瘤引起的体征。
+Hepatosplenomegaly	肝脾肿大。由感染、代谢疾病或肿瘤等病因导致的肝脏和脾脏同时肿大的病理状态。
+Hereditary Angioedema	遗传性血管性水肿。一种因C1酯酶抑制剂缺乏导致反复发作性皮肤黏膜水肿的遗传性疾病。
+Hereditary Nonpolyposis Colorectal Carcinoma	遗传性非息肉病性结直肠癌。一种由错配修复基因突变引起的常染色体显性遗传性肿瘤综合征。
+Hereditary Nonpolyposis Colorectal Neoplasms	遗传性非息肉病性结直肠肿瘤。一种由错配修复基因突变引起的常染色体显性遗传病，主要特征为早发性结直肠癌。
+Hereditary Polyposis Syndromes	遗传性息肉病综合征。一组由基因突变导致消化道多发息肉并具有癌变倾向的遗传性疾病。
+Hernia	疝。因组织或器官通过先天或后天形成的薄弱点、缺损或孔隙进入另一部位所致的疾病。
+Herpes Virus Infection	疱疹病毒感染。由疱疹病毒引起，以皮肤黏膜成簇水疱和潜伏感染为特征的病毒性疾病。
+Herpetiform Corneal Ulceration	疱疹状角膜溃疡。一种由病毒感染引起的角膜溃疡，典型表现为树枝状或地图状病灶。
+Heterotopia	灰质异位症。一种因神经元迁移异常导致灰质出现在脑白质区域的神经系统发育畸形。
+Hiatus Hernia	食管裂孔疝。胃的一部分通过膈肌食管裂孔突入胸腔的解剖结构异常。
+High Hypermetropia	高度远视。一种因眼轴过短或屈光力不足导致远距离物体清晰、近距离物体模糊的屈光不正。
+High Myopia	高度近视。一种屈光不正，通常由眼轴过度延长导致，表现为远视力明显减退。
+High-Frequency Hearing Impairment	高频听力损失。一种主要影响高频声音感知的听力障碍，常由噪声暴露或年龄相关听毛细胞退化引起。
+High-Frequency Sensorineural Hearing Impairment	高频感音神经性听力损失。一种因耳蜗或听神经病变导致高频声音感知能力下降的听力障碍。
+High-Pitched Cry	高调哭声。一种因中枢神经系统异常导致音调尖锐、频率异常的婴儿哭声。
+Hip Contracture	髋关节挛缩。因关节周围软组织纤维化导致髋关节活动范围永久性受限的病理状态。
+Hip Dislocation	髋关节脱位。股骨头从髋臼中完全或部分脱出的创伤性关节损伤。
+Hip Flexor Weakness	髋屈肌无力。一种因髋部屈肌群肌力减退导致抬腿困难的功能障碍。
+Hip Pain	髋痛。由髋关节病变、外伤或周围组织炎症引起的髋部疼痛症状。
+Hip Subluxation	髋关节半脱位。一种因关节发育不良或外力导致股骨头部分脱离髋臼的病理状态。
+Hirsutism	多毛症。一种因雄激素过多导致女性出现男性型毛发生长的内分泌疾病。
+Histamine Induced Bronchospasm	组胺性支气管痉挛。由组胺释放引起的支气管平滑肌收缩导致的急性气道阻塞。
+Histidinuria	组氨酸尿症。一种因肾小管转运缺陷导致尿中组氨酸异常增多的遗传性代谢疾病。
+Histiocytoid Cardiomyopathy	组织细胞样心肌病。一种因心肌细胞线粒体异常导致心功能障碍的先天性心脏病。
+Histiocytoma	组织细胞瘤。一种由组织细胞良性增生形成的皮肤或软组织肿瘤。
+Hiv Infections	人类免疫缺陷病毒感染。由HIV病毒攻击免疫系统导致获得性免疫缺陷的传染性疾病。
+Hiv-Associated Diarrhoea	HIV相关性腹泻。一种由人类免疫缺陷病毒感染引起的慢性腹泻，常伴随吸收不良和体重下降。
+Hoarse Voice	声音嘶哑。一种因声带异常导致音质粗糙、气息声或音量变化的症状。
+Homocystinuria	同型半胱氨酸尿症。一种因胱硫醚β-合成酶缺乏导致同型半胱氨酸代谢障碍的遗传性疾病。
+Horizontal Supranuclear Gaze Palsy	水平性核上性凝视麻痹。一种因中脑或脑桥病变导致双眼水平协同运动障碍的神经系统疾病。
+Hormone-Refractory Prostate Cancer	激素难治性前列腺癌。一种对激素治疗无效的前列腺恶性肿瘤，表现为疾病持续进展。
+Hormone-Sensitive Breast Cancer	激素敏感性乳腺癌。一种因癌细胞表面表达雌激素或孕激素受体而依赖激素生长的恶性肿瘤。
+Human Cytomegalovirus Infections	人巨细胞病毒感染。一种由人巨细胞病毒引起的感染性疾病，常见于免疫低下人群，可致多器官损害。
+Human Immunodeficiency Virus Infection	人类免疫缺陷病毒感染。一种由HIV病毒攻击免疫系统导致获得性免疫缺陷的传染性疾病。
+Huntington's Disease	亨廷顿病。一种由HTT基因突变导致基底节变性，引发进行性运动障碍和认知衰退的常染色体显性遗传病。
+Hydrocele Testis	睾丸鞘膜积液。因鞘状突未闭合或鞘膜分泌增多导致的阴囊内液体积聚。
+Hydrocephalus	脑积水。一种因脑脊液循环障碍导致脑室异常扩大的神经系统疾病。
+Hydronephrosis	肾积水。因尿路梗阻导致肾盂肾盏扩张并伴肾功能损害的病理状态。
+Hydroureter	输尿管积水。因尿路梗阻或功能障碍导致输尿管异常扩张的病理状态。
+Hyperactivity	多动症。一种以注意力不集中、活动过度和冲动行为为主要特征的神经发育障碍。
+Hyperacusis	听觉过敏。一种对正常环境声音产生异常不适或疼痛的听觉感知异常疾病。
+Hyperaldosteronism	醛固酮增多症。一种因肾上腺皮质分泌过多醛固酮导致水钠潴留和高血压的内分泌疾病。
+Hyperalgesia	痛觉过敏。一种对正常疼痛刺激产生过度反应的病理状态，常由外周或中枢神经系统敏化引起。
+Hyperbilirubinemia	高胆红素血症。因胆红素代谢障碍导致血液中胆红素水平异常升高的病理状态。
+Hypercalcemia	高钙血症。一种因血钙水平异常升高导致神经肌肉和心血管症状的代谢紊乱。
+Hypercalciuria	高钙尿症。一种以尿钙排泄量异常增高为特征的代谢性疾病，可导致肾结石形成。
+Hypercapnia	高碳酸血症。因肺泡通气不足导致动脉血二氧化碳分压异常升高的病理状态。
+Hyperchloremic Metabolic Acidosis	高氯性代谢性酸中毒。一种因氯离子潴留或碳酸氢根丢失导致血氯升高和pH值降低的代谢紊乱。
+Hyperchloriduria	高氯尿症。一种尿液中氯离子浓度异常升高的代谢紊乱，常与肾功能异常或电解质失衡相关。
+Hypercholesterolemia	高胆固醇血症。一种因胆固醇代谢异常导致血清胆固醇水平持续升高的代谢性疾病。
+Hyperechogenic Kidneys	高回声肾。一种因肾实质回声增强，常见于肾小球疾病或遗传性肾病的超声表现。
+Hyperesthesia	感觉过敏。一种对外界刺激反应异常增强的神经系统症状。
+Hyperextensibility At Elbow	肘关节过伸。一种肘关节伸展角度超过正常生理范围的结缔组织异常。
+Hyperextensibility Of The Knee	膝关节过伸。一种因韧带松弛或损伤导致膝关节伸展角度超过正常范围的运动系统异常。
+Hyperextensible Skin	皮肤过度伸展症。一种因胶原蛋白异常导致皮肤可被过度拉伸的结缔组织疾病。
+Hypergalactosemia	高半乳糖血症。一种因半乳糖代谢酶缺陷导致血液中半乳糖异常升高的遗传代谢病。
+Hyperglutaminemia	高谷氨酰胺血症。一种因谷氨酰胺代谢异常导致血液中谷氨酰胺水平升高的遗传代谢性疾病。
+Hyperglycemia	高血糖。一种因胰岛素分泌不足或作用障碍导致血糖浓度超过正常范围的病理状态。
+Hyperglycinemia	高甘氨酸血症。一种因甘氨酸代谢障碍导致血液中甘氨酸异常蓄积的遗传性代谢疾病。
+Hyperglycinuria	高甘氨酸尿症。一种因肾小管重吸收障碍导致尿中甘氨酸异常增多的遗传性代谢疾病。
+Hyperhidrosis	多汗症。一种因交感神经功能亢进导致局部或全身汗液分泌异常增多的疾病。
+Hyperhomocysteinemia	高同型半胱氨酸血症。一种因同型半胱氨酸代谢异常导致血液中浓度异常升高的病理状态。
+Hyperhomocystinemia	高同型半胱氨酸血症。一种因同型半胱氨酸代谢异常导致血液中浓度异常增高的代谢性疾病。
+Hyperinflammatory Provoked Organ Injury	高炎症性诱发器官损伤。由过度炎症反应导致器官功能障碍的病理过程。
+Hyperinsulinemia	高胰岛素血症。一种因胰岛素分泌过多或清除障碍导致血液中胰岛素水平异常升高的病理状态。
+Hyperinsulinism	高胰岛素血症。一种因胰岛素分泌过多或清除障碍导致血糖水平异常降低的代谢紊乱。
+Hyperintensity Of Cerebral White Matter On Mri	脑白质高信号。磁共振成像显示脑白质信号增强，常见于小血管病变或脑白质疏松症。
+Hyperkalemia	高钾血症。一种因肾脏排钾减少或细胞内钾外移导致血钾浓度异常升高的电解质紊乱。
+Hyperkeratosis	角化过度症。一种因角质形成细胞过度增殖或脱落障碍导致皮肤角质层异常增厚的病理改变。
+Hyperkinesis	运动过度症。一种以不自主、无目的、重复性肌肉过度运动为特征的神经系统疾病。
+Hyperlipidemia	高脂血症。一种因脂肪代谢异常导致血液中脂质水平升高的代谢性疾病。
+Hyperlysinemia	高赖氨酸血症。一种因赖氨酸代谢障碍导致血液中赖氨酸异常升高的遗传性代谢疾病。
+Hypermagnesemia	高镁血症。一种因镁摄入过多或排泄障碍导致血镁浓度异常升高的电解质紊乱。
+Hypermagnesiuria	高镁尿症。一种因肾脏排镁过多导致尿镁浓度异常升高的代谢异常。
+Hypermelanotic Macule	色素沉着斑。一种因黑色素过度沉积导致的皮肤局限性色素斑块。
+Hypermethioninemia	高甲硫氨酸血症。一种因甲硫氨酸代谢异常导致血液中甲硫氨酸水平升高的遗传代谢性疾病。
+Hypermetric Saccades	扫视过度。一种眼球运动障碍，表现为眼球扫视幅度超过目标位置的异常现象。
+Hypermetropia	远视。一种因眼球前后径过短或屈光力不足导致平行光线聚焦在视网膜后的屈光不正。
+Hypernatremia	高钠血症。一种因水分丢失过多或钠摄入过量导致血清钠浓度高于正常范围的电解质紊乱。
+Hypernatremic Dehydration	高钠性脱水。因水分丢失多于钠丢失导致血钠浓度升高的脱水状态。
+Hyperornithinemia	高鸟氨酸血症。一种因鸟氨酸代谢障碍导致血液中鸟氨酸异常升高的遗传性代谢疾病。
+Hyperostosis	骨肥大症。一种以骨骼异常增厚和密度增加为特征的骨骼系统疾病。
+Hyperoxaluria	高草酸尿症。一种因草酸盐代谢异常导致尿中草酸盐排泄增多的代谢性疾病。
+Hyperparakeratosis	过度角化不全。一种角质层增厚且细胞核残留的皮肤病理改变，常伴角化异常。
+Hyperparathyroidism	甲状旁腺功能亢进症。一种因甲状旁腺激素分泌过多导致血钙升高和骨质流失的内分泌疾病。
+Hyperperistalsis	肠蠕动亢进。一种因肠道平滑肌过度收缩导致蠕动频率和幅度异常增加的病理状态。
+Hyperphenylalaninemia	高苯丙氨酸血症。一种因苯丙氨酸羟化酶缺乏导致苯丙氨酸代谢障碍的遗传性疾病。
+Hyperphosphatemia	高磷血症。一种因肾脏排磷减少或磷摄入过多导致血磷酸盐浓度异常升高的病理状态。
+Hyperphosphaturia	高磷酸盐尿症。一种因肾小管功能缺陷导致尿中磷酸盐排泄异常增多的代谢性疾病。
+Hyperpigmentation Of The Skin	皮肤色素沉着过度。一种因黑色素过度沉积导致皮肤局部或广泛颜色加深的病理状态。
+Hyperplasia	增生。组织或器官内实质细胞数量增多导致体积增大的病理过程。
+Hyperplasia Of The Femoral Trochanters	股骨转子增生。一种因股骨转子区域骨组织异常过度生长导致的骨骼发育异常。
+Hyperproliferative Disorders	细胞增殖过度性疾病。一类因细胞异常快速增殖导致的疾病，常见于肿瘤和银屑病等。
+Hyperprolinemia	高脯氨酸血症。一种因脯氨酸代谢障碍导致血液中脯氨酸水平异常升高的遗传性疾病。
+Hyperreflexia	反射亢进。一种因上运动神经元损伤导致腱反射异常增强的神经系统体征。
+Hyperreflexia In Upper Limbs	上肢反射亢进。一种因上运动神经元损伤导致上肢腱反射异常增强的神经系统体征。
+Hypersomnia	嗜睡症。一种以日间过度嗜睡或睡眠时间异常延长为主要特征的睡眠障碍。
+Hypersplenism	脾功能亢进。一种因脾脏过度破坏血细胞导致外周血细胞减少的病理状态。
+Hypertension	高血压。一种以体循环动脉血压持续升高为主要特征的临床综合征。
+Hypertension Associated With Pheochromocytoma	嗜铬细胞瘤相关高血压。一种由嗜铬细胞瘤分泌过多儿茶酚胺引起的继发性高血压。
+Hypertensive Crisis	高血压危象。因血压急剧升高导致靶器官损伤的急性严重高血压状态。
+Hypertensive Disease	高血压病。一种以动脉血压持续升高为主要特征，可导致心脑肾等靶器官损害的综合症。
+Hypertensive Retinopathy	高血压性视网膜病变。因长期高血压导致视网膜血管损伤引起的眼底病变。
+Hyperthyroidism	甲状腺功能亢进症。一种因甲状腺激素分泌过多导致代谢亢进和神经兴奋性增高的疾病。
+Hypertonia	肌张力增高。一种因中枢神经系统损伤导致肌肉张力异常升高的运动障碍。
+Hypertonic Dehydration	高渗性脱水。因水分丢失多于溶质丢失导致血浆渗透压升高的脱水类型。
+Hypertonicity Of Bladder	膀胱过度活动症。一种因膀胱逼尿肌不自主收缩导致的尿频、尿急综合征。
+Hypertrichosis	多毛症。一种因基因突变或药物副作用导致全身或局部毛发异常过度生长的疾病。
+Hypertriglyceridemia	高甘油三酯血症。一种因甘油三酯合成增多或清除减少导致血清甘油三酯水平升高的代谢异常。
+Hypertrophic Cardiomyopathy	肥厚型心肌病。一种因心肌异常肥厚导致心室充盈受阻和流出道梗阻的遗传性心脏病。
+Hypertrophic Vascular Disease	肥厚性血管病。一种以血管壁平滑肌和内膜异常增厚导致管腔狭窄为特征的血管病变。
+Hypertyrosinemia	酪氨酸血症。一种因酪氨酸代谢异常导致血液中酪氨酸水平升高的遗传性代谢疾病。
+Hyperuricemia	高尿酸血症。一种因尿酸生成过多或排泄减少导致血尿酸水平升高的代谢性疾病。
+Hyperuricosuria	高尿酸尿症。一种因尿酸排泄过多导致尿中尿酸浓度异常升高的代谢异常。
+Hyperventilation	过度换气。一种因呼吸过快过深导致二氧化碳排出过多的呼吸异常状态。
+Hypnagogic Hallucinations	入睡前幻觉。一种发生在入睡时出现的生动幻觉体验，常见于发作性睡病患者。
+Hypoalbuminemia	低白蛋白血症。一种因白蛋白合成减少、丢失过多或分解加速导致的血清白蛋白浓度异常降低的病理状态。
+Hypoargininemia	低精氨酸血症。一种因精氨酸酶缺乏导致血中精氨酸水平降低的遗传性代谢疾病。
+Hypocalcemia	低钙血症。一种因血钙水平过低导致神经肌肉兴奋性增高的代谢紊乱。
+Hypocalcemic Seizures	低钙血症性癫痫。因血钙水平严重降低引起的神经系统异常放电导致的痉挛发作。
+Hypocalcemic Tetany	低钙性手足抽搐。因血钙降低导致神经肌肉兴奋性增高引发的肌肉痉挛性疾病。
+Hypocalciuria	低钙尿症。一种尿液中钙排泄量异常减少的代谢异常，常见于甲状旁腺功能减退或肾小管重吸收增加。
+Hypochloremia	低氯血症。一种因氯离子丢失过多或摄入不足导致血清氯浓度低于正常的电解质紊乱。
+Hypocholesterolemia	低胆固醇血症。一种因胆固醇水平异常低下可能增加出血风险的代谢紊乱。
+Hypochromic Anemia	低色素性贫血。一种因血红蛋白合成不足导致红细胞着色浅淡的贫血类型。
+Hypochromic Microcytic Anemia	低色素小细胞性贫血。一种因血红蛋白合成不足导致红细胞体积减小、染色变淡的缺铁性贫血。
+Hypoglycemia	低血糖症。一种因血糖浓度过低导致交感神经兴奋和脑功能障碍的临床综合征。
+Hypoglycemic Encephalopathy	低血糖性脑病。因严重低血糖导致脑能量代谢障碍引发的急性脑功能障碍。
+Hypoglycemic Seizures	低血糖性癫痫发作。因血糖严重降低引发脑功能紊乱导致的痉挛发作。
+Hypoglycinemia	低血糖素血症。一种因血液中低血糖素水平异常升高导致的代谢紊乱疾病。
+Hypogonadism	性腺功能减退症。一种因性腺激素分泌不足导致性发育障碍或功能减退的内分泌疾病。
+Hypogonadotrophic Hypogonadism	低促性腺激素性性腺功能减退症。一种因下丘脑或垂体功能障碍导致促性腺激素分泌不足的疾病。
+Hypogonadotropic Hypogonadism	低促性腺激素性性腺功能减退症。一种因下丘脑或垂体功能障碍导致促性腺激素分泌不足的性腺功能低下疾病。
+Hypoinsulinemia	低胰岛素血症。一种因胰岛素分泌不足或作用减弱导致血糖升起的病理状态。
+Hypokalemia	低钾血症。一种因钾摄入不足或丢失过多导致血清钾浓度低于正常范围的电解质紊乱。
+Hypokalemic Alkalosis	低钾性碱中毒。因钾离子缺失导致血液pH值升高的一种代谢性酸碱平衡紊乱。
+Hypokalemic Metabolic Alkalosis	低钾性代谢性碱中毒。一种因钾离子缺失导致血液pH值升高和碳酸氢盐浓度增加的酸碱平衡紊乱。
+Hypokinesia	运动功能减退。一种因神经系统功能障碍导致自主运动幅度减小的病理状态。
+Hypolipidemia	低脂血症。一种因血脂水平异常低下导致的代谢紊乱，常伴营养不良或吸收障碍。
+Hypomagnesemia	低镁血症。一种因镁摄入不足或丢失过多导致血清镁浓度低于正常范围的电解质紊乱。
+Hyponatremia	低钠血症。一种因水钠平衡失调导致血清钠浓度低于135mmol/L的电解质紊乱。
+Hypoparathyroidism	甲状旁腺功能减退症。一种因甲状旁腺激素分泌不足导致低钙血症和神经肌肉兴奋性增高的内分泌疾病。
+Hypophosphatemia	低磷血症。一种因磷摄入不足或丢失过多导致血清无机磷浓度低于正常的代谢紊乱。
+Hypophosphatemic Rickets	低磷性佝偻病。一种因肾小管磷重吸收障碍导致低磷血症和骨骼矿化不足的遗传性疾病。
+Hypopigmentation Of Hair	毛发色素减退。一种因黑色素生成减少或缺失导致毛发颜色变浅的病理状态。
+Hypopigmentation Of The Skin	皮肤色素减退。因黑色素减少或缺失导致皮肤局部颜色变浅的病理状态。
+Hypopigmented Skin Patches	色素减退斑。因黑色素减少或缺失导致皮肤局部颜色浅于周围正常肤色的皮损表现。
+Hypoplasia Of The Uterus	子宫发育不全。一种因胚胎期子宫发育受阻导致子宫体积过小的先天性畸形。
+Hypoplastic Nipples	乳头发育不全。一种因乳腺导管及结缔组织发育不良导致的乳头先天性细小或缺失。
+Hypoproteinemia	低蛋白血症。一种因蛋白质摄入不足、吸收障碍或丢失过多导致血浆总蛋白浓度降低的病理状态。
+Hyporeflexia Of Lower Limbs	下肢反射减弱。一种因周围神经或脊髓病变导致下肢腱反射减退的神经系统体征。
+Hyposerinemia	血清素减少症。一种因血清素合成不足或代谢异常导致神经递质水平下降的病理状态。
+Hyposmia	嗅觉减退。一种因嗅觉通路损伤或功能障碍导致气味感知能力下降的症状。
+Hypospadias	尿道下裂。一种因前尿道发育不全导致尿道开口位于阴茎腹侧异常的先天性畸形。
+Hyposthenuria	低渗尿。一种因肾小管功能受损导致尿液浓缩功能障碍的病理状态。
+Hypotension	低血压。一种因循环系统压力不足导致组织灌注减少的病理状态。
+Hypothalamic-Pituitary Acth Function	下丘脑-垂体ACTH功能紊乱。因下丘脑-垂体轴功能障碍导致促肾上腺皮质激素分泌异常的状态。
+Hypothermia	低体温症。因核心体温低于35℃导致的生理功能紊乱，常由寒冷暴露引起。
+Hypothyroidism	甲状腺功能减退症。一种因甲状腺激素合成或分泌不足导致代谢率降低的疾病。
+Hypotrichosis	毛发稀少症。一种因毛囊发育异常或数量减少导致体毛密度低于正常的先天性疾病。
+Hypouricemia	低尿酸血症。一种因尿酸生成不足或排泄过多导致血尿酸水平异常降低的代谢异常。
+Hypoxemia	低氧血症。一种因肺通气/血流比例失调导致动脉血氧分压低于正常范围的状态。
+Hypoxic-Ischemic Encephalopathy	缺氧缺血性脑病。因围产期窒息导致脑组织缺氧缺血引起的脑部损伤性疾病。
+Hypsarrhythmia	高度节律失常。一种婴儿期出现的脑电图紊乱模式，表现为高幅不规则慢波和棘波混杂。
+Ichthyosis	鱼鳞病。一种因皮肤角化异常导致皮肤干燥、呈鱼鳞状脱屑的遗传性皮肤病。
+Iga Deficiency	IgA缺乏症。一种因免疫球蛋白A产生不足导致反复呼吸道或消化道感染的免疫缺陷病。
+Igg Deficiency	IgG缺乏症。一种因免疫球蛋白G抗体生成不足导致反复感染的免疫缺陷病。
+Igm Deficiency	IgM缺乏症。一种因免疫球蛋白M抗体生成不足导致反复感染的免疫缺陷病。
+Immune Disorder	免疫紊乱。免疫系统功能异常导致对自身或外界物质反应过强或不足的疾病状态。
+Immunodeficiency	免疫缺陷。因免疫系统功能不全导致机体易受感染的病理状态。
+Immunoglobulin Igg2 Deficiency	免疫球蛋白IgG2缺乏症。一种因IgG2抗体生成不足导致反复细菌感染的免疫缺陷病。
+Immunologic Hypersensitivity	免疫性超敏反应。机体对特定抗原产生异常或过强的免疫应答，导致组织损伤或功能紊乱。
+Immunological Disorders	免疫性疾病。由免疫系统功能紊乱引起的一类疾病，包括自身免疫病和免疫缺陷病等。
+Immunosuppression	免疫抑制。一种因药物、疾病或放射治疗导致免疫系统功能降低的状态。
+Impaired Adp-Induced Platelet Aggregation	ADP诱导血小板聚集障碍。一种因血小板对ADP反应低下导致聚集功能受损的出血性疾病。
+Impaired Continence	尿失禁。因膀胱或括约肌功能障碍导致尿液非自主性漏出的症状。
+Impaired Gluconeogenesis	糖异生受损。一种因肝脏等器官生成葡萄糖能力下降导致的代谢紊乱。
+Impaired Myocardial Contractility	心肌收缩力受损。因心肌细胞功能异常导致心脏泵血能力下降的病理状态。
+Impaired Neutrophil Bactericidal Activity	中性粒细胞杀菌功能受损。一种因中性粒细胞杀伤病原体能力下降导致的免疫缺陷状态。
+Impaired Pain Sensation	痛觉减退。一种因神经系统损伤导致对疼痛刺激感知能力下降的病理状态。
+Impaired Platelet Aggregation	血小板聚集功能异常。一种因血小板功能障碍导致止血能力下降的出血性疾病。
+Impaired Proprioception	本体感觉障碍。一种因神经系统损伤导致对肢体位置和运动感知能力下降的病理状态。
+Impaired T Cell Function	T细胞功能缺陷。一种因T淋巴细胞数量减少或功能障碍导致的免疫应答能力下降的病理状态。
+Impaired Temperature Sensation	温度感觉障碍。一种因周围神经或中枢神经通路受损导致对冷热感知能力下降的神经系统症状。
+Impaired Vibration Sensation In The Lower Limbs	下肢振动觉受损。一种因周围神经病变导致的下肢振动感知能力减退的神经系统症状。
+Impaired Vibratory Sensation	振动觉受损。一种因周围神经病变导致对振动刺激感知能力下降的神经系统症状。
+Impairment Of Galactose Metabolism	半乳糖代谢障碍。一种因半乳糖代谢途径酶缺陷导致半乳糖及其代谢产物蓄积的遗传代谢病。
+Inability To Walk	行走不能。因神经、肌肉或骨骼系统损伤导致自主移动能力丧失的状态。
+Inappropriate Behavior	行为失当。一种因认知障碍或精神疾病导致与社会规范不符的行为表现。
+Inappropriate Crying	不适当哭泣。一种情感调节障碍，表现为与情境不符的无法控制的哭泣发作。
+Incomprehensible Speech	言语不可理解症。因言语表达混乱或构音障碍导致他人无法理解其语言内容的一种症状。
+Incoordination	共济失调。一种因小脑、前庭或感觉神经通路受损导致运动协调障碍的神经系统症状。
+Increased Adipose Tissue	脂肪组织增多症。因脂肪细胞增生或肥大导致脂肪组织过度堆积的病理状态。
+Increased Antibody Level In Blood	血中抗体水平升高。血液中免疫球蛋白浓度异常增高的病理状态，可由感染或自身免疫疾病引发。
+Increased Body Weight	体重增加。因能量摄入超过消耗导致体内脂肪过度蓄积的生理状态。
+Increased Bone Mineral Density	骨密度增高。骨组织内矿物质沉积异常增多，可由骨硬化症或氟骨症等疾病引起。
+Increased C-Peptide Level	C肽水平升高。指血液中C肽浓度高于正常范围，常见于胰岛素抵抗或胰岛β细胞功能亢进。
+Increased Circulating Acth Level	循环促肾上腺皮质激素水平升高。一种因垂体瘤或异位分泌导致血液中促肾上腺皮质激素浓度异常增高的病理状态。
+Increased Circulating Chylomicron Concentration	乳糜微粒血症。一种因脂蛋白脂肪酶功能缺陷或载脂蛋白C-II缺乏导致血液中乳糜微粒浓度升高的代谢性疾病。
+Increased Circulating Cortisol Level	循环皮质醇水平增高。因皮质醇分泌过多导致的代谢紊乱，常表现为向心性肥胖和高血压。
+Increased Circulating Free Fatty Acid Level	循环游离脂肪酸水平升高。一种因脂肪分解增强或利用障碍导致血浆游离脂肪酸浓度异常增高的代谢紊乱。
+Increased Connective Tissue	结缔组织增生。组织内胶原纤维等细胞外基质成分异常增多的病理改变。
+Increased Csf Lactate	脑脊液乳酸增高。脑脊液中乳酸浓度异常升高，常见于细菌性脑膜炎等中枢神经系统感染。
+Increased Csf Protein	脑脊液蛋白增高。脑脊液中蛋白质含量异常升高的病理状态，常见于中枢神经系统感染或血脑屏障受损。
+Increased Density Of Long Bone Diaphyses	长骨骨干密度增高。一种因骨皮质增厚或骨小梁增多导致骨干X线密度异常升高的骨骼病变。
+Increased Erythrocyte Protoporphyrin Concentration	红细胞原卟啉浓度增高。一种因血红素合成障碍导致原卟啉在红细胞内蓄积的代谢异常。
+Increased Female Libido	女性性欲亢进。一种由内分泌失调或精神心理因素导致的女性性欲异常增强的状态。
+Increased Hematocrit	红细胞增多症。血液中红细胞压积异常升高的病理状态，常见于脱水或真性红细胞增多症。
+Increased Hemoglobin	血红蛋白增多症。血液中血红蛋白浓度异常升高，可由真性红细胞增多症或慢性缺氧等引起。
+Increased Hepatic Glycogen Content	肝糖原增多症。因糖代谢异常导致肝细胞内糖原过度蓄积的病理状态。
+Increased Hepatocellular Lipid Droplets	肝细胞脂滴增多症。肝细胞内脂质异常蓄积导致的代谢性病变，常见于脂肪肝。
+Increased Ige Level	IgE水平升高。一种因过敏反应或寄生虫感染导致免疫球蛋白E浓度异常增高的病理状态。
+Increased Intracranial Pressure	颅内压增高。由颅腔内容物体积增加引起，以头痛、呕吐和视乳头水肿为主要表现的临床综合征。
+Increased Intramyocellular Lipid Droplets	肌细胞内脂滴增多症。一种因肌细胞脂质代谢异常导致脂滴在肌纤维内过度蓄积的病理状态。
+Increased Intraocular Pressure	高眼压症。一种因房水循环障碍导致眼内压力持续升高的病理状态。
+Increased Lactate Dehydrogenase Activity	乳酸脱氢酶活性增高。一种因组织损伤或细胞坏死导致血清乳酸脱氢酶水平升高的病理状态。
+Increased Ldl Cholesterol Concentration	低密度脂蛋白胆固醇升高。一种因脂质代谢异常导致血液中低密度脂蛋白胆固醇水平过高的病理状态。
+Increased Level Of 3-Hydroxy-3-Methylglutaric Acid In Urine	尿中3-羟基-3-甲基戊二酸增高症。一种因HMG-CoA裂解酶缺乏导致有机酸代谢障碍的遗传性疾病。
+Increased Level Of Hippuric Acid In Urine	尿中马尿酸增高。尿液中马尿酸浓度异常升高，常见于甲苯或苯甲酸化合物暴露。
+Increased Level Of L-Fucose In Urine	尿岩藻糖增高症。一种因岩藻糖代谢异常导致尿液中L-岩藻糖水平升起的遗传性代谢疾病。
+Increased Level Of L-Glutamic Acid In Blood	血谷氨酸水平升高。血液中L-谷氨酸浓度异常增高，多与代谢紊乱或神经系统疾病相关。
+Increased Level Of L-Pyroglutamic Acid In Urine	尿中L-焦谷氨酸增高。一种因谷胱甘肽代谢异常导致尿中L-焦谷氨酸升高的代谢紊乱。
+Increased Mean Corpuscular Volume	平均红细胞体积增高。一种红细胞体积大于正常值的实验室检查异常，常见于巨幼细胞性贫血等疾病。
+Increased Mean Platelet Volume	平均血小板体积增高。一种血小板体积增大现象，常与血小板活化或生成加速相关。
+Increased Megakaryocyte Count	巨核细胞增多症。骨髓中巨核细胞数量异常增多的病理状态，常见于骨髓增殖性肿瘤或反应性造血增生。
+Increased Mitochondrial Number	线粒体数目增多。一种因能量需求增加或病理刺激导致的细胞适应性反应。
+Increased Muscle Fatiguability	肌肉易疲劳症。一种因神经肌肉接头功能障碍导致肌肉在重复收缩后力量迅速减退的病理状态。
+Increased Muscle Lipid Content	肌肉脂质沉积增多症。一种因脂质代谢异常导致肌细胞内脂质过度蓄积的病理状态。
+Increased Red Blood Cell Mass	红细胞增多症。一种因红细胞绝对数量异常增多导致血液黏稠度升高的病理状态。
+Increased Red Cell Osmotic Fragility	红细胞渗透脆性增高。一种因红细胞膜缺陷导致在低渗盐水中过早溶血的溶血性疾病。
+Increased Red Cell Sickling Tendency	红细胞镰变倾向增高。一种因血红蛋白异常导致红细胞在低氧条件下易发生镰状变形的病理状态。
+Increased Serum 1,25-Dihydroxyvitamin D3	血清1,25-二羟基维生素D3升高。因维生素D代谢异常或肿瘤分泌导致血钙升高的病理状态。
+Increased Serum Androstenedione	血清雄烯二酮增高。一种因肾上腺或性腺功能异常导致血清雄烯二酮水平升高的病理状态。
+Increased Serum Bile Acid Concentration	血清胆汁酸浓度增高。一种因胆汁酸代谢或排泄障碍导致血清中胆汁酸水平升高的病理状态。
+Increased Serum Estradiol	血清雌二醇升高。血清中雌二醇水平异常增高，多由内分泌紊乱或肿瘤引起。
+Increased Serum Ferritin	血清铁蛋白升高。血清铁蛋白水平高于正常范围，常见于铁过载或炎症性疾病。
+Increased Serum Insulin-Like Growth Factor 1	血清胰岛素样生长因子1升高。一种因生长激素过度分泌或肿瘤导致的血清IGF-1水平异常增高的病理状态。
+Increased Serum Iron	血清铁增高。血清中铁浓度异常升高，多由溶血、铁过载或代谢障碍引起。
+Increased Serum Lactate	高乳酸血症。血液中乳酸浓度异常升高，多由组织缺氧或代谢障碍引起。
+Increased Serum Prostaglandin E2	血清前列腺素E2升高。一种因炎症、肿瘤或组织损伤导致血清前列腺素E2水平异常增高的病理状态。
+Increased Serum Pyruvate	血清丙酮酸增高。血液中丙酮酸浓度异常升高，多由代谢障碍或维生素B1缺乏引起。
+Increased Serum Serotonin	血清素增高症。一种因血清中5-羟色胺浓度异常升高导致的代谢紊乱状态。
+Increased Serum Testosterone Level	血清睾酮水平升高。一种因内分泌失调或肿瘤导致血液中雄激素浓度异常增高的病理状态。
+Increased Spinal Bone Density	脊柱骨密度增高。一种因骨形成增加或骨吸收减少导致的脊柱骨量异常增多的病理状态。
+Increased Susceptibility To Fractures	骨折易感性增高。因骨密度降低或骨微结构破坏导致轻微外力下易发生骨折的病理状态。
+Increased Thyroid-Stimulating Hormone Level	促甲状腺激素水平升高。一种因甲状腺功能减退或垂体病变导致促甲状腺激素分泌过多的内分泌异常。
+Increased Total Bilirubin	总胆红素升高。血液中总胆红素水平超出正常范围，多由肝胆疾病或溶血引起。
+Increased Urinary Cortisol Level	尿皮质醇增多症。因肾上腺皮质功能亢进或外源性糖皮质激素过量导致的尿中皮质醇水平升高。
+Increased Urinary O-Linked Sialopeptides	尿O-连接唾液酸肽增多症。一种因尿液中O-连接唾液酸糖肽排泄异常增多的代谢紊乱疾病。
+Increased Urinary Potassium	尿钾增多。尿液中钾离子排泄异常增多的病理状态，常与肾小管功能障碍或醛固酮异常相关。
+Increased Urinary Taurine	尿牛磺酸增多症。尿液中牛磺酸排泄量异常增高的代谢异常状态。
+Increased Urine Alpha-Ketoglutarate Concentration	尿α-酮戊二酸增高症。尿液中α-酮戊二酸浓度异常升高，多由有机酸代谢障碍或线粒体功能异常引起。
+Increased Variability In Muscle Fiber Diameter	肌纤维直径变异性增加。一种肌纤维大小显著不均的病理改变，常见于神经源性或肌源性肌病。
+Increased Vldl Cholesterol Concentration	极低密度脂蛋白胆固醇升高。一种因VLDL合成过多或清除障碍导致的血脂异常状态。
+Infantile Encephalopathy	婴儿脑病。一种由多种病因引起的婴幼儿期脑功能障碍综合征，主要表现为发育迟缓和神经系统异常。
+Infantile Muscular Hypotonia	婴儿肌张力低下。一种以婴儿期肌肉张力显著减退为特征的神经肌肉疾病。
+Infantile Onset	婴儿期发病。指疾病在婴儿期（通常为出生后第一年内）开始出现症状的发病类型。
+Infantile Spasms	婴儿痉挛症。一种婴儿期特有的癫痫综合征，以成串的点头、鞠躬样痉挛发作为特征。
+Infarction, Middle Cerebral Artery	大脑中动脉梗死。因大脑中动脉供血区血流中断导致的局部脑组织缺血性坏死。
+Infectious Disease	传染病。由病原微生物侵入人体引起的具有传染性的疾病。
+Infertility	不孕症。因生殖系统功能障碍导致一年以上未采取避孕措施而未能成功妊娠的状态。
+Inflammation	炎症。机体对损伤因子发生的以局部组织变质、渗出和增生为基本病理变化的防御反应。
+Inflammatory Abnormality Of The Eye	眼部炎症性异常。由感染、外伤或自身免疫反应引起的眼球及附属器炎症病变。
+Inflammatory Abnormality Of The Skin	皮肤炎症性异常。由感染、过敏或自身免疫等因素引起的皮肤组织炎症反应。
+Inflammatory Lung Disease	炎症性肺病。由感染、过敏或自身免疫等因素引起的肺部炎症反应性疾病。
+Inflammatory Neurological Disease	炎症性神经系统疾病。由免疫介导或感染引起的神经系统炎症反应性疾病。
+Inflammatory Pain	炎性疼痛。由组织损伤或炎症介质释放引起的疼痛反应。
+Inflammatory Response In Alcoholic Liver Disease	酒精性肝病炎症反应。由长期酗酒引发肝脏免疫细胞激活导致的炎性病理过程。
+Inflammatory Skin Disorder	炎症性皮肤病。由免疫异常或外界刺激引起的以皮肤红肿、瘙痒为主要表现的疾病。
+Inguinal Hernia	腹股沟疝。腹腔内脏器通过腹股沟区缺损向体表突出所形成的包块。
+Injury To Spine And Spinal Cord	脊柱与脊髓损伤。由外力导致的脊柱结构破坏或脊髓神经功能受损的创伤性疾病。
+Insomnia	失眠症。一种以入睡困难、睡眠维持障碍或早醒为特征的睡眠障碍。
+Inspiratory Stridor	吸气性喘鸣。因上气道部分阻塞导致吸气时出现的高调呼吸音。
+Insulin Resistance	胰岛素抵抗。一种因靶组织对胰岛素敏感性下降导致血糖调节异常的病理状态。
+Insulin-Dependent Diabetes Mellitus	胰岛素依赖型糖尿病。一种因胰岛β细胞破坏导致胰岛素绝对缺乏的自身免疫性疾病。
+Insulin-Resistant Diabetes Mellitus	胰岛素抵抗性糖尿病。一种因胰岛素敏感性下降导致血糖升高的代谢性疾病。
+Intellectual Disability	智力障碍。一种由多种原因导致的智力功能和适应行为明显受限的神经发育障碍。
+Intellectual Disability, Borderline	边缘智力障碍。智商介于70-85之间，处于正常智力与轻度智力障碍临界状态的发展性障碍。
+Intellectual Disability, Moderate	中度智力障碍。智商在35到49之间，伴有明显语言和社交能力发育迟缓的神经发育障碍。
+Intellectual Disability, Profound	重度智力障碍。智商低于20-25，伴有严重认知缺陷和完全依赖他人照顾的神经发育障碍。
+Intellectual Disability, Progressive	进行性智力障碍。一种由遗传代谢疾病等病因导致认知功能持续退化的神经发育障碍。
+Intellectual Disability, Severe	重度智力障碍。智商在20到34之间，伴有显著认知和适应功能缺陷的神经发育障碍。
+Intention Tremor	意向性震颤。一种在目标导向运动中加重的震颤，常见于小脑及其通路受损。
+Intercostal Muscle Weakness	肋间肌无力。一种因肋间肌功能减退导致呼吸辅助作用减弱的病理状态。
+Intermittent Diarrhea	间歇性腹泻。一种以反复发作、时好时坏的腹泻为特征的肠道功能紊乱。
+Intermittent Episodes Of Respiratory Insufficiency Due To Muscle Weakness	肌无力性间歇性呼吸功能不全。因肌肉无力导致呼吸肌功能不全引起的周期性呼吸困难发作。
+Intermittent Hyperpnea At Rest	静息间歇性呼吸深快。一种在安静状态下反复出现呼吸深度和频率异常增加的病理状态。
+Intermittent Hypothermia	间歇性低体温症。一种以反复发作的体温异常降低为特征的体温调节障碍。
+Intermittent Jaundice	间歇性黄疸。一种因胆红素代谢异常导致皮肤黏膜间歇性黄染的临床症状。
+Intermittent Painful Muscle Spasms	间歇性痛性肌痉挛。一种以肌肉突发性不自主收缩伴明显疼痛为特征的神经系统症状。
+Intermittent Thrombocytopenia	间歇性血小板减少症。一种以血小板计数周期性下降为特征的血液系统异常。
+Interphalangeal Joint Erosions	指间关节侵蚀。一种因炎症或退行性病变导致关节软骨及骨质破坏的病理改变。
+Interstitial Pneumonitis	间质性肺炎。一种以肺间质炎症和纤维化为主要特征的弥漫性肺疾病。
+Interstitial Pulmonary Abnormality	间质性肺异常。一种以肺部间质增厚、牵拉性支气管扩张或纤维化为主要特征的影像学表现。
+Intestinal Carcinoid	肠道类癌。一种起源于肠道神经内分泌细胞的低度恶性肿瘤，常表现为局部生长或激素分泌异常。
+Intestinal Malrotation	肠旋转不良。一种因胚胎期肠道旋转异常导致的先天性消化道畸形。
+Intestinal Obstruction	肠梗阻。因肠道内容物通过障碍，表现为腹痛、呕吐及停止排便的急腹症。
+Intestinal Polyposis	肠道息肉病。一种以肠道黏膜表面多发性息肉样病变为特征的疾病，可伴发便血或肠梗阻。
+Intestinal Polyps	肠道息肉。一种肠黏膜表面向肠腔突出的隆起性病变，多为良性但可能恶变。
+Intestinal Pseudo-Obstruction	肠假性梗阻。一种具有肠梗阻症状但无机械性阻塞证据的肠道动力障碍性疾病。
+Intimal Hyperplasia	内膜增生。血管内膜因损伤或刺激导致平滑肌细胞异常增殖的病理改变。
+Intracranial Hemorrhage	颅内出血。因脑血管破裂导致血液进入颅腔，常引发头痛、呕吐及意识障碍。
+Intracranial Hemorrhages	颅内出血。因脑血管破裂导致血液进入颅腔，引发神经功能缺损的急性病症。
+Intrahepatic Cholestasis	肝内胆汁淤积。因肝细胞内胆汁分泌障碍或肝内胆管阻塞导致的胆汁流动受阻性疾病。
+Intramuscular Hematoma	肌肉内血肿。因肌肉组织内血管破裂导致血液在肌纤维间积聚的局限性出血。
+Involuntary Movements	不自主运动。一种由神经系统病变导致的无法主观控制的异常肌肉活动。
+Iris Hypopigmentation	虹膜色素减退。一种因虹膜黑色素细胞减少或缺失导致虹膜颜色变浅的先天性疾病。
+Iron Deficiency Anemia	缺铁性贫血。一种因体内铁储备不足导致血红蛋白合成减少的贫血症。
+Irregular Hyperpigmentation	不规则色素沉着。一种因黑色素分布不均导致皮肤出现不规则深色斑块的病理状态。
+Irritability	易激惹。一种表现为情绪不稳定、易怒和过度反应的情绪状态。
+Irritable Bowel Syndrome	肠易激综合征。一种以腹痛伴排便习惯改变为特征的功能性肠病。
+Irritation	刺激。由物理、化学或生物因素引起的组织局部炎症反应，常表现为红肿、疼痛或功能障碍。
+Ischemia	缺血。因血流灌注不足导致组织缺氧的病理状态。
+Ischemia Reperfusion Injuries	缺血再灌注损伤。组织缺血后恢复血流灌注时，因氧化应激和炎症反应导致组织损伤加重的病理过程。
+Ischemic Complications Of Nonurgent Coronary Stent Implantation	非紧急冠状动脉支架植入术后缺血性并发症。因非紧急支架植入术引发的急性心肌缺血或血栓形成等病症。
+Ischemic Injury Of The Liver	肝缺血性损伤。因肝脏血流灌注不足导致肝细胞坏死和功能障碍的病理过程。
+Ischemic Stroke	缺血性脑卒中。因脑部血液供应中断导致脑组织缺血坏死的急性脑血管疾病。
+Jaundice	黄疸。一种因胆红素代谢障碍导致皮肤、黏膜和巩膜黄染的临床症状。
+Jaw Pain	下颌痛。由颞下颌关节紊乱、牙齿疾病或外伤等引起的下颌区域疼痛症状。
+Jerky Head Movements	点头样抽搐。一种以头部不自主、快速、节律性摆动为特征的运动障碍。
+Joint Contracture Of The Hand	手关节挛缩。因关节周围软组织纤维化导致手部关节活动范围永久性受限的病理状态。
+Joint Hemorrhage	关节积血。因关节内血管破裂导致血液进入关节腔的病理状态。
+Joint Laxity	关节松弛。一种因结缔组织异常导致关节活动范围超过正常生理限度的病理状态。
+Joint Stiffness	关节僵硬。因关节活动受限导致运动障碍的常见临床症状，多由炎症或退行性病变引起。
+Joint Swelling	关节肿胀。因炎症、创伤或退行性病变导致的关节腔内液体积聚或软组织增生。
+Juvenile Onset	青少年发病。指疾病在儿童期或青春期首次发作的临床特征。
+Juvenile Rheumatoid Arthritis	幼年特发性关节炎。一种16岁前发病的慢性关节炎，以持续性关节滑膜炎为主要特征。
+Kaposi's Sarcoma	卡波西肉瘤。一种由人类疱疹病毒8型感染引起的恶性肿瘤，特征为皮肤黏膜多发性紫红色斑块。
+Ketoacidosis	酮症酸中毒。因胰岛素严重缺乏导致脂肪分解产生过量酮体引起的代谢性酸中毒。
+Ketonemia	酮血症。血液中酮体浓度异常升高，常见于糖尿病酮症酸中毒或长期饥饿状态。
+Ketonuria	酮尿症。尿中出现过量酮体，常见于糖尿病酮症酸中毒或饥饿状态。
+Ketotic Hypoglycemia	酮症性低血糖。一种因长时间饥饿导致肝糖原耗竭、脂肪分解产生酮体伴发的低血糖状态。
+Ki-1+ Anaplastic Large Cell Lymphoma	Ki-1阳性间变性大细胞淋巴瘤。一种表达CD30抗原的T细胞淋巴瘤，特征为间变性大细胞增生和ALK基因异常。
+Kidney Cancer	肾癌。起源于肾实质或肾盂上皮细胞的恶性肿瘤，常见症状包括血尿、腰痛和腹部肿块。
+Kidney Diseases	肾脏疾病。由多种病因引起肾脏结构或功能异常的一组疾病。
+Kidney Neoplasm	肾肿瘤。发生在肾脏组织的异常增生性病变，可为良性或恶性。
+Kinetic Tremor	运动性震颤。一种在主动运动时出现的节律性不自主抖动，常见于小脑病变或特发性震颤。
+Knee Dislocation	膝关节脱位。因暴力导致股骨与胫骨关节面失去正常对合关系的骨科急症。
+Knee Flexion Contracture	膝关节屈曲挛缩。因膝关节周围软组织挛缩导致膝关节无法完全伸直的状态。
+Korsakov's Alcoholic Psychosis	科萨科夫酒精性精神病。一种因长期酗酒导致维生素B1缺乏引起的记忆障碍和虚构症状的脑病。
+Kyphosis	脊柱后凸。一种由椎体前部塌陷或脊柱异常弯曲导致的脊柱过度向后凸出的畸形。
+Lack Of Skin Elasticity	皮肤弹性减退。因胶原蛋白流失或弹性纤维损伤导致的皮肤回缩能力下降状态。
+Lack Of T Cell Function	T细胞功能缺乏症。一种因T淋巴细胞功能缺陷导致免疫应答受损的原发性免疫缺陷病。
+Lactic Acidosis	乳酸酸中毒。因乳酸生成过多或清除障碍导致血液中乳酸蓄积的代谢性酸中毒。
+Lactose Intolerance	乳糖不耐受。一种因乳糖酶缺乏导致摄入乳制品后出现腹胀、腹泻的消化障碍。
+Lamellar Cataract	板层白内障。一种先天性白内障，表现为晶状体核心透明而周围板层混浊的特征。
+Large Cafe-Au-Lait Macules With Irregular Margins	边缘不规则性巨大牛奶咖啡斑。一种因黑色素细胞异常增生导致的皮肤色素沉着病变，边缘呈锯齿状或不规则形。
+Large Fontanelles	大囟门。一种因颅骨骨化延迟或颅内压增高导致婴儿囟门异常增大的病理状态。
+Laryngeal Dystonia	喉肌张力障碍。一种因喉部肌肉不自主收缩导致发声困难或声音中断的神经系统疾病。
+Laryngospasm	喉痉挛。一种因喉部肌肉反射性痉挛导致声门突然闭合的急性病症。
+Lasting Tachycardia	持续性心动过速。一种心率持续超过100次/分钟且持续时间较长的异常心律状态。
+Late Onset	晚发型。指症状或疾病在生命较晚阶段（通常成年后）才首次显现的发病类型。
+Late Onset Congenital Glaucoma	迟发性先天性青光眼。一种因房角发育异常导致眼压升高、视神经损伤的遗传性眼病。
+Late-Onset Distal Muscle Weakness	晚发型远端肌无力。一种成年期发病、以四肢末端肌肉进行性无力为主要表现的神经肌肉疾病。
+Late-Onset Proximal Muscle Weakness	晚发性近端肌无力。一种成年后发病、以躯干和四肢近端肌肉进行性无力为主要特征的神经肌肉疾病。
+Late-Stage B-Cell Lymphoma	晚期B细胞淋巴瘤。一种由B淋巴细胞恶性增殖导致的进展期血液系统肿瘤。
+Late-Stage Solid Tumors	晚期实体瘤。指恶性肿瘤发生局部浸润或远处转移的终末阶段。
+Learning Disorders	学习障碍。一种由神经发育异常导致的学习能力显著受损的发育性障碍。
+Leber Optic Atrophy	莱伯视神经萎缩。一种由线粒体DNA突变引起的遗传性疾病，主要症状为双眼急性视力丧失。
+Leg Muscle Stiffness	腿部肌肉僵硬。因肌肉过度紧张或劳损导致的腿部肌肉活动受限状态。
+Leishmania Infections	利什曼病。由利什曼原虫感染引起，以皮肤溃疡或内脏损害为主要特征的寄生虫病。
+Leishmaniasis, Cutaneous	皮肤利什曼病。由利什曼原虫经白蛉叮咬感染皮肤，导致溃疡性皮损的寄生虫病。
+Leishmaniasis, Visceral	内脏利什曼病。由杜氏利什曼原虫感染引起，以长期发热、肝脾肿大和全血细胞减少为特征的寄生虫病。
+Lethargy	嗜睡。一种以持续疲倦、精神萎靡和活动意愿显著降低为特征的病理状态。
+Leukocyte Inclusion Bodies	白细胞包涵体。白细胞内出现的异常结构，通常由病毒感染或遗传代谢缺陷导致。
+Leukocytosis	白细胞增多症。外周血白细胞计数高于正常值的病理状态，常见于感染或炎症反应。
+Leukodystrophy	脑白质营养不良。一组由髓鞘形成或维持缺陷导致中枢神经系统白质退行性变的遗传性疾病。
+Leukoencephalopathy	脑白质病。一种主要累及大脑白质的神经系统退行性疾病，常由髓鞘损伤或代谢异常引起。
+Leukonychia	白甲病。一种因甲板角化异常或甲床损伤导致指甲出现白色斑点或条纹的常见病变。
+Leukopenia	白细胞减少症。外周血白细胞计数持续低于正常值下限的病理状态。
+Levator Palpebrae Superioris Atrophy	上睑提肌萎缩。一种因上睑提肌退行性变导致上眼睑下垂和眼裂变小的疾病。
+Limb Ataxia	肢体共济失调。一种因小脑或其传导通路受损导致四肢运动协调障碍的神经系统症状。
+Limb Dystonia	肢体肌张力障碍。一种因神经系统异常导致肢体肌肉出现持续性或间歇性不自主收缩的运动障碍病。
+Limb Hypertonia	肢体肌张力增高。一种因中枢或周围神经系统损伤导致肢体肌肉张力异常升高的运动障碍。
+Limb Joint Contracture	肢体关节挛缩。因关节周围软组织病变导致关节活动范围永久性受限的病理状态。
+Limb Muscle Weakness	肢体肌无力。一种因神经肌肉功能障碍导致四肢肌肉力量减退的临床症状。
+Limb Myoclonus	肢体肌阵挛。一种表现为肢体肌肉突发、短暂、不自主收缩的神经系统症状。
+Limb Pain	肢体疼痛。由创伤、炎症或神经病变等引起的四肢部位疼痛症状。
+Limb Tremor	肢体震颤。一种因神经系统功能障碍导致肢体不自主节律性抖动的运动障碍疾病。
+Limb-Girdle Muscle Weakness	肢带型肌无力。一种以肩带和盆带肌肉进行性无力为主要特征的遗传性或获得性肌病。
+Limited Elbow Movement	肘关节活动受限。因创伤、炎症或退行性病变导致的肘部正常活动范围减小。
+Limited Extraocular Movements	眼球运动受限。因眼外肌、神经或神经肌肉接头病变导致的眼球活动范围减小。
+Limited Knee Flexion	膝关节活动受限。因关节病变或软组织损伤导致的膝关节屈曲范围减小。
+Lip Telangiectasia	唇部毛细血管扩张症。一种因毛细血管持续性扩张导致唇部出现红色斑点的血管病变。
+Lipid Metabolic Disorders	脂质代谢紊乱。因脂质合成、分解或转运异常导致血脂水平失衡的代谢性疾病。
+Lipodystrophy	脂肪营养不良。一种因脂肪组织分布或代谢异常导致皮下脂肪缺失或堆积的代谢性疾病。
+Lipoidosis	脂质沉积症。一类因脂质代谢障碍导致脂类物质在组织细胞中异常沉积的遗传性疾病。
+Lipoma	脂肪瘤。一种由成熟脂肪细胞构成的良性软组织肿瘤，通常表现为无痛性皮下肿块。
+Liver Abscess	肝脓肿。由细菌或阿米巴原虫感染引起的肝脏局灶性化脓性病变。
+Liver Cirrhosis	肝硬化。一种由慢性肝损伤引起的进行性、弥漫性肝病，以肝纤维化和假小叶形成为主要特征。
+Liver Diseases	肝病。由病毒感染、酒精滥用或代谢异常等多种病因引起的肝脏结构和功能异常疾病。
+Liver Failure	肝衰竭。由多种因素引起肝脏严重损伤，导致合成、解毒等功能障碍的临床综合征。
+Liver Neoplasms	肝肿瘤。发生在肝脏组织的异常增生性疾病，包括良性和恶性肿瘤。
+Local Anesthesia	局部麻醉。一种通过暂时阻断神经传导使身体特定区域失去痛觉的医疗技术。
+Localized Neuroblastoma	局限性神经母细胞瘤。一种起源于交感神经系统的胚胎性肿瘤，局限于原发部位且无远处转移。
+Localized Skin Lesion	局限性皮肤病变。局限于特定皮肤区域的形态或结构异常，可由炎症、感染或肿瘤引起。
+Long Eyebrows	长眉症。一种罕见的先天性毛发异常，特征为眉毛异常延长。
+Long Penis	阴茎过长。一种先天性解剖异常，表现为阴茎长度显著超过同年龄段正常值。
+Loss Of Ability To Walk	行走能力丧失。因神经或肌肉系统损伤导致无法独立行走的运动功能障碍。
+Loss Of Ability To Walk In Early Childhood	幼儿期行走能力丧失。一种在儿童早期因神经肌肉病变或发育障碍导致的运动功能倒退。
+Loss Of Consciousness	意识丧失。因脑功能严重抑制导致的短暂或持续知觉完全中断的状态。
+Loss Of Speech	失语症。因大脑语言中枢受损导致言语表达或理解能力丧失的神经功能障碍。
+Loss Of Subcutaneous Adipose Tissue In Limbs	四肢皮下脂肪组织缺失。一种因脂肪代谢异常导致四肢皮下脂肪层减少的病理状态。
+Low Anterior Hairline	低前发际线。一种先天性发际线位置过低，通常位于眉毛上方2-3厘米处的解剖学变异。
+Low Apgar Score	阿普加低评分。一种评估新生儿出生后1分钟和5分钟时心率、呼吸、肌张力、反射和肤色的综合评分系统。
+Low Frustration Tolerance	低挫折耐受力。一种因情绪调节能力不足而难以应对挫折的心理特征。
+Low High Density Lipoprotein Syndromes	低高密度脂蛋白综合征。一种因高密度脂蛋白水平降低导致动脉粥样硬化风险增高的代谢紊乱。
+Low Maternal Serum Estriol	母血清雌三醇偏低。妊娠期母体血清雌三醇水平异常降低，提示胎儿胎盘功能不全或先天性异常风险。
+Low Plasma Citrulline	低血浆瓜氨酸。一种因瓜氨酸合成不足或代谢异常导致血浆浓度降低的代谢紊乱。
+Low Posterior Hairline	低发际线。一种先天性特征，表现为后颈部发际线位置异常偏低。
+Low Serum Calcitriol	低血清骨化三醇。因维生素D代谢障碍或肾功能不全导致活性维生素D水平不足的病理状态。
+Low Urinary Cyclic Amp Response To Pth Administration	尿环磷酸腺苷对甲状旁腺激素反应低下。一种因肾小管对甲状旁腺激素反应缺陷导致尿cAMP排泄减少的代谢异常。
+Low-Molecular-Weight Proteinuria	低分子量蛋白尿。一种因肾小管重吸收功能障碍导致尿液中低分子量蛋白质异常增多的病理状态。
+Low-Set, Posteriorly Rotated Ears	低位后旋耳。一种因胚胎发育异常导致耳廓位置低于眼裂水平且向后倾斜的先天性畸形。
+Low-To-Normal Blood Pressure	低至正常血压。一种血压处于正常范围下限或略低于正常值的生理状态。
+Lower Eyelid Coloboma	下睑缺损。一种因胚胎期眼睑发育不全导致下眼睑部分组织缺损的先天性畸形。
+Lower Limb Amyotrophy	下肢肌萎缩。一种因神经损伤或肌肉病变导致下肢肌肉体积缩小的退行性病变。
+Lower Limb Hyperreflexia	下肢反射亢进。一种因上运动神经元损伤导致下肢腱反射异常增强的神经系统体征。
+Lower Limb Muscle Weakness	下肢肌无力。因神经肌肉功能障碍导致下肢自主收缩力量减退的临床症状。
+Lower Limb Spasticity	下肢痉挛。一种因上运动神经元损伤导致下肢肌张力异常增高的运动障碍。
+Lps-Induced Left Ventricular Dysfunction	脂多糖诱导左心室功能障碍。由细菌脂多糖引发炎症反应导致左心室收缩或舒张功能受损的病理状态。
+Lumbar Hyperlordosis	腰椎前凸过度。一种因腰椎生理曲度异常增大导致的脊柱姿势异常疾病。
+Lung Adenocarcinoma	肺腺癌。一种起源于支气管黏膜腺体细胞的恶性肿瘤，属于非小细胞肺癌的主要亚型。
+Lung Cancer	肺癌。一种起源于支气管黏膜或腺体的恶性肿瘤，主要与吸烟和环境污染相关。
+Lung Neoplasms	肺肿瘤。起源于肺组织或转移至肺部的异常细胞增生性疾病。
+Lupus	狼疮。一种因自身免疫系统攻击健康组织导致多器官炎症的慢性自身免疫病。
+Lymph Node Hypoplasia	淋巴结发育不全。一种因胚胎期淋巴组织发育障碍导致淋巴结体积过小的先天性疾病。
+Lymphadenitis	淋巴结炎。由病原体感染引起的淋巴结急性或慢性炎症反应，常伴红、肿、热、痛症状。
+Lymphadenopathy	淋巴结肿大。由感染、肿瘤或免疫疾病引起的淋巴结异常增大。
+Lymphangiectasis	淋巴管扩张症。淋巴管异常扩张导致淋巴液回流受阻的病理状态。
+Lymphangioma	淋巴管瘤。一种由先天性淋巴管发育异常形成的良性肿瘤，多见于婴幼儿。
+Lymphatic Metastasis	淋巴道转移。恶性肿瘤细胞通过淋巴系统扩散至区域淋巴结或其他部位的转移过程。
+Lymphedema	淋巴水肿。因淋巴循环障碍导致组织间隙淋巴液异常积聚的慢性进展性疾病。
+Lymphocytosis	淋巴细胞增多症。外周血淋巴细胞计数异常增高，常见于感染或血液系统疾病。
+Lymphoma	淋巴瘤。一组起源于淋巴造血系统的恶性肿瘤，主要表现为无痛性淋巴结肿大。
+Lymphopenia	淋巴细胞减少症。一种因淋巴细胞数量低于正常值导致免疫功能下降的病理状态。
+Macrocytic Anemia	大细胞性贫血。一种因DNA合成障碍导致红细胞体积增大的贫血类型。
+Macronodular Adrenal Hyperplasia	大结节性肾上腺增生。一种以双侧肾上腺出现大于1厘米结节为特征的肾上腺皮质增生性疾病。
+Macroorchidism, Postpubertal	青春期后巨睾症。青春期后睾丸异常增大的病理状态，常见于克莱恩费尔特综合征等遗传性疾病。
+Macrothrombocytopenia	巨大血小板减少症。一种以血小板体积增大和数量减少为特征的遗传性出血性疾病。
+Macrovesicular Hepatic Steatosis	大泡性肝脂肪变性。肝细胞内出现单个大脂滴挤压细胞核的脂肪蓄积性疾病。
+Macular Degeneration	黄斑变性。一种因黄斑区视网膜细胞退化导致中心视力进行性丧失的眼病。
+Macular Edema	黄斑水肿。黄斑区液体积聚导致视力下降的视网膜病变。
+Macular Flecks	黄斑斑点。黄斑区视网膜色素上皮层出现的黄色小点状沉积物。
+Macule	斑疹。一种直径小于1厘米的局限性皮肤颜色改变，不隆起亦不凹陷于皮面。
+Magnesium Deficiency Dermatitis	镁缺乏性皮炎。一种因镁元素缺乏导致的皮肤炎症反应，常伴皮肤干燥和瘙痒。
+Major Depressive Disorder	重度抑郁症。一种以持续心境低落和兴趣丧失为核心症状的情感障碍。
+Malabsorption	吸收不良综合征。因消化或吸收功能障碍导致营养物质从肠道吸收不足的病理状态。
+Malabsorption Of Vitamin B12	维生素B12吸收不良。因内因子缺乏或肠道疾病导致维生素B12吸收障碍的营养缺乏病。
+Malaria	疟疾。一种由疟原虫经蚊媒传播引起的寄生虫病，典型症状为周期性寒战高热。
+Male Hypogonadism	男性性腺功能减退症。一种因睾丸功能不全导致睾酮水平不足的内分泌疾病。
+Male Infertility	男性不育症。由精子生成障碍、输精管阻塞或性功能障碍等因素导致男性生育能力下降的疾病。
+Malignant Adrenal Gland Cancer	恶性肾上腺癌。起源于肾上腺皮质或髓质的恶性肿瘤，可导致激素异常分泌或局部压迫症状。
+Malignant Eosinophil Proliferation	恶性嗜酸性粒细胞增殖。一种以嗜酸性粒细胞恶性克隆性增生为特征的血液系统肿瘤。
+Malignant Hyperthermia	恶性高热。一种由吸入麻醉药触发、导致骨骼肌代谢急剧升高的遗传性肌病。
+Malignant Melanoma	恶性黑色素瘤。一种由黑色素细胞恶变导致的侵袭性强、易转移的皮肤恶性肿瘤。
+Malignant Mesothelioma	恶性间皮瘤。一种由石棉暴露引起的、起源于间皮细胞的侵袭性恶性肿瘤。
+Malignant Neoplasm Of Prostate	前列腺恶性肿瘤。一种起源于前列腺上皮细胞的恶性增殖性疾病，具有侵袭和转移能力。
+Malnutrition	营养不良。因营养素摄入不足、吸收障碍或消耗过多导致的机体营养失衡状态。
+Malrotation Of Small Bowel	小肠旋转不良。一种因胚胎期肠道旋转固定异常导致的先天性消化道畸形。
+Mammary Neoplasms	乳腺肿瘤。发生在乳腺组织的异常增生性疾病，包括良性和恶性肿瘤。
+Mandibular Osteomyelitis	下颌骨骨髓炎。一种由细菌感染引起的下颌骨炎症性疾病，常导致局部疼痛和骨质破坏。
+Mandibular Pain	下颌痛。由颞下颌关节紊乱、外伤或炎症等引起的下颌区域疼痛症状。
+Mania	躁狂症。一种以情感高涨、思维奔逸和活动增多为主要特征的心境障碍。
+Manic Disorder	躁狂障碍。一种以情感高涨、思维奔逸和活动增多为核心症状的心境障碍。
+Marijuana Abuse	大麻滥用。一种因长期过量使用大麻导致认知障碍和心理依赖的精神活性物质使用障碍。
+Marked Delay In Bone Age	骨龄显著延迟。一种因骨骼发育明显落后于实际年龄的生长发育障碍。
+Maternal Diabetes	妊娠期糖尿病。妊娠期间首次发生或发现的糖代谢异常性疾病。
+Maternal Hypertension	妊娠期高血压。妊娠20周后出现的以血压升高为主要表现的妊娠期特有疾病。
+Maternal Virilization In Pregnancy	妊娠期母体男性化。因孕期雄激素水平异常升高导致女性出现男性化体征的病理状态。
+Maturity-Onset Diabetes Of The Young	青少年发病的成人型糖尿病。一种由单基因突变导致β细胞功能缺陷的常染色体显性遗传病。
+Mccune-Albright Syndrome	McCune-Albright综合征。一种由GNAS基因突变引起的以多骨纤维发育不良、皮肤咖啡斑和内分泌亢进为特征的罕见疾病。
+Mechanical Nociceptor Hypersensitivity	机械性伤害感受器过敏。一种因伤害感受器对机械刺激反应增强而导致的痛觉超敏状态。
+Meckel Diverticulum	梅克尔憩室。一种因卵黄管未完全闭合导致的先天性回肠憩室，可引发出血或肠梗阻。
+Meconium Ileus	胎粪性肠梗阻。一种因胎粪异常黏稠导致新生儿远端回肠机械性梗阻的先天性疾病。
+Medial Calcification Of Large Arteries	大动脉中层钙化。一种因钙盐沉积于大动脉中膜层导致的血管壁硬化病变。
+Medial Calcification Of Medium-Sized Arteries	中动脉中层钙化。一种以中等动脉中膜钙盐沉积为特征的血管退行性病变。
+Medial Deviation Of The Foot	足内偏。一种足部向身体中线异常内收的畸形，常由神经肌肉疾病或骨骼结构异常引起。
+Mediastinal Lymphadenopathy	纵隔淋巴结肿大。指纵隔内淋巴结异常增大，多由感染、肿瘤或自身免疫性疾病引起。
+Medium Chain Dicarboxylic Aciduria	中链二羧酸尿症。一种因中链脂肪酸代谢障碍导致尿液中二羧酸异常增多的遗传代谢病。
+Medulloblastoma	髓母细胞瘤。一种起源于小脑的恶性胚胎性肿瘤，常见于儿童，主要症状为共济失调和颅内压增高。
+Megacystis	巨膀胱。一种因膀胱排空障碍或尿路梗阻导致膀胱异常增大的先天性或获得性疾病。
+Megaloblastic Anemia	巨幼细胞性贫血。一种因叶酸或维生素B12缺乏导致DNA合成障碍的大细胞性贫血。
+Megaloblastic Bone Marrow	巨幼细胞性骨髓。因DNA合成障碍导致骨髓中出现巨幼红细胞和巨幼粒细胞的一种病态造血。
+Melancholia	忧郁症。一种以持续深度情绪低落、兴趣丧失为特征的重度抑郁障碍亚型。
+Melanoma	黑色素瘤。一种由黑色素细胞恶变形成的恶性肿瘤，常见于皮肤且易早期转移。
+Melena	黑便。因上消化道出血导致血液在肠道内分解形成的黑色柏油样粪便。
+Membranous Glomerulonephritis	膜性肾小球肾炎。一种由免疫复合物沉积导致肾小球基底膜弥漫性增厚的自身免疫性肾病。
+Membranous Nephropathy	膜性肾病。一种由免疫复合物沉积导致肾小球基底膜增厚的自身免疫性肾小球疾病。
+Memory Disorders	记忆障碍。由脑损伤或疾病引起的以记忆编码、存储或提取功能受损为特征的综合征。
+Memory Impairment	记忆障碍。一种因脑部损伤或疾病导致信息编码、存储或提取能力受损的认知功能障碍。
+Meningioma	脑膜瘤。一种起源于脑膜细胞的常见良性肿瘤，通常生长缓慢且压迫周围神经组织。
+Meningitis	脑膜炎。一种由病原体感染引起的脑膜炎症性疾病，典型症状包括发热、头痛和颈项强直。
+Menometrorrhagia	子宫不规则出血。一种表现为月经周期紊乱和经期出血量过多的子宫异常出血症状。
+Menorrhagia	月经过多。因子宫肌瘤、内分泌失调等导致月经期出血量异常增多的症状。
+Menstrual Irregularities	月经失调。一种因内分泌紊乱或器质性疾病导致的月经周期、经期或经量异常的状态。
+Mental Depression	抑郁症。一种以持续情绪低落和兴趣减退为核心症状的心境障碍。
+Mesothelioma	间皮瘤。一种由石棉暴露引起的恶性肿瘤，主要发生于胸膜、腹膜等间皮组织。
+Metabolic Alkalosis	代谢性碱中毒。因体内酸丢失过多或碱蓄积过多导致的血液pH值升高状态。
+Metabolic Disorders	代谢性疾病。由遗传缺陷或获得性因素导致机体生化过程紊乱的一类疾病。
+Metabolic Ketoacidosis	代谢性酮症酸中毒。因脂肪分解产生过量酮体导致血液酸度异常升高的代谢紊乱。
+Metabolic Syndrome X	代谢综合征X。一组以胰岛素抵抗为核心，伴有肥胖、高血糖和血脂异常的代谢紊乱症候群。
+Metaphyseal Cupping	干骺端杯口样改变。一种因骨骼发育异常导致长骨干骺端凹陷呈杯口状的影像学征象。
+Metaphyseal Irregularity	干骺端不规则。干骺端形态异常，常见于发育异常或代谢性骨病。
+Metastatic Colorectal Cancer	转移性结直肠癌。结直肠癌细胞通过淋巴或血行转移至其他器官的恶性肿瘤。
+Metastatic Hormone Refractory Prostate Cancer	转移性激素难治性前列腺癌。一种已扩散至其他器官且对激素治疗无效的前列腺恶性肿瘤。
+Metastatic Or Locally Advanced Basal Cell Carcinoma	转移性或局部晚期基底细胞癌。一种可发生远处转移或局部深度侵袭的皮肤恶性肿瘤。
+Metastatic Prostate Cancer	转移性前列腺癌。前列腺癌细胞通过血液或淋巴系统扩散至其他器官的恶性肿瘤。
+Metatarsus Valgus	跖骨外翻。一种足部畸形，表现为前足相对于中足向外侧偏斜。
+Methanol Poisoning	甲醇中毒。因摄入甲醇导致代谢性酸中毒和视神经损伤的中毒性疾病。
+Methemoglobinemia	高铁血红蛋白血症。一种因血液中高铁血红蛋白含量异常增高导致组织缺氧的代谢性疾病。
+Methylmalonic Acidemia	甲基丙二酸血症。一种因甲基丙二酰辅酶A变位酶缺陷导致有机酸蓄积的遗传代谢性疾病。
+Methylmalonic Aciduria	甲基丙二酸尿症。一种因甲基丙二酰辅酶A变位酶缺陷导致有机酸蓄积的遗传代谢病。
+Microalbuminuria	微量白蛋白尿。尿液中白蛋白排泄率轻度增高，是早期糖尿病肾病的敏感指标。
+Microcolon	小结肠。一种因胎粪堵塞或神经节细胞缺失导致的结肠腔径先天性狭窄。
+Microcornea	小角膜。一种先天性眼前节发育异常，表现为角膜直径小于正常值的眼部畸形。
+Microcytic Anemia	小细胞性贫血。一种因血红蛋白合成不足导致红细胞体积减小的贫血类型。
+Micronodular Cirrhosis	小结节性肝硬化。一种以直径小于3毫米的均匀小结节为特征的肝硬化类型，常由酒精性肝病等病因引起。
+Microscopic Hematuria	镜下血尿。尿液中出现显微镜下可见的红细胞，通常由泌尿系统疾病或肾小球病变引起。
+Microvesicular Hepatic Steatosis	微泡性肝脂肪变性。一种以肝细胞内微小脂滴蓄积为特征的肝细胞损伤类型，常见于药物毒性或代谢紊乱。
+Midgut Malrotation	中肠旋转不良。一种因胚胎期中肠旋转不完全导致的先天性肠道位置异常疾病。
+Migraine	偏头痛。一种由神经血管功能障碍引发的反复发作性头痛，常伴恶心、畏光等症状。
+Migraine With Aura	先兆偏头痛。一种伴有可逆性局灶性神经症状（如视觉异常）的原发性头痛疾病。
+Mild Intrauterine Growth Retardation	轻度宫内生长受限。一种因胎盘功能不足等因素导致胎儿体重低于同孕龄第10百分位数的妊娠并发症。
+Mildly Elevated Creatine Phosphokinase	轻度肌酸磷酸激酶升高。血清肌酸磷酸激酶水平略高于正常范围，常见于肌肉损伤或代谢性疾病。
+Mitochondrial Malic Enzyme Reduced	线粒体苹果酸酶缺乏症。一种因线粒体苹果酸酶活性降低导致能量代谢障碍的遗传性疾病。
+Mitochondrial Respiratory Chain Defects	线粒体呼吸链缺陷。由线粒体DNA或核DNA突变导致氧化磷酸化功能障碍的遗传性疾病。
+Mitral Valve Calcification	二尖瓣钙化。一种因钙盐沉积导致二尖瓣结构硬化、功能异常的退行性病变。
+Mixed Hearing Impairment	混合性听力损失。同时存在传导性和感音神经性听力障碍的听力损害。
+Moderate Vision Loss	中度视力丧失。由多种病因导致视力明显下降但未完全失明的视觉障碍状态。
+Moderate-To-Severe Plaque Psoriasis	中重度斑块状银屑病。一种以皮肤出现红色斑块伴银白色鳞屑为特征的慢性自身免疫性炎症性皮肤病。
+Mood Affective Disorders	心境障碍。以持续情绪紊乱为核心特征，可伴有认知和行为改变的精神障碍。
+Mood Changes	情绪改变。由生理、心理或环境因素引发的情绪状态异常波动的临床表现。
+Mood Disorders	心境障碍。以持续情绪紊乱为核心特征，常伴有认知和行为改变的精神疾病。
+Morning Myoclonic Jerks	晨间肌阵挛。一种在清晨清醒时出现的短暂肌肉不自主抽动现象。
+Morphological Abnormality Of The Pyramidal Tract	锥体束形态异常。一种因锥体束结构发育或获得性改变导致运动功能障碍的神经系统疾病。
+Motion Sickness	晕动病。一种因运动刺激与前庭系统感知冲突引发的恶心、呕吐等症状的生理反应。
+Motor Aphasia	运动性失语症。一种因大脑布罗卡区受损导致语言表达障碍的言语障碍。
+Motor Deterioration	运动功能衰退。一种因神经系统病变导致运动能力进行性下降的病理状态。
+Motor Disorder	运动障碍。由神经系统病变导致的运动控制异常，表现为不自主运动或协调障碍。
+Motor Neurone Disease	运动神经元病。一种选择性损害运动神经元的进行性神经系统疾病，导致肌肉无力和萎缩。
+Mottled Pigmentation	斑驳性色素沉着。一种因黑色素分布不均导致皮肤出现深浅不一斑块的色素异常性疾病。
+Movement Abnormality Of The Tongue	舌运动障碍。一种因神经或肌肉病变导致舌体活动异常的症状。
+Multicystic Kidney Dysplasia	多囊性肾发育不良。一种因胎儿期肾小管形成障碍导致肾脏出现多个囊肿的先天性畸形。
+Multifocal Epileptiform Discharges	多灶性癫痫样放电。一种脑电图特征，表现为大脑多个区域同步出现的异常电活动，常见于癫痫患者。
+Multinodular Goiter	多结节性甲状腺肿。一种甲状腺内形成多个良性结节，常由碘缺乏或遗传因素引起的甲状腺疾病。
+Multiple Epiphyseal Dysplasia	多发性骨骺发育不良。一种遗传性骨骼疾病，特征为多个骨骺发育异常导致身材矮小和早发性骨关节炎。
+Multiple Joint Contractures	多关节挛缩。因关节周围软组织纤维化导致多个关节活动范围受限的病理状态。
+Multiple Joint Dislocation	多关节脱位。由遗传性或创伤性因素导致两个及以上关节失去正常对合关系的疾病。
+Multiple Lipomas	多发性脂肪瘤。一种由脂肪细胞异常增生形成的多发性良性软组织肿瘤。
+Multiple Myeloma	多发性骨髓瘤。一种浆细胞恶性增殖导致骨质破坏和肾功能损害的血液系统肿瘤。
+Multiple Organ Failure	多器官功能衰竭。由严重感染、创伤等导致两个及以上器官系统功能进行性恶化的危重综合征。
+Multiple Prenatal Fractures	多发性产前骨折。胎儿期因遗传性骨病或外力作用导致多处骨骼断裂的病理状态。
+Multiple Renal Cysts	多发性肾囊肿。肾脏内出现多个充满液体的囊性病变，通常为良性且多无症状。
+Multiple Sclerosis	多发性硬化。一种中枢神经系统自身免疫性疾病，以髓鞘脱失和神经功能障碍为特征。
+Muscle Cramps	肌肉痉挛。一种因肌肉突然不自主强直收缩导致的急性疼痛症状。
+Muscle Fiber Necrosis	肌纤维坏死。因缺血、创伤或代谢异常导致的横纹肌细胞不可逆性损伤。
+Muscle Fiber Splitting	肌纤维分裂。一种因肌肉过度负荷导致单个肌纤维纵向分裂为两个或多个子纤维的适应性改变。
+Muscle Spasm	肌肉痉挛。一种因肌肉不自主强直收缩导致的突发性疼痛症状。
+Muscle Stiffness	肌肉僵硬。一种因肌肉持续紧张或痉挛导致活动受限的常见症状。
+Muscle Weakness	肌无力。一种因神经肌肉功能障碍导致骨骼肌力量减退的临床症状。
+Muscular Dystrophy	肌营养不良症。一组由基因突变导致进行性肌无力和肌肉萎缩的遗传性疾病。
+Mutism	缄默症。一种因神经或心理因素导致言语表达功能完全丧失的临床症状。
+Myalgia	肌痛。一种以肌肉疼痛为主要表现的常见症状，常由过度运动、感染或应激引起。
+Mycobacterium Tuberculosis Infection	结核分枝杆菌感染。由结核分枝杆菌引起的慢性传染病，主要侵犯肺部并引起结核结节形成。
+Mydriasis	瞳孔散大。一种由瞳孔括约肌麻痹或交感神经兴奋导致的瞳孔异常扩大症状。
+Myelodysplasia	骨髓增生异常综合征。一组因造血干细胞异常导致血细胞减少和发育异常的克隆性疾病。
+Myelodysplastic Syndromes	骨髓增生异常综合征。一组因造血干细胞功能异常导致无效造血及血细胞减少的克隆性疾病。
+Myelofibrosis	骨髓纤维化。一种因骨髓中成纤维细胞异常增生导致进行性纤维组织取代造血组织的骨髓增殖性肿瘤。
+Myelokathexis	骨髓滞留症。一种因中性粒细胞骨髓内滞留导致外周血中性粒细胞减少的先天性免疫缺陷病。
+Myeloma	多发性骨髓瘤。一种浆细胞恶性增殖导致骨质破坏和肾功能损害的血液系统肿瘤。
+Myelomeningocele	脊髓脊膜膨出。一种因脊柱裂导致脊髓和脊膜通过椎管缺损处膨出的先天性神经管畸形。
+Myeloneuropathy	脊髓神经病变。一种同时累及脊髓和周围神经的退行性或代谢性疾病。
+Myelopathy	脊髓病。由脊髓结构或功能损伤引起的运动、感觉或自主神经功能障碍。
+Myeloproliferative Disorder	骨髓增殖性肿瘤。一组因造血干细胞异常导致一系或多系血细胞过度增生的克隆性疾病。
+Myocardial Disease	心肌病。一组由遗传、感染等因素导致心肌结构和功能异常的心脏疾病。
+Myocardial Infarction	心肌梗死。因冠状动脉阻塞导致心肌持续缺血缺氧而引起的坏死性疾病。
+Myocardial Ischemia	心肌缺血。因冠状动脉血流减少导致心肌供氧不足的病理状态。
+Myocardial Reperfusion Injury	心肌再灌注损伤。因缺血心肌恢复血流后引发的氧化应激和钙超载导致的心肌细胞损伤。
+Myocarditis	心肌炎。由感染、自身免疫等因素引起的心肌局限性或弥漫性炎症性疾病。
+Myoclonic Atonic Seizures	肌阵挛失张力发作。一种表现为肌阵挛后立即出现短暂肌张力丧失的癫痫发作类型。
+Myoclonic Spasms	肌阵挛。一种以肌肉快速、不自主收缩为特征的神经系统症状，常见于癫痫或代谢性脑病。
+Myoclonus	肌阵挛。一种由中枢神经系统异常放电导致的肌肉快速、不自主收缩的神经系统症状。
+Myofibrillar Myopathy	肌原纤维肌病。一种由肌原纤维蛋白异常导致进行性肌无力和心脏传导缺陷的遗传性肌肉疾病。
+Myoglobinuria	肌红蛋白尿。因肌肉组织损伤导致肌红蛋白从尿液中排出的病理状态。
+Myokymia	肌纤维颤搐。一种由周围神经病变或过度疲劳引起的肌肉持续细微颤搐现象。
+Myopathic Facies	肌病面容。一种因肌肉疾病导致面部表情肌无力，呈现特征性呆滞面容的临床体征。
+Myopathy	肌病。一组以骨骼肌结构和功能异常为主要特征的肌肉疾病。
+Myopia	近视。一种因眼球前后径过长或屈光力过强导致平行光线聚焦于视网膜前的屈光不正。
+Myositis	肌炎。一种由感染、自身免疫或药物等因素引起的骨骼肌炎症性疾病。
+Myotonia	肌强直。一种因骨骼肌氯离子通道异常导致肌肉收缩后松弛延迟的遗传性疾病。
+Myotonia Of The Face	面肌强直。一种因氯离子通道功能障碍导致面部肌肉收缩后延迟松弛的遗传性疾病。
+Myotonia Of The Jaw	下颌肌强直。一种因肌肉膜兴奋性异常导致下颌肌肉收缩后松弛延迟的遗传性疾病。
+Myotonia Of The Upper Limb	上肢肌强直。一种因氯离子通道功能障碍导致上肢肌肉收缩后延迟松弛的遗传性疾病。
+Myxoid Subcutaneous Tumors	黏液样皮下肿瘤。一种发生在皮下组织、富含黏液样基质的间叶源性肿瘤。
+Narcolepsy	发作性睡病。一种以日间不可抗拒的短暂睡眠发作和猝倒为特征的慢性睡眠障碍。
+Nasal Obstruction	鼻塞。因鼻腔通气受阻导致的呼吸不畅，常见于鼻炎、鼻息肉或鼻中隔偏曲。
+Nasal Speech	鼻音障碍。一种因腭咽闭合不全导致气流异常通过鼻腔而产生的言语障碍。
+Nausea	恶心。一种以上腹部不适和欲吐感为特征的消化道症状。
+Nausea And Vomiting	恶心与呕吐。由多种病因引起的胃部不适感和反射性胃内容物排出现象。
+Neck Flexor Weakness	颈屈肌无力。一种因颈前肌群力量减退导致抬头困难或颈部稳定性下降的神经肌肉症状。
+Necrosis	坏死。活体内局部组织、细胞的病理性死亡，常由缺血、感染或毒素引起。
+Negative Nitroblue Tetrazolium Reduction Test	硝基蓝四氮唑还原试验阴性。一种用于检测中性粒细胞吞噬功能的试验，阴性结果提示慢性肉芽肿病等免疫缺陷。
+Nemaline Bodies	线状体肌病。一种由肌纤维内杆状蛋白聚集导致肌无力的先天性肌病。
+Neonatal Cholestatic Liver Disease	新生儿胆汁淤积性肝病。因胆汁排泄障碍导致新生儿期出现黄疸和肝肿大的肝脏疾病。
+Neonatal Hyperbilirubinemia	新生儿高胆红素血症。因胆红素代谢异常导致新生儿期血清胆红素水平升高的常见病症。
+Neonatal Inspiratory Stridor	新生儿吸气性喘鸣。因新生儿喉软骨发育不全或神经肌肉功能障碍导致吸气时气流受阻产生的高调呼吸音。
+Neonatal Jaundice	新生儿黄疸。因胆红素代谢异常导致皮肤和黏膜黄染的新生儿常见疾病。
+Neonatal Onset	新生儿期发病。指疾病在出生后28天内出现症状的临床表现。
+Neonatal Respiratory Distress	新生儿呼吸窘迫综合征。因肺表面活性物质缺乏导致早产儿出现进行性呼吸困难。
+Neoplasia Of The Nasopharynx	鼻咽部肿瘤。发生在鼻咽部的异常组织增生，可能为良性或恶性。
+Neoplasm	肿瘤。由细胞异常增殖形成的新生组织团块，可分为良性或恶性。
+Neoplasm Invasiveness	肿瘤侵袭性。指恶性肿瘤细胞突破基底膜向周围组织浸润扩散的生物学特性。
+Neoplasm Metastasis	肿瘤转移。恶性肿瘤细胞从原发部位扩散到身体其他部位的过程。
+Neoplasm Of Head And Neck	头颈部肿瘤。发生在头颈部区域的异常组织增生，多为恶性且可侵犯周围组织。
+Neoplasm Of The Adrenal Cortex	肾上腺皮质肿瘤。起源于肾上腺皮质细胞的异常增生，可为良性或恶性。
+Neoplasm Of The Breast	乳腺肿瘤。起源于乳腺组织的异常细胞增生，可为良性或恶性。
+Neoplasm Of The Colon	结肠肿瘤。发生在结肠部位的异常组织增生，可为良性或恶性，常表现为肠道功能改变或出血。
+Neoplasm Of The Gastrointestinal Tract	胃肠道肿瘤。发生在胃肠道任何部位的异常组织增生，可为良性或恶性。
+Neoplasm Of The Lung	肺肿瘤。起源于肺组织细胞的异常增生，可为良性或恶性，常表现为咳嗽、胸痛或咯血。
+Neoplasm Of The Nervous System	神经系统肿瘤。起源于神经组织细胞的异常增生性疾病，可表现为良性或恶性肿瘤。
+Neoplasm Of The Pancreas	胰腺肿瘤。胰腺组织异常增生形成的肿块，可为良性或恶性，常导致腹痛或黄疸。
+Neoplasm Of The Rectum	直肠肿瘤。发生在直肠的异常组织增生，可为良性或恶性，常引起便血或肠梗阻。
+Neoplasm Of The Skeletal System	骨骼系统肿瘤。发生在骨骼或软骨组织的异常增生性疾病，可为良性或恶性。
+Neoplasm Of The Skin	皮肤肿瘤。源于皮肤组织异常增生的新生物，可为良性或恶性。
+Neoplasm Of The Small Intestine	小肠肿瘤。发生在小肠的异常组织增生，可为良性或恶性，常引起腹痛或梗阻。
+Neoplasm Of The Stomach	胃肿瘤。一种起源于胃部组织的异常细胞增生，可为良性或恶性。
+Neoplasm Of The Thyroid Gland	甲状腺肿瘤。甲状腺组织异常增生形成的肿块，可为良性或恶性。
+Neoplastic Cell Transformation	肿瘤性细胞转化。正常细胞在基因突变累积作用下获得无限增殖能力的癌变过程。
+Neovascular Age-Related Macular Degeneration	新生血管性年龄相关性黄斑变性。一种因脉络膜新生血管形成导致中心视力进行性丧失的眼底疾病。
+Nephritis	肾炎。由感染、自身免疫或药物等因素引起的肾脏炎症性疾病。
+Nephritis, Interstitial	间质性肾炎。一种由药物、感染或自身免疫等因素引起的肾间质炎症性疾病。
+Nephroblastoma	肾母细胞瘤。一种起源于肾脏胚胎性组织的恶性肿瘤，常见于儿童。
+Nephrocalcinosis	肾钙质沉着症。因钙盐在肾实质异常沉积导致的肾脏病变，常见于高钙血症或肾小管酸中毒。
+Nephrogenic Diabetes Insipidus	肾性尿崩症。一种因肾小管对抗利尿激素不敏感导致多尿、烦渴的尿液浓缩障碍。
+Nephrolithiasis	肾结石病。因尿中晶体物质浓度升高或溶解度降低导致析出结晶，在肾脏形成的结石性疾病。
+Nephropathy	肾病。由多种病因引起的肾脏结构和功能损害的病理状态。
+Nephrosis	肾病综合征。以大量蛋白尿、低蛋白血症和水肿为特征的肾小球疾病。
+Nephrotic Syndrome	肾病综合征。一种以大量蛋白尿、低蛋白血症、水肿和高脂血症为特征的肾小球疾病。
+Nerve Degeneration	神经退行性变。由神经元进行性损伤或死亡导致的神经系统功能障碍性疾病。
+Neuralgia	神经痛。一种由神经损伤或功能障碍引起的剧烈疼痛综合征。
+Neuroblastoma	神经母细胞瘤。一种起源于神经嵴细胞的恶性肿瘤，常见于婴幼儿肾上腺或交感神经链。
+Neurodegeneration	神经退行性病变。由神经元进行性丧失导致认知或运动功能衰退的病理过程。
+Neurodegenerative Diseases	神经退行性疾病。一类由神经元进行性丧失导致认知或运动功能障碍的疾病。
+Neurodevelopmental Abnormality	神经发育异常。由遗传或环境因素导致大脑发育过程出现障碍，表现为认知、行为或运动功能缺陷。
+Neurodevelopmental Delay	神经发育迟缓。因神经系统发育异常导致认知、运动或社交能力落后于正常发育里程碑的状态。
+Neurofibrillary Tangles	神经原纤维缠结。一种由过度磷酸化tau蛋白在神经元内异常聚集形成的阿尔茨海默病特征性病理改变。
+Neurofibromas	神经纤维瘤。一种由神经鞘细胞异常增生形成的良性周围神经肿瘤。
+Neurogenic Bladder	神经源性膀胱。由神经系统损伤导致的膀胱储尿和排尿功能障碍。
+Neurogenic Inflammation	神经源性炎症。由感觉神经末梢释放神经肽引发的局部血管扩张和血浆外渗的炎症反应。
+Neurologic And Psychiatric Diseases	神经与精神疾病。涉及神经系统结构功能异常及精神活动障碍的一大类疾病统称。
+Neurological Diseases	神经系统疾病。由神经系统结构或功能异常引起，表现为运动、感觉或认知功能障碍的一类疾病。
+Neurological Speech Impairment	神经性言语障碍。由神经系统损伤导致的言语产生或控制能力受损。
+Neurological Symptom	神经系统症状。由神经系统结构或功能异常引起的感知、运动或认知功能改变的表现。
+Neuronal Injury	神经元损伤。由缺血、中毒或创伤等因素导致的神经元结构破坏或功能丧失。
+Neuronal Loss In Central Nervous System	中枢神经系统神经元丢失。中枢神经系统内神经元数量减少，通常由退行性变或损伤引起。
+Neuropathic Pain	神经病理性疼痛。由躯体感觉神经系统损伤或疾病引起的慢性疼痛综合征。
+Neuropsychiatric Disorders	神经精神障碍。一类同时涉及神经系统异常和精神症状的疾病，如阿尔茨海默病和抑郁症。
+Neutropenia	中性粒细胞减少症。一种因中性粒细胞数量低于正常值而导致感染风险增加的血液系统疾病。
+Neutrophil-Mediated Liver Injury	中性粒细胞介导性肝损伤。一种由中性粒细胞过度活化并释放毒性物质导致的肝脏炎症性损伤。
+Nevus	痣。一种由黑色素细胞在皮肤局部聚集形成的良性增生性病变。
+Nevus Sebaceous	皮脂腺痣。一种由皮脂腺发育异常引起的先天性皮肤错构瘤。
+Nicotine Dependence	尼古丁依赖。一种因长期摄入尼古丁导致中枢神经系统适应性改变的精神障碍。
+Night Sweats	夜间盗汗。一种以睡眠中不自主大量出汗为特征的临床症状，多与内分泌失调或感染性疾病相关。
+No Social Interaction	社交孤立症。一种因缺乏社会交往导致社交功能受损的病理状态。
+Nocturia	夜尿症。一种因夜间尿液产生过多或膀胱容量减少导致夜间排尿次数增多的症状。
+Nocturnal Hypoventilation	夜间低通气。一种睡眠期间肺泡通气不足导致二氧化碳分压异常升高的呼吸障碍。
+Nocturnal Seizures	夜间发作性癫痫。一种仅在睡眠期间发生的癫痫发作类型，常表现为夜间异常行为或抽搐。
+Nodular Goiter	结节性甲状腺肿。一种以甲状腺内出现单个或多个结节为特征的甲状腺疾病。
+Non-Hodgkin's Lymphoma	非霍奇金淋巴瘤。一组起源于淋巴系统的恶性肿瘤，表现为无痛性淋巴结肿大或结外器官受累。
+Non-Medullary Thyroid Carcinoma	非髓样甲状腺癌。一种起源于甲状腺滤泡上皮细胞的恶性肿瘤，不包括髓样癌类型。
+Non-Obstructive Azoospermia	非梗阻性无精子症。一种因睾丸生精功能障碍导致精液中无精子的疾病。
+Non-Small Cell Lung Cancer	非小细胞肺癌。一种起源于支气管黏膜或腺体的肺部恶性肿瘤，占肺癌病例的85%以上。
+Nonketotic Hypoglycemia	非酮症性低血糖。一种血糖降低但无酮体升高的代谢紊乱，常见于胰岛素分泌异常或糖代谢障碍。
+Nonprogressive	非进展性疾病。病程稳定且症状不会随时间加重的疾病状态。
+Nonprogressive Cerebellar Ataxia	非进行性小脑性共济失调。一种由小脑功能障碍导致平衡协调障碍但症状不随病程加重的神经系统疾病。
+Nonprogressive Encephalopathy	非进行性脑病。一种由多种病因导致脑功能异常但病情不随时间恶化的神经系统疾病。
+Nonprogressive Muscular Atrophy	非进行性肌萎缩。一种因脊髓前角细胞或周围神经病变导致肌肉萎缩但不进展的疾病。
+Nonprogressive Restrictive External Ophthalmoplegia	非进行性限制性外眼肌麻痹。一种由眼外肌纤维化导致眼球运动受限且病情稳定的先天性疾病。
+Nonspherocytic Hemolytic Anemia	非球形红细胞溶血性贫血。一种由红细胞膜缺陷或酶异常导致红细胞在脾脏过早破坏的溶血性疾病。
+Normal Interictal Eeg	正常发作间期脑电图。指癫痫患者在非发作期记录的脑电活动未见异常放电的状态。
+Normochromic Anemia	正色素性贫血。一种血红蛋白浓度正常但红细胞数量减少的贫血类型。
+Normocytic Anemia	正细胞性贫血。一种红细胞体积正常但数量减少，常由急性失血或溶血导致的贫血类型。
+Nuclear Cataract	核性白内障。晶状体核混浊硬化导致的年龄相关性白内障，主要表现为近视加深和视力下降。
+Numerous Nevi	多发性痣。一种以皮肤表面出现大量黑色素细胞良性增生为特征的皮肤病变。
+Nyctalopia	夜盲症。一种因视网膜杆状细胞功能障碍或维生素A缺乏导致暗适应能力下降的视觉障碍。
+Obesity	肥胖症。一种因能量摄入超过消耗导致体内脂肪过度堆积的代谢性疾病。
+Obesity-Related Insulin Resistance	肥胖相关胰岛素抵抗。因肥胖导致胰岛素敏感性下降，靶细胞对胰岛素反应减弱的病理状态。
+Obsessive-Compulsive Behavior	强迫行为。一种以反复出现无法控制的强迫思维和动作为特征的精神障碍。
+Obsessive-Compulsive Disorder	强迫症。一种以反复出现的强迫思维和强迫行为为特征的精神障碍。
+Obstructive Airway Disease	阻塞性气道疾病。一种因气道阻塞导致呼气困难为主要特征的呼吸系统疾病。
+Obstructive Azoospermia	梗阻性无精子症。因输精管道阻塞导致精液中无精子但睾丸生精功能正常的疾病。
+Obstructive Lung Disease	阻塞性肺疾病。因气道阻塞导致呼气气流受限的慢性呼吸系统疾病。
+Obstructive Sleep Apnea	阻塞性睡眠呼吸暂停。一种因上气道塌陷导致睡眠中反复呼吸中断的疾病。
+Occlusive Peripheral Vascular Disease	闭塞性外周血管病。因动脉粥样硬化导致四肢动脉管腔狭窄或阻塞的缺血性疾病。
+Occupational Diseases	职业病。因长期接触职业性有害因素引起的特定疾病。
+Ocular Disease	眼病。泛指影响眼球及其附属结构的各类疾病，常导致视力下降或视觉功能异常。
+Ocular Hypertension	高眼压症。一种眼内压持续高于正常范围但未出现视神经损伤的病理状态。
+Ocular Inflammation	眼内炎症。由感染、外伤或自身免疫反应引起的眼球组织炎症性疾病。
+Ocular Pain	眼痛。由眼部炎症、外伤或神经病变等引起的眼球及其附属器官的疼痛症状。
+Oculogyric Crisis	动眼神经危象。一种由抗精神病药物等引起的眼球持续向上偏斜的急性肌张力障碍反应。
+Oculomotor Nerve Palsy	动眼神经麻痹。因动眼神经损伤导致眼睑下垂、眼球运动受限及瞳孔散大的神经疾病。
+Oesophageal Cancer	食管癌。一种起源于食管黏膜上皮的恶性肿瘤，主要症状为进行性吞咽困难。
+Oligomenorrhea	月经稀发。一种月经周期超过35天或每年少于9次的月经失调症状。
+Oligospermia	少精子症。一种因生精功能减退导致精液中精子数量低于正常值的男性生育障碍。
+Oliguria	少尿。一种以尿量显著减少（成人<400ml/天）为特征的临床症状，常见于急性肾损伤或脱水。
+Onset	发病。疾病或症状在个体身上开始出现或变得明显的起始时间点。
+Onychomycosis	甲癣。一种由皮肤癣菌等真菌感染指（趾）甲引起的常见疾病。
+Operable Basal Cell Carcinoma	可手术性基底细胞癌。一种可通过外科手术切除的皮肤恶性肿瘤，通常由紫外线暴露引起。
+Opioid Dependence	阿片类药物依赖。一种因长期使用阿片类药物导致生理和心理依赖的慢性复发性脑病。
+Opioid-Induced Bowel Dysfunction	阿片类药物所致肠功能障碍。因阿片类药物抑制肠蠕动导致的便秘、腹胀等消化道症状群。
+Opioid-Induced Neuropathology	阿片类药物诱导性神经病变。长期使用阿片类药物导致中枢或周围神经系统结构功能损害的病理状态。
+Opisthotonus	角弓反张。一种因中枢神经系统受损导致躯干和四肢过度伸展的痉挛状态。
+Opsoclonus	眼阵挛。一种以眼球无规律、多方向快速跳动为特征的眼球运动障碍。
+Optic Atrophy	视神经萎缩。一种因视神经纤维变性导致视觉信号传导障碍的退行性病变。
+Optic Nerve Hypoplasia	视神经发育不全。一种先天性视神经纤维数量减少导致的视觉障碍疾病。
+Oral Facial Pain	口面痛。一种涉及口腔和面部区域的疼痛综合征，常由神经病变或颞下颌关节疾病引起。
+Oral Leukoplakia	口腔白斑。一种口腔黏膜上以白色斑块为主要表现的癌前病变，与烟草等长期刺激相关。
+Oral Motor Hypotonia	口腔运动性肌张力减退。一种因口腔肌肉张力降低导致吸吮、咀嚼和吞咽功能障碍的神经运动障碍。
+Oral Mucosal Blisters	口腔黏膜水疱。一种因机械损伤、感染或自身免疫性疾病导致口腔黏膜层出现液体聚集的病损。
+Oral Mucositis	口腔黏膜炎。一种因放疗或化疗导致口腔黏膜炎症、溃疡的常见并发症。
+Oral Synechia	口腔粘连。口腔内黏膜异常愈合导致组织粘连的病理状态。
+Oral Ulcer	口腔溃疡。一种由创伤、感染或免疫因素引起的口腔黏膜局限性缺损病变。
+Oral-Pharyngeal Dysphagia	口咽性吞咽困难。因口咽部神经肌肉功能障碍导致的吞咽启动困难或食物滞留。
+Orchitis	睾丸炎。由感染或外伤引起的睾丸组织炎症，常伴疼痛和肿胀。
+Organic Aciduria	有机酸尿症。一组因有机酸代谢障碍导致尿液中异常有机酸增多的遗传代谢病。
+Organophosphate Poisoning	有机磷中毒。因接触有机磷化合物抑制胆碱酯酶活性，导致乙酰胆碱蓄积引起的毒蕈碱样和烟碱样症状。
+Ornithinuria	鸟氨酸尿症。一种因鸟氨酸代谢障碍导致尿中鸟氨酸异常增多的遗传性代谢疾病。
+Orofacial Dyskinesia	口面运动障碍。一种以口、舌、面部肌肉不自主运动为特征的神经系统疾病。
+Oropharyngeal Squamous Cell Carcinoma	口咽鳞状细胞癌。一种发生于口咽部黏膜、主要由HPV感染或烟草使用引起的恶性上皮肿瘤。
+Orotic Acid Crystalluria	乳清酸结晶尿症。一种因遗传性乳清酸磷酸核糖转移酶缺乏导致尿中乳清酸结晶排出的代谢性疾病。
+Oroticaciduria	乳清酸尿症。一种因尿苷酸合成酶缺陷导致乳清酸在尿液中异常增多的遗传性代谢疾病。
+Orthopnea	端坐呼吸。一种因平卧时回心血量增加导致呼吸困难，需端坐位缓解的临床症状。
+Orthostatic Hypotension	体位性低血压。一种因体位改变导致血压骤降，引发头晕或晕厥的临床综合征。
+Orthostatic Hypotension Due To Autonomic Dysfunction	直立性低血压。因自主神经功能障碍导致体位改变时血压调节失常的临床综合征。
+Orthostatic Tachycardia	体位性心动过速。一种由体位改变引发心率异常增快的自主神经功能障碍。
+Osteoarthritis	骨关节炎。一种因关节软骨退行性变导致的慢性关节疾病，主要表现为关节疼痛和僵硬。
+Osteoarthritis Of The Small Joints Of The Hand	手小关节骨关节炎。一种因关节软骨退行性变导致手部小关节疼痛和僵硬的慢性疾病。
+Osteoarthritis Pain	骨关节炎疼痛。因关节软骨退行性变引发的慢性疼痛，伴有关节僵硬和活动受限。
+Osteochondroma	骨软骨瘤。一种由骨表面向外生长的良性肿瘤，由骨组织和软骨帽构成。
+Osteochondrosis	骨软骨病。一种因骨骼生长中心缺血坏死导致的软骨内骨化障碍性疾病。
+Osteolysis	骨溶解。一种因破骨细胞活性增强导致骨组织异常吸收的病理过程。
+Osteolytic Metastatic Cancer	溶骨性转移癌。一种因恶性肿瘤细胞转移至骨骼并引起骨质破坏的继发性骨肿瘤。
+Osteoma	骨瘤。一种由成熟骨组织构成的良性肿瘤，通常发生于颅面骨或长骨。
+Osteoma Cutis	皮肤骨瘤。一种皮肤内异位骨组织形成的良性肿瘤，通常表现为真皮或皮下坚硬结节。
+Osteomalacia	骨软化症。一种因维生素D缺乏或代谢障碍导致骨基质矿化异常的代谢性骨病。
+Osteomyelitis	骨髓炎。一种由病原微生物感染引起的骨组织化脓性炎症性疾病。
+Osteomyelitis Leading To Amputation Due To Slow Healing Fractures	骨髓炎致截肢。因骨折愈合缓慢继发骨髓炎，最终导致肢体坏疽而需手术切除。
+Osteopenia	骨量减少。一种以骨密度低于正常水平但未达骨质疏松标准的骨代谢异常状态。
+Osteopetrosis	骨硬化症。一种因破骨细胞功能缺陷导致骨密度异常增高的遗传性骨病。
+Osteoporosis	骨质疏松症。一种因骨量减少和骨微结构破坏导致骨脆性增加的代谢性骨病。
+Osteoporosis Of Vertebrae	椎体骨质疏松症。一种因骨量减少和骨微结构破坏导致椎体骨强度下降的代谢性骨病。
+Osteosarcoma	骨肉瘤。一种起源于成骨细胞的恶性肿瘤，以肿瘤细胞直接形成骨样组织为特征。
+Otitis Media	中耳炎。一种由细菌或病毒感染引起的中耳腔急性炎症，常伴耳痛和听力下降。
+Otosclerosis	耳硬化症。一种因听骨链异常骨化导致传导性听力进行性下降的遗传性疾病。
+Ovarian Cancer	卵巢癌。一种起源于卵巢组织的恶性肿瘤，早期症状隐匿但常伴有腹胀、盆腔疼痛等表现。
+Ovarian Cyst	卵巢囊肿。一种卵巢内或表面形成的充满液体的囊状结构，多为良性。
+Ovarian Gonadoblastoma	卵巢性腺母细胞瘤。一种由性腺发育异常引起的卵巢肿瘤，常含生殖细胞和性索间质成分。
+Ovarian Neoplasm	卵巢肿瘤。发生于卵巢组织的异常增生，包括良性与恶性病变。
+Ovarian Papillary Adenocarcinoma	卵巢乳头状腺癌。一种卵巢上皮性恶性肿瘤，特征为乳头状结构生长和腺体形成。
+Overactive Bladder Disorder	膀胱过度活动症。一种以尿急为主要特征的症候群，常伴有尿频和夜尿。
+Overriding Aorta	主动脉骑跨。一种先天性心脏畸形，主动脉根部向右移位骑跨于室间隔缺损之上。
+Oxidative And Free Radical Damage	氧化与自由基损伤。因活性氧自由基过量产生导致细胞结构和功能受损的病理过程。
+Oxidative Tissue Injuries	氧化性组织损伤。由活性氧自由基过量产生导致细胞结构与功能破坏的病理过程。
+Oxygen-Induced Retinopathy	氧诱导性视网膜病变。因高浓度氧暴露导致视网膜血管异常增生和纤维化的眼部疾病。
+P-Chloroamphetamine-Induced Hyperglycemia	对氯苯丙胺诱发的高血糖症。一种由对氯苯丙胺毒性作用引起的血糖异常升高综合征。
+Pain	疼痛。一种由组织损伤或潜在损伤引起的不愉快感觉和情感体验。
+Pain Insensitivity	痛觉不敏感。一种因先天性神经系统异常导致无法感知疼痛的罕见疾病。
+Painless Fractures Due To Injury	无痛性创伤骨折。因神经系统疾病导致痛觉缺失，使患者在受伤后骨折却不感疼痛的病理状态。
+Palate Telangiectasia	腭部毛细血管扩张症。一种因毛细血管持续性扩张导致腭黏膜出现红色斑点的血管病变。
+Pallor	苍白。一种因皮肤或黏膜毛细血管血流减少导致的颜色变白体征。
+Palmoplantar Hyperhidrosis	掌跖多汗症。一种以手掌和足底汗腺分泌过度为特征的局部多汗障碍。
+Palmoplantar Hyperkeratosis	掌跖角化症。一种以手掌和足底皮肤角质层异常增厚为主要特征的遗传性皮肤病。
+Palmoplantar Keratoderma	掌跖角化病。一种以手掌和足底皮肤对称性过度角化为主要特征的遗传性或获得性皮肤病。
+Palpebral Edema	眼睑水肿。因局部炎症、过敏或全身性疾病导致的眼睑组织液体积聚。
+Palpitations	心悸。一种主观感受到心脏跳动不适或心慌的症状，常由心律失常或焦虑引发。
+Pancreatic Adenocarcinoma	胰腺腺癌。一种起源于胰腺导管上皮的恶性肿瘤，早期症状隐匿且预后极差。
+Pancreatic Calcification	胰腺钙化。胰腺组织内钙盐异常沉积，通常由慢性胰腺炎或胰管阻塞引起。
+Pancreatic Cancer	胰腺癌。一种起源于胰腺导管上皮的恶性肿瘤，以腹痛、黄疸和快速进展为特征。
+Pancreatic Disease	胰腺疾病。泛指胰腺发生的各类炎症、肿瘤及功能异常等病理改变的总称。
+Pancreatic Hypoplasia	胰腺发育不全。一种因胚胎期胰腺组织发育缺陷导致外分泌或内分泌功能不足的先天性疾病。
+Pancreatic Islet-Cell Hyperplasia	胰岛细胞增生症。一种因胰岛细胞数量异常增多导致胰岛素分泌过度的胰腺疾病。
+Pancreatic Neoplasm	胰腺肿瘤。起源于胰腺组织的异常增生，可为良性或恶性，常表现为腹痛或黄疸。
+Pancreatic Pseudocyst	胰腺假性囊肿。一种由胰腺炎或外伤后胰液积聚形成的纤维包裹性液体积聚。
+Pancreatitis	胰腺炎。由胰酶异常激活导致胰腺自身消化引起的炎症性疾病。
+Pancytopenia	全血细胞减少症。一种因骨髓造血功能衰竭导致外周血中红细胞、白细胞及血小板均减少的综合征。
+Panhypogammaglobulinemia	全丙种球蛋白低下血症。一种因B细胞功能缺陷导致所有类型免疫球蛋白严重缺乏的免疫缺陷病。
+Panic Attack	惊恐发作。一种以突发性强烈恐惧伴心悸、出汗等自主神经症状为特征的急性焦虑发作。
+Panniculitis	脂膜炎。一种以皮下脂肪层炎症为特征的疾病，常表现为疼痛性皮下结节。
+Papillary Cystadenoma Of The Epididymis	附睾乳头状囊腺瘤。一种起源于附睾的良性肿瘤，特征为乳头状结构和囊性变。
+Papillary Renal Cell Carcinoma	乳头状肾细胞癌。一种起源于肾小管上皮、以乳头状结构为特征的恶性肿瘤。
+Papillary Thyroid Carcinoma	甲状腺乳头状癌。一种起源于甲状腺滤泡上皮细胞、以乳头状结构为特征的常见分化型甲状腺恶性肿瘤。
+Papilledema	视乳头水肿。因颅内压增高导致的视盘非炎性充血隆起。
+Papilloma	乳头状瘤。一种由人乳头瘤病毒感染引起的良性上皮肿瘤，常呈外生性生长。
+Papule	丘疹。一种直径小于1厘米、可触及的局限性实质性皮肤损害。
+Paradoxical Increased Cortisol Secretion On Dexamethasone Suppression Test	地塞米松抑制试验中反常皮质醇分泌增多。一种在地塞米松抑制试验中皮质醇水平异常升起的反常反应，常见于某些库欣综合征亚型。
+Paradoxical Myotonia	反常性肌强直。一种肌肉在重复收缩后肌强直症状反而加重的罕见遗传性通道病。
+Paraganglioma	副神经节瘤。一种起源于神经嵴的副神经节细胞的神经内分泌肿瘤，常见于头颈部和肾上腺外区域。
+Paraganglioma Of Head And Neck	头颈部副神经节瘤。一种起源于头颈部副神经节组织的神经内分泌肿瘤，常表现为无痛性肿块。
+Parakeratosis	角化不全。一种角质层细胞保留细胞核的皮肤病理改变，常见于银屑病等疾病。
+Paralysed	瘫痪。因神经损伤或疾病导致肌肉自主运动功能丧失的病理状态。
+Paralysis	瘫痪。因神经损伤或疾病导致肌肉自主运动功能丧失的病理状态。
+Paralytic Ileus	麻痹性肠梗阻。一种因肠道蠕动功能丧失导致的非机械性肠梗阻。
+Paranoia	偏执狂。一种以系统性妄想为主要症状，缺乏幻觉的精神病性障碍。
+Paraparesis	下肢轻瘫。因脊髓损伤导致双下肢肌力减弱的神经系统症状。
+Paraplegia	截瘫。因脊髓损伤导致双下肢运动功能丧失的神经系统疾病。
+Parasitic Diseases	寄生虫病。由寄生虫感染引起，以组织损伤、营养消耗或毒素作用为主要致病机制的传染性疾病。
+Parathyroid Adenoma	甲状旁腺腺瘤。一种由甲状旁腺主细胞良性增生引起的功能性肿瘤，常导致原发性甲状旁腺功能亢进。
+Parathyroid Disease	甲状旁腺疾病。由甲状旁腺功能异常引起钙磷代谢紊乱的内分泌疾病。
+Paresis Of Extensor Muscles Of The Big Toe	𧿹趾伸肌麻痹。一种因神经损伤导致𧿹趾背屈功能减弱的运动功能障碍。
+Paresthesia	感觉异常。一种表现为皮肤自发性刺痛、麻木或灼热感的神经系统症状。
+Parkinson's Disease	帕金森病。一种因黑质多巴胺能神经元变性导致运动迟缓、震颤和肌强直的中枢神经系统退行性疾病。
+Parkinsonian Disorders	帕金森综合征。一组以运动迟缓、肌强直和震颤为主要表现的神经系统疾病统称。
+Parkinsonism	帕金森综合征。一组以运动迟缓、肌强直和震颤为主要表现的神经系统症状群。
+Parkinsonism With Favorable Response To Dopaminergic Medication	多巴胺能药物反应性帕金森综合征。一种对多巴胺能药物治疗反应良好的帕金森综合征，通常提示多巴胺能通路功能障碍。
+Paronychia	甲沟炎。一种由细菌或真菌感染引起的指（趾）甲周围组织的急性或慢性炎症。
+Paroxysmal Atrial Fibrillation	阵发性心房颤动。一种以突发突止的心房快速无序电活动为特征的心律失常。
+Paroxysmal Choreoathetosis	阵发性舞蹈手足徐动症。一种以突发性、短暂性舞蹈样和手足徐动样不自主运动为特征的神经系统疾病。
+Paroxysmal Drowsiness	发作性嗜睡。一种以不可抗拒的短暂睡眠发作为主要特征的睡眠障碍。
+Paroxysmal Dyskinesia	发作性运动障碍。一种以突发性、短暂性不自主运动发作为特征的神经系统疾病。
+Paroxysmal Dyspnea	阵发性呼吸困难。一种因心功能不全或支气管痉挛导致的突发性呼吸急促发作。
+Paroxysmal Dystonia	发作性肌张力障碍。一种以突发性、间歇性肌肉不自主收缩导致异常姿势为特征的神经系统疾病。
+Paroxysmal Lethargy	发作性嗜睡。一种以突发性、不可抗拒的睡眠发作为主要特征的神经系统疾病。
+Paroxysmal Supraventricular Tachycardia	阵发性室上性心动过速。一种因房室结或心房异常电信号引发突发性快速心率的异位心动过速。
+Paroxysmal Vertigo	阵发性眩晕。一种以突发性、短暂性眩晕发作为主要特征的前庭功能障碍。
+Patchy Osteosclerosis	斑片状骨硬化。一种以骨骼局部密度增高、呈斑片状分布为特征的影像学表现。
+Patellar Dislocation	髌骨脱位。因外伤或结构异常导致髌骨脱离股骨滑车沟的关节损伤。
+Pathologic Fracture	病理性骨折。因骨骼本身病变导致骨强度下降，在轻微外力或日常活动中发生的骨折。
+Pathological Angiogenesis	病理性血管生成。由缺氧、炎症或肿瘤等因素诱发的异常血管增生过程。
+Pediatric Disease	儿科疾病。泛指从出生至青春期阶段发生的各类先天性和获得性疾病。
+Pelvic Girdle Amyotrophy	骨盆带肌萎缩症。一种因神经损伤导致骨盆带肌肉进行性萎缩和无力为特征的疾病。
+Pelvic Girdle Muscle Atrophy	骨盆带肌萎缩。一种因神经损伤或废用导致骨盆周围肌肉体积缩小的退行性病变。
+Pelvic Girdle Muscle Weakness	骨盆带肌无力。一种因骨盆周围肌肉力量减退导致腰骶疼痛和活动受限的病症。
+Pendular Nystagmus	钟摆样眼球震颤。一种眼球围绕注视点进行等速往返摆动的非自主性节律性眼动。
+Penile Diseases	阴茎疾病。一类涉及阴茎结构或功能异常的疾病总称，包括先天畸形、感染、肿瘤及功能障碍等。
+Peptic Ulcer	消化性溃疡。因胃酸和胃蛋白酶对消化道黏膜的消化作用导致的局部组织缺损。
+Percussion Myotonia	叩击性肌强直。一种因肌肉受机械刺激后出现持续性收缩的神经肌肉疾病。
+Periarticular Calcification	关节周围钙化。关节周围软组织因创伤或代谢异常导致的钙盐沉积病变。
+Pericardial Effusion	心包积液。心包腔内液体异常积聚，常由炎症、肿瘤或心力衰竭引起。
+Periodic Hyperkalemic Paralysis	周期性高钾性麻痹。一种因血钾升高诱发的、以发作性肌无力为特征的骨骼肌离子通道病。
+Periodic Hypokalemic Paresis	周期性低钾性麻痹。一种因血钾水平周期性降低导致发作性肌肉无力的遗传性疾病。
+Periodic Paralysis	周期性麻痹。一种以反复发作的骨骼肌弛缓性瘫痪为特征的离子通道病。
+Periodontitis	牙周炎。一种由牙菌斑生物膜引起的牙周组织慢性感染性疾病，导致牙龈炎症和牙槽骨吸收。
+Perioral Eczema	口周湿疹。一种发生于口唇周围的湿疹样皮炎，常表现为红斑、丘疹和脱屑。
+Periorbital Fullness	眶周饱满。一种因眶周组织水肿或脂肪增生导致眼睑周围组织膨隆的临床表现。
+Periosteal Thickening Of Long Tubular Bones	长管状骨骨膜增厚。因慢性刺激、感染或肿瘤导致的骨膜成骨细胞活跃增生性疾病。
+Peripheral And Cutaneous T-Cell Lymphomas	外周和皮肤T细胞淋巴瘤。一组起源于T淋巴细胞并主要累及淋巴结外组织或皮肤的非霍奇金淋巴瘤。
+Peripheral Axonal Neuropathy	周围轴索神经病。一种因周围神经轴索损伤导致感觉异常和肌力减弱的神经系统疾病。
+Peripheral Edema	周围性水肿。因毛细血管滤过增多或回流减少导致的组织间隙液体异常积聚。
+Peripheral Neuroectodermal Tumor	外周神经外胚层肿瘤。一种起源于外周神经系统的原始神经外胚层恶性肿瘤。
+Peripheral Neuropathy	周围神经病变。由周围神经损伤引起的疾病，主要表现为感觉异常、疼痛或运动障碍。
+Peripheral Schwannoma	周围神经鞘瘤。一种起源于周围神经鞘施万细胞的良性肿瘤，常表现为缓慢生长的无痛性肿块。
+Peritonitis	腹膜炎。由细菌感染或化学刺激引起的腹膜急性炎症性疾病。
+Periventricular Leukomalacia	脑室周围白质软化。一种因脑室周围白质缺血坏死导致脑白质损伤的新生儿疾病。
+Periventricular White Matter Hyperdensities	脑室周围白质高密度。一种因脑小血管病变导致脑室周围白质在影像学上密度增高的病理改变。
+Peroneal Muscle Atrophy	腓骨肌萎缩症。一种由遗传性周围神经病变导致下肢远端肌肉无力和萎缩的疾病。
+Peroneal Muscle Weakness	腓骨肌无力。一种因腓总神经损伤导致足背屈和外翻功能受限的神经肌肉疾病。
+Perseveration	持续症。一种病态地重复特定动作、想法或言语的神经心理症状。
+Persistence Of Hemoglobin F	胎儿血红蛋白持续存在症。一种因γ-珠蛋白基因持续表达导致成人期血红蛋白F异常升高的遗传性血液疾病。
+Persistent Bleeding After Trauma	创伤后持续出血。因血管损伤未能自行修复导致的出血时间异常延长。
+Personality Changes	人格改变。由脑损伤、精神疾病或应激等因素导致的持久性人格特征和行为模式异常。
+Personality Disorder	人格障碍。一种持久且僵化的思维和行为模式，导致社会功能受损的精神障碍。
+Pes Valgus	扁平外翻足。一种足部畸形，表现为足弓塌陷和足跟外翻的病理状态。
+Phenylpyruvic Acidemia	苯丙酮酸尿症。一种因苯丙氨酸羟化酶缺乏导致苯丙氨酸代谢障碍的遗传性疾病。
+Pheochromocytoma	嗜铬细胞瘤。一种起源于肾上腺髓质嗜铬细胞、分泌过量儿茶酚胺的神经内分泌肿瘤。
+Phonophobia	恐声症。一种对正常环境声音产生异常恐惧或不适的听觉过敏症状。
+Photoaging	光老化。因长期紫外线辐射导致的皮肤过早衰老现象，主要表现为皱纹和色素沉着。
+Photophobia	畏光症。一种因眼部或神经系统疾病导致对光线异常敏感的症状。
+Photosensitive Tonic-Clonic Seizures	光敏性强直-阵挛发作。一种由闪光刺激诱发、以全身肌肉强直和阵挛抽搐为特征的癫痫发作。
+Pigment Gallstones	色素性胆结石。由胆红素钙盐沉积形成的胆道结石，多见于慢性溶血或胆道感染。
+Pili Canaliculi	扭曲发。一种因毛干中空管状结构导致头发呈节段性扭曲的先天性毛发畸形。
+Pilomatrixoma	毛母质瘤。一种起源于毛囊基质细胞的良性皮肤肿瘤，通常表现为皮下硬质结节。
+Pituitary Adenoma	垂体腺瘤。一种起源于垂体前叶的良性肿瘤，可导致激素分泌异常或占位效应。
+Pituitary Growth Hormone Cell Adenoma	垂体生长激素细胞腺瘤。一种起源于垂体前叶生长激素细胞的良性肿瘤，可导致生长激素过度分泌。
+Pituitary Hypothyroidism	垂体性甲状腺功能减退症。因垂体病变导致促甲状腺激素分泌不足引起的甲状腺激素缺乏性疾病。
+Pituitary Prolactin Cell Adenoma	垂体泌乳素细胞腺瘤。一种由垂体前叶泌乳素细胞异常增生引起的良性肿瘤，常导致高泌乳素血症。
+Pituitary Resistance To Thyroid Hormone	垂体甲状腺激素抵抗症。一种因垂体对甲状腺激素反应性降低导致促甲状腺激素不适当分泌的疾病。
+Plasmodium Falciparum Infection	恶性疟原虫感染。由恶性疟原虫引起的最严重疟疾类型，可导致脑型疟等致命并发症。
+Plasmodium Infection	疟原虫感染。由疟原虫引起、通过蚊媒传播的寄生虫病，典型症状为周期性寒战高热。
+Platelet Adhesion	血小板黏附。血小板通过膜糖蛋白与血管内皮下成分结合，是止血过程的首要步骤。
+Platelet Aggregation	血小板聚集。血小板相互黏附形成血栓的生理过程，是止血和血栓形成的关键环节。
+Pleural Effusion	胸腔积液。胸膜腔内病理性液体积聚，常由炎症、心力衰竭或肿瘤引起。
+Pleuritis	胸膜炎。一种由感染、肿瘤或自身免疫性疾病引起的胸膜炎症，主要症状为胸痛和呼吸困难。
+Pleuropulmonary Blastoma	肺母细胞瘤。一种罕见的儿童恶性肿瘤，起源于肺和胸膜的原始间充质细胞。
+Pneumocystis Infections	肺孢子菌感染。一种由耶氏肺孢子菌引起的机会性真菌感染，主要累及免疫功能低下患者的肺部。
+Pneumonia	肺炎。由细菌、病毒等病原体引起的肺部感染性炎症，主要症状为发热、咳嗽和呼吸困难。
+Pneumothorax	气胸。因气体进入胸膜腔导致肺组织部分或完全塌陷的病理状态。
+Podagra	痛风。[因尿酸盐结晶沉积在关节引发的急性炎症性关节炎，常累及第一跖趾关节。]
+Poikilocytosis	异形红细胞症。外周血中出现异常形态红细胞的病理现象，常提示溶血性贫血或骨髓功能障碍。
+Pollakisuria	尿频。一种以排尿次数明显增多但每次尿量正常或减少为特征的泌尿系统症状。
+Pollakiuria	尿频。一种以排尿次数明显增多但尿量不增加为特征的泌尿系统症状。
+Polyarthritis	多关节炎。由多种病因引起的两个或以上关节同时发生的炎症性疾病。
+Polyarticular Arthritis	多关节炎。一种同时累及五个或以上关节的炎症性疾病，常见于类风湿关节炎等自身免疫疾病。
+Polycystic Kidney Disease	多囊肾病。一种由基因突变导致双侧肾脏出现多个液性囊肿的遗传性疾病。
+Polycystic Ovaries	多囊卵巢。一种以卵巢多囊样改变、排卵障碍和雄激素过多为特征的生殖内分泌代谢性疾病。
+Polycystic Ovary Syndrome	多囊卵巢综合征。一种因内分泌代谢异常导致排卵障碍和卵巢多囊样改变的常见疾病。
+Polycythemia	红细胞增多症。一种因红细胞绝对数量增多导致血液黏稠度增加的骨髓增殖性疾病。
+Polycythemia Vera	真性红细胞增多症。一种因JAK2基因突变导致骨髓过度产生红细胞的克隆性骨髓增殖性肿瘤。
+Polydipsia	烦渴。一种以异常频繁和大量饮水为特征的临床症状，常见于糖尿病或尿崩症等疾病。
+Polyostotic Fibrous Dysplasia	多骨性纤维结构不良。一种因GNAS基因突变导致多部位骨骼被纤维组织替代的良性骨病。
+Polyphagia	多食症。一种因代谢紊乱或精神因素导致食量异常增多的病理状态。
+Polyuria	多尿症。一种因抗利尿激素分泌不足或肾脏反应低下导致尿量异常增多的症状。
+Poor Appetite	食欲减退。一种由多种生理或心理因素引起的进食欲望降低的常见症状。
+Poor Coordination	协调障碍。一种因神经系统功能异常导致动作笨拙、平衡困难的运动功能障碍。
+Poor Fine Motor Coordination	精细运动协调障碍。一种因神经系统发育异常导致手部精细动作控制能力受损的状态。
+Poor Head Control	头控不良。一种因神经肌肉控制障碍导致头部无法保持稳定直立姿势的症状。
+Poor Motor Coordination	运动协调障碍。一种因神经系统发育异常导致动作笨拙、不协调的神经功能障碍。
+Poor Speech	言语障碍。一种因发音器官功能障碍或神经损伤导致言语表达困难的症状。
+Poor Suck	吸吮无力。一种因神经系统发育不成熟或口腔结构异常导致的婴儿吸吮反射减弱症状。
+Poor Wound Healing	伤口愈合不良。因组织修复功能障碍导致伤口延迟愈合或无法正常愈合的病理状态。
+Porencephalic Cyst	脑穿通囊肿。一种由脑组织破坏形成的脑内囊腔，常与先天性发育异常或获得性脑损伤相关。
+Portal Fibrosis	门脉纤维化。一种因慢性肝损伤导致门脉区纤维组织异常增生的病理改变。
+Portal Hypertension	门静脉高压症。由门静脉系统压力持续增高导致脾大、腹水等一系列临床表现的综合征。
+Post-Menopausal Osteoporosis	绝经后骨质疏松症。一种因雌激素缺乏导致骨量减少、骨微结构退化的代谢性骨病。
+Posterior Embryotoxon	后胚胎环。一种眼前房角Schwalbe线异常前移的先天性眼部发育异常。
+Posterior Polar Cataract	后极性白内障。一种先天性晶状体后极部混浊，通常与遗传因素相关的眼科疾病。
+Posterior Subcapsular Cataract	后囊下白内障。一种晶状体后囊膜下混浊，常由长期使用糖皮质激素或代谢因素引起。
+Postherpetic Neuralgia	带状疱疹后神经痛。一种由水痘-带状疱疹病毒激活后引起的持续性神经病理性疼痛综合征。
+Postnatal Growth Retardation	产后生长迟缓。出生后因营养、内分泌或慢性疾病等因素导致的身高体重增长落后状态。
+Postoperative Nausea And Vomiting	术后恶心呕吐。一种因麻醉、手术刺激或药物副作用引起的常见术后并发症。
+Postoperative Residual Curarisation	术后残余肌松作用。指术后因神经肌肉阻滞剂未完全代谢导致的肌力恢复不全状态。
+Postprandial Hyperglycemia	餐后高血糖。一种以进食后血糖水平异常升高为特征的代谢紊乱状态。
+Postural Instability	姿势不稳。因前庭功能障碍或神经系统病变导致维持直立姿势能力下降的状态。
+Postural Tremor	姿势性震颤。一种在主动维持特定姿势时出现或加重的运动障碍，常见于生理性或特发性震颤。
+Precancerous Conditions	癌前病变。具有细胞异型性增生、可能发展为恶性肿瘤的病理状态。
+Predominantly Lower Limb Lymphedema	以下肢淋巴水肿为主。一种因淋巴回流障碍导致下肢组织间隙液体积聚的慢性进展性疾病。
+Preeclampsia	子痫前期。一种妊娠期特发性高血压疾病，以新发高血压和蛋白尿为主要特征。
+Premature Adrenarche	阴毛早现。因肾上腺功能提前启动导致8岁前出现阴毛发育的良性生理变异。
+Premature Atrial Contractions	房性早搏。一种因心房异位起搏点提前激动导致的心律失常，常见症状为心悸或心跳漏搏感。
+Premature Birth Following Premature Rupture Of Fetal Membranes	未足月胎膜早破后早产。因胎膜在临产前破裂导致妊娠未满37周分娩的产科并发症。
+Premature Coronary Artery Atherosclerosis	早发性冠状动脉粥样硬化。一种在青年期出现的冠状动脉内膜脂质沉积性疾病，可导致心肌缺血。
+Premature Graying Of Hair	早发性白发。一种因黑色素细胞功能减退或遗传因素导致毛发提前变白的现象。
+Premature Loss Of Teeth	牙齿早失。因龋病、牙周病或外伤导致乳牙/恒牙在生理脱落期前丧失的病理状态。
+Premature Osteoarthritis	早发性骨关节炎。一种在年轻人群中因关节软骨异常早期退变导致的退行性关节疾病。
+Premature Ovarian Insufficiency	卵巢功能早衰。一种因卵巢功能在40岁前衰竭导致雌激素缺乏及闭经的疾病。
+Premature Pubarche	阴毛早现。指女童8岁前、男童9岁前出现阴毛的性发育异常现象。
+Prematurely Aged Appearance	早老样外貌。一种因基因突变或代谢异常导致患者呈现超出实际年龄的衰老体征的综合征。
+Prenatal Maternal Abnormality	产前母体异常。指妊娠期间母亲出现的生理或病理变化，可能影响胎儿发育的异常状态。
+Presenile Cataracts	早老性白内障。一种发生于65岁前的晶状体混浊疾病，多与遗传因素或全身性疾病相关。
+Primary Adrenal Insufficiency	原发性肾上腺皮质功能减退症。一种因肾上腺皮质破坏导致皮质醇和醛固酮分泌不足的自身免疫性疾病。
+Primary Amenorrhea	原发性闭经。指女性年满15岁仍无月经来潮，多由遗传异常或生殖道畸形导致。
+Primary Biliary Cirrhosis	原发性胆汁性胆管炎。一种因自身免疫异常导致肝内小胆管进行性破坏的慢性胆汁淤积性疾病。
+Primary Congenital Glaucoma	原发性先天性青光眼。一种因前房角发育异常导致房水排出受阻的先天性眼内压升高疾病。
+Primary Gonadal Insufficiency	原发性性腺功能减退症。一种因性腺本身功能障碍导致性激素分泌不足的内分泌疾病。
+Primary Hyperparathyroidism	原发性甲状旁腺功能亢进症。一种因甲状旁腺腺瘤或增生导致甲状旁腺激素分泌过多的内分泌疾病。
+Primary Hypothyroidism	原发性甲状腺功能减退症。一种因甲状腺本身病变导致甲状腺激素分泌不足的内分泌疾病。
+Primary Peritoneal Carcinoma	原发性腹膜癌。一种起源于腹膜上皮细胞、与卵巢癌组织学特征相似的恶性肿瘤。
+Primitive Reflex	原始反射。婴儿期出现的正常神经反射，通常在发育过程中被高级中枢抑制或整合。
+Profound Global Developmental Delay	全面性重度发育迟缓。一种在认知、运动、语言和社会能力等多个领域出现严重延迟的神经发育障碍。
+Profound Sensorineural Hearing Impairment	重度感音神经性听力损失。因内耳、听神经或听觉中枢病变导致的严重听力下降，通常超过90分贝。
+Profuse Pigmented Skin Lesions	多发性色素性皮肤病变。由黑色素细胞异常增生或色素沉积导致皮肤出现大量色素斑的病变。
+Progressive Cerebellar Ataxia	进行性小脑性共济失调。一种以小脑功能进行性退化导致协调能力持续恶化的神经系统疾病。
+Progressive Distal Muscle Weakness	进行性远端肌无力。一种以四肢末端肌力持续减退为特征的神经系统或肌肉疾病。
+Progressive Distal Muscular Atrophy	进行性远端肌萎缩。一种以四肢远端肌肉进行性萎缩和无力为特征的神经系统变性疾病。
+Progressive Encephalopathy	进行性脑病。一种由多种病因导致脑功能进行性恶化的神经系统疾病。
+Progressive External Ophthalmoplegia	进行性眼外肌麻痹。一种由线粒体DNA缺失导致眼外肌进行性麻痹的神经肌肉疾病。
+Progressive Flexion Contractures	进行性屈曲挛缩。因关节周围软组织纤维化导致关节逐渐无法完全伸展的病理状态。
+Progressive Gait Ataxia	进行性步态共济失调。一种以小脑变性导致行走不稳且症状持续加重的神经系统疾病。
+Progressive Leukoencephalopathy	进行性脑白质病。一种由脑白质进行性脱髓鞘导致神经功能恶化的神经系统疾病。
+Progressive Muscle Weakness	进行性肌无力。一种以肌肉力量逐渐减退为主要特征的神经肌肉疾病症状。
+Progressive Neurologic Deterioration	进行性神经功能恶化。一种神经系统功能随时间持续衰退的病理过程，常由神经退行性疾病或代谢异常引起。
+Progressive Night Blindness	进行性夜盲。一种因视网膜杆状细胞功能进行性退化导致暗适应能力逐渐丧失的遗传性疾病。
+Progressive Peripheral Neuropathy	进行性周围神经病变。一种逐渐恶化的周围神经损伤性疾病，常表现为肢体麻木、无力或疼痛。
+Progressive Proximal Muscle Weakness	进行性近端肌无力。一种以躯干和四肢近端肌肉进行性力量减退为特征的神经肌肉疾病。
+Progressive Psychomotor Deterioration	进行性精神运动衰退。一种以认知功能和运动能力持续恶化为特征的神经退行性病变。
+Progressive Sensorineural Hearing Impairment	进行性感音神经性听力障碍。一种因内耳或听神经病变导致听力逐渐下降的疾病。
+Progressive Spastic Paraplegia	进行性痉挛性截瘫。一种因脊髓锥体束变性导致双下肢进行性肌无力和痉挛的神经系统疾病。
+Progressive Spastic Quadriplegia	进行性痉挛性四肢瘫。一种因中枢神经损伤导致四肢进行性肌张力增高和运动功能障碍的综合征。
+Progressive Spasticity	进行性痉挛。一种因中枢神经系统损伤导致肌张力持续增高且逐渐加重的运动障碍。
+Progressive Visual Loss	进行性视力丧失。一种视力随时间逐渐下降的症状，常见于青光眼、白内障等眼部疾病进展过程。
+Prolactin Deficiency	泌乳素缺乏症。一种因垂体功能减退导致血清泌乳素水平异常低下的内分泌疾病。
+Prolactinoma	泌乳素瘤。一种由垂体前叶泌乳素细胞异常增生导致血清泌乳素水平升高的良性肿瘤。
+Proliferative Diseases	增殖性疾病。以细胞异常分裂和数量增多为特征的一类疾病总称。
+Proliferative Vitreoretinopathy	增生性玻璃体视网膜病变。一种因视网膜表面细胞增殖和膜形成导致牵引性视网膜脱离的病理过程。
+Prolinuria	脯氨酸尿症。一种因肾小管转运缺陷导致尿中脯氨酸异常增多的遗传性代谢疾病。
+Prolonged Bleeding After Dental Extraction	拔牙后出血延长。因凝血功能障碍或局部血管损伤导致的术后出血时间异常延长。
+Prolonged Bleeding After Surgery	术后出血延长。因手术创伤导致凝血功能障碍或血管损伤引发的异常持续性出血。
+Prolonged Bleeding Time	出血时间延长。一种因血小板功能异常或血管壁缺陷导致出血时间超过正常范围的病理状态。
+Prolonged Partial Thromboplastin Time	活化部分凝血活酶时间延长。一种反映内源性凝血途径异常的实验室检查指标。
+Prolonged Prothrombin Time	凝血酶原时间延长。一种因凝血因子缺乏或抗凝物质存在导致血液凝固时间延长的病理状态。
+Prolonged Whole-Blood Clotting Time	全血凝固时间延长。一种因凝血因子缺乏或功能障碍导致血液凝固时间超过正常范围的病理状态。
+Prominent Superficial Blood Vessels	浅表血管显露。因皮肤萎缩或血管扩张导致皮下血管可见度增加的一种体征。
+Propionyl-Coa Carboxylase Deficiency	丙酰辅酶A羧化酶缺乏症。一种因丙酰辅酶A羧化酶缺陷导致有机酸蓄积的常染色体隐性遗传代谢病。
+Proptosis	眼球突出。一种因眼眶内容物体积增加或眶腔缩小导致眼球异常前突的临床症状。
+Prostate Cancer	前列腺癌。一种发生在前列腺的上皮性恶性肿瘤，常见于老年男性，早期常无症状。
+Prostatic Neoplasms	前列腺肿瘤。发生于前列腺组织的异常细胞增生，包括良性和恶性病变。
+Prostatitis	前列腺炎。一种由感染或非感染因素引起的前列腺炎症性疾病。
+Protein Avoidance	蛋白质回避症。一种因心理或生理因素导致主动回避蛋白质摄入的进食障碍。
+Protein C Deficiency	蛋白C缺乏症。一种因蛋白C生成不足或功能异常导致血液高凝状态的遗传性血栓性疾病。
+Proteinuria	蛋白尿。尿液中蛋白质含量异常增高，通常提示肾小球滤过功能受损。
+Protracted Diarrhea	迁延性腹泻。病程持续两周以上，由感染、吸收不良或炎症等多种因素引起的慢性腹泻。
+Proximal Lower Limb Amyotrophy	近端下肢肌萎缩。一种因脊髓前角细胞病变导致大腿及骨盆带肌肉萎缩的神经退行性疾病。
+Proximal Muscle Weakness	近端肌无力。一种以肩带和盆带肌群力量减退为主要特征的神经肌肉症状。
+Proximal Renal Tubular Acidosis	近端肾小管性酸中毒。因近端肾小管重吸收碳酸氢盐功能障碍导致的代谢性酸中毒。
+Prune Belly	梅干腹综合征。一种因腹壁肌肉缺如或发育不良导致腹部皮肤松弛呈皱褶状的先天性畸形。
+Pruritus	瘙痒症。一种以皮肤瘙痒为主要表现，可由多种皮肤病或系统性疾病引起的症状。
+Pruritus In Chronic Liver Disease	慢性肝病性瘙痒。由胆汁淤积等肝功能障碍导致皮肤瘙痒的常见并发症。
+Pseudobulbar Behavioral Symptoms	假性延髓情绪行为症状。一种因上运动神经元损伤导致情感控制失调，表现为不自主哭笑发作的神经精神症状。
+Pseudobulbar Paralysis	假性延髓麻痹。一种因双侧皮质延髓束受损导致情感失控和构音障碍的综合征。
+Pseudobulbar Signs	假性延髓麻痹征。由双侧上运动神经元损伤所致的情感失控和球部症状群。
+Pseudohypoaldosteronism	假性醛固酮减少症。一种因靶器官对醛固酮抵抗导致盐分流失和低钠血症的遗传性疾病。
+Pseudohypoparathyroidism	假性甲状旁腺功能减退症。一种因靶组织对甲状旁腺激素抵抗导致的遗传性代谢疾病。
+Psoriasiform Dermatitis	银屑病样皮炎。一种临床表现类似银屑病，以红斑、鳞屑为主要特征的炎症性皮肤病。
+Psoriasis	银屑病。一种因免疫异常导致皮肤细胞过度增殖的慢性炎症性皮肤病。
+Psoriatic Disorders	银屑病性疾病。一组与银屑病相关的免疫介导性慢性炎症性疾病，常累及皮肤和关节。
+Psychiatric Illness	精神疾病。由生物、心理、社会因素引起的精神活动失调所致的功能障碍。
+Psychomotor Deterioration	精神运动功能衰退。一种由神经系统病变引起的运动协调性和思维速度进行性恶化的状态。
+Psychomotor Retardation	精神运动性迟缓。一种表现为思维过程和身体动作明显减慢的神经精神症状。
+Psychosis	精神病。一种以现实检验能力丧失为特征，常出现幻觉、妄想等症状的精神障碍。
+Psychotic Disorders	精神病性障碍。一组以现实检验能力丧失、幻觉妄想等阳性症状为主要特征的精神障碍。
+Psychotic Mentation	精神病性思维障碍。一种以现实检验能力丧失和思维内容障碍为核心特征的精神病理状态。
+Pulmonary Arterial Hypertension	肺动脉高压。一种因肺动脉阻力持续增高导致右心室负荷增重的进行性疾病。
+Pulmonary Artery Aneurysm	肺动脉瘤。一种因肺动脉壁局部异常扩张形成的血管瘤样病变，可导致胸痛或咯血。
+Pulmonary Edema	肺水肿。因肺部血管外液体积聚过多导致的呼吸困难综合征。
+Pulmonary Embolism	肺栓塞。因血栓阻塞肺动脉或其分支，导致肺循环障碍的急性危重症。
+Pulmonary Fibrosis	肺纤维化。一种因肺部组织异常增生和瘢痕形成导致进行性呼吸困难的慢性疾病。
+Pulmonary Hypertension	肺动脉高压。一种因肺血管阻力增加导致右心室负荷增高的进行性病理状态。
+Pulmonary Infiltrates	肺部浸润。肺部组织因炎症、感染或肿瘤等病变导致细胞或液体异常积聚的影像学表现。
+Pulsatile Tinnitus	搏动性耳鸣。一种患者自觉耳内有与心跳同步的节律性搏动声的听觉感知异常。
+Pulverulent Cataract	粉尘状白内障。一种以晶状体皮质出现粉尘状混浊为特征的先天性白内障。
+Purpura	紫癜。一种以皮下或黏膜出血形成紫红色斑点为特征的血管性疾病。
+Pustule	脓疱。一种皮肤局限性隆起，内含脓液的炎症性皮损。
+Pyelonephritis	肾盂肾炎。一种由细菌感染引起的上尿路炎症，主要症状为发热、腰痛和尿路刺激征。
+Pyloric Stenosis	幽门狭窄。一种因幽门括约肌肥厚导致胃内容物通过受阻的先天性消化道畸形。
+Pyoderma	脓皮病。一种由细菌感染引起的以皮肤脓性病变为主要特征的化脓性皮肤病。
+Pyresis	发热。因致热原作用使体温调节中枢调定点上移而引起的体温升高现象。
+Pyridoxine-Responsive Sideroblastic Anemia	吡哆醇反应性铁粒幼细胞贫血。一种因血红素合成障碍导致铁利用不足，但对维生素B6治疗有效的贫血。
+Pyrimidine-Responsive Megaloblastic Anemia	嘧啶反应性巨幼细胞贫血。一种因嘧啶代谢异常导致DNA合成障碍，对大剂量嘧啶治疗有反应的贫血。
+Quadriceps Muscle Weakness	股四头肌肌力减弱。因股四头肌损伤或神经功能障碍导致的膝关节伸展力量下降。
+Radiation Enteropathy	放射性肠病。因腹部或盆腔放射治疗导致肠道损伤的慢性并发症。
+Radioulnar Synostosis	桡尺骨融合。一种因桡骨与尺骨近端先天性融合导致前臂旋转功能受限的骨发育异常。
+Ragged-Red Muscle Fibers	破碎红纤维。一种因线粒体DNA突变导致肌纤维周围异常线粒体堆积的病理特征。
+Rapidly Progressive	快速进展性疾病。病情在短期内急剧恶化的临床过程，常见于侵袭性感染或恶性肿瘤。
+Raynaud Phenomenon	雷诺现象。一种因寒冷或情绪刺激引发肢端小动脉阵发性痉挛的血管功能障碍性疾病。
+Raynaud's Syndrome	雷诺综合征。一种因寒冷或情绪激动引发肢端小动脉阵发性痉挛的血管功能障碍性疾病。
+Rectal Abscess	直肠脓肿。直肠周围组织因细菌感染形成的局限性脓液积聚。
+Rectal Prolapse	直肠脱垂。直肠壁全层或部分经肛门向外脱出的病理状态，多因盆底肌松弛或腹压增高导致。
+Recurrent Aphthous Stomatitis	复发性阿弗他口炎。一种以口腔黏膜反复发作的疼痛性溃疡为特征的常见口腔疾病。
+Recurrent Aspergillus Infections	复发性曲霉菌感染。由曲霉菌反复侵袭引起的真菌感染性疾病，常见于免疫功能低下患者。
+Recurrent Aspiration Pneumonia	复发性吸入性肺炎。因反复吸入异物或分泌物导致的肺部反复感染性炎症。
+Recurrent Bacterial Infections	复发性细菌感染。因免疫缺陷或慢性病导致同种病原体反复引发的感染性疾病。
+Recurrent Bacterial Skin Infections	复发性细菌性皮肤感染。由细菌反复侵入皮肤引起的以红肿、化脓和疼痛为特征的慢性炎症。
+Recurrent Bronchitis	复发性支气管炎。一种因反复感染或刺激导致支气管黏膜反复发作性炎症的呼吸系统疾病。
+Recurrent Bronchopulmonary Infections	复发性支气管肺感染。因免疫功能低下或结构异常导致支气管和肺部反复发生的感染性疾病。
+Recurrent Burkholderia Cepacia Infections	复发性洋葱伯克霍尔德菌感染。一种因免疫功能缺陷导致洋葱伯克霍尔德菌反复侵袭的慢性感染性疾病。
+Recurrent Cerebral Hemorrhage	复发性脑出血。指脑实质内血管破裂导致两次或以上出血的脑血管疾病。
+Recurrent Corneal Erosions	复发性角膜糜烂。一种因角膜上皮基底膜异常导致角膜反复剥脱的疾病。
+Recurrent Cutaneous Abscess Formation	复发性皮肤脓肿形成。由细菌反复感染引起的皮肤及皮下组织局限性脓液积聚。
+Recurrent Deep Vein Thrombosis	复发性深静脉血栓形成。因静脉血流淤滞或高凝状态导致深静脉内血栓反复形成的疾病。
+Recurrent Depression	复发性抑郁症。一种以反复发作的心境低落、兴趣丧失为主要特征的情感障碍。
+Recurrent E. Coli Infections	复发性大肠杆菌感染。由大肠杆菌反复侵入机体引起的感染性疾病，常见于泌尿系统或肠道。
+Recurrent Encephalopathy	复发性脑病。一种因代谢紊乱、感染或中毒等因素导致反复发作的脑功能障碍性疾病。
+Recurrent Enteroviral Infections	复发性肠道病毒感染。由肠道病毒反复感染引起的疾病，常见症状包括发热、皮疹和呼吸道症状。
+Recurrent Fractures	复发性骨折。因骨骼脆弱或反复外力作用导致同一部位多次发生骨折的病理状态。
+Recurrent Fungal Infections	复发性真菌感染。由真菌反复侵袭引起的感染性疾病，常见于免疫功能低下者。
+Recurrent Gram-Negative Bacterial Infections	复发性革兰氏阴性菌感染。由革兰氏阴性菌反复引起的感染性疾病，常见于免疫功能低下患者。
+Recurrent Hypoglycemia	复发性低血糖。因多种病因导致血糖反复降低，出现心悸、出汗等症状的代谢紊乱。
+Recurrent Infection Of The Gastrointestinal Tract	胃肠道反复感染。一种因病原体反复侵袭导致的消化道炎症性疾病，常表现为腹泻、腹痛等症状。
+Recurrent Infections	复发性感染。因免疫功能缺陷或病原体持续存在导致同一部位反复发作的感染性疾病。
+Recurrent Klebsiella Infections	复发性克雷伯菌感染。由克雷伯菌反复引起的感染，常见于免疫力低下患者，表现为反复发热或肺炎。
+Recurrent Lower Respiratory Tract Infections	复发性下呼吸道感染。因病原体反复侵袭支气管以下呼吸道部位导致的反复发作性炎症。
+Recurrent Mycobacterial Infections	复发性分枝杆菌感染。因免疫缺陷导致分枝杆菌反复感染的一种免疫系统疾病。
+Recurrent Opportunistic Infections	复发性机会性感染。因免疫缺陷导致条件致病微生物反复引起感染的一种临床状态。
+Recurrent Otitis Media	复发性中耳炎。因咽鼓管功能障碍或感染反复发作导致的中耳黏膜炎症。
+Recurrent Pancreatitis	复发性胰腺炎。因胰腺反复发作炎症导致上腹剧痛和消化功能障碍的疾病。
+Recurrent Paroxysmal Headache	复发性阵发性头痛。一种以反复发作的剧烈头痛为特征的神经系统疾病。
+Recurrent Pharyngitis	复发性咽炎。因病毒或细菌反复感染导致咽部黏膜反复发作的炎症性疾病。
+Recurrent Pneumonia	复发性肺炎。指一年内发生两次或以上的肺炎，多与免疫功能低下或基础疾病相关。
+Recurrent Respiratory Infections	复发性呼吸道感染。因免疫功能低下或反复病原体暴露导致呼吸道感染反复发作的临床状态。
+Recurrent Serratia Marcescens Infections	复发性粘质沙雷菌感染。由粘质沙雷菌反复侵入引起的感染性疾病，常见于免疫功能低下患者。
+Recurrent Singultus	复发性呃逆。一种因膈肌痉挛反复发作导致的顽固性打嗝症状。
+Recurrent Sinopulmonary Infections	复发性鼻窦肺部感染。因免疫缺陷或解剖异常导致鼻窦和呼吸道反复发生感染的临床综合征。
+Recurrent Sinusitis	复发性鼻窦炎。因感染或过敏导致鼻窦黏膜反复发作的炎症性疾病。
+Recurrent Spontaneous Abortion	复发性自然流产。连续发生2次或以上的妊娠20周前的自然流产。
+Recurrent Staphylococcal Infections	复发性葡萄球菌感染。由葡萄球菌反复引起的感染性疾病，常见于皮肤和软组织。
+Recurrent Staphylococcus Aureus Infections	复发性金黄色葡萄球菌感染。由金黄色葡萄球菌反复引起的感染性疾病，常见于皮肤和软组织。
+Recurrent Thrombophlebitis	复发性血栓性静脉炎。因静脉壁炎症反复发作伴血栓形成，表现为局部红肿热痛的血管疾病。
+Recurrent Upper Respiratory Tract Infections	复发性上呼吸道感染。因病毒或细菌反复感染导致鼻咽、喉部等部位出现反复发作的炎症性疾病。
+Recurrent Urinary Tract Infections	复发性尿路感染。因病原体反复侵袭尿路系统导致的反复发作性炎症，常见症状包括尿频、尿急、尿痛。
+Recurrent Viral Infections	复发性病毒感染。因免疫功能缺陷导致病毒反复感染发作的临床状态。
+Red Hair	红发。一种由MC1R基因突变导致黑色素合成异常，表现为毛发呈红色或红褐色的遗传性状。
+Red-Green Dyschromatopsia	红绿色觉异常。一种因视网膜视锥细胞功能缺陷导致的红绿色辨别障碍。
+Reduced Alpha/Beta Synthesis Ratio	α/β合成比降低。一种因α链与β链合成比例失衡导致的血红蛋白病。
+Reduced Antithrombin Iii Activity	抗凝血酶III活性降低。一种因抗凝血酶III缺乏或功能异常导致血栓形成风险增高的遗传性或获得性疾病。
+Reduced Beta/Alpha Synthesis Ratio	β/α合成比率降低。一种因β链与α链合成比例失衡导致血红蛋白结构异常的血红蛋白病。
+Reduced Bone Mineral Density	骨密度降低。一种因骨组织微结构破坏导致骨脆性增加的代谢性骨病。
+Reduced Consciousness/Confusion	意识障碍/意识模糊。一种因脑功能受损导致觉醒度或认知能力下降的病理状态。
+Reduced Erythrocyte 2,3-Diphosphoglycerate Concentration	红细胞2,3-二磷酸甘油酸浓度降低。一种因红细胞内2,3-DPG合成减少导致氧解离曲线左移的代谢异常。
+Reduced Factor Ix Activity	凝血因子IX活性降低。一种因凝血因子IX缺乏或功能障碍导致的遗传性出血性疾病。
+Reduced Factor Vii Activity	第七因子活性降低。一种因凝血因子VII合成不足或功能缺陷导致的出血性疾病。
+Reduced Factor X Activity	因子X活性降低。一种因凝血因子X合成不足或功能缺陷导致的出血性疾病。
+Reduced Factor Xiii Activity	凝血因子XIII活性降低。一种因凝血因子XIII缺乏导致纤维蛋白交联障碍的出血性疾病。
+Reduced Muscle Carnitine Level	肌肉肉碱水平降低。一种因肉碱转运缺陷导致的代谢性疾病，特征为肌肉无力及脂质沉积。
+Reduced Orotidine 5-Prime Phosphate Decarboxylase Activity	乳清酸核苷-5'-磷酸脱羧酶活性降低。一种因UMPS基因突变导致嘧啶合成障碍的遗传代谢病。
+Reduced Pancreatic Beta Cells	胰岛β细胞减少症。一种因胰岛β细胞数量减少导致胰岛素分泌不足的病理状态。
+Reduced Protein C Activity	蛋白C活性降低。一种因蛋白C缺乏或功能障碍导致血液高凝状态的遗传性或获得性凝血异常。
+Reduced Protein S Activity	蛋白S活性降低。一种因蛋白S缺乏或功能障碍导致的获得性或遗传性易栓症。
+Reduced Prothrombin Activity	凝血酶原活性降低。一种因凝血因子Ⅱ合成不足或功能异常导致的凝血功能障碍。
+Reduced Red Cell Adenosine Deaminase Activity	红细胞腺苷脱氨酶活性降低。一种因腺苷脱氨酶缺乏导致红细胞代谢异常的遗传性酶缺陷病。
+Reduced Red Cell Pyruvate Kinase Activity	红细胞丙酮酸激酶活性降低症。一种因丙酮酸激酶缺乏导致红细胞能量代谢障碍的遗传性溶血性贫血。
+Reduced Subcutaneous Adipose Tissue	皮下脂肪组织减少。一种因脂肪代谢异常或营养不良导致皮下脂肪层变薄的病理状态。
+Reduced Visual Acuity	视力减退。由屈光介质混浊、感光细胞功能异常或视神经传导障碍导致的视力下降。
+Reduced Vital Capacity	肺活量降低。一种因呼吸肌无力或肺组织病变导致最大呼气后肺内气体容量减少的病理状态。
+Reduced Xanthine Dehydrogenase Activity	黄嘌呤脱氢酶活性降低。一种因黄嘌呤脱氢酶功能缺陷导致嘌呤代谢障碍的遗传性疾病。
+Refractory Anemia	难治性贫血。一种对常规治疗无效、以持续性血细胞减少为特征的骨髓衰竭性疾病。
+Refractory Cutaneous T-Cell Lymphoma	难治性皮肤T细胞淋巴瘤。一种对常规治疗无反应的皮肤T细胞恶性增殖性疾病。
+Refractory Hematological Malignancies	难治性血液恶性肿瘤。对常规化疗、靶向治疗等初始治疗方案无效或复发的血液系统癌症。
+Refractory Partial Epilepsy	难治性局灶性癫痫。一种对抗癫痫药物无反应的局部性癫痫发作，常由脑部特定区域异常放电引起。
+Refractory Renal Cell Carcinoma	难治性肾细胞癌。一种对标准治疗无效、持续进展的肾癌类型。
+Renal Agenesis	肾缺如。一种因胚胎期输尿管芽发育失败导致单侧或双侧肾脏完全缺失的先天性畸形。
+Renal Aminoaciduria	肾性氨基酸尿症。一种因肾小管重吸收功能障碍导致尿中氨基酸异常增多的遗传性疾病。
+Renal Artery Stenosis	肾动脉狭窄。一种因肾动脉管腔狭窄导致肾脏缺血和继发性高血压的血管疾病。
+Renal Cell Carcinoma	肾细胞癌。一种起源于肾小管上皮细胞的恶性肿瘤，常见症状包括血尿、腰痛和腹部肿块。
+Renal Colic Pain	肾绞痛。因尿路结石移动引发输尿管痉挛导致的突发性剧烈腰部疼痛。
+Renal Diseases	肾脏疾病。一类影响肾脏结构和功能的疾病，常由感染、代谢异常或免疫因素引起。
+Renal Failure	肾功能衰竭。因肾脏结构或功能损害导致代谢废物蓄积及内环境紊乱的临床综合征。
+Renal Fanconi Syndrome	肾范可尼综合征。一种因肾近曲小管多功能障碍导致葡萄糖、氨基酸和磷酸盐重吸收受损的疾病。
+Renal Fibrosis	肾纤维化。一种因慢性损伤导致肾脏间质过度沉积细胞外基质的病理改变。
+Renal Hypoplasia	肾发育不全。一种因胚胎期肾组织未能充分发育导致肾脏体积过小的先天性畸形。
+Renal Hypoplasia/Aplasia	肾发育不全/不发育。因胚胎期肾组织未能充分发育或完全缺失导致的先天性肾脏结构异常。
+Renal Insufficiency	肾功能不全。因肾脏结构或功能损害导致代谢废物蓄积和机体内环境紊乱的病理状态。
+Renal Tubular Acidosis	肾小管性酸中毒。因肾小管功能障碍导致酸性物质排泄或碱性物质重吸收受损的代谢性酸中毒。
+Renovascular Hypertension	肾血管性高血压。因肾动脉狭窄导致肾脏缺血而引发的继发性高血压。
+Reperfusion Injury	再灌注损伤。组织缺血后恢复血流时，因氧化应激和炎症反应导致组织损伤加重的病理过程。
+Reperfusion Injury Following Acute Myocardial Infarction	急性心肌梗死后再灌注损伤。急性心梗血运重建后因氧化应激和钙超载导致的心肌细胞损伤加重。
+Reproductive Disorder	生殖系统疾病。由遗传、内分泌或器质性病变导致生殖功能异常的一类疾病。
+Respiratory Alkalosis	呼吸性碱中毒。因肺通气过度导致二氧化碳排出过多、血pH值升高的酸碱平衡紊乱。
+Respiratory Arrest	呼吸停止。因呼吸中枢抑制或呼吸肌麻痹导致的自主呼吸完全中断。
+Respiratory Diseases	呼吸系统疾病。影响呼吸道和肺部结构功能的一类疾病，常见症状包括咳嗽、呼吸困难。
+Respiratory Distress	呼吸窘迫。因肺换气功能障碍导致呼吸困难、呼吸频率异常的危急症状。
+Respiratory Distress Syndrome	呼吸窘迫综合征。一种因肺表面活性物质缺乏导致进行性肺泡萎陷的急性呼吸衰竭。
+Respiratory Failure	呼吸衰竭。因肺通气或换气功能障碍导致动脉血氧分压降低的临床综合征。
+Respiratory Insufficiency	呼吸功能不全。因肺通气或换气功能障碍导致动脉血氧分压降低的病理状态。
+Respiratory Insufficiency Due To Muscle Weakness	呼吸肌无力性呼吸功能不全。因呼吸肌肌力减弱导致肺通气不足的病理状态。
+Respiratory Paralysis	呼吸麻痹。因呼吸肌无力或神经传导障碍导致自主呼吸功能丧失的危急状态。
+Respiratory Tract Infection	呼吸道感染。由病毒或细菌引起的鼻腔至肺泡范围内呼吸道的炎症性疾病。
+Resting Tremor	静止性震颤。一种在肌肉完全放松时出现的节律性震颤，常见于帕金森病等神经系统疾病。
+Restlessness	坐立不安。一种表现为无法保持静止、持续活动的主观不适感，常与焦虑或药物副作用相关。
+Restrictive Ventilatory Defect	限制性通气功能障碍。一种因肺或胸廓扩张受限导致肺活量下降的呼吸系统疾病。
+Reticular Hyperpigmentation	网状色素沉着过度。一种以网状分布的皮肤色素增加为特征的皮肤病变。
+Reticulocytopenia	网织红细胞减少症。一种因骨髓造血功能障碍导致外周血中网织红细胞数量显著减少的病理状态。
+Reticulocytosis	网织红细胞增多症。外周血中未成熟网织红细胞比例异常增高，常见于溶血性贫血或骨髓代偿性增生。
+Retinal Capillary Hemangioma	视网膜毛细血管瘤。一种由视网膜毛细血管异常增生形成的良性血管性肿瘤。
+Retinal Degeneration	视网膜变性。一类由遗传或年龄等因素导致视网膜感光细胞进行性损伤的退行性疾病。
+Retinal Detachment	视网膜脱离。视网膜神经上皮层与色素上皮层分离的眼底疾病，常伴随闪光感和视野缺损。
+Retinal Hamartoma	视网膜错构瘤。一种由视网膜组织异常增生形成的良性肿瘤，可导致视力下降或视网膜脱离。
+Retinal Hemorrhage	视网膜出血。视网膜血管破裂或渗漏导致血液进入视网膜组织的病理改变。
+Retinoblastoma	视网膜母细胞瘤。一种由RB1基因突变引发的、起源于视网膜核层细胞的恶性胚胎性肿瘤。
+Retinopathy	视网膜病变。由糖尿病、高血压等疾病导致视网膜微血管损伤的眼底疾病。
+Rhabdomyolysis	横纹肌溶解症。因骨骼肌细胞破坏导致肌红蛋白等细胞内成分释放入血的综合征。
+Rhabdomyosarcoma	横纹肌肉瘤。一种起源于横纹肌细胞或向横纹肌分化的间叶细胞的恶性肿瘤。
+Rheumatic Diseases	风湿性疾病。一类主要累及关节、骨骼、肌肉及相关软组织，常伴炎症和自身免疫异常的疾病。
+Rheumatoid Arthritis	类风湿关节炎。一种以对称性多关节炎为主要表现的慢性自身免疫性疾病。
+Rhinorrhea	鼻漏。因鼻腔黏膜血管扩张、分泌物增多导致的鼻液外流症状。
+Rickets	佝偻病。一种因维生素D缺乏导致钙磷代谢障碍，引起骨骼软化和变形的营养缺乏病。
+Rickets Of The Lower Limbs	下肢佝偻病。一种因维生素D缺乏导致下肢骨骼钙化障碍的代谢性骨病。
+Right Ventricular Cardiomyopathy	右心室心肌病。一种主要累及右心室心肌，常导致心律失常和心衰的遗传性疾病。
+Rigidity	肌强直。一种因锥体外系病变导致肌肉持续紧张、活动受限的神经系统症状。
+Sacral Lipoma	骶尾部脂肪瘤。一种发生于骶尾部的良性脂肪组织肿瘤，常因先天性发育异常引起。
+Salivary Glands Cancer	涎腺癌。发生于涎腺组织的恶性肿瘤，常表现为无痛性肿块或面部神经麻痹。
+Sarcoma	肉瘤。一种起源于间叶组织的恶性肿瘤，常表现为快速生长的侵袭性肿块。
+Scanning Speech	扫描性言语。一种因小脑病变导致音节分隔、发音断续的构音障碍。
+Scapular Muscle Atrophy	肩胛肌萎缩。一种因神经损伤或废用导致肩胛带肌肉体积缩小的退行性病变。
+Scapuloperoneal Amyotrophy	肩胛腓骨型肌萎缩症。一种主要累及肩胛带和腓骨肌群，导致进行性肌无力和萎缩的遗传性神经肌肉疾病。
+Scarring	瘢痕形成。组织损伤后由纤维结缔组织替代正常组织的修复过程。
+Schistosomiasis	血吸虫病。一种由血吸虫寄生在门静脉系统引起的寄生虫病，主要症状为肝脾肿大和消化道出血。
+Schizophrenia	精神分裂症。一种以思维、情感和行为紊乱为特征的重性精神障碍。
+Schwannoma	神经鞘瘤。一种起源于施万细胞的良性肿瘤，通常沿周围神经分布。
+Sclerocornea	硬化性角膜炎。一种先天性角膜混浊病变，特征为角膜缘不清且角巩膜化。
+Scleroderma	硬皮病。一种以皮肤和内脏器官纤维化及血管病变为特征的自身免疫性疾病。
+Sclerosis Of Skull Base	颅底硬化症。一种因骨质异常增生导致颅底骨质密度增高的病理改变。
+Sclerotic Cranial Sutures	颅缝硬化。颅骨缝过早骨性融合导致的颅缝异常钙化疾病。
+Scrotal Hypoplasia	阴囊发育不全。一种因胚胎期发育异常导致阴囊体积过小或结构不完整的先天性疾病。
+Seasonal Allergic Rhinitis	季节性过敏性鼻炎。一种由花粉等季节性过敏原引发的鼻黏膜非感染性炎性疾病。
+Sebaceous Gland Disease	皮脂腺疾病。一种因皮脂腺分泌异常导致痤疮或皮脂溢出的皮肤病变。
+Seborrheic Dermatitis	脂溢性皮炎。一种因皮脂分泌过多和马拉色菌感染引起的慢性复发性炎症性皮肤病。
+Secondary Amenorrhea	继发性闭经。指既往有正常月经周期的女性，因下丘脑-垂体-卵巢轴功能失调等因素导致月经停止6个月或3个周期以上。
+Secondary Growth Hormone Deficiency	继发性生长激素缺乏症。由下丘脑-垂体病变或其他继发性因素导致生长激素分泌不足的内分泌疾病。
+Secondary Hyperparathyroidism	继发性甲状旁腺功能亢进症。由慢性肾病等病因导致甲状旁腺代偿性增生及甲状旁腺激素过度分泌的代谢性疾病。
+Sedation	镇静状态。一种通过药物诱导中枢神经系统抑制，产生意识水平下降但保留保护性反射的状态。
+Seizures	癫痫发作。一种由脑部神经元异常放电引起的短暂性功能障碍。
+Seizures In Epilepsy	癫痫发作。由脑部神经元异常放电引起的短暂性、发作性中枢神经系统功能失常。
+Seizures Of Lennox-Gastaut Syndrome	Lennox-Gastaut综合征性癫痫。一种以强直、失张力及不典型失神等多种发作类型为特征的难治性儿童癫痫。
+Selenium Deficiency	硒缺乏症。一种因硒摄入不足引起的营养缺乏病，可导致克山病和免疫功能下降。
+Self-Mutilation	自残行为。一种个体故意伤害自己身体组织但不以自杀为目的的行为障碍。
+Senile Plaques	老年斑。一种由β-淀粉样蛋白异常沉积形成的神经元外斑块，是阿尔茨海默病的特征性病理改变。
+Sensorineural Hearing Impairment	感音神经性听力障碍。一种因内耳、听神经或听觉中枢病变导致的听力下降疾病。
+Sensory Ataxia	感觉性共济失调。一种因深感觉传导通路受损导致位置觉和运动觉障碍的神经系统疾病。
+Sensory Axonal Neuropathy	感觉轴索性神经病。一种因感觉神经轴突变性导致肢体远端感觉缺失的周围神经病变。
+Sensory Impairment	感觉障碍。一种因感觉神经系统损伤导致视觉、听觉或触觉功能减退的病理状态。
+Sepsis	脓毒症。一种由感染引起的全身炎症反应综合征，可导致器官功能障碍。
+Septic Arthritis	化脓性关节炎。由细菌感染引起的关节腔内化脓性炎症，常伴关节红肿热痛及功能障碍。
+Septic Shock	脓毒症休克。由严重感染引发全身炎症反应，导致循环衰竭和组织缺氧的危重状态。
+Sertoli Cell Neoplasm	支持细胞肿瘤。一种起源于睾丸支持细胞的罕见肿瘤，通常表现为激素分泌异常或睾丸肿块。
+Severe B Lymphocytopenia	严重B淋巴细胞减少症。一种因B淋巴细胞严重缺失导致体液免疫功能缺陷的免疫系统疾病。
+Severe Carpal Ossification Delay	严重腕骨骨化延迟。一种因腕骨骨化中心出现显著延迟导致的骨骼发育异常疾病。
+Severe Combined Immunodeficiency	重症联合免疫缺陷病。一种因T细胞和B细胞功能联合缺陷导致严重免疫功能障碍的遗传性疾病。
+Severe Generalized Osteoporosis	重度全身性骨质疏松症。一种因骨量显著减少、骨微结构破坏导致骨脆性增加的全身性骨骼疾病。
+Severe Lactic Acidosis	严重乳酸性酸中毒。因乳酸蓄积导致血液pH值显著降低的代谢性酸中毒危重状态。
+Severe Muscular Hypotonia	重度肌张力减退。一种因中枢或周围神经系统病变导致的肌肉张力显著降低的神经肌肉疾病。
+Severe Photosensitivity	严重光敏感。一种对紫外线或可见光产生异常强烈皮肤反应的病理状态。
+Severe Postnatal Growth Retardation	严重产后生长迟缓。指出生后因营养、内分泌或遗传因素导致的身高体重显著落后于同龄人的病理状态。
+Severe Recurrent Varicella	重症复发性水痘。一种由水痘-带状疱疹病毒反复感染引起的严重皮肤疱疹性疾病。
+Severe Viral Infections	严重病毒感染。由病毒引起、可导致器官功能衰竭或全身性炎症反应的危重疾病。
+Sexual Arousal Disorders	性唤起障碍。一种因心理或生理因素导致持续性或反复性无法获得或维持充分性兴奋的疾病。
+Shivering	寒战。一种因体温调节中枢受刺激引发的骨骼肌不自主节律性收缩。
+Short Attention Span	注意力不集中。一种以持续注意时间短暂、易受外界干扰为特征的神经发育问题。
+Shortened Pr Interval	PR间期缩短。一种心电图表现，指PR间期小于120毫秒，常见于预激综合征或房室结加速传导。
+Shoulder Dislocation	肩关节脱位。因外力导致肱骨头脱离肩胛盂关节面的创伤性损伤。
+Shoulder Girdle Muscle Atrophy	肩带肌萎缩。一种因神经损伤或肌肉病变导致的肩胛带区域肌肉体积缩小的退行性改变。
+Shoulder Girdle Muscle Weakness	肩带肌无力。由神经损伤或肌肉病变导致的肩胛带区域肌力减退综合征。
+Shuffling Gait	拖曳步态。一种因帕金森病等导致的步伐短小、拖地而行的异常步态模式。
+Sick Sinus Syndrome	病态窦房结综合征。一种因窦房结功能障碍导致心动过缓与心动过速交替出现的心律失常。
+Sideroblastic Anemia	铁粒幼细胞性贫血。一种因血红素合成障碍导致铁粒在幼红细胞内异常沉积的贫血。
+Sinoatrial Node Dysfunction	窦房结功能障碍。一种因窦房结起搏或传导异常导致心动过缓、窦性停搏的疾病。
+Sinus Bradycardia	窦性心动过缓。一种由窦房结自律性降低引起心率低于60次/分钟的心律失常。
+Sinus Tachycardia	窦性心动过速。一种因窦房结自律性增高导致心率超过100次/分钟的生理性或病理性状态。
+Sinusitis	鼻窦炎。一种由感染或过敏引起的鼻窦黏膜炎症性疾病。
+Skeletal Muscle Associated Spasticity	骨骼肌相关性痉挛。一种因骨骼肌异常导致肌肉持续不自主收缩的运动障碍。
+Skeletal Muscle Atrophy	骨骼肌萎缩。一种因肌肉蛋白质降解超过合成导致肌纤维体积和数量减少的病理状态。
+Skeletal Muscle Hypertrophy	骨骼肌肥大。因肌纤维横截面积增加导致的骨骼肌体积增大现象。
+Skeletal Muscle Wasting	骨骼肌消耗。一种因蛋白质降解超过合成导致骨骼肌质量和功能进行性丧失的病理状态。
+Skeletal Muscle Weakness	骨骼肌无力。因骨骼肌功能受损导致肌力下降的临床症状。
+Skin Cancers	皮肤癌。由皮肤细胞恶性增殖引起，主要与紫外线暴露相关的恶性肿瘤。
+Skin Diseases	皮肤病。发生在皮肤及其附属器官疾病的总称，多表现为皮疹、瘙痒或皮损等症状。
+Skin Erosion	皮肤糜烂。一种因表皮部分缺失导致的皮肤浅表性缺损，通常由摩擦或炎症引起。
+Skin Fissure	皮肤皲裂。因皮肤干燥或炎症导致角质层断裂形成的线状裂隙。
+Skin Infections	皮肤感染。由细菌、真菌或病毒等病原体侵入皮肤组织引起的炎症性疾病。
+Skin Neoplasms	皮肤肿瘤。皮肤组织异常增生形成的肿块，包括良性和恶性病变。
+Skin Nodule	皮肤结节。一种由炎症、感染或肿瘤引起的局限性皮肤隆起性病变。
+Skin Rash	皮疹。皮肤因过敏、感染或刺激等因素出现的暂时性炎性病变。
+Skin Ulcer	皮肤溃疡。因局部组织坏死脱落导致的皮肤或黏膜连续性破坏病变。
+Skin Vesicle	皮肤水疱。一种因表皮内或表皮下液体聚集形成的直径小于1厘米的局限性皮肤隆起。
+Sleep Apnea	睡眠呼吸暂停。一种因睡眠中反复出现呼吸暂停导致血氧饱和度下降的睡眠障碍。
+Sleep Disorders	睡眠障碍。一类由生理、心理或环境因素导致的睡眠质量或时序异常疾病。
+Sleep Disturbance	睡眠障碍。由生理、心理或环境因素引起的睡眠质量或节律异常的状态。
+Sleep-Wake Cycle Disturbance	睡眠-觉醒周期障碍。一种因生物钟失调导致睡眠与觉醒时间紊乱的昼夜节律障碍。
+Sleeping Sickness	非洲锥虫病。由布氏锥虫经舌蝇叮咬传播，以中枢神经系统受累导致睡眠障碍为特征的寄生虫病。
+Slow Decrease In Visual Acuity	视力缓慢下降。一种由年龄相关性黄斑变性等疾病引起的渐进性视力减退症状。
+Slow Progression	缓慢进展。疾病或症状随时间推移逐渐加重或恶化的过程。
+Slow Saccadic Eye Movements	慢速扫视眼动。一种眼球快速运动速度减慢的神经眼科体征，常见于小脑或脑干病变。
+Slow-Growing Hair	毛发缓慢生长。一种因毛囊生长周期延长或毛干合成速率降低导致的生理性或病理性状态。
+Slurred Speech	构音障碍。一种因神经肌肉控制异常导致发音不清的言语障碍。
+Small Cell Lung Cancer	小细胞肺癌。一种起源于支气管黏膜或腺体的高度恶性神经内分泌肿瘤，以早期转移和快速生长为特征。
+Small Intestinal Dysmotility	小肠动力障碍。一种因小肠蠕动功能异常导致食物输送延迟或加速的消化系统疾病。
+Small Intestine Carcinoid	小肠类癌。一种起源于小肠神经内分泌细胞的低度恶性肿瘤，常表现为腹痛或肠梗阻。
+Smooth Muscle Hyperplasia	平滑肌增生。一种以平滑肌细胞数量病理性增多为特征的良性病变。
+Soft Skin	皮肤松软症。一种因胶原蛋白合成缺陷导致皮肤异常松弛的遗传性结缔组织病。
+Soft Tissue Sarcoma	软组织肉瘤。一种起源于间叶组织的恶性肿瘤，常见于四肢和躯干软组织。
+Sparse Axillary Hair	腋毛稀疏。一种因遗传、内分泌失调或药物副作用导致的腋窝毛发密度显著降低的表现。
+Sparse Body Hair	体毛稀疏。一种因毛囊密度降低或毛发生长周期异常导致的体表毛发减少状态。
+Sparse Eyebrow	眉毛稀疏。一种由遗传、内分泌失调或自身免疫性疾病导致的眉毛数量减少或缺失的临床表现。
+Sparse Hair	毛发稀疏。一种以毛发密度显著低于正常水平为特征的临床表现。
+Sparse Lateral Eyebrow	外侧眉毛稀疏。一种表现为眉毛外侧部分毛发密度降低的体征，常见于衰老或内分泌疾病。
+Sparse Pubic Hair	阴毛稀疏。一种因激素水平异常或毛囊发育不良导致的阴毛数量显著减少的状态。
+Sparse Scalp Hair	头发稀疏。一种以头皮毛发密度显著低于正常水平为特征的临床表现。
+Spastic Ataxia	痉挛性共济失调。一种同时存在共济失调和锥体束征的神经系统疾病，常由小脑和脊髓后索联合病变引起。
+Spastic Dysarthria	痉挛性构音障碍。一种因上运动神经元损伤导致言语肌肉僵硬和运动缓慢的言语障碍。
+Spastic Gait	痉挛步态。一种因锥体束损伤导致下肢肌张力增高、步态僵硬拖曳的运动障碍。
+Spastic Paraparesis	痉挛性截瘫。一种因皮质脊髓束受损导致双下肢肌张力增高和无力为特征的神经系统疾病。
+Spastic Paraplegia	痉挛性截瘫。一种因皮质脊髓束受损导致双下肢肌张力增高和运动障碍的神经系统疾病。
+Spastic Tetraparesis	痉挛性四肢瘫。一种因中枢神经系统损伤导致四肢肌张力增高和肌力减弱的运动障碍。
+Spastic Tetraplegia	痉挛性四肢瘫。一种因脑损伤导致四肢肌张力增高和运动功能障碍的脑性瘫痪类型。
+Spastic/Hyperactive Bladder	痉挛性/过度活动性膀胱。一种因膀胱逼尿肌不自主收缩导致尿频尿急的排尿功能障碍。
+Spasticity	痉挛。一种因上运动神经元损伤导致肌肉张力异常增高、伴随腱反射亢进的运动障碍。
+Specific Cognitive Deficits Associated With Aging And Neurological Diseases	与衰老和神经系统疾病相关的特定认知缺陷。由衰老或脑部病变引起的记忆、执行功能等特定认知领域受损。
+Sphingolipid Storage Disorders	鞘脂贮积症。一类因鞘脂代谢酶缺陷导致鞘脂类物质在组织中异常蓄积的遗传代谢病。
+Spina Bifida	脊柱裂。一种因胚胎期神经管闭合不全导致的先天性脊柱畸形，常伴有脊髓和脊膜膨出。
+Spinal And Bulbar Muscular Atrophy	脊髓延髓肌萎缩症。一种由雄激素受体基因突变导致脊髓前角及延髓运动神经元退化的X连锁遗传病。
+Spinal Cord Compression	脊髓压迫症。由椎间盘突出、肿瘤或外伤等压迫脊髓导致的神经功能障碍性疾病。
+Spinal Muscular Atrophy	脊髓性肌萎缩症。一种由运动神经元存活基因1突变导致脊髓前角细胞变性、进行性肌无力和萎缩的遗传性疾病。
+Spinal Myoclonus	脊髓肌阵挛。一种由脊髓病变引起的节段性、节律性肌肉不自主收缩综合征。
+Spinal Rigidity	脊柱强直。一种因椎间关节僵硬或韧带钙化导致脊柱活动度受限的病理状态。
+Splenomegaly	脾肿大。一种由感染、肝病或血液病等病因导致的脾脏体积异常增大的病理状态。
+Spoken Word Recognition Deficit	口语识别障碍。一种因听觉处理异常导致理解口语能力受损的神经认知缺陷。
+Spondyloepiphyseal Dysplasia	脊椎骨骺发育不良。一种因基因突变导致脊椎和长骨骨骺发育异常的遗传性骨病。
+Spondylolisthesis	脊椎滑脱症。因椎弓峡部裂或退行性变导致椎体相对于下方椎体向前滑移的病理状态。
+Spondylolysis	椎弓峡部裂。一种因椎弓峡部骨质连续性中断导致的脊柱结构缺陷。
+Spondylometaphyseal Dysplasia	脊椎干骺端发育不良。一种因基因突变导致脊椎和长骨干骺端发育异常的遗传性骨病。
+Spontaneous Abortion	自然流产。妊娠不足28周且胎儿体重不足1000克时发生的非人工意愿妊娠终止。
+Spontaneous Hematomas	自发性血肿。无明显外伤史，因凝血功能障碍或血管脆性增加导致的皮下或组织内出血。
+Spontaneous Hemolytic Crises	自发性溶血危象。一种因红细胞突然大量破坏导致急性贫血和血红蛋白尿的危急症候。
+Spontaneous Pneumothorax	自发性气胸。一种因肺大疱破裂或胸膜下肺气肿导致空气异常积聚在胸膜腔的疾病。
+Spontaneous, Recurrent Epistaxis	自发性复发性鼻出血。一种无明显诱因反复发生的鼻腔出血，常见于鼻腔血管异常或凝血功能障碍。
+Squamous Cell Carcinoma	鳞状细胞癌。一种起源于鳞状上皮细胞的恶性肿瘤，常见于皮肤、肺和食管等部位。
+Squamous Cell Carcinoma Of Esophagus	食管鳞状细胞癌。一种起源于食管鳞状上皮的恶性肿瘤，主要与吸烟、饮酒等因素相关。
+Squamous Cell Carcinoma Of The Skin	皮肤鳞状细胞癌。一种由皮肤鳞状上皮细胞恶性增殖形成的常见皮肤恶性肿瘤，常由紫外线长期暴露引发。
+Stage 5 Chronic Kidney Disease	终末期肾病。因肾功能严重衰竭导致肾小球滤过率低于15ml/min的慢性肾脏病最终阶段。
+Status Epilepticus	癫痫持续状态。一种因持续或反复癫痫发作超过5分钟，不及时终止可导致脑损伤的急症。
+Steatorrhea	脂肪泻。因脂肪消化吸收障碍导致粪便中脂肪含量异常增多的症状。
+Stevens-Johnson Syndrome	史蒂文斯-约翰逊综合征。一种由药物或感染触发的急性皮肤黏膜严重不良反应，特征为广泛表皮坏死脱落。
+Stomach Cancer	胃癌。一种起源于胃黏膜上皮的恶性肿瘤，主要与幽门螺杆菌感染和饮食习惯相关。
+Stomach Neoplasms	胃肿瘤。起源于胃黏膜上皮或间叶组织的异常增生性疾病，可分为良性与恶性。
+Stomatitis	口腔炎。一种由感染、创伤或免疫因素引起的口腔黏膜炎症性疾病。
+Stomatocytosis	口形红细胞增多症。一种因红细胞膜异常导致红细胞中心苍白区呈口状裂开的遗传性溶血性贫血。
+Strabismus	斜视。一种因眼外肌协调运动失常导致双眼视轴不平行的眼科疾病。
+Streaky Metaphyseal Sclerosis	条纹状干骺端硬化症。一种因干骺端软骨内骨化异常导致骨骼出现条纹状硬化改变的骨骼发育异常。
+Streptococcus Pneumoniae Infections	肺炎链球菌感染。由肺炎链球菌引起的细菌感染，常导致肺炎、脑膜炎等侵袭性疾病。
+Stress-Related Disorders	应激相关障碍。由显著应激事件引发，以情绪失调和适应困难为核心症状的心理障碍。
+Stress/Infection-Induced Lactic Acidosis	应激/感染性乳酸性酸中毒。因严重应激或感染导致组织缺氧、乳酸堆积引起的代谢性酸中毒。
+Stroke	脑卒中。因脑部血管阻塞或破裂导致脑组织缺血或出血的急性脑血管疾病。
+Subacute Progressive Viral Hepatitis	亚急性进展性病毒性肝炎。由病毒感染引起、病程介于急慢性之间且持续恶化的肝脏炎症。
+Subarachnoid Hemorrhage	蛛网膜下腔出血。因颅内血管破裂导致血液流入蛛网膜下腔引起的急性脑卒中。
+Subcortical Dementia	皮质下痴呆。一种由基底节、丘脑等皮质下结构病变导致的认知功能障碍综合征。
+Subcutaneous Hemorrhage	皮下出血。因皮下血管破裂导致血液渗入组织间隙的病理现象。
+Subperiosteal Bone Resorption	骨膜下骨吸收。一种因甲状旁腺功能亢进等导致骨膜下方骨质被破坏的病理改变。
+Subretinal Pigment Epithelium Hemorrhage	视网膜色素上皮下出血。视网膜色素上皮与脉络膜之间出血，常见于年龄相关性黄斑变性等眼底疾病。
+Subsarcolemmal Accumulations Of Abnormally Shaped Mitochondria	肌膜下异常线粒体堆积。一种因线粒体形态异常并在肌纤维膜下聚集导致的肌肉病理改变。
+Subungual Hyperkeratosis	甲下角化过度症。一种因甲床角质形成细胞过度增殖导致甲板下灰白色角质堆积的病理改变。
+Sudden Cardiac Death	心脏性猝死。因心脏原因导致的突然、意外死亡，通常由恶性心律失常引起。
+Sudden Death	猝死。因心脏骤停等原因导致的自然、快速且意外的死亡。
+Sudden Episodic Apnea	突发性发作性呼吸暂停。一种以突发、短暂呼吸停止为特征的疾病，常由中枢神经系统异常引发。
+Superficial Thrombophlebitis	浅表性血栓性静脉炎。一种因静脉壁损伤或血流缓慢导致浅静脉血栓形成伴炎症反应的疾病。
+Superior Rectus Atrophy	上直肌萎缩。一种因神经损伤或肌肉病变导致眼球上转功能受限的眼科疾病。
+Supernumerary Nipple	副乳。一种先天性发育异常，表现为除正常乳房外出现额外的乳头组织。
+Supranuclear Ophthalmoplegia	核上性眼肌麻痹。一种因中脑等核上性通路病变导致眼球随意运动障碍的神经系统疾病。
+Supraventricular Tachycardia	室上性心动过速。一种起源于心房或房室结以上部位的心动过速，常表现为突发突止的心悸。
+Sustained Ventricular Tachycardia	持续性室性心动过速。一种持续30秒以上的快速性心律失常，起源于心室，可导致血流动力学不稳定。
+Syncope	晕厥。一种因短暂性脑供血不足导致突发性、短暂性意识丧失的临床综合征。
+Syndrome Of Inappropriate Secretion Of Antidiuretic Hormone	抗利尿激素不适当分泌综合征。一种因抗利尿激素异常分泌导致水潴留和稀释性低钠血症的疾病。
+Syringomyelia	脊髓空洞症。一种因脊髓内形成充满液体的异常空洞导致感觉分离和肌无力为特征的慢性进行性疾病。
+Systemic Arterial Vasodilation	全身性动脉血管扩张。因血管活性物质释放导致外周血管阻力显著降低的病理状态。
+Systemic Lupus Erythematosus	系统性红斑狼疮。一种累及多器官的自身免疫性疾病，特征为产生多种自身抗体。
+Systemic Sclerosis	系统性硬化症。一种以皮肤和内脏器官纤维化及血管病变为特征的自身免疫性疾病。
+Systemic-Onset Juvenile Idiopathic Arthritis	全身型幼年特发性关节炎。一种以发热、皮疹和关节炎为特征的儿童自身免疫性疾病。
+T-Cell Proliferation	T细胞增殖。一种由T淋巴细胞异常或过度增生引起的病理状态，常见于免疫失调或恶性肿瘤。
+Tachypnea	呼吸过速。一种以呼吸频率异常增快为主要特征的临床症状。
+Talipes	马蹄足。一种因足部骨骼肌肉发育异常导致的先天性足部畸形。
+Talipes Calcaneovalgus	仰趾外翻足。一种先天性足部畸形，表现为足跟外翻、足背屈的异常姿势。
+Tall Stature	身材高大。一种身高显著超过同年龄、同性别正常范围的身高异常状态。
+Tapetoretinal Degeneration	毯层视网膜变性。一种由视网膜色素上皮和光感受器进行性退化导致的遗传性眼病。
+Telangiectases Of The Cheeks	面颊毛细血管扩张。一种因皮肤浅层毛细血管持久性扩张导致的面部红斑性疾病。
+Telangiectasia	毛细血管扩张症。一种因毛细血管壁结构异常导致皮肤或黏膜出现持久性扩张血管的病变。
+Telangiectasia Of The Oral Mucosa	口腔黏膜毛细血管扩张症。一种因毛细血管壁薄弱或扩张导致口腔黏膜出现持久性红色斑点的血管异常。
+Telangiectasia Of The Skin	皮肤毛细血管扩张症。一种因毛细血管壁薄弱或扩张导致皮肤出现持久性红色斑点的血管异常。
+Temperature Instability	体温调节不稳定。因下丘脑功能紊乱或自主神经失调导致的体温波动异常。
+Tenesmus	里急后重。一种因直肠炎症或肿瘤刺激引起的排便急迫感但排便困难症状。
+Testicular Atrophy	睾丸萎缩。因睾丸实质细胞减少导致睾丸体积缩小的病理性改变。
+Testicular Cancer	睾丸癌。一种起源于睾丸细胞的恶性肿瘤，常见症状包括无痛性睾丸肿块或肿胀。
+Testicular Seminoma	睾丸精原细胞瘤。一种起源于睾丸生殖细胞的恶性肿瘤，常见于青年男性，对放疗高度敏感。
+Tetany	手足搐搦。一种因血钙降低导致神经肌肉兴奋性增高，引发肌肉痉挛的代谢性疾病。
+Tethered Cord	脊髓栓系综合征。因脊髓受异常组织牵拉导致神经功能进行性损害的先天性畸形。
+Tetraparesis	四肢轻瘫。一种因中枢或周围神经损伤导致四肢肌力减弱的运动功能障碍。
+Tetraplegia	四肢瘫痪。因颈髓损伤导致四肢运动和感觉功能丧失的神经功能障碍。
+Thenar Muscle Atrophy	鱼际肌萎缩。一种因正中神经损伤导致大鱼际肌群体积缩小的神经肌肉病变。
+Thenar Muscle Weakness	鱼际肌无力。一种因正中神经损伤导致拇指对掌、外展功能受限的神经肌肉疾病。
+Thick Eyebrow	浓眉症。一种因毛囊过度发育或雄性激素水平异常导致的眉毛异常浓密的生理特征。
+Thick Hair	浓密毛发。一种因毛囊密度高或毛干直径粗导致的毛发异常增多的生理性特征。
+Thick Lower Lip Vermilion	厚下唇红唇。一种因组织增生或遗传因素导致下唇红唇部肥厚的先天性特征。
+Thick Upper Lip Vermilion	上唇肥厚。一种因上唇红唇部组织过度发育或增生导致的先天性形态异常。
+Thickened Skin	皮肤增厚。一种因胶原过度沉积或表皮增生导致的皮肤质地异常改变。
+Thin Upper Lip Vermilion	薄上唇红。一种因上唇红缘组织发育不足导致的先天性形态异常。
+Thoracic Aortic Aneurysm	胸主动脉瘤。一种因胸主动脉壁局部异常扩张形成的血管病变，可导致破裂或夹层。
+Thrombocytopenia	血小板减少症。因血小板生成不足或破坏过多导致外周血中血小板计数异常的疾病。
+Thrombocytosis	血小板增多症。一种以血小板计数持续高于正常值为特征的骨髓增殖性疾病。
+Thromboembolic Disorder	血栓栓塞性疾病。因血栓形成并脱落堵塞血管，导致组织缺血或坏死的病理状态。
+Thromboembolism	血栓栓塞。由血栓脱落引起血管阻塞的病理过程，可导致组织缺血或梗死。
+Thrombophlebitis	血栓性静脉炎。一种因静脉内血栓形成伴血管壁炎症反应导致的血管疾病。
+Thrombosis	血栓形成。血液在心血管系统内形成血凝块，导致血管部分或完全阻塞的病理过程。
+Thrombotic Disease	血栓性疾病。因血管内血栓形成导致局部循环障碍的病理状态。
+Thyroid Adenoma	甲状腺腺瘤。一种起源于甲状腺滤泡上皮的良性肿瘤，通常表现为颈部无痛性结节。
+Thyroid Carcinoma	甲状腺癌。一种起源于甲状腺滤泡上皮细胞的恶性肿瘤，常表现为颈部肿块或甲状腺结节。
+Thyroid Defect In Oxidation And Organification Of Iodide	碘氧化及有机化障碍。一种因甲状腺过氧化物酶缺陷导致碘无法活化和结合的遗传性疾病。
+Thyroid Follicular Carcinoma	甲状腺滤泡癌。一种起源于甲状腺滤泡上皮细胞的恶性肿瘤，常通过血行转移。
+Thyroid Follicular Hyperplasia	甲状腺滤泡增生。一种因促甲状腺激素过度刺激导致甲状腺滤泡上皮细胞增生的病理状态。
+Thyroid Hypoplasia	甲状腺发育不全。一种因甲状腺组织先天性发育不良导致甲状腺激素分泌不足的疾病。
+Thyroiditis	甲状腺炎。一种由自身免疫、感染等因素引起的甲状腺组织炎症性疾病。
+Thyrotoxicosis Hyperthyroidism	甲状腺毒症性甲状腺功能亢进症。因甲状腺激素分泌过多导致代谢亢进、神经循环系统兴奋的综合征。
+Thyrotoxicosis With Toxic Multinodular Goitre	毒性多结节性甲状腺肿伴甲状腺毒症。一种因自主功能性甲状腺结节分泌过量甲状腺激素导致的甲状腺功能亢进症。
+Thyrotoxicosis With Toxic Single Thyroid Nodule	毒性单发甲状腺结节伴甲状腺毒症。由单个自主功能性甲状腺结节分泌过量甲状腺激素导致的甲状腺功能亢进。
+Tibial Bowing	胫骨弯曲。一种因骨骼发育异常导致胫骨向前或向外弓形弯曲的先天性畸形。
+Tinnitus	耳鸣。一种在没有外部声源时主观感知声音的症状，常由听觉系统损伤或神经系统疾病引起。
+Tongue Telangiectasia	舌毛细血管扩张症。一种因毛细血管持续性扩张导致舌黏膜出现红色斑点的血管病变。
+Tooth Abscess	牙脓肿。由细菌感染引起的牙髓或牙周组织化脓性炎症，常伴剧烈疼痛和肿胀。
+Toxoplasmosis	弓形虫病。一种由刚地弓形虫感染引起的人畜共患寄生虫病，可导致免疫功能低下者出现脑炎等症状。
+Tracheoesophageal Fistula	气管食管瘘。一种因先天性发育异常或后天损伤导致气管与食管之间形成异常通道的疾病。
+Tracheomalacia	气管软化症。一种因气管软骨结构异常导致气道塌陷的呼吸系统疾病。
+Transient Global Amnesia	短暂性全面遗忘症。一种以突发性顺行性遗忘为主要特征，通常24小时内自行缓解的良性记忆障碍综合征。
+Transient Hyperlipidemia	一过性高脂血症。一种因应激、感染等因素导致血脂暂时性升高的代谢紊乱状态。
+Transient Hypophosphatemia	一过性低磷血症。一种因磷暂时性吸收减少或丢失过多导致血磷水平短暂下降的代谢紊乱。
+Transient Ischemic Attack	短暂性脑缺血发作。一种由短暂性脑部血液供应不足引起的、24小时内完全恢复的急性缺血性脑血管病。
+Transient Neonatal Diabetes Mellitus	短暂性新生儿糖尿病。一种由6号染色体印记异常导致的新生儿暂时性高血糖疾病。
+Transitional Cell Carcinoma Of The Bladder	膀胱移行细胞癌。一种起源于膀胱移行上皮细胞的恶性肿瘤，主要症状为无痛性肉眼血尿。
+Transmissible Spongiform Encephalopathies	传染性海绵状脑病。由朊蛋白异常折叠引起的中枢神经系统退行性疾病，特征为脑组织空泡化。
+Traumatic Brain Injury	创伤性脑损伤。由外部机械力导致脑组织结构和功能损害的获得性脑损伤。
+Treatment-Refractory Psychoses	难治性精神病。对至少两种足量足疗程抗精神病药物治疗无效的精神病性障碍。
+Tremor	震颤。一种由肌肉不自主、节律性收缩引起的运动障碍性疾病。
+Triceps Weakness	肱三头肌无力。一种因肱三头肌肌力减退导致伸肘功能障碍的神经系统或肌肉疾病。
+Trichilemmoma	毛鞘瘤。一种起源于毛囊外根鞘的良性皮肤肿瘤，通常表现为面部单发丘疹或结节。
+Trichodysplasia	毛囊发育不良。一种由多瘤病毒引起、以毛囊异常发育和面部丘疹性皮疹为特征的罕见皮肤病。
+Trichomoniasis	滴虫病。一种由阴道毛滴虫引起的性传播感染，主要导致泌尿生殖系统炎症。
+Trigonocephaly	三角头畸形。一种因额缝过早闭合导致前额呈三角形突出的颅缝早闭症。
+Trismus	牙关紧闭症。一种因咀嚼肌痉挛导致张口受限的临床症状。
+Truncal Ataxia	躯干共济失调。一种因小脑病变导致躯干平衡障碍，表现为站立和坐姿不稳的神经系统症状。
+Truncal Obesity	腹型肥胖。一种以脂肪主要堆积在腹部和内脏为特征的肥胖类型。
+Trypanolytic Infections	锥虫溶解性感染。由锥虫溶解因子引起的寄生虫感染，主要导致红细胞溶解和贫血。
+Trypanosomatid Infections	锥虫科原虫感染。由锥虫科原虫引起的一类寄生虫病，可导致发热、淋巴结肿大及神经系统病变。
+Trypanosomiasis	锥虫病。一种由锥虫经采采蝇等媒介传播引起的寄生虫病，可导致发热、淋巴结肿大及神经系统损害。
+Tubular Atrophy	肾小管萎缩。一种因肾小管上皮细胞变薄或缺失导致肾功能减退的病理改变。
+Tubulointerstitial Abnormality	肾小管间质异常。一种涉及肾小管和间质的结构或功能异常，常由感染、药物或代谢性疾病引起。
+Tubulointerstitial Fibrosis	肾小管间质纤维化。一种因慢性肾损伤导致肾小管萎缩和间质胶原沉积的病理改变。
+Tubulointerstitial Nephritis	肾小管间质性肾炎。一种由药物、感染或自身免疫等因素引起的肾小管和间质炎症性疾病。
+Tumor Angiogenesis	肿瘤血管生成。肿瘤诱导新生血管形成以获取营养和氧气的病理过程。
+Tumor Angiogenesis And Metastasis	肿瘤血管生成与转移。肿瘤通过新生血管获取营养并扩散至远端器官的恶性进展过程。
+Type 1 Fibers Relatively Smaller Than Type 2 Fibers	1型肌纤维相对小于2型肌纤维。一种肌纤维比例异常，常见于先天性肌病或神经源性肌萎缩的病理表现。
+Type 1 Muscle Fiber Atrophy	1型肌纤维萎缩。一种因神经支配丧失或废用导致的慢缩肌纤维选择性萎缩。
+Type 1 Muscle Fiber Predominance	1型肌纤维优势。一种以慢缩型肌纤维比例异常增高为特征的神经肌肉疾病。
+Type 2 Diabetes	2型糖尿病。一种因胰岛素抵抗和相对分泌不足导致血糖持续升高的代谢性疾病。
+Type 2 Muscle Fiber Atrophy	2型肌纤维萎缩。一种因失用、衰老或神经损伤导致的快缩肌纤维选择性萎缩病变。
+Type I Diabetes Mellitus	1型糖尿病。一种因自身免疫破坏胰岛β细胞导致胰岛素绝对缺乏的代谢性疾病。
+Type Ii Diabetes Mellitus	2型糖尿病。一种因胰岛素抵抗和相对分泌不足导致血糖升高的代谢性疾病。
+Ulcer	溃疡。因黏膜组织缺损深达黏膜下层或更深层形成的局限性病理损伤。
+Ulcerative Colitis	溃疡性结肠炎。一种以结肠黏膜连续性炎症为特征的慢性非特异性肠道疾病。
+Ulnar Bowing	尺骨弯曲。一种因尺骨发育异常或骨折愈合不良导致前臂弓形畸形的骨骼病变。
+Unconjugated Hyperbilirubinemia	非结合性高胆红素血症。因胆红素生成过多或肝细胞摄取、结合障碍导致的未结合胆红素升高性疾病。
+Unexplained Fevers	不明原因发热。一种持续或反复发热但经全面检查仍无法明确病因的临床状况。
+Unipolar Depression	单相抑郁。一种以持续心境低落、兴趣减退为核心症状的情感障碍。
+Unstable Angina	不稳定型心绞痛。一种因冠状动脉斑块破裂引发急性血栓形成导致的心肌缺血综合征。
+Unsteady Gait	步态不稳。一种因神经系统或肌肉骨骼系统功能障碍导致的行走平衡障碍。
+Upper Airway Obstruction	上气道阻塞。因异物、炎症或肿瘤导致上呼吸道气流受限的急症。
+Upper Limb Amyotrophy	上肢肌萎缩。一种以上肢肌肉萎缩和无力为主要表现的神经系统退行性疾病。
+Upper Limb Muscle Weakness	上肢肌无力。因神经损伤或肌肉病变导致上肢肌肉力量减退的临床症状。
+Upper Limb Postural Tremor	上肢姿势性震颤。一种在主动维持特定姿势时出现的上肢不自主节律性振荡。
+Upper Motor Neuron Dysfunction	上运动神经元功能障碍。因皮质脊髓束受损导致肌张力增高和腱反射亢进的神经系统疾病。
+Upper Respiratory Infection	上呼吸道感染。由病毒或细菌引起的鼻腔、咽部或喉部黏膜急性炎症的总称。
+Ureteral Obstruction	输尿管梗阻。因结石、肿瘤或狭窄导致尿液从肾脏流向膀胱受阻的病理状态。
+Ureteral Stenosis	输尿管狭窄。因输尿管管腔缩窄导致尿液引流受阻的器质性病变。
+Urge Incontinence	急迫性尿失禁。一种因膀胱过度活动导致强烈尿意后立即出现不自主漏尿的综合征。
+Urinary Bladder Sphincter Dysfunction	膀胱括约肌功能障碍。一种因膀胱括约肌神经或肌肉功能异常导致排尿控制失调的疾病。
+Urinary Incontinence	尿失禁。一种因膀胱控制能力丧失导致不自主漏尿的临床症状。
+Urinary Retention	尿潴留。因膀胱排空功能障碍导致尿液无法正常排出的病理状态。
+Urinary Urgency	尿急。一种以突发的强烈排尿欲望为主要特征的膀胱过度活动症状。
+Urological Cancers	泌尿系统肿瘤。发生于泌尿系统器官的恶性肿瘤，主要包括膀胱癌、肾癌和前列腺癌等。
+Urticaria	荨麻疹。一种由过敏反应或物理刺激引起的皮肤黏膜局限性水肿反应，特征为风团和瘙痒。
+Uterine Leiomyosarcoma	子宫平滑肌肉瘤。一种起源于子宫平滑肌组织的恶性肿瘤，具有侵袭性强和易复发的特点。
+Uterine Neoplasm	子宫肿瘤。发生于子宫组织的异常增生性疾病，可为良性或恶性。
+Uterine Prolapse	子宫脱垂。一种因盆底支持结构薄弱导致子宫位置下移甚至脱出阴道的疾病。
+Uveal Melanoma	葡萄膜黑色素瘤。一种起源于葡萄膜内黑色素细胞的恶性肿瘤，可导致视力下降和眼内压升高。
+Vagal Paraganglioma	迷走神经副神经节瘤。一种起源于迷走神经副神经节细胞的神经内分泌肿瘤，常表现为颈部无痛性肿块。
+Vaginal Atresia	阴道闭锁。一种因胚胎期副中肾管发育异常导致的阴道部分或完全缺失的先天性畸形。
+Varicose And Spider Veins Of The Leg	腿部静脉曲张和蜘蛛静脉。因静脉瓣膜功能不全导致浅表静脉扩张迂曲的血管病变。
+Varicose Veins	静脉曲张。一种因静脉瓣膜功能不全导致浅静脉扩张、迂曲的血管病变。
+Vascular Calcification	血管钙化。一种因钙盐异常沉积于血管壁导致血管硬化和功能异常的病理过程。
+Vascular Diseases	血管疾病。一类涉及血管结构和功能异常的疾病，常导致血液循环障碍或组织缺血。
+Vascular Headache	血管性头痛。由颅内或颅外血管舒缩功能障碍引起的头痛综合征。
+Vascular Injury Response	血管损伤反应。机体对血管壁损伤产生的以炎症和修复为特征的病理生理过程。
+Vascular Lesion Regression	血管病变消退。血管性病变因治疗或自发修复导致的体积缩小或消失过程。
+Vascular Ring	血管环。一种因主动脉弓及其分支发育异常形成环状结构压迫气管和食管的先天性畸形。
+Vascular Skin Abnormality	血管性皮肤异常。由血管发育异常或扩张引起的皮肤病变，表现为红斑、血管瘤等皮损。
+Vasculitis	血管炎。一种因免疫异常导致血管壁炎症及损伤的自身免疫性疾病。
+Vasoconstriction	血管收缩。血管平滑肌收缩导致管腔变窄的生理或病理过程。
+Vasospasm	血管痉挛。一种因血管平滑肌异常收缩导致管腔狭窄、血流受限的病理状态。
+Vasospastic Angina	血管痉挛性心绞痛。一种由冠状动脉短暂痉挛导致心肌缺血引起的胸痛综合征。
+Venous Thromboembolism	静脉血栓栓塞症。因静脉血流淤滞或高凝状态导致深静脉血栓形成和肺栓塞的疾病。
+Venous Thrombosis	静脉血栓形成。因静脉血流淤滞、血管损伤或高凝状态导致的静脉内血凝块形成。
+Ventricular Arrhythmia	心室心律失常。一种起源于心室的心律紊乱，可导致心悸、晕厥或猝死。
+Ventricular Escape Rhythm	心室逸搏心律。一种在高级起搏点功能障碍时，由心室异位起搏点发起的保护性心律失常。
+Ventricular Preexcitation	心室预激。一种因房室间存在异常传导通路导致心室部分提前激动的电生理异常。
+Ventricular Preexcitation With Multiple Accessory Pathways	心室预激伴多旁路。一种因存在多条房室旁路导致心室提前激动的心律失常。
+Ventricular Tachycardia	室性心动过速。一种起源于心室、心率超过100次/分钟并可能导致血流动力学不稳定的快速性心律失常。
+Verrucae	寻常疣。由人类乳头瘤病毒感染引起的皮肤良性增生性病变。
+Vertebral Compression Fractures	椎体压缩性骨折。一种因骨质疏松或外伤导致椎体高度降低的常见骨折类型。
+Vertical Nystagmus	垂直性眼球震颤。一种由前庭系统病变引起的眼球不自主垂直摆动。
+Vertigo	眩晕。一种因前庭系统功能障碍导致的运动或位置错觉。
+Vertigo Of Central And Peripheral Origin	中枢及周围性眩晕。由中枢神经系统或前庭周围器官病变引起的空间定向障碍。
+Viral Infections	病毒感染。由病毒侵入人体引起的疾病，常表现为发热、乏力等全身症状。
+Visceral Angiomatosis	内脏血管瘤病。一种以多脏器血管组织非恶性肿瘤性过度增生为特征的罕见疾病。
+Visceral Pain	内脏痛。由内脏器官病变或功能异常引起的钝痛、定位模糊的疼痛症状。
+Visual Hallucinations	视幻觉。一种在没有外部视觉刺激时出现虚假视觉感知的知觉障碍。
+Visual Impairment	视力损害。由多种病因导致视力功能下降，无法通过常规矫正达到正常视力的视觉障碍。
+Vitamin A Deficiency	维生素A缺乏症。一种因维生素A摄入不足或吸收障碍导致夜盲症和角膜干燥的代谢性疾病。
+Vitamin B1 Deficiency	维生素B1缺乏症。一种因硫胺素摄入不足或代谢障碍导致周围神经病变和心力衰竭的营养缺乏病。
+Vitamin D Deficiency	维生素D缺乏症。一种因日照不足或摄入减少导致钙磷代谢紊乱的营养缺乏病。
+Vitamin K Deficiency	维生素K缺乏症。一种因维生素K摄入不足或吸收障碍导致凝血功能障碍的疾病。
+Vitelliform-Like Macular Lesions	卵黄样黄斑病变。一种表现为黄斑区卵黄样物质沉积的遗传性或获得性视网膜疾病。
+Vitritis	玻璃体炎。一种由感染或免疫因素引起的玻璃体炎症性疾病。
+Vocal Cord Paralysis	声带麻痹。因喉返神经损伤导致声带运动障碍，引起声音嘶哑和呼吸困难。
+Vocal Cord Paresis	声带轻瘫。因喉返神经损伤导致声带运动减弱，引起声音嘶哑和呼吸困难的病症。
+Volvulus	肠扭转。一段肠管及其系膜沿肠系膜轴旋转造成的闭袢性肠梗阻。
+Vomiting	呕吐。一种由胃内容物经口强力排出的反射动作，常由胃肠道刺激或中枢神经系统疾病引发。
+Von Willebrand's Disease	血管性血友病。一种因血管性血友病因子缺乏或功能异常导致的遗传性出血性疾病。
+Waddling Gait	鸭步。一种因髋关节外展肌无力导致行走时身体向两侧摇摆的异常步态。
+Waldenstrom's Macroglobulinemia	华氏巨球蛋白血症。一种淋巴浆细胞淋巴瘤，特征为单克隆IgM球蛋白过度产生导致高黏滞血症。
+Water-Retaining Diseases	水潴留性疾病。因肾脏排水功能受损或激素失衡导致体液异常积聚的病理状态。
+Weak Voice	声弱症。一种因声带功能异常或神经肌肉障碍导致发声无力的症状。
+Weakness Of Long Finger Extensor Muscles	长指伸肌无力。一种因神经损伤或肌腱病变导致手指伸展功能受限的运动障碍。
+Weakness Of The Intrinsic Hand Muscles	手内在肌无力。一种因手部小肌肉群神经损伤或病变导致精细抓握功能减退的综合征。
+Weight Loss	体重减轻。因能量摄入不足或消耗增加导致体重显著下降的病理状态。
+White Eyebrow	白眉病。一种因黑色素细胞功能减退导致眉毛或毛发部分变白的遗传性疾病。
+White Eyelashes	白睫毛。一种因睫毛毛囊黑色素缺乏导致的睫毛完全或部分变白现象。
+White Forelock	白额发。一种因黑色素细胞缺失导致前额部毛发呈白色或浅色的先天性疾病。
+White Hair	白发。一种因毛囊黑色素细胞减少或功能衰退导致头发变白的生理性或病理性现象。
+Wide Anterior Fontanel	前囟过大。一种因囟门闭合延迟或颅内压增高导致前囟尺寸异常增大的儿科体征。
+Woolly Hair	羊毛状发。一种罕见的先天性毛发结构异常，表现为头发紧密卷曲、质地粗糙且难以梳理。
+Wound Healing	伤口愈合。机体组织因损伤而启动的修复和再生过程。
+Wrist Drop	腕下垂。因桡神经损伤导致腕关节和手指无法伸展的神经功能障碍。
+Writer's Cramp	书写痉挛。一种因手部肌肉不自主收缩导致书写困难的局灶性肌张力障碍。
+Xanthelasma	黄色瘤。一种因脂质代谢异常导致眼睑皮肤出现黄色斑块状沉积的良性病变。
+Xanthinuria	黄嘌呤尿症。一种因黄嘌呤氧化酶缺乏导致尿中黄嘌呤排泄增加的遗传性代谢疾病。
+Xanthomatosis	黄色瘤病。一种因脂质代谢紊乱导致皮肤或肌腱出现黄色胆固醇沉积的代谢性疾病。
+Xerostomia	口干症。一种因唾液分泌减少或缺失导致口腔干燥的常见症状。
+Yellow Papule	黄色丘疹。一种因脂质沉积或代谢异常导致的皮肤黄色结节性病变。
+Yellow/White Lesions Of The Macula	黄斑黄白色病变。黄斑区出现黄色或白色病损，常由视网膜脂质沉积或炎症引起。
+Zollinger-Ellison Syndrome	佐林格-埃利森综合征。一种由胃泌素瘤引起胃酸过度分泌，导致顽固性消化性溃疡的神经内分泌肿瘤。

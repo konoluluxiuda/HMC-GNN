@@ -1,0 +1,7 @@
+associated_with	Protein	Gene
+belongs_to_meridian	Herb	Meridian
+has_component	Herb	Component
+has_effect	Herb	Effect
+has_property	Herb	Property
+interacts_with	Component	Protein
+treats_disease	Herb	Disease

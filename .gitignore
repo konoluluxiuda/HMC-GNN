@@ -1,0 +1,42 @@
+# 模型权重 / 检查点
+checkpoints/
+
+# ==========================================
+# 超大生成数据文件（超过 GitHub 50MB 限制或接近限制）
+# 这些是预处理脚本生成的，不纳入版本控制
+# ==========================================
+
+# 大目录
+dataset/NEWHERB/full_graph_data/
+
+# node_chem_multihot.pt: 363MB（出现在所有数据目录中）
+node_chem_multihot.pt
+
+# node_chem_dense.pt: 40MB × 4 个副本 = 160MB
+node_chem_dense.pt
+
+# node_disease_text.pt: 40MB × 4 个副本 = 160MB
+node_disease_text.pt
+
+# KDHR 中间数据
+dataset/NEWHERB/kdhr_newherb/train_pS.npy
+dataset/NEWHERB/kdhr_newherb/train_pH.npy
+dataset/NEWHERB/kdhr_newherb/ss_graph.npy
+dataset/NEWHERB/kdhr_newherb/sh_graph.npy
+dataset/NEWHERB/kdhr_newherb/hh_graph.npy
+dataset/NEWHERB/kdhr_newherb/herb_kg_oneHot.npy
+
+# KGE 训练数据（~11MB，属于中间产物）
+dataset/NEWHERB/kge_data/train.tsv
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

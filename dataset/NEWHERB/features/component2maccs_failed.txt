@@ -1,0 +1,465 @@
+NO_SMILES	(X{2212})-Clusin
+NO_SMILES	Ah18
+NO_SMILES	Ah19A
+NO_SMILES	Ah19B
+NO_SMILES	Ah20
+NO_SMILES	Ah21
+NO_SMILES	Az Ii
+NO_SMILES	Az Iii
+NO_SMILES	Az Iv
+NO_SMILES	Baimuxinal
+NO_SMILES	Bicyclosesquiphellandrene
+NO_SMILES	Caspicaosides G
+NO_SMILES	Caspicaosides I
+NO_SMILES	Clusin
+NO_SMILES	Cpb-53-641-1
+NO_SMILES	Cpb5212-1492-1
+NO_SMILES	Cpb5212-1492-2
+NO_SMILES	Crenulatin
+NO_SMILES	Cthd0233276-15
+NO_SMILES	Cthd0233276-21
+NO_SMILES	Diketouncaric Acid
+NO_SMILES	Fomefficinic Acid A
+NO_SMILES	Fomefficinic Acid B
+NO_SMILES	Fomefficinic Acid D
+NO_SMILES	Fomefficinic Acid E
+NO_SMILES	Glespinoside A
+NO_SMILES	HAI
+NO_SMILES	Hemolysin
+NO_SMILES	Hydrogenase
+NO_SMILES	Hydroginkgolic Acid
+NO_SMILES	Hydroginkgolinic Acid
+NO_SMILES	I-23
+NO_SMILES	Jinkohol I
+NO_SMILES	Jinkohol Ii
+NO_SMILES	Kudos
+NO_SMILES	Labroda
+NO_SMILES	Magnosalin
+NO_SMILES	Np02140176-38-K
+NO_SMILES	Np02140176-40
+NO_SMILES	Np02140176-41-Kna
+NO_SMILES	Np02140176-42-K
+NO_SMILES	Palmidin A
+NO_SMILES	Palmidin B
+NO_SMILES	Ppi
+NO_SMILES	Pq-2
+NO_SMILES	Ruixianglangdusu A
+NO_SMILES	Stellarria Cyclopeptide
+NO_SMILES	Stevenin
+NO_SMILES	Suimiyain A
+NO_SMILES	UND
+NO_SMILES	Upl
+NO_SMILES	Xambioona
+INVALID_SMILES	(+)-Epipinoresinol
+INVALID_SMILES	(+)-Pinoresinol
+INVALID_SMILES	(+)-Pinoresinol-3,3-Dimethylallyl Ether
+INVALID_SMILES	(20S,22R)-Spirost-25(27)-En-1Î’,3Î’,5Î’-Trihydroxy-1-O-Î’-D-Xyloside
+INVALID_SMILES	(25R)-26-O-Î’-D-Glucopyranosyl-Furost-1Î’,3Î’,26-Trihydroxy-5(6),20(22)-Dien-3-O-Î’-D-Glucopyranoside
+INVALID_SMILES	(3R)-5'-Methoxyvestitol
+INVALID_SMILES	(5R,6R)-3,6-Dimethyl-5-(Prop-1-En-2-Yl)-6-Vinyl-6,7-Dihydrobenzofuran-4(5H)-One
+INVALID_SMILES	(5R,6S,9R)-6-Methyl-3-(Propan-2-Ylidene)-9-(Prop-1-En-2-Yl)-1-Oxaspiro[4.4]Nonan-2-One
+INVALID_SMILES	(5Z,9Z)-3,6,10-Trimethyl-7,8,11,11A-Tetrahydrocyclodeca[B]Furan-2(4H)-One
+INVALID_SMILES	(5Î’,25S)-Spirostan-3Î’,15Î‘,23Î‘-Diol-3-O-D-Glucopyranosyl-(1â†’2)-Î’-D-Galactopyranoside
+INVALID_SMILES	(7S,8R) Dehydrodiconiferyl Alcohol 9'-Î’-Glucopyranoside
+INVALID_SMILES	(E,E)-1,3,5-Tridecatriene-7,9,11-Triyne
+INVALID_SMILES	(E,Z)-1,3,5-Tridecatriene-7,9,11-Triyne
+INVALID_SMILES	(R)-Magnocurarine
+INVALID_SMILES	(S)-1,5,8-Trimethyl-7,8-Dihydronaphtho[2,1-B]Furan-9(6H)-One
+INVALID_SMILES	(S)-6-((1R,4S,5S)-4,5-Dihydroxy-4-Methylcyclohex-2-Enyl)-2-Methylhept-2-En-4-One
+INVALID_SMILES	(Z,E)-1,3,11-Tridecatriene-5,7,9-Triyne
+INVALID_SMILES	(Z,Z)-1,3,11-Tridecatriene-5,7,9-Triyne
+INVALID_SMILES	1,1-Dimethyl-2-(3-Methyl-1,3-Butadiene)Cyclo-Propane
+INVALID_SMILES	1,2,4,6-Tetra-O-Galloyl-Î’-D-Glucose
+INVALID_SMILES	1,3,6-Trihydroxy-2-Methylanthraquinone-3-O-Î‘-Rhamnosyl(1â†’2)-3'-O-Acetylglucoside
+INVALID_SMILES	1,3E-Tridecadiene-5,7,9,11-Tetrayne
+INVALID_SMILES	1-(3',5'-Dihydroxyphenyl)-2-(4''-Hydroxyphenyl)-Ethane-1,2-Diol
+INVALID_SMILES	1-Hydroxy-2-Methyl-6-Methoxyanthraquinone
+INVALID_SMILES	1-Methyl-2-Dodecyl-4(1H)-Quinolone
+INVALID_SMILES	1-Methyl-2-Pentadecyl-4(1H)-Quinolone
+INVALID_SMILES	1-[1-Oxo-5(3,4-Methylenedioxyphenyl)-2E,4E-Pentadienyl]Pyrrolidine
+INVALID_SMILES	1-[1-Oxo-5(3,4-Methylenedioxyphenyl)-2E,4Z-Pentadienyl] Pyrrolidine
+INVALID_SMILES	1-[1-Oxo-5(3,4-Methylenedioxyphenyl)-2Z,4E-Pentadienyl] Piperidine
+INVALID_SMILES	1-[1-Oxo-5(3,4-Methylenedioxyphenyl)-2Z,4E-Pentadienyl] Pyrrolidine
+INVALID_SMILES	1-[1-Oxo-7(3,4-Methylenedioxyphenyl)-2E,4E,6E-Heptatrienyl]Pyrrolidine
+INVALID_SMILES	11-O-Syringylbergenin
+INVALID_SMILES	12-Deacetylganoderic Acid H
+INVALID_SMILES	12Î‘-Hydroxylimonin
+INVALID_SMILES	14-O-Cinnamoylneoline
+INVALID_SMILES	16-Hydroxy-19,20-Epoxy-Kaurane
+INVALID_SMILES	16Î‘,23,28,30-Tetrahydroxyolean-11,13(18)-Dien-3Î’-Yl-Î’-D-Glucopyranosyl-(1â†’3)-Î’-D-Fucopyranoside
+INVALID_SMILES	16Î‘-Methoxyl-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-O-[Î‘-L-Rhamnopyranosyl-(1â†’4)]-Î’-D-Glucopyranosyl)Oxy]Pregn-5-En-20-One
+INVALID_SMILES	17?-Ethoxyphaeophorbidea
+INVALID_SMILES	2'-Hydroxy-3',4'-Dimethoxy-Isoflavane-7-O-Î’-D-Glucoside
+INVALID_SMILES	2,3,4,7-Tetramethoxyphenanthrene
+INVALID_SMILES	2,3,5,4'-Tetrahydroxystilbene-2-O-(6''-O-Î‘-D-Glucopyranosyl)-Î’-D-Glucopyranoside
+INVALID_SMILES	2,3-Dihydro-7-Methoxy-2-(3-Methoxy-4,5-Methylenedioxyphenyl)-3-Methyl-5-(E)-Propenyl-Benzofuran
+INVALID_SMILES	2,4,6-Trihydroxyacetophenone-2,4-Di-O-Î’-D-Glucopyranoside
+INVALID_SMILES	2,6-Dimethoxybenzoquinone
+INVALID_SMILES	2-(8-Methyl-2,8,9-Trihydroxy-2-Hydroxymethylbicyclo[5.3.0]Decan-7-Yl)Isopropanol Glucoside
+INVALID_SMILES	2-Hydroxy-3-Methoxystrychnine
+INVALID_SMILES	2-Methyl-1,3,6-Trihydroxyanthraquinone 3-O-Î‘-L-Rhamnosyl-(1â†’2)- Î’-D-Glucoside
+INVALID_SMILES	2-N-Pentacosyl-5,7-Dihydroxy-6,8-Dimethyl Chromone
+INVALID_SMILES	20(S)-Ginsenoside Rg3
+INVALID_SMILES	20,23-Dihydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Lupan-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	20-Hydroxylganoderic Acid G
+INVALID_SMILES	20S,22R,23S,24R-16Î’,23,22,25-Diepoxy-Cycloartane-3Î’,23,24-Triol 3-O-(6-O-Trans-Isoferuloyl-Î’-D-Glucopyranosyl)-(1â†’2)-Î’-D-Glucopyranosyl-(1â†’2)-Î’-D-Xylopyranoside
+INVALID_SMILES	20S,22R,23S,24R-16Î’,23,22,25-Diepoxy-Cycloartane-3Î’,23,24-Triol 3-O-Î’-D-Glucopyranosyl-(1â†’2)-Î’-D-Glucopyranosyl-(1â†’2)-Î’-D-Xylopyranoside
+INVALID_SMILES	22Bata-Hydroxy-3-Oxo-Olean-12-En-29-Oic Acid
+INVALID_SMILES	23-Hydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-O-[O-Î’-D-Glucopyranosyl-(1â†’4)-Î’-D-Glucopyranosyl-(1â†’4)]-Î‘-L-Arabinopyranosyl)Oxy]Lup-20(29)-En-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	23-Hydroxy-3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’2)-O-[Î’-D-Glucopyranosyl-(1â†’4)]-Î‘-L-Arabinopyranosyl)Oxy]Lup-20(29)-En-28-Oic Acid 28-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	23-O-Acetylshengmanol 3-O-Î‘-L-Arabinopyranoside
+INVALID_SMILES	24-Hydroxy-11-Deoxyglycyrrhetic Acid
+INVALID_SMILES	24-Hydroxy-3-Oxo-Olean-12-En-28-Oic Acid
+INVALID_SMILES	28-O-Î’-D-Glucopyranosyl-2Î‘-3Î’-Dihydroxyolean-12-Ene-24,28-Dioic Acid
+INVALID_SMILES	29-Hydroxyfriedelan-3-One
+INVALID_SMILES	3'-O-Acetylplatycodin D2
+INVALID_SMILES	3'-O-Methyl-3,4-Methylenedioxo Ellagic Acid
+INVALID_SMILES	3,11,22-Trioxo-16Î‘-Hydroxy-(20S,24)-Epoxy-Cucurbit-5,23-Diene-2Î’-O-Î’-D-Glucopyranoside
+INVALID_SMILES	3,4-Dimethoxy-3',4'-Methylenedioxy-7,9'-Epoxylignan-9-Ol
+INVALID_SMILES	3,4Î’-Dihydro-15-Dehydrolactucopicrin
+INVALID_SMILES	3,5-Didecanoylpyridine
+INVALID_SMILES	3,6-Di-O-Galloylglucose
+INVALID_SMILES	3-Epioleanolic Acid
+INVALID_SMILES	3-Hydroxy-2-Oxo-3-Friedelen-20Î‘-Carboxylic Acid
+INVALID_SMILES	3-N-Butyl-3-Hydroxy-4,5,6,7-Tetrahydro-6,7-Dihydroxy Phthalide
+INVALID_SMILES	3-O-(Trans-P-Coumaroyl)-Maslinic Acid
+INVALID_SMILES	3-O-Caffeoylquinic Acid Methyl Ester
+INVALID_SMILES	3-O-Trans-P-Coumaroyltormentic Acid
+INVALID_SMILES	3-O-[Bis-Î‘-L-Rhamnopyranosyl-(1â†’2 And 1â†’4)-Î’-D-Glucopyranosyl]-22R,25R-Spirost-5-Ene-3Î’,20Î‘-Diol
+INVALID_SMILES	3-O-[Î’-D-Glucuronopyranosyl-(1â†’2)-O-Î’-D-Glucuronopyranosyl]-24-Hydroxyglabrolide
+INVALID_SMILES	3-O-Î’-D-Galactopyranosyl(1â†’2)-[Î’-D-Xylopyranosyl(1â†’3)]-Î’-D-6-O-Ethylglucoronopyranosyl-Quillaic Acid
+INVALID_SMILES	3-O-Î’-D-Galactopyranosyl(1â†’2)-[Î’-D-Xylopyranosyl(1â†’3)]-Î’-D-6-O-Methylglucoronopyranosyl-Quillaic Acid
+INVALID_SMILES	3-O-Î’-D-Galactopyranosyl-(1â†’2)-Î’-D-Glucuronopyranosyl-Gypsogenin-28-O-Î’-D-Xylopyranosyl(1â†’4)-[Î’-D-6-O-Acetylglucopyranosyl(1â†’3)]-Î‘-L-Rhamnopyranosyl(1â†’2)-Î’-D-Fucopyranoside
+INVALID_SMILES	3-Oxobetulinic Acid
+INVALID_SMILES	3-[(2R)-2,3-dihydroxy-3-methyl-butyl]-4-methoxy-1-methyl-carbostyril
+INVALID_SMILES	3-[(2S)-2,3-dihydroxy-3-methyl-butyl]-4-methoxy-1-methyl-carbostyril
+INVALID_SMILES	30-Norhederagenin-3-O-Î‘-L-Arabinopyranoside
+INVALID_SMILES	30-Norhederagenin-3-O-Î’-D-Xylosyl(1â†’2)-Î‘-L-Arabinopyranoside
+INVALID_SMILES	3Î‘,4Î’-Dihydroxy-15,16-Epoxy-12-Oxo-Cleroda-13(16),14-Dien
+INVALID_SMILES	3Î’,11Î‘,16Î’-Trihydroxycycloartane-24-One-3-O-[Î’-D-Glucopyranosyl(1â†’3)-Î’-D-Glucopyranosyl(1â†’2)-Î’-D-Glucopyranosyl]-16-O-Î‘-L-Arabinopyranoside
+INVALID_SMILES	3Î’-Acetoxy-Dammara-20,24-Diene
+INVALID_SMILES	3Î’-Hydroxy-7-Acetoxy-4(18),13-Clerodadien-15-Oic Acid Methyl Ester
+INVALID_SMILES	3Î’-Oxo-Formyl-7Î’,12Î’-Dihydroxy-5Î‘-Lanost-11,15,23-Trioxo-8-En(E)-26-0Ic Acid
+INVALID_SMILES	3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid
+INVALID_SMILES	3Î’-[(O-Î‘-L-Rhamnopyranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-[(O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-[(O-Î’-D-Glucopyranosyl-(1â†’4)-O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-[(O-Î’-D-Ribopyranosyl-(1â†’3)-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl)Oxy]Olean-12-En-28-Oic Acid O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-[(Î‘-L-Arabinopyranosyl)Oxy]-23-Hydroxyurs-12,19(29)-Dien-28-Oic Acid 28-Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-[(Î‘-L-Arabinopyranosyl)Oxy]-Urs-11,13(18)-Dien-28-Oic Acid Î’-D-Glucopyranosyl Ester
+INVALID_SMILES	3Î’-{O-Î‘-L-Rhamnopyranosyl-(1â†’4)-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-[O-Î‘-L-Rham-Nopyranosyl-(1â†’2)-O-Î’-D-Glucopyranosyl(1â†’4)-O-Î’-D-Glucuronopyranosyl]}-16Î‘-Hydroxy-13Î’, 28-Epoxyoleanane
+INVALID_SMILES	4',6,7-Trihydroxyisoflavone-6-Methylether-7-O-Î’-D-Xylopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	4'-Hydroxyimperatorin 4'-O-Î’-D-Glucopyranoside
+INVALID_SMILES	4'-O-Methylglabridin
+INVALID_SMILES	4'-Prenyloxyresveratrol,Mulberrin
+INVALID_SMILES	4,5-Di-O-Caffeoylquinic Acid
+INVALID_SMILES	4-Hydroxy-3,3,5-Trimethyl-4-Vinylcyclohexanone
+INVALID_SMILES	5',6'-Dehydroguiachrysine
+INVALID_SMILES	5,7-Dimethoxyphenanthrene-2,6-Diol
+INVALID_SMILES	5-(3,3-Dimethyloxiran-2-Yl)-3-Methylpent-1-En-3-Ol
+INVALID_SMILES	5-Ene-Methyl-7,12-Didehydroxy-Cholate-3-O-Î‘-L-Rhamnopyranosyl-(1â†’4)-Î’-D-Glucuronopyranoside
+INVALID_SMILES	5-Hydroxy-2-Pyridinemethanol
+INVALID_SMILES	5-Methoxymethyl Furfural
+INVALID_SMILES	5-[(2S,3S)-7-Methoxy-3-Methyl-5-[(E)-Prop-1-Enyl]-2,3-Dihydrobenzofuran-2-Yl]-1,3-Benzodioxole
+INVALID_SMILES	6'-O-Methylhonokiol
+INVALID_SMILES	6-[(Î‘-Apiofuranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl)Oxyrubrofusarin]
+INVALID_SMILES	7,8-Dehydropenstemoside
+INVALID_SMILES	7,9-Dimethoxy-2,3-Methylendioxybenzophenanthridine
+INVALID_SMILES	7-(2',6'-Dihydroxy-7'-Methyl-3'-Methyleneocta-7'-En-1-Oxy)-8-Methoxycoumarin
+INVALID_SMILES	7-Geranyloxycoumarin
+INVALID_SMILES	8-Methylandrograpanin
+INVALID_SMILES	9-[(Î’-D-Glucopyranosyl-(1â†’6)-O-Î’-D-Glucopyranosyl)Oxy]-10-Hydroxy-7-Methoxy-3-Methyl-1H-Naphthol[2,3-C]Pyran-1-One
+INVALID_SMILES	Abrisapogenol A
+INVALID_SMILES	Abrisapogenol E
+INVALID_SMILES	Acetyljujuboside B
+INVALID_SMILES	Acevaltrate
+INVALID_SMILES	Acevaltratum
+INVALID_SMILES	Adenine
+INVALID_SMILES	Aescin
+INVALID_SMILES	Alisol A Monoacetate
+INVALID_SMILES	Alisol C Monoacetate
+INVALID_SMILES	Aloeemodin Bianthrone
+INVALID_SMILES	Aloin
+INVALID_SMILES	Anemarsaponin E
+INVALID_SMILES	Anemarsaponin G
+INVALID_SMILES	Aseanostatin P1
+INVALID_SMILES	Aster Saponin A
+INVALID_SMILES	Astin B
+INVALID_SMILES	Astragaloside Ii
+INVALID_SMILES	Astragaloside Iv
+INVALID_SMILES	Atratoside B
+INVALID_SMILES	Azadirachtin
+INVALID_SMILES	Azukisaponin V
+INVALID_SMILES	Beiwutine
+INVALID_SMILES	Berbamine
+INVALID_SMILES	Bergaptol
+INVALID_SMILES	Borneol-2-O-Î’-D-Apiofuranosyl(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Bruceene
+INVALID_SMILES	Cacticin
+INVALID_SMILES	Canavalia Gibberellin Ii
+INVALID_SMILES	Capillene
+INVALID_SMILES	Caruilignan A
+INVALID_SMILES	Caruilignan B
+INVALID_SMILES	Caruilignan C
+INVALID_SMILES	Caruilignan D
+INVALID_SMILES	Casuarictin
+INVALID_SMILES	Casuariin
+INVALID_SMILES	Casuarinin
+INVALID_SMILES	Cauloside C
+INVALID_SMILES	Celastrol
+INVALID_SMILES	Chebulinic Acid
+INVALID_SMILES	Chiisanogenin
+INVALID_SMILES	Chikusetsu Saponin V Methyl Ester
+INVALID_SMILES	Chikusetsusaponin Iva
+INVALID_SMILES	Cimigenol
+INVALID_SMILES	Columbin
+INVALID_SMILES	Compound 2 (Periploca Sepium)
+INVALID_SMILES	Coptisine
+INVALID_SMILES	Corilagin
+INVALID_SMILES	Corynantheine
+INVALID_SMILES	Corypalmine
+INVALID_SMILES	Crocin
+INVALID_SMILES	Crotepoxide,Futoxide
+INVALID_SMILES	Cyclanoline
+INVALID_SMILES	Cycloartanol
+INVALID_SMILES	Cyclolinopeptide I
+INVALID_SMILES	Cynatroside B
+INVALID_SMILES	Cytochrome C
+INVALID_SMILES	Dauriporphinoline
+INVALID_SMILES	Deacetyl Asperulosidic Acid Methyl Ester
+INVALID_SMILES	Degalactotigonin
+INVALID_SMILES	Dehydrotumulosic Acid
+INVALID_SMILES	Delsemine B
+INVALID_SMILES	Deoxyaconitine
+INVALID_SMILES	Desgalactotigonin
+INVALID_SMILES	Di-O-Methyltetrahydrofuriguaiacin B
+INVALID_SMILES	Dictamnoside I
+INVALID_SMILES	Dicyclopentadiene Diepoxide
+INVALID_SMILES	Disinomenine
+INVALID_SMILES	Dracorhodin
+INVALID_SMILES	Ent-12Î‘,16-Epoxy-2Î’,15Î‘,19-Trihydroxypimar-8(14)-Ene
+INVALID_SMILES	Epiberberine
+INVALID_SMILES	Epoxydihydro-Oleanolic Acid
+INVALID_SMILES	Eriocitrin
+INVALID_SMILES	Esculentagenin
+INVALID_SMILES	Esculentoside K
+INVALID_SMILES	Esculentoside M
+INVALID_SMILES	Ethyl-N-Buthy-Uralsaponin A Esters
+INVALID_SMILES	Eugenitin
+INVALID_SMILES	Ganoderic Acid C1
+INVALID_SMILES	Ganoderic Acid Î–
+INVALID_SMILES	Ginkgolide B
+INVALID_SMILES	Ginsenoside Ic
+INVALID_SMILES	Ginsenoside Ii
+INVALID_SMILES	Ginsenoside La
+INVALID_SMILES	Ginsenoside Rb3
+INVALID_SMILES	Ginsenoside Rh5
+INVALID_SMILES	Ginsenoside Rh9
+INVALID_SMILES	Ginsenoside Rs2
+INVALID_SMILES	Ginsenoyne A
+INVALID_SMILES	Ginsenoyne D
+INVALID_SMILES	Glucuronic Acid
+INVALID_SMILES	Goshuyuamide I
+INVALID_SMILES	Goshuyuamideii
+INVALID_SMILES	Gypsogenin
+INVALID_SMILES	Hederagenin
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-3-Acetyl-Î’-D-Xylopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-6-Acetyl-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Hederagenin-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Xylopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Hederagenin-3-O-Î’-D-Glucopyranosyl(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Glucopyranosyl(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Hexanorcucurbitacin F
+INVALID_SMILES	Honokiol
+INVALID_SMILES	Hop-21-Ene
+INVALID_SMILES	Isoastragaloside I
+INVALID_SMILES	Isoastragaloside Ii
+INVALID_SMILES	Isobrucine N-Oxide
+INVALID_SMILES	Isocorypalmine
+INVALID_SMILES	Isorhyncophylline
+INVALID_SMILES	Isosilybin A
+INVALID_SMILES	Isotetrandrine,Tetrandrine
+INVALID_SMILES	Isovitexin
+INVALID_SMILES	Jatrorrhizine
+INVALID_SMILES	Javanicoside B
+INVALID_SMILES	Jujubasaponin Iv
+INVALID_SMILES	Jujuboside A
+INVALID_SMILES	Jujuboside A1
+INVALID_SMILES	Jujuboside B
+INVALID_SMILES	Jujuboside B1
+INVALID_SMILES	Jujuboside C
+INVALID_SMILES	Jujuboside D
+INVALID_SMILES	Julibroside J12
+INVALID_SMILES	Julibroside J15
+INVALID_SMILES	Julibroside J16
+INVALID_SMILES	Julibroside J17
+INVALID_SMILES	Julibroside J18
+INVALID_SMILES	Julibroside J2
+INVALID_SMILES	Julibroside J20
+INVALID_SMILES	Julibroside J22
+INVALID_SMILES	Julibroside J25
+INVALID_SMILES	Julibroside J5
+INVALID_SMILES	Julibroside J6
+INVALID_SMILES	Julibroside J9
+INVALID_SMILES	Kaempferitrin
+INVALID_SMILES	Kaempferol-3-Diglucose-7-Glucoside
+INVALID_SMILES	Kansuiphorin C
+INVALID_SMILES	Kaur-15-En-17-Ol
+INVALID_SMILES	Kokusaginine
+INVALID_SMILES	Kuwanon D
+INVALID_SMILES	Kuwanon L
+INVALID_SMILES	Kuwanon Z
+INVALID_SMILES	Lactiflorin
+INVALID_SMILES	Laminarin
+INVALID_SMILES	Lanosta-7,9(11),24-Trien-3Î‘-Acetoxy-15Î‘,22Î’-Dihydroxy-26-Oic Acid
+INVALID_SMILES	Lariciresinol
+INVALID_SMILES	Laurolitsine
+INVALID_SMILES	Leoheteronin C
+INVALID_SMILES	Leoheteronin D
+INVALID_SMILES	Leoheteronin E
+INVALID_SMILES	Leontoside B
+INVALID_SMILES	Licoricesaponin A3
+INVALID_SMILES	Licoricesaponin B2
+INVALID_SMILES	Licoricesaponin D3
+INVALID_SMILES	Licoricesaponin E2
+INVALID_SMILES	Licoricesaponin G2
+INVALID_SMILES	Licoricesaponin H2
+INVALID_SMILES	Licoricesaponin K2
+INVALID_SMILES	Lipohypaconitine
+INVALID_SMILES	Lycopene
+INVALID_SMILES	Macranthoidin B
+INVALID_SMILES	Macrostemonoside E
+INVALID_SMILES	Magnolignan D
+INVALID_SMILES	Magnolignan E
+INVALID_SMILES	Magnolignan G
+INVALID_SMILES	Magnolignan I
+INVALID_SMILES	Manassantin A
+INVALID_SMILES	Matairesinol
+INVALID_SMILES	Methyl 4-[2-Formyl-5-(Methoxymethyl)Pyrrol-1-Yl]Butanoate
+INVALID_SMILES	Methyl Ganoderate I
+INVALID_SMILES	Methyl Tormentate
+INVALID_SMILES	Methyl-N-Butyl-Uralsaponin A Esters
+INVALID_SMILES	Methylprotodioscin
+INVALID_SMILES	Michelalbine
+INVALID_SMILES	Mulberrofuran K
+INVALID_SMILES	Mutatochrome
+INVALID_SMILES	Narcotoline
+INVALID_SMILES	Naringenin-7-Rutinoside
+INVALID_SMILES	Naringin
+INVALID_SMILES	Neferine
+INVALID_SMILES	Neotigogenin-3-O-Î’-D-Glucopyranosyl(1â†’4)-O-[Î‘-L-Rhamnopyranosyl(1â†’6)]-Î’-D-Galactopyranoside
+INVALID_SMILES	Neoxanthin
+INVALID_SMILES	Nitidine
+INVALID_SMILES	Nobiletin
+INVALID_SMILES	Notoginsenoside R4
+INVALID_SMILES	O-(O-Methoxyphenoxy)Phenol
+INVALID_SMILES	Oleanicacid
+INVALID_SMILES	Oleanolic Acid
+INVALID_SMILES	Oleanolic Acid-3-O-Î’-D-Glucopyranosyl(1â†’2)-Î‘-L-Arabinopyranosyl-28-O-Î’-D-Glucopyranosyl(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Oleanolic Acid-3-O-Î’-D-Glucopyranosyl(1â†’4)-Î’-D-Glucopyranosyl(1â†’4)-Î’-D-Ribopyranosyl(1â†’3)-Î‘-L-Rhamnopyranosyl(1â†’2)-Î‘-L-Arabinopyranoside
+INVALID_SMILES	Ophiopogonin A
+INVALID_SMILES	Ophiopogonin D
+INVALID_SMILES	Oxypaeoniflorin
+INVALID_SMILES	Panaxynol
+INVALID_SMILES	Periplocoside E
+INVALID_SMILES	Periplocoside N
+INVALID_SMILES	Periploside B
+INVALID_SMILES	Phorbol-12-Acetate-13-Laurate
+INVALID_SMILES	Phorbol-12-Myristate-13-Acetate
+INVALID_SMILES	Physalien
+INVALID_SMILES	Pingbeisaponin
+INVALID_SMILES	Piperitylhonokiol
+INVALID_SMILES	Piperonal
+INVALID_SMILES	Platycodin A
+INVALID_SMILES	Platycodin C
+INVALID_SMILES	Platycodin D3
+INVALID_SMILES	Platycoside K
+INVALID_SMILES	Polyphyllin â…¡
+INVALID_SMILES	Pomolic Acid-28-O-Î’-D-Glucopyranoside
+INVALID_SMILES	Pomolic Acid-3Î’-O-Î‘-L-2-Acetoxyarabinopyranosyl-28-O-Î’-D-Glucopyranoside
+INVALID_SMILES	Preskimmianine
+INVALID_SMILES	Proanthocyanidin B2,Procyanidinb2
+INVALID_SMILES	Procyanidin B1
+INVALID_SMILES	Procyanidin B2 3,3'-Di-O-Gallate
+INVALID_SMILES	Procyanidin B7
+INVALID_SMILES	Protopanaxatriol
+INVALID_SMILES	Pruvuloside A
+INVALID_SMILES	Pseudoprotodioscin
+INVALID_SMILES	Quinovic Acid
+INVALID_SMILES	Rel-(7R,8R,7'R,8'R)-3',4'-Methylenedioxy-3,4,5,5'-Tetramethoxy-7,7'-Epoxylignan
+INVALID_SMILES	Rel-(7R,8R,7'R,8'R)-3,4,3',4'-Dimethylenedioxy-5,5'-Dimethoxy-7,7'-Epoxylignan
+INVALID_SMILES	Rhatannin
+INVALID_SMILES	Rugosin A
+INVALID_SMILES	Rugosin B
+INVALID_SMILES	Rugosin C
+INVALID_SMILES	Rugosin E
+INVALID_SMILES	Rugosin F
+INVALID_SMILES	Rugosin G
+INVALID_SMILES	Rutundanonic Acid
+INVALID_SMILES	Safynol
+INVALID_SMILES	Saikosaponin T
+INVALID_SMILES	Sanguiin H8
+INVALID_SMILES	Sanguiin H9
+INVALID_SMILES	Sanjoinine G1
+INVALID_SMILES	Sapxanthone
+INVALID_SMILES	Schisanlactone A
+INVALID_SMILES	Sennoside A
+INVALID_SMILES	Sennoside B
+INVALID_SMILES	Sennoside D
+INVALID_SMILES	Sennosidec
+INVALID_SMILES	Shionone
+INVALID_SMILES	Silybin
+INVALID_SMILES	Smilagenin-3-O-[Î’-D-Glucopyranosyl-(1â†’2)]-Î’-D-Mannopyranoside
+INVALID_SMILES	Solanidine-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î’-D-Glucopyranoside
+INVALID_SMILES	Solanidine-3-O-Î‘-L-Rhamnopyranosyl-(1â†’2)-Î’-D-Glucopyranosyl-(1â†’4)-Î’-D-Glucopyranoside
+INVALID_SMILES	Solasodine 3-O-Î‘-L-Rhamnopyranosyl (1â†’2)-O-[Î’-D-Glucopyranosyl (1â†’4)]-Î’-D-Glucopyranoside
+INVALID_SMILES	Soyasaponin A1
+INVALID_SMILES	Soyasaponin A2
+INVALID_SMILES	Soyasaponin A3
+INVALID_SMILES	Spinosin
+INVALID_SMILES	Stemanthrene C
+INVALID_SMILES	Sterculinine Ii
+INVALID_SMILES	Strychnine N-Oxide
+INVALID_SMILES	Syringaresinol
+INVALID_SMILES	Syringetin-3-Rutinoside
+INVALID_SMILES	Tellimagrandin I
+INVALID_SMILES	Tetrahydrocorysamine
+INVALID_SMILES	Timosaponin A- Iii
+INVALID_SMILES	Tormentic Acid
+INVALID_SMILES	Trachelogenin
+INVALID_SMILES	Trehalose (Î’:Î’)
+INVALID_SMILES	Trigofoenoside E
+INVALID_SMILES	Trigonegenin B
+INVALID_SMILES	Trigoneoside Iia
+INVALID_SMILES	Trigoneoside Vb
+INVALID_SMILES	Trigoneoside Xiib
+INVALID_SMILES	Triptofordin A
+INVALID_SMILES	Triptofordin B2
+INVALID_SMILES	Triptofordin D1
+INVALID_SMILES	Triptofordinine A1
+INVALID_SMILES	Triptonolide
+INVALID_SMILES	Tuberostemonine J
+INVALID_SMILES	Uralsaponin A
+INVALID_SMILES	Vanillic Acid
+INVALID_SMILES	Vanillin Acetate
+INVALID_SMILES	Veranisatin A
+INVALID_SMILES	Vitamin B12
+INVALID_SMILES	Vitamin D
+INVALID_SMILES	Vitetrifolin D
+INVALID_SMILES	Yadanzioside C
+INVALID_SMILES	Yadanzioside H
+INVALID_SMILES	Yadanzioside N
+INVALID_SMILES	Yadanzioside O
+INVALID_SMILES	Yadanzioside P
+INVALID_SMILES	Yunaconitine
+INVALID_SMILES	Zeaxanthin
+INVALID_SMILES	Zizyphussaponin I
+INVALID_SMILES	[6',6''-Dimethylpyrano-(2',3':7,8)]-4'-Methoxy-3-Arylcoumarin
+INVALID_SMILES	ethoxychelerythrine
+INVALID_SMILES	Î‘-Amyrin Stearate
+INVALID_SMILES	Î‘-Tocoquinone
+INVALID_SMILES	Î’-Carotene-5,6-Epoxide
+INVALID_SMILES	Î’-D-Xylopyranosyl-(1â†’6)-Î‘-D-Glucopyranosyl-(1â†’6)-Î’-D-Glucopyranoside
+INVALID_SMILES	Î’2-Solamargine
+INVALID_SMILES	Î“-Fagarine
+INVALID_SMILES	Î“-Solamargine
+INVALID_SMILES	Î”7-Cholesterol,Lathosterol,Cholest-7-Enol
