@@ -1,0 +1,403 @@
+﻿id,name,chinese_name,pinyin_name,latin_name,type,etcm_id
+ETCM_herb_id_1,艾叶,艾叶,AI YE,Artemisia argyi Lévl.et Vant.,Plant medicine,1
+ETCM_herb_id_2,安息香,安息香,AN XI XIANG,Styrax tonkinensis (Pierre) Craib ex Hart.,Plant medicine,2
+ETCM_herb_id_3,八角茴香,八角茴香,BA JIAO HUI XIANG,Illicium verum Hook.f.,Plant medicine,3
+ETCM_herb_id_4,巴豆,巴豆,BA DOU,Croton tiglium L.,Plant medicine,4
+ETCM_herb_id_5,巴豆霜,巴豆霜,BA DOU SHUANG,Croton tiglium L.,Plant medicine,5
+ETCM_herb_id_6,巴戟天,巴戟天,BA JI TIAN,Morinda officinalis How,Plant medicine,6
+ETCM_herb_id_7,菝葜,菝葜,BA QIA,Smilax china L.,Plant medicine,7
+ETCM_herb_id_8,白扁豆,白扁豆,BAI BIAN DOU,Dolichos Lablab L.,Plant medicine,8
+ETCM_herb_id_9,白附子,白附子,BAI FU ZI,Typhonium giganteum Engl.,Plant medicine,9
+ETCM_herb_id_10,白果,白果,BAI GUO,Ginkgo biloba L.,Plant medicine,10
+ETCM_herb_id_11,白及,白及,BAI JI,Bletilla striata (Thunb. ) Reichb.f.,Plant medicine,11
+ETCM_herb_id_12,白蔹,白蔹,BAI LIAN,Ampelopsis japonica ( Thunb. ) Makino,Plant medicine,12
+ETCM_herb_id_13,白茅根,白茅根,BAI MAO GEN,Imperata cylindrica Beauv var. major(Nees) C.E.Hubb.,Plant medicine,13
+ETCM_herb_id_14,白前,白前,BAI QIAN,Cynanchum stauntonii ( Decne. )Schltr. ex Lévl.;Cynanchum glaucescens(Dnecne. ) Hand.-Mazz.,Plant medicine,14
+ETCM_herb_id_15,白屈菜,白屈菜,BAI QU CAI,Chelidonium majus L.,Plant medicine,15
+ETCM_herb_id_16,白芍,白芍,BAI SHAO,Paeonia lactiflora Pall.,Plant medicine,16
+ETCM_herb_id_17,白术,白术,BAI ZHU,Atractylodes macrocephala Koidz.,Plant medicine,17
+ETCM_herb_id_18,白头翁,白头翁,BAI TOU WENG,Pulsatilla chinensis (Bge.) Regel,Plant medicine,18
+ETCM_herb_id_19,白薇,白薇,BAI WEI,Cynunchum atratum Bge.;Cynanchum versicolor Bge.,Plant medicine,19
+ETCM_herb_id_20,白鲜皮,白鲜皮,BAI XIAN PI,Dictamnus dasycarpus Turcz.,Plant medicine,20
+ETCM_herb_id_21,白芷,白芷,BAI ZHI,Angelica dahurica ( Fisch.ex Hoffm. ) Benth. et Hook.f.;Angelica dahurica (Fisch.ex Hoffm.)Benth .et Hook.f.var.formosana(Boiss.）Shsn et Yuan,Plant medicine,21
+ETCM_herb_id_22,百部,百部,BAI BU,"Stemona sesssilfolia(Miq.) Miq.;Stemona, japonicu ( Bl. ) Miq.;Stemona tuberosa Lour.",Plant medicine,22
+ETCM_herb_id_23,百合,百合,BAI HE,Lilium lancifolium Thunb.;Lilium brownii F.E.Brown var.viridulum Baker;Lilium Pumilum DC.,Plant medicine,23
+ETCM_herb_id_24,柏子仁,柏子仁,BAI ZI REN,Platycladus orientalis(L.)Franco,Plant medicine,24
+ETCM_herb_id_25,板蓝根,板蓝根,BAN LAN GEN,Isatis indigotica Fort.,Plant medicine,25
+ETCM_herb_id_26,半边莲,半边莲,BAN BIAN LIAN,Lobelia chinensis Lour.,Plant medicine,26
+ETCM_herb_id_27,半夏,半夏,BAN XIA,Pinellia ternata (Thunb. )Breit.,Plant medicine,27
+ETCM_herb_id_28,半枝莲,半枝莲,BAN ZHI LIAN,Scutellaria barbate D. Don,Plant medicine,28
+ETCM_herb_id_29,薄荷,薄荷,BO HE,Mentha haplocalyx Briq.,Plant medicine,29
+ETCM_herb_id_30,北豆根,北豆根,BEI DOU GEN,Menispermum dauricum DC.,Plant medicine,30
+ETCM_herb_id_31,北刘寄奴,北刘寄奴,BEI LIU JI NU,Siphonostegia chinensis Benth.,Plant medicine,31
+ETCM_herb_id_32,北沙参,北沙参,BEI SHA SHEN,Glenhnia littoralis Fr.Schmidtex Miq.,Plant medicine,32
+ETCM_herb_id_33,荜茇,荜茇,BI BO,Piper longum L.,Plant medicine,33
+ETCM_herb_id_34,荜澄茄,荜澄茄,BI CHENG QIE,Litsea cubeba(Lour.)Pers.,Plant medicine,34
+ETCM_herb_id_35,蓖麻子,蓖麻子,BI MA ZI,Ricinus communis L.,Plant medicine,35
+ETCM_herb_id_36,萹蓄,萹蓄,BIAN XU,Polygonum aviculare L.,Plant medicine,36
+ETCM_herb_id_37,槟榔,槟榔,BIN LANG,Areca catechu L.,Plant medicine,37
+ETCM_herb_id_38,冰片,冰片,BING PIAN,Blumea balsamifera DC.,Plant medicine,38
+ETCM_herb_id_39,补骨脂,补骨脂,BU GU ZHI,Psoralea corylifolia L.,Plant medicine,39
+ETCM_herb_id_40,苍耳子,苍耳子,CANG ER ZI,Xanthium sibrium Patr.,Plant medicine,40
+ETCM_herb_id_41,苍术,苍术,CANG ZHU,AtrActylodes lancea (Thunb. )DC.;Atractylodes chinensis ( DC. ) Koidz.,Plant medicine,41
+ETCM_herb_id_42,草豆蔻,草豆蔻,CAO DOU KOU,Alpinia katsumadai Hayata,Plant medicine,42
+ETCM_herb_id_43,草果,草果,CAO GUO,Amomum tsao-ko Crevost et Lemaire,Plant medicine,43
+ETCM_herb_id_44,草乌,草乌,CAO WU,Aconitum kusnezoffii Reichb.,Plant medicine,44
+ETCM_herb_id_45,侧柏叶,侧柏叶,CE BAI YE,Platycladus orientalis (L.) Franco,Plant medicine,45
+ETCM_herb_id_46,柴胡,柴胡,CHAI HU,Bupleurum chinense DC.;Buplrurum scorzonerifolium Willd.,Plant medicine,46
+ETCM_herb_id_47,常山,常山,CHANG SHAN,Dichroa frbrifuga Lour.,Plant medicine,47
+ETCM_herb_id_48,车前草,车前草,CHE QIAN CAO,Plantago asiatica L.;Plantago depressa Willd.,Plant medicine,48
+ETCM_herb_id_49,车前子,车前子,CHE QIAN ZI,Plantago asiatica L.;Plantago depressa Willd.,Plant medicine,49
+ETCM_herb_id_50,沉香,沉香,CHEN XIANG,Aquilaria sinensis (Lour.)Gilg,Plant medicine,50
+ETCM_herb_id_51,陈皮,陈皮,CHEN PI,Citrus reticulata Blanco,Plant medicine,51
+ETCM_herb_id_52,赤芍,赤芍,CHI SHAO,Paeonia lactiflora Pall.;Paeonia veitchii) Lynch,Plant medicine,52
+ETCM_herb_id_53,赤小豆,赤小豆,CHI XIAO DOU,Vigna umbeuata Ohwi et Ohashi;Vigna angularis Ohwi et Ohashi,Plant medicine,53
+ETCM_herb_id_54,川贝母,川贝母,CHUAN BEI MU,"Fritillaria cirrhosa D.Don;Fritillaria unibracteata Hsiao et K. C. Hsia.;Fritillaria przewalskii Maxim, Fritillaria delavayi Franch.;Fritillaria taipaiensis P.Y.Li;Fritillaria unibracteata Hsiao et K. C. Hsia var.wabuensis(S. Y. Tang et S. C. Yue)Z. D. LiU,S. Wanget S.C.Chen",Plant medicine,54
+ETCM_herb_id_55,川楝子,川楝子,CHUAN LIAN ZI,Melia toosendan Sieb.et Zucc.,Plant medicine,55
+ETCM_herb_id_56,川木通,川木通,CHUAN MU TONG,Clematis armandii Franch.;Clematis montana Buch.-Ham.,Plant medicine,56
+ETCM_herb_id_57,川木香,川木香,CHUAN MU XIANG,Vladimiria souliei ( Franch. ) Ling;Vladimiria souliei ( Franch. )Ling var.Cinerea Ling,Plant medicine,57
+ETCM_herb_id_58,川牛膝,川牛膝,CHUAN NIU XI,Cyathula officinalis Kuan,Plant medicine,58
+ETCM_herb_id_59,川乌,川乌,CHUAN WU,Aconitum carmichaelii Debx.,Plant medicine,59
+ETCM_herb_id_60,川芎,川芎,CHUAN XIONG,Ligusticum chuanxiong Hort.,Plant medicine,60
+ETCM_herb_id_61,穿山龙,穿山龙,CHUAN SHAN LONG,Dioscorea nipponica Makino,Plant medicine,61
+ETCM_herb_id_62,穿心莲,穿心莲,CHUAN XIN LIAN,Andrographis paniculata (Burm f.) Nees,Plant medicine,62
+ETCM_herb_id_63,垂盆草,垂盆草,CHUI PEN CAO,Sedum sarmentosum Bunge,Plant medicine,63
+ETCM_herb_id_64,刺五加,刺五加,CI WU JIA,Acanthopanax senticosus ( Rupr.et Maxim. ) Harms,Plant medicine,64
+ETCM_herb_id_65,大黄,大黄,DA HUANG,Rheum palmatum L.;Rheum tanguticum Maxim. ex Balf.;Rheum officinale Baill.,Plant medicine,65
+ETCM_herb_id_66,大蓟,大蓟,DA JI,Cirsium jnponicum Fisch. ex DC.,Plant medicine,66
+ETCM_herb_id_67,大青叶,大青叶,DA QING YE,lsatis indigotica Fort.,Plant medicine,67
+ETCM_herb_id_68,大蒜,大蒜,DA SUAN,ALlium saticum L.,Plant medicine,68
+ETCM_herb_id_69,大血藤,大血藤,DA XUE TENG,Sargentodoxa cuneata(Oliv. )Rehd.et Wils.,Plant medicine,69
+ETCM_herb_id_70,大叶紫珠,大叶紫珠,DA YE ZI ZHU,Callicarpa macrophylla Vahl,Plant medicine,70
+ETCM_herb_id_71,大枣,大枣,DA ZAO,Ziziphus jujuba Mill.,Plant medicine,71
+ETCM_herb_id_72,大皂角,大皂角,DA ZAO JIAO,Gleditsia Sinensis Lam.,Plant medicine,72
+ETCM_herb_id_73,丹参,丹参,DAN SHEN,Salvia miltiorrhiza Bge.,Plant medicine,73
+ETCM_herb_id_74,淡竹叶,淡竹叶,DAN ZHU YE,Lophatherum gracile Brongn.,Plant medicine,74
+ETCM_herb_id_75,当归,当归,DANG GUI,Angelica sinensis (Oliv.)Diels,Plant medicine,75
+ETCM_herb_id_76,当药,当药,DANG YAO,Swertia pseudochinensis Hara,Plant medicine,76
+ETCM_herb_id_77,党参,党参,DANG SHEN,(Codonopsis pilosula ( Frnnch. ) Nannf.;Codonopsis pilosula Nannf.var.modesta(Nannf).L.Shen;Codonopsis tangshen Oliv.,Plant medicine,77
+ETCM_herb_id_78,刀豆,刀豆,DAO DOU,Canavalia gladiata (Jacq.)DC.,Plant medicine,78
+ETCM_herb_id_79,灯心草,灯心草,DENG XIN CAO,Juncus effusus L.,Plant medicine,79
+ETCM_herb_id_80,灯盏细辛,灯盏细辛,DENG ZHAN XI XIN,Erigeron breviscapus (Vant. )Hand.-Mazz.,Plant medicine,80
+ETCM_herb_id_81,地骨皮,地骨皮,DI GU PI,Lycium chinense Mill.;Lycium barbarum L.,Plant medicine,81
+ETCM_herb_id_82,地黄,地黄,DI HUANG,Rehmannia glutinosa Libosch,Plant medicine,82
+ETCM_herb_id_83,地榆,地榆,DI YU,Sanguisorba officinalis L.;Sanguisorba officinalis L.var.longifolia(Bert. ) Yü et Li,Plant medicine,83
+ETCM_herb_id_84,颠茄草,颠茄草,DIAN QIE CAO,Atropa belladonna L.,Plant medicine,84
+ETCM_herb_id_85,丁公藤,丁公藤,DING GONG TENG,Erycibe obtusifolia Benth.;Erycibe schmidtii Craib,Plant medicine,85
+ETCM_herb_id_86,丁香,丁香,DING XIANG,Eugenia caryophyllataThunb.,Plant medicine,86
+ETCM_herb_id_87,冬瓜皮,冬瓜皮,DONG GUA PI,Benincasa hispida ( Thunb. ) Cogn.,Plant medicine,87
+ETCM_herb_id_88,冬凌草,冬凌草,DONG LING CAO,Rabdosia rubescens ( Hemsl.)Hara,Plant medicine,88
+ETCM_herb_id_89,豆蔻,豆蔻,DOU KOU,Amomun kravanh Pierre ex Gagnep.;Amomum compactum Soland ex Maton,Plant medicine,89
+ETCM_herb_id_90,独活,独活,DU HUO,Angelica pubescens Maxim.f. biserata Shan et Yuan,Plant medicine,90
+ETCM_herb_id_91,独一味,独一味,DU YI WEI,Lamiophlomis rotatu (Benth.) Kudo,Plant medicine,91
+ETCM_herb_id_92,杜仲,杜仲,DU ZHONG,Eucommia ulmoides Oliv.,Plant medicine,92
+ETCM_herb_id_93,杜仲叶,杜仲叶,DU ZHONG YE,Eucommia ulmoides Oliv.,Plant medicine,93
+ETCM_herb_id_94,莪术,莪术,E ZHU,Curcuma phaeocaulis Val.;Curcuma kwangsiensis S.G.Lee et C.F.Liang;Curcuma wenyujin Y.H.Chen et C.Ling,Plant medicine,94
+ETCM_herb_id_95,鹅不食草,鹅不食草,E BU SHI CAO,Centipedaminima(L.)A.BraunetAschers.,Plant medicine,95
+ETCM_herb_id_96,番泻叶,番泻叶,FAN XIE YE,Cassia angustifolia Vahl;Cassiu aczrtifolin Delile,Plant medicine,96
+ETCM_herb_id_97,防风,防风,FANG FENG,Saposhnikovia divaricata(Turcs. )Schischk.,Plant medicine,97
+ETCM_herb_id_98,防己,防己,FANG JI,Stephania tetrandra S. Moore,Plant medicine,98
+ETCM_herb_id_99,佛手,佛手,FO SHOU,Citrus medica L.var.sarcodactylis Swingle,Plant medicine,99
+ETCM_herb_id_100,茯苓,茯苓,FU LING,Poria cocos(Schw.)Wolf,Plant medicine,100
+ETCM_herb_id_101,浮萍,浮萍,FU PING,Spirodela polyrrhiza ( L.)Schlrid.,Plant medicine,101
+ETCM_herb_id_102,附子,附子,FU ZI,Aconitum carmichaelii Debx.,Plant medicine,102
+ETCM_herb_id_103,覆盆子,覆盆子,FU PEN ZI,Rubus chingii Hu,Plant medicine,103
+ETCM_herb_id_104,甘草,甘草,GAN CAO,Glycyrrhiza uralensis Fisch.;Glycyrrhiza inflata Bat.;Glycyrrhiza glabra L.,Plant medicine,104
+ETCM_herb_id_105,甘松,甘松,GAN SONG,Naradostachys jatamansi DC.,Plant medicine,105
+ETCM_herb_id_106,甘遂,甘遂,GAN SUI,Euphorbia kansui T. N. Liou ex T. P. Wang,Plant medicine,106
+ETCM_herb_id_107,干姜,干姜,GAN JIANG,Zingiber officinale Rosc.,Plant medicine,107
+ETCM_herb_id_108,杠板归,杠板归,GONG BAN GUI,Polygonum perfoliatum L.,Plant medicine,108
+ETCM_herb_id_109,高良姜,高良姜,GAO LIANG JIANG,Alpinia officinarum Hance,Plant medicine,109
+ETCM_herb_id_110,藁本,藁本,GAO BEN,Ligusticµm sinese Oliv.;Ligusticum jeholense Nakai et Kitag.,Plant medicine,110
+ETCM_herb_id_111,葛根,葛根,GE GEN,Pueraria lobata (Willd.) Ohwi,Plant medicine,111
+ETCM_herb_id_112,钩藤,钩藤,GOU TENG,Uncaria rhynchophylla(Miq.)Miq.ex Havil.;Uncaria macrophyllu Wall.;Uncaria hirsuta Havil.;Uncaria sinesis(Oliv.)Havil.;Uncaria sessilifructus Roxb.,Plant medicine,112
+ETCM_herb_id_113,枸骨叶,枸骨叶,GOU GU YE,Ilex cornuta Lindl. ex Paxt.,Plant medicine,113
+ETCM_herb_id_114,枸杞子,枸杞子,GOU QI ZI,Lycium harharum L.,Plant medicine,114
+ETCM_herb_id_115,谷精草,谷精草,GU JING CAO,Eriocaulon buergerianum Koern.,Plant medicine,115
+ETCM_herb_id_116,骨碎补,骨碎补,GU SUI BU,Drynaria fortunei(Kunze)J.Sm.,Plant medicine,116
+ETCM_herb_id_117,瓜蒌,瓜蒌,GUA LOU,Trichosanthes kirilowii Maxim.;Trichosanthes rosthornii Harms,Plant medicine,117
+ETCM_herb_id_118,广藿香,广藿香,GUANG HUO XIANG,Pogostemon cablin (Blanco) Benth.,Plant medicine,118
+ETCM_herb_id_119,广金钱草,广金钱草,GUANG JIN QIAN CAO,Desmodium styracifolium (Osb.)Merr.,Plant medicine,119
+ETCM_herb_id_120,桂枝,桂枝,GUI ZHI,Cinnamomum cassia Presl,Plant medicine,120
+ETCM_herb_id_121,海风藤,海风藤,HAI FENG TENG,Piper kadsura ( Choisy) Ohwi,Plant medicine,121
+ETCM_herb_id_122,海金沙,海金沙,HAI JIN SHA,LygoJiun japonicum(Thunb. )Sw.,Plant medicine,122
+ETCM_herb_id_123,海藻（羊栖菜）,海藻（羊栖菜）,HAI ZAO （YANG QI CAI ）,Sargassum pallidum(Turn.)C.Ag.;Sargassum fusiforme(Harv.)Setch.,Plant medicine,123
+ETCM_herb_id_124,诃子,诃子,HE ZI,Terminalia chebula Retz.;Terminalia chebula Retz. var.tomentella Kurt.,Plant medicine,124
+ETCM_herb_id_125,合欢花,合欢花,HE HUAN HUA,Albizia julibrissin Durazz.,Plant medicine,125
+ETCM_herb_id_126,合欢皮,合欢皮,HE HUAN PI,Albizia julibrissin Durazz.,Plant medicine,126
+ETCM_herb_id_127,何首乌,何首乌,HE SHOU WU,Polygonum multiflorum Thunb.,Plant medicine,127
+ETCM_herb_id_128,荷叶,荷叶,HE YE,Nelumbo nucifera Gaertn.,Plant medicine,128
+ETCM_herb_id_129,黑豆,黑豆,HEI DOU,Clycine max (L.)Merr.,Plant medicine,129
+ETCM_herb_id_130,黑芝麻,黑芝麻,HEI ZHI MA,Sesamum indicum L.,Plant medicine,130
+ETCM_herb_id_131,黑种草子,黑种草子,HEI ZHONG CAO ZI,Nigella glandulifera Freyn et Sint.,Plant medicine,131
+ETCM_herb_id_132,红参,红参,HONG SHEN,Panax ginseng C.A.Mey.,Plant medicine,132
+ETCM_herb_id_133,红花,红花,HONG HUA,Carthamus tinctorius L.,Plant medicine,133
+ETCM_herb_id_134,红景天,红景天,HONG JING TIAN,Rhodiola crenulata( Hook.f.et Thoms.)H. Ohba,Plant medicine,134
+ETCM_herb_id_135,厚朴,厚朴,HOU PU,Magnolia officinalis Rehd. et Wils. ;Magnolia officinalis Rehd. et Wils. var.biloba Rehd.et Wils.,Plant medicine,135
+ETCM_herb_id_136,胡黄连,胡黄连,HU HUANG LIAN,Picrorhiza scrophulariiflora Pennell,Plant medicine,136
+ETCM_herb_id_137,胡椒,胡椒,HU JIAO,Piper nigrurmL.,Plant medicine,137
+ETCM_herb_id_138,胡芦巴,胡芦巴,HU LU BA,Trigonella foenum-graecum L.,Plant medicine,138
+ETCM_herb_id_139,槲寄生,槲寄生,HU JI SHENG,Viscum coloratum (Komar.) Nakai.,Plant medicine,139
+ETCM_herb_id_140,虎杖,虎杖,HU ZHANG,Polygonum cuspidatum Sieb. et Zucc.,Plant medicine,140
+ETCM_herb_id_141,花椒,花椒,HUA JIAO,Zanthoxylum schinifolium Sieb. et Zucc.;Zanthoxylum bungeanum Maxim.,Plant medicine,141
+ETCM_herb_id_142,化橘红,化橘红,HUA JU HONG,"Citrus grandis ‘Tomentosa’,Citrus grandis (L.)Osbeck",Plant medicine,142
+ETCM_herb_id_143,槐花,槐花,HUAI HUA,Sophora jaonica L.,Plant medicine,143
+ETCM_herb_id_144,槐角,槐角,HUAI JIAO,Sophora japonica L.,Plant medicine,144
+ETCM_herb_id_145,黄柏,黄柏,HUANG BAI,Phellodmdron chinnse Schneid.,Plant medicine,145
+ETCM_herb_id_146,黄精,黄精,HUANG JING,Poygonautun kingianum Coll. et Hemsl.;Polygonatum sibiricum Red.;Polygonatum cyrtonema Hua,Plant medicine,146
+ETCM_herb_id_147,黄连,黄连,HUANG LIAN,Coptis chinensis Franch.;Coptis deltoidrea C. Y. Cheng et Hsiao;Coptisteeta Wall.,Plant medicine,147
+ETCM_herb_id_148,黄芪,黄芪,HUANG QI,Astragalus menbrunucrus ( Fisch. )Bge mongholicus(Bge.)Hsiao;Astragulus embranaceus (Fisch. )Bge.,Plant medicine,148
+ETCM_herb_id_149,黄芩,黄芩,HUANG QIN,Scutellaria baicalensis Georgi,Plant medicine,149
+ETCM_herb_id_150,黄山药,黄山药,HUANG SHAN YAO,Dioscorea Panthaica Prain et Burk.,Plant medicine,150
+ETCM_herb_id_151,黄蜀葵花,黄蜀葵花,HUANG SHU KUI HUA,Abelmoschus manihot (L)Medic.,Plant medicine,151
+ETCM_herb_id_152,火麻仁,火麻仁,HUO MA REN,Cannabis sativa L.,Plant medicine,152
+ETCM_herb_id_153,鸡骨草,鸡骨草,JI GU CAO,Abrus cantoniensis Hance,Plant medicine,153
+ETCM_herb_id_154,鸡冠花,鸡冠花,JI GUAN HUA,Celosia cristata L.,Plant medicine,154
+ETCM_herb_id_155,鸡血藤,鸡血藤,JI XUE TENG,Spatholobus suberectus Dunn,Plant medicine,155
+ETCM_herb_id_156,积雪草,积雪草,JI XUE CAO,Centella asiatica (L.)Urb.,Plant medicine,156
+ETCM_herb_id_157,急性子,急性子,JI XING ZI,Impatiens balsamina L.,Plant medicine,157
+ETCM_herb_id_158,蒺藜,蒺藜,JI LI,Tricbulus terrestris L.,Plant medicine,158
+ETCM_herb_id_159,姜黄,姜黄,JIANG HUANG,Curcuma Longa L.,Plant medicine,159
+ETCM_herb_id_160,降香,降香,JIANG XIANG,Dalbergia odorifera T.Chen,Plant medicine,160
+ETCM_herb_id_161,焦栀子,焦栀子,JIAO ZHI ZI,Gardenia jasminoides Ellis,Plant medicine,161
+ETCM_herb_id_162,芥子,芥子,JIE ZI,Sinapis alba L.;Brassicajuncea（L.)Czern.et Coss.,Plant medicine,162
+ETCM_herb_id_163,金沸草,金沸草,JIN FEI CAO,Inula linariifolia Turcz.;Inula japonica Thunb.,Plant medicine,163
+ETCM_herb_id_164,金果榄,金果榄,JIN GUO LAN,Tinospora sagittata(Oliv. ) Gagnep.;Tinospora capillipes Gagnep.,Plant medicine,164
+ETCM_herb_id_165,金钱草,金钱草,JIN QIAN CAO,Lysimachia christinae Hance,Plant medicine,165
+ETCM_herb_id_166,金铁锁,金铁锁,JIN TIE SUO,Psammosilene tunicoides W. C.Wu et C Y. Wu,Plant medicine,166
+ETCM_herb_id_167,金银花,金银花,JIN YIN HUA,Lonicera japonica Thunb.,Plant medicine,167
+ETCM_herb_id_168,金樱子,金樱子,JIN YING ZI,Rosa Laevigata Michx.,Plant medicine,168
+ETCM_herb_id_169,筋骨草,筋骨草,JIN GU CAO,Ajuga decumbens Thunb.,Plant medicine,169
+ETCM_herb_id_170,荆芥,荆芥,JING JIE,Schizonepeta tenuifolia Briq.,Plant medicine,170
+ETCM_herb_id_171,九里香,九里香,JIU LI XIANG,Murraya exotica L.;Murraya paniculata (L.)Jack,Plant medicine,171
+ETCM_herb_id_172,韭菜子,韭菜子,JIU CAI ZI,Allium tuberosum Rottl.ex.Spreng.,Plant medicine,172
+ETCM_herb_id_173,救必应,救必应,JIU BI YING,Ilex rotundu Thunb.,Plant medicine,173
+ETCM_herb_id_174,桔梗,桔梗,JIE GENG,Platycodon grundiflorum(Jacq.) A.DC.,Plant medicine,174
+ETCM_herb_id_175,菊花,菊花,JU HUA,Chrysannthremum morifolium Ramat.,Plant medicine,175
+ETCM_herb_id_176,菊苣,菊苣,JU JU,Cichorium glandulosum Boiss. et Huet;Cichorium intybus L.,Plant medicine,176
+ETCM_herb_id_177,橘核,橘核,JU HE,Citrus reticulata Blanco,Plant medicine,177
+ETCM_herb_id_178,卷柏,卷柏,JUAN BAI,Selaginella tamariscina(Beauv.) Spring;Selagine pulvinata(Hook.et Grev.)Maxim.,Plant medicine,178
+ETCM_herb_id_179,决明子,决明子,JUE MING ZI,Cassia obtusifolia L.;Cassia tora L.,Plant medicine,179
+ETCM_herb_id_180,榼藤子,榼藤子,KE TENG ZI,Entadaphaseoloides (linn.) Merr.,Plant medicine,180
+ETCM_herb_id_181,苦参,苦参,KU SHEN,SophorA flavescens Ait.,Plant medicine,181
+ETCM_herb_id_182,苦地丁,苦地丁,KU DI DING,Corydalis bungeana Turcz.,Plant medicine,182
+ETCM_herb_id_183,苦楝皮,苦楝皮,KU LIAN PI,Melia toosendan Sieb.et Zucc.;Meliaazedarach L.,Plant medicine,183
+ETCM_herb_id_184,苦木,苦木,KU MU,Picrasma quassioides( D. Don)Benn.,Plant medicine,184
+ETCM_herb_id_185,苦杏仁,苦杏仁,KU XING REN,Corydalis bungeana Turcz.,Plant medicine,185
+ETCM_herb_id_186,苦玄参,苦玄参,KU XUAN SHEN,Picria fel-terrae Lour.,Plant medicine,186
+ETCM_herb_id_187,款冬花,款冬花,KUAN DONG HUA,Tussilago farfara L.,Plant medicine,187
+ETCM_herb_id_188,昆布,昆布,KUN BU,Laminaria japonica Aresch.;Ecklonia kureme Okam.,Plant medicine,188
+ETCM_herb_id_189,辣椒,辣椒,LA JIAO,Capsicum annuum L.,Plant medicine,189
+ETCM_herb_id_190,莱菔子,莱菔子,LAI FU ZI,Raphanus sativus.L.,Plant medicine,190
+ETCM_herb_id_191,狼毒,狼毒,LANG DU,Euphorbia ebracteolata Hayata;Euphorbia fischerana Steud.,Plant medicine,191
+ETCM_herb_id_192,老鹳草,老鹳草,LAO GUAN CAO,Erodium stephanianumWilld.;Geranium wilfordii Maxim.;Geranium carolinianum L.,Plant medicine,192
+ETCM_herb_id_193,雷公藤,雷公藤,LEI GONG TENG,Tripterygium wilfordii Hook. f.,Plant medicine,193
+ETCM_herb_id_194,连钱草,连钱草,LIAN QIAN CAO,Glechoma longituba ( Nakai )Kupr.,Plant medicine,194
+ETCM_herb_id_195,连翘,连翘,LIAN QIAO,Forsythia suspensa (Thunb.) Vahl,Plant medicine,195
+ETCM_herb_id_196,莲子,莲子,LIAN ZI,Nelumbo nucifera Gaertn.,Plant medicine,196
+ETCM_herb_id_197,莲子心,莲子心,LIAN ZI XIN,Nelumbo nucifera Gaertn.,Plant medicine,197
+ETCM_herb_id_198,两面针,两面针,LIANG MIAN ZHEN,Zanthoxylum nitidum(Roxb. )DC.,Plant medicine,198
+ETCM_herb_id_199,蓼大青叶,蓼大青叶,LIAO DA QING YE,Polygonum tinctorium Ait.,Plant medicine,199
+ETCM_herb_id_200,灵芝,灵芝,LING ZHI,Ganoderma lucidum (Leyss. ex Fr.) Karst;Ganoderma sinense Zhao，Xu et Zhang,Plant medicine,200
+ETCM_herb_id_201,龙胆,龙胆,LONG DAN,Gentiana manshurica Kitag.;Gentiana scabra Bge.;Gentiana triflora Pall.;Gentiana rigescens Franch.,Plant medicine,201
+ETCM_herb_id_202,龙葵,龙葵,LONG KUI,Solanum nigrum L.,Plant medicine,202
+ETCM_herb_id_203,龙眼肉,龙眼肉,LONG YAN ROU,Dimocarpus longan Lour.,Plant medicine,203
+ETCM_herb_id_204,漏芦,漏芦,LOU LU,Rhaponticum uniflorum (L.) DC,Plant medicine,204
+ETCM_herb_id_205,芦根,芦根,LU GEN,Phragmites communis Trin.,Plant medicine,205
+ETCM_herb_id_206,芦荟,芦荟,LU HUI,Euryale ferox Salisb.,Plant medicine,206
+ETCM_herb_id_207,鹿衔草,鹿衔草,LU XIAN CAO,Pyrola calliantha H.AndreS;Pyrola decorata H. Andres,Plant medicine,207
+ETCM_herb_id_208,路路通,路路通,LU LU TONG,Liguidambar.formosana Hance,Plant medicine,208
+ETCM_herb_id_209,罗布麻叶,罗布麻叶,LUO BU MA YE,Apocynum venetum L.,Plant medicine,209
+ETCM_herb_id_210,罗汉果,罗汉果,LUO HAN GUO,Siraitia grosvenorii (Swingle) C.Jeffery ex A.M.Lu et Z.Y. Zhang,Plant medicine,210
+ETCM_herb_id_211,络石藤,络石藤,LUO SHI TENG,Trachelospermum jasminoides(Lindl. )Lem.,Plant medicine,211
+ETCM_herb_id_212,麻黄,麻黄,MA HUANG,Ephedra sinica Stapf;Ephedrua intrmedia Schrenk et C.A.Mey;Ephedra equisetina Bge.,Plant medicine,212
+ETCM_herb_id_213,麻黄根,麻黄根,MA HUANG GEN,Ephedra sinica Stapf;Ephedra intermedia Schrenk et C.A.Mey.,Plant medicine,213
+ETCM_herb_id_214,马鞭草,马鞭草,MA BIAN CAO,Verbena officinalis L.,Plant medicine,214
+ETCM_herb_id_215,马齿苋,马齿苋,MA CHI XIAN,Portulaca oleracea L.,Plant medicine,215
+ETCM_herb_id_216,马兜铃,马兜铃,MA DOU LING,Aristolochia contortaBge.;Aristolochia debilis Sibe.et Zucc.,Plant medicine,216
+ETCM_herb_id_217,马钱子,马钱子,MA QIAN ZI,Strychnos nux-vomica L.,Plant medicine,217
+ETCM_herb_id_218,麦冬,麦冬,MAI DONG,OPhiopogon japonicus ( L.f) Ker-Gawl.,Plant medicine,218
+ETCM_herb_id_219,麦芽,麦芽,MAI YA,Hordeum vulgare L.,Plant medicine,219
+ETCM_herb_id_220,满山红,满山红,MAN SHAN HONG,Rhododendron dauricum L.,Plant medicine,220
+ETCM_herb_id_221,蔓荆子,蔓荆子,MAN JING ZI,Vitex trifolia l.var.simplicifolia Cham.;Vitex trifolia L.,Plant medicine,221
+ETCM_herb_id_222,没药,没药,MO YAO,Commiphora myrrha Engl;Commiphora molmol Engl.,Plant medicine,222
+ETCM_herb_id_223,玫瑰花,玫瑰花,MEI GUI HUA,Rosa rugosa Thunb.,Plant medicine,223
+ETCM_herb_id_224,密蒙花,密蒙花,MI MENG HUA,Buddleja officinalis Maxim.,Plant medicine,224
+ETCM_herb_id_225,绵萆薢,绵萆薢,MIAN BI XIE,Dioscorea spongiosa J.Q.Xi，M.Mizuno et W.L. Zhao;Dioscorea futschauensis Uline ex R.Kunth,Plant medicine,225
+ETCM_herb_id_226,明党参,明党参,MING DANG SHEN,Changium smyrnioides Wolff,Plant medicine,226
+ETCM_herb_id_227,墨旱莲,墨旱莲,MO HAN LIAN,Eclipta prostrata L.,Plant medicine,227
+ETCM_herb_id_228,牡丹皮,牡丹皮,MU DAN PI,Paeonia suffruticosa Andr.,Plant medicine,228
+ETCM_herb_id_229,牡荆叶,牡荆叶,MU JING YE,Vitex negundo L. var. cannabifolia (Sieb.et Zucc.)Hand.-Mazz.,Plant medicine,229
+ETCM_herb_id_230,木鳖子,木鳖子,MU BIE ZI,Momordica cochinchinensis (Lour. ) Spreng.,Plant medicine,230
+ETCM_herb_id_231,木瓜,木瓜,MU GUA,Chaenomeles speciosa (Sweet) Nakai,Plant medicine,231
+ETCM_herb_id_232,木蝴蝶,木蝴蝶,MU HU DIE,Orozylum indicum (L.) Vent.,Plant medicine,232
+ETCM_herb_id_233,木通,木通,MU TONG,Akebia quinata (Thunb.) Decne.;Akebia trifoliata (Thunb.) Koidz.;Akebia trifoliata (Thunb.) Koidz. var. australis (Diels) Rehd.,Plant medicine,233
+ETCM_herb_id_234,木香,木香,MU XIANG,Aucklandia lappa Decne.,Plant medicine,234
+ETCM_herb_id_235,木贼,木贼,MU ZEI,Equisetum hyemale L.,Plant medicine,235
+ETCM_herb_id_236,南鹤虱,南鹤虱,NAN HE SHI,Daucus carota L.,Plant medicine,236
+ETCM_herb_id_237,南五味子,南五味子,NAN WU WEI ZI,Schisandra sphenantheraRehd.et Wils.,Plant medicine,237
+ETCM_herb_id_238,闹羊花,闹羊花,NAO YANG HUA,Rhododendron molle G.Don,Plant medicine,238
+ETCM_herb_id_239,牛蒡子,牛蒡子,NIU BANG ZI,Arctium lappa L.,Plant medicine,239
+ETCM_herb_id_240,牛膝,牛膝,NIU XI,Achyranthes bidentata Bl.,Plant medicine,240
+ETCM_herb_id_241,女贞子,女贞子,NV ZHEN ZI,Ligustrum lucidum Ait.,Plant medicine,241
+ETCM_herb_id_242,藕节,藕节,OU JIE,Nelumbo nuifera Gaertn.,Plant medicine,242
+ETCM_herb_id_243,胖大海,胖大海,PANG DA HAI,Sterculia lychnophora Hance,Plant medicine,243
+ETCM_herb_id_244,佩兰,佩兰,PEI LAN,Eupatorium fortunei Turcz.,Plant medicine,244
+ETCM_herb_id_245,枇杷叶,枇杷叶,PI PA YE,Eriobotrya japonica ( Thunb. )Lind1.,Plant medicine,245
+ETCM_herb_id_246,偏头七,偏头七,PIAN TOU QI,Smilacina japonica A. Gray,Plant medicine,246
+ETCM_herb_id_247,平贝母,平贝母,PING BEI MU,Fritillaria ussuriensis Maxim.,Plant medicine,247
+ETCM_herb_id_248,蒲公英,蒲公英,PU GONG YING,Taraxacum mongolicum Hand.-Mazz;Taraxacum borealisinense Kitam,Plant medicine,248
+ETCM_herb_id_249,蒲黄,蒲黄,PU HUANG,Typha angustifolia L;Typha orientalis Presl,Plant medicine,249
+ETCM_herb_id_250,千金子,千金子,QIAN JIN ZI,Euphorbia lathyris L.,Plant medicine,250
+ETCM_herb_id_251,千里光,千里光,QIAN LI GUANG,Senecio scandens Buch.-Ham.,Plant medicine,251
+ETCM_herb_id_252,牵牛子,牵牛子,QIAN NIU ZI,Pharbitis nil (L.)Choisy;Pharbitis purpurea (L.)Voigt,Plant medicine,252
+ETCM_herb_id_253,前胡,前胡,QIAN HU,Peucedanum praeruptorum Dunn,Plant medicine,253
+ETCM_herb_id_254,芡实,芡实,QIAN SHI,Euryale ferox Salisb.,Plant medicine,254
+ETCM_herb_id_255,茜草,茜草,QIAN CAO,Rubia cordifolia L.,Plant medicine,255
+ETCM_herb_id_256,羌活,羌活,QIANG HUO,Notopterygium incisum Ting ex H.T.Chang;Notopterygium franchetii H.de Boiss.,Plant medicine,256
+ETCM_herb_id_257,秦艽,秦艽,QIN JIAO,Gentiana macrophylla Pall.;Gentiana straminea Maxim.;Gentiana crasicaulis Duthie ex Burk.;Gentiana dahurica Fisch.,Plant medicine,257
+ETCM_herb_id_258,青风藤,青风藤,QING FENG TENG,Sinomenium (Thunb.)Rehd. et Wils.;Sinomenium( Thunb.) Rehd.et Wils. var. ciinereum Rehd. et Wils.,Plant medicine,258
+ETCM_herb_id_259,青果,青果,QING GUO,Canarium album Raeusch.,Plant medicine,259
+ETCM_herb_id_260,青蒿,青蒿,QING HAO,Artemisia annua L.,Plant medicine,260
+ETCM_herb_id_261,青皮,青皮,QING PI,Citrus reticulata Blanco,Plant medicine,261
+ETCM_herb_id_262,青葙子,青葙子,QING XIANG ZI,Celosia argentea L.,Plant medicine,262
+ETCM_herb_id_263,青叶胆,青叶胆,QING YE DAN,Swertia mileensis T.N. Ho et W.L.Shih,Plant medicine,263
+ETCM_herb_id_264,拳参,拳参,QUAN SHEN,Polygonum bistorta L.,Plant medicine,264
+ETCM_herb_id_265,人参,人参,REN SHEN,Panax ginseng C. A. Mey.,Plant medicine,265
+ETCM_herb_id_266,人参叶,人参叶,REN SHEN YE,Panax ginseng C. A. Mey.,Plant medicine,266
+ETCM_herb_id_267,忍冬藤,忍冬藤,REN DONG TENG,Lonicera japonica Thunb.,Plant medicine,267
+ETCM_herb_id_268,肉苁蓉,肉苁蓉,ROU CONG RONG,Cistanche deserticola Y.C. Ma;Cistanche tubulosa (Schrenk) Wight,Plant medicine,268
+ETCM_herb_id_269,肉豆蔻,肉豆蔻,ROU DOU KOU,Myristica fragrans Houtt.,Plant medicine,269
+ETCM_herb_id_270,肉桂,肉桂,ROU GUI,Cinnamomum cassia Presl,Plant medicine,270
+ETCM_herb_id_271,乳香,乳香,RU XIANG,Boswellia carterii Birdw.;Boswellia bhaw-dajiana Birdw.,Plant medicine,271
+ETCM_herb_id_272,三白草,三白草,SAN BAI CAO,Saururus chinensis (Lour.) Baill.,Plant medicine,272
+ETCM_herb_id_273,三颗针,三颗针,SAN KE ZHEN,Berberis soulieana Schneid.;Berberis wilsonae Hemsl.;Berberis poiretii Schneid.;Berberis vernae Schneid.,Plant medicine,273
+ETCM_herb_id_274,三棱,三棱,SAN LENG,Sparganium stoloniferum Buch.-Ham.,Plant medicine,274
+ETCM_herb_id_275,三七,三七,SAN QI,Panax notoginseng (Burk.) F. H. Chen,Plant medicine,275
+ETCM_herb_id_276,桑白皮,桑白皮,SANG BAI PI,Morus allba L.,Plant medicine,276
+ETCM_herb_id_277,桑寄生,桑寄生,SANG JI SHENG,Taxillus chinensis(DC.) Danser,Plant medicine,277
+ETCM_herb_id_278,桑叶,桑叶,SANG YE,Morus alba L.,Plant medicine,278
+ETCM_herb_id_279,桑枝,桑枝,SANG ZHI,Morus alba L.,Plant medicine,279
+ETCM_herb_id_280,砂仁,砂仁,SHA REN,Amomum villosum Lour.;Amomum villosum Lour.var.xanthioides T.L.Wu et Senjen;Amomum longiligulare T.L.Wu,Plant medicine,280
+ETCM_herb_id_281,山慈菇,山慈菇,SHAN CI GU,Cremastra appendiculata ( D.Don) Makino;PIeione bulbocodioides(Franch.)Rolfe;Plrione yunnanensis Rolfe,Plant medicine,281
+ETCM_herb_id_282,山豆根,山豆根,SHAN DOU GEN,Sophora tonkinensis Gagnep.,Plant medicine,282
+ETCM_herb_id_283,山柰,山柰,SHAN NAI,Kaempferia galanga L.,Plant medicine,283
+ETCM_herb_id_284,山药,山药,SHAN YAO,Dioscorea opposita Thunb.,Plant medicine,284
+ETCM_herb_id_285,山楂,山楂,SHAN ZHA,Crataegus pinnatifida Bge. var.major N.E.Br.;Crataegus pinnatifida Bge.,Plant medicine,285
+ETCM_herb_id_286,山茱萸,山茱萸,SHAN ZHU YU,Cornus officinalis Sieb. et Zucc.,Plant medicine,286
+ETCM_herb_id_287,商陆,商陆,SHANG LU,Phytolacca acinosa Roxb.;Phytolacca americana L.,Plant medicine,287
+ETCM_herb_id_288,蛇床子,蛇床子,SHE CHUANG ZI,Cnidium monnieri(L.)Cuss.,Plant medicine,288
+ETCM_herb_id_289,射干,射干,SHE GAN,Belamcanda chinensis (L.)DC.,Plant medicine,289
+ETCM_herb_id_290,升麻,升麻,SHENG MA,Cimicifuga heracleifolia Kom.;Cimicifuga dahurica(Turcz.) Maxim.;Cimicifuga foetida L.,Plant medicine,290
+ETCM_herb_id_291,生姜,生姜,SHENG JIANG,Zingiber officinale Rosc.,Plant medicine,291
+ETCM_herb_id_292,蓍草,蓍草,SHI CAO,Achillea elpina.L.,Plant medicine,292
+ETCM_herb_id_293,石菖蒲,石菖蒲,SHI CHANG PU,Acorus tatarinowii Schott,Plant medicine,293
+ETCM_herb_id_294,石吊兰,石吊兰,SHI DIAO LAN,Lysionotus pauciflorus Maxim.,Plant medicine,294
+ETCM_herb_id_295,石斛,石斛,SHI HU,Dendrobium nobile Lindl.;Dendrobium chrysotoxum Lindl.;Dendrobium fimbriatum Hook.,Plant medicine,295
+ETCM_herb_id_296,石榴皮,石榴皮,SHI LIU PI,Punica granatum L.,Plant medicine,296
+ETCM_herb_id_297,石韦,石韦,SHI WEI,Pyrrosia sheareri (Bak. ) Ching;Pyrrosia lingua (Thunb.) Farwell;Pyrrosia petiolosa (Christ) Ching,Plant medicine,297
+ETCM_herb_id_298,使君子,使君子,SHI JUN ZI,Quisqualis indica L.,Plant medicine,298
+ETCM_herb_id_299,柿蒂,柿蒂,SHI DI,Diospyros kaki Thunb.,Plant medicine,299
+ETCM_herb_id_300,水飞蓟,水飞蓟,SHUI FEI JI,Silybum marianum (L.) Gaertn.,Plant medicine,300
+ETCM_herb_id_301,丝瓜络,丝瓜络,SI GUA LUO,Luffa cylindrica(L.)Roem.,Plant medicine,301
+ETCM_herb_id_302,四季青,四季青,SI JI QING,Ilex chinensis Sims,Plant medicine,302
+ETCM_herb_id_303,苏合香,苏合香,SU HE XIANG,Liquidambar orientalis Mill.,Plant medicine,303
+ETCM_herb_id_304,苏木,苏木,SU MU,Caesalpinia sappan L.,Plant medicine,304
+ETCM_herb_id_305,酸枣仁,酸枣仁,SUAN ZAO REN,Ziziphus jujuba Mill. var. spinosa (Bunge) Hu ex H.F.Chou,Plant medicine,305
+ETCM_herb_id_306,娑罗子,娑罗子,SUO LUO ZI,Aesculus chinensis Bge.;Aesculus chinensis Bge. var. chekiangensis (Hu et Fang) Fang;Aesculus wilsonii Rehd.,Plant medicine,306
+ETCM_herb_id_307,锁阳,锁阳,SUO YANG,Cynomorium songaricum Rupr.,Plant medicine,307
+ETCM_herb_id_308,太子参,太子参,TAI ZI SHEN,Pseudostellaria heterophylla (Miq.) Pax ex Pax et Hoffm,Plant medicine,308
+ETCM_herb_id_309,檀香,檀香,TAN XIANG,Santalum album L.,Plant medicine,309
+ETCM_herb_id_310,桃仁,桃仁,TAO REN,Prunus persica (L.) Batsch;Prusua davidiana (Carr.) Franch,Plant medicine,310
+ETCM_herb_id_311,桃枝,桃枝,TAO ZHI,Prunus persica（L.）Batsch,Plant medicine,311
+ETCM_herb_id_312,天冬,天冬,TIAN DONG,Asparagus cohinchinensis ( Lour. )Merr.,Plant medicine,312
+ETCM_herb_id_313,天花粉,天花粉,TIAN HUA FEN,Trichosanthes kirilowii Maxim.;Trichosanthes rosthornii HarIlls,Plant medicine,313
+ETCM_herb_id_314,天麻,天麻,TIAN MA,Gastrodia elata Bl.,Plant medicine,314
+ETCM_herb_id_315,天南星,天南星,TIAN NAN XING,Arisaema erubescens (Wall.) Schott;Arisaema heterophyllum Bl.;Arisaema amurense Maxim.,Plant medicine,315
+ETCM_herb_id_316,天仙藤,天仙藤,TIAN XIAN TENG,Aristolochia debilis Sieb. et Zucc.;Aristolochia contorta Bge.,Plant medicine,316
+ETCM_herb_id_317,天仙子,天仙子,TIAN XIAN ZI,Hyoscyamus ninger L.,Plant medicine,317
+ETCM_herb_id_318,天竺黄,天竺黄,TIAN ZHU HUANG,"Bambusa textilis McClure,Schizostachyum chinense Rendle",Plant medicine,318
+ETCM_herb_id_319,葶苈子,葶苈子,TING LI ZI,Descurainia sophia (L.) Webb. ex Prantl;Lepidium apetalum Willd,Plant medicine,319
+ETCM_herb_id_320,土贝母,土贝母,TU BEI MU,Bolbostemma paniculatum( Maxim. ) Franquet,Plant medicine,320
+ETCM_herb_id_321,土茯苓,土茯苓,TU FU LING,Smilax glabra Roxb.,Plant medicine,321
+ETCM_herb_id_322,土荆皮,土荆皮,TU JING PI,Pseudolarix amabilis (Nelson) Rehd.,Plant medicine,322
+ETCM_herb_id_323,土木香,土木香,TU MU XIANG,Inula helenium L.,Plant medicine,323
+ETCM_herb_id_324,菟丝子,菟丝子,TU SI ZI,Cuscuta australis R. Br;Cuscuta chinensis Lam.,Plant medicine,324
+ETCM_herb_id_325,王不留行,王不留行,WANG BU LIU XING,Vaccaria segetalis( Neck. )Garcke,Plant medicine,325
+ETCM_herb_id_326,威灵仙,威灵仙,WEI LING XIAN,lematis chinensis Osbeck;Clematis hexapetala Pall.;Clematis manshuria Rupr.,Plant medicine,326
+ETCM_herb_id_327,委陵菜,委陵菜,WEI LING CAI,Potentilla chinensis Ser.,Plant medicine,327
+ETCM_herb_id_328,乌梅,乌梅,WU MEI,Prunus mume (Sieb.)Sieb.et Zucc.,Plant medicine,328
+ETCM_herb_id_329,乌药,乌药,WU YAO,Lindera aggregata (Sims) Kostgrm.,Plant medicine,329
+ETCM_herb_id_330,吴茱萸,吴茱萸,WU ZHU YU,Euodia rutaecarpa (Juss.) Benth;Euodia rutaecarpa (Juss.) Benth var. officinalis (Dode) Huang;Euodia rutaecarpa (Juss.) Benth. var. bodinieri (Dode) Huang,Plant medicine,330
+ETCM_herb_id_331,五加皮,五加皮,WU JIA PI,Acanthopanax gracilistylus W.W. Smith,Plant medicine,331
+ETCM_herb_id_332,五味子,五味子,WU WEI ZI,Schisandra chinensis (Turcz.) Baill.,Plant medicine,332
+ETCM_herb_id_333,西洋参,西洋参,XI YANG SHEN,Panax quinque folium L.,Plant medicine,333
+ETCM_herb_id_334,菥蓂,菥蓂,XI MING,Thlaspi arvense L.,Plant medicine,334
+ETCM_herb_id_335,豨莶草,豨莶草,XI XIAN CAO,Siegesbeckia orientalis L.;Siegesbeckia pubescens Makino;Siegesbeckia glabrescens Makino,Plant medicine,335
+ETCM_herb_id_336,细辛,细辛,XI XIN,Asarum heterotropoides Fr.Schmidt var.mandshuricum(Maxim.)Kitag.;Asarum sieboldii Miq.var.seoulense Nakai;Asarum sieboldii Miq.,Plant medicine,336
+ETCM_herb_id_337,夏枯草,夏枯草,XIA KU CAO,Prunella vulgaris L.,Plant medicine,337
+ETCM_herb_id_338,夏天无,夏天无,XIA TIAN WU,Corydalis decumbens (Thunb.) Pers.,Plant medicine,338
+ETCM_herb_id_339,仙鹤草,仙鹤草,XIAN HE CAO,Agrimonia pilosa Ledeb.,Plant medicine,339
+ETCM_herb_id_340,仙茅,仙茅,XIAN MAO,Curculigo orchioides Gaertn.,Plant medicine,340
+ETCM_herb_id_341,香附,香附,XIANG FU,Cyperus rotundus L.,Plant medicine,341
+ETCM_herb_id_342,香加皮,香加皮,XIANG JIA PI,Periploca sepium Bge.,Plant medicine,342
+ETCM_herb_id_343,香薷,香薷,XIANG RU,Mosla chinensis Maxim.;Mosla chinensis ‘jiangxiangru’,Plant medicine,343
+ETCM_herb_id_344,香橼,香橼,XIANG YUAN,Citrus medica L.;Citrus wilsonii Tanaka,Plant medicine,344
+ETCM_herb_id_345,小茴香,小茴香,XIAO HUI XIANG,Foeniculum vulgre Mill.,Plant medicine,345
+ETCM_herb_id_346,小蓟,小蓟,XIAO JI,Cirsium setosum( Willd. ) MB.,Plant medicine,346
+ETCM_herb_id_347,薤白,薤白,XIE BAI,Allium macrostemon Bge;Allium chinense G..Don,Plant medicine,347
+ETCM_herb_id_348,辛夷,辛夷,XIN YI,Magnolia biondii Pamp. ;Magnolia denudata Desr;Magnolia sprengeri Pamp.,Plant medicine,348
+ETCM_herb_id_349,徐长卿,徐长卿,XU CHANG QING,Cynanchum paniculatum (Bge.) Kitag.,Plant medicine,349
+ETCM_herb_id_350,续断,续断,XU DUAN,Dipsacus asper Wall. ex Henry,Plant medicine,350
+ETCM_herb_id_351,玄参,玄参,XUAN SHEN,Scrophularia ningpoensis Hemsl.,Plant medicine,351
+ETCM_herb_id_352,旋覆花,旋覆花,XUAN FU HUA,Inula japonica Thunb.;Inula britannica L.,Plant medicine,352
+ETCM_herb_id_353,血竭,血竭,XUE JIE,Daemonorops draco Bl.,Plant medicine,353
+ETCM_herb_id_354,鸦胆子,鸦胆子,YA DAN ZI,Brucea javanica (L.)Merr.,Plant medicine,354
+ETCM_herb_id_355,鸭跖草,鸭跖草,YA ZHI CAO,Commelina communis L.,Plant medicine,355
+ETCM_herb_id_356,亚麻子,亚麻子,YA MA ZI,Linum usitatissimum L.,Plant medicine,356
+ETCM_herb_id_357,延胡索,延胡索,YAN HU SUO,Corydalis yanhusuo W.T.Wang,Plant medicine,357
+ETCM_herb_id_358,岩白菜,岩白菜,YAN BAI CAI,Bergeniapurpurascens（Hook.f.etThoms）Engl.,Plant medicine,358
+ETCM_herb_id_359,洋金花,洋金花,YANG JIN HUA,Datura metel L.,Plant medicine,359
+ETCM_herb_id_360,药王茶,药王茶,YAO WANG CHA,P.glabraLodd.var.mandshurica(Maxim.)Hand.-Mazz,Plant medicine,360
+ETCM_herb_id_361,野菊花,野菊花,YE JU HUA,Chrysanthemum indicum L.,Plant medicine,361
+ETCM_herb_id_362,野木瓜,野木瓜,YE MU GUA,Stauntonia chinensis DC.,Plant medicine,362
+ETCM_herb_id_363,一枝黄花,一枝黄花,YI ZHI HUANG HUA,Solidago decurrens Lour.,Plant medicine,363
+ETCM_herb_id_364,伊贝母,伊贝母,YI BEI MU,Fritillaria walujewii Regel;Fritillaria pallidiflora Schrenk,Plant medicine,364
+ETCM_herb_id_365,益母草,益母草,YI MU CAO,Leonurus japonicus Houtt.,Plant medicine,365
+ETCM_herb_id_366,益智,益智,YI ZHI,Alpinia oxyphylla Miq.,Plant medicine,366
+ETCM_herb_id_367,薏苡仁,薏苡仁,YI YI REN,Coix lacryma-jobi L. var. mayuen. (Roman.) Stapf,Plant medicine,367
+ETCM_herb_id_368,茵陈,茵陈,YIN CHEN,Artemisia scoparia Waldst.et Kit.;Artemisia capillaris Thunb.,Plant medicine,368
+ETCM_herb_id_369,银柴胡,银柴胡,YIN CHAI HU,Stellaria dichotoma L. var. lanceolata Bge.,Plant medicine,369
+ETCM_herb_id_370,淫羊藿,淫羊藿,YIN YANG HUO,Epimedium brevicornu Maxim.;Epimedium sagittatum(Sieb.et Zucc.)Maxim.;Epimedium pubescens.Maxim.;Epimedium koreanum Nakai,Plant medicine,370
+ETCM_herb_id_371,罂粟壳,罂粟壳,YING SU KE,Papaver somniferum L.,Plant medicine,371
+ETCM_herb_id_372,鱼腥草,鱼腥草,YU XING CAO,Houttuynia cordata Thunb.,Plant medicine,372
+ETCM_herb_id_373,玉竹,玉竹,YU ZHU,Polygonatum odoratum (Mill.) Druce,Plant medicine,373
+ETCM_herb_id_374,郁金,郁金,YU JIN,Curcuma wenyujin Y.H.Chen et C.Ling;Curcuma longa L;Curcuma kwangsiensis S.G.Lee et C.F.Liang;Curcuma phaeocaulis Val.,Plant medicine,374
+ETCM_herb_id_375,郁李仁,郁李仁,YU LI REN,Prunus humilis Bge.;Prunus japonica Thunb.;Prunus pedunculata Maxim.,Plant medicine,375
+ETCM_herb_id_376,预知子,预知子,YU ZHI ZI,Akebia quinata (Thunb.) Decne;Akebia trifoliata (Thunb.) Koidz.;Akebia trifoliata (Thunb.) Koidz. var. australis （Diels）Rehd.,Plant medicine,376
+ETCM_herb_id_377,芫花,芫花,YUAN HUA,Daphne genkwa Sieb. et Zucc.,Plant medicine,377
+ETCM_herb_id_378,远志,远志,YUAN ZHI,Polygala tenuifolia Willd.;Polygala sibirica L.,Plant medicine,378
+ETCM_herb_id_379,月季花,月季花,YUE JI HUA,Rosa chinensis Jacq.,Plant medicine,379
+ETCM_herb_id_380,皂角刺,皂角刺,ZAO JIAO CI,Cleditsia sinensis Lam.,Plant medicine,380
+ETCM_herb_id_381,泽兰,泽兰,ZE LAN,Lycopur Lucidus Turcz.var.hirtus Regel,Plant medicine,381
+ETCM_herb_id_382,泽泻,泽泻,ZE XIE,Alisma orientalis (Sam.)Juzep.,Plant medicine,382
+ETCM_herb_id_383,浙贝母,浙贝母,ZHE BEI MU,Fritillaria thunbergii Miq.,Plant medicine,383
+ETCM_herb_id_384,知母,知母,ZHI MU,Anemarrhena asphodeloides Bge.,Plant medicine,384
+ETCM_herb_id_385,栀子,栀子,ZHI ZI,Gardenia jasminoides Ellis,Plant medicine,385
+ETCM_herb_id_386,蜘蛛香,蜘蛛香,ZHI ZHU XIANG,Valeriana jatamansi Jones,Plant medicine,386
+ETCM_herb_id_387,枳壳,枳壳,ZHI QIAO,Citrus aurantium L.,Plant medicine,387
+ETCM_herb_id_388,枳实,枳实,ZHI SHI,Citrus aurantium` L.;Citrus sinensis Osbeck,Plant medicine,388
+ETCM_herb_id_389,肿节风,肿节风,ZHONG JIE FENG,Sarcandra glabra(Thunb.)Nakai,Plant medicine,389
+ETCM_herb_id_390,朱砂根,朱砂根,ZHU SHA GEN,Ardisia crenata Sims,Plant medicine,390
+ETCM_herb_id_391,珠子参,珠子参,ZHU ZI SHEN,PanaxjaponicusC.A.Mey.var.major(Burk.)C.Y.Wu et K.M.Feng;Panax japonicus C. A. Mey.var.bipinnatifidus(Seem )C.Y.Wu et K.M.Feng,Plant medicine,391
+ETCM_herb_id_392,猪牙皂,猪牙皂,ZHU YA ZAO,Gleditsia sinensis Lam.,Plant medicine,392
+ETCM_herb_id_393,竹根七,竹根七,ZHU GEN QI,Tupistra chinensis Bak.,Plant medicine,393
+ETCM_herb_id_394,竹茹,竹茹,ZHU RU,"Bambusa tuldoides Munro;Sinocalamus beecheyanus(Munro)McClure var. pubescens P. F. Li ;Phyllostachys nigra ( Lodd. ) Munrovar. hr,lo,lis ( Mitf.) Stapf ex Rendle",Plant medicine,394
+ETCM_herb_id_395,追风七（蓝布正）,追风七（蓝布正）,ZHUI FENG QI （LAN BU ZHENG ）,GeumjaponicumThunb.var.chinenseF.Bolle,Plant medicine,395
+ETCM_herb_id_396,紫草,紫草,ZI CAO,Arnebia euchroma (Royle) Johnst.;Arnebia guttata Bunge,Plant medicine,396
+ETCM_herb_id_397,紫花地丁,紫花地丁,ZI HUA DI DING,Viola yedoensis Makino,Plant medicine,397
+ETCM_herb_id_398,紫苏梗,紫苏梗,ZI SU GENG,Perilla frurescens (L.)Britt.,Plant medicine,398
+ETCM_herb_id_399,紫苏叶,紫苏叶,ZI SU YE,Perilla frutescens (L.) Britt.,Plant medicine,399
+ETCM_herb_id_400,紫苏子,紫苏子,ZI SU ZI,Perilla frutesces(L.)Britt.,Plant medicine,400
+ETCM_herb_id_401,紫菀,紫菀,ZI WAN,Aster tataricus.L.f.,Plant medicine,401
+ETCM_herb_id_402,棕榈,棕榈,ZONG LV,Trachycarpus fortunei (Hook.f.) H. Wendl.,Plant medicine,402
