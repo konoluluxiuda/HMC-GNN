@@ -1,0 +1,5 @@
+﻿relation,type_id
+treats_disease,0
+rev_treats_disease,1
+herb_disease_jaccard,2
+disease_herb_jaccard,3

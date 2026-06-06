@@ -1,0 +1,13 @@
+﻿relation,type_id
+treats_disease,0
+has_component,1
+has_effect,2
+has_property,3
+belongs_to_meridian,4
+rev_treats_disease,5
+rev_has_component,6
+rev_has_effect,7
+rev_has_property,8
+rev_belongs_to_meridian,9
+herb_disease_jaccard,10
+disease_herb_jaccard,11

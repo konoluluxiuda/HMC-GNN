@@ -1,0 +1,18 @@
+﻿item,count,note
+train_treats_disease_edges_bidirectional,407630,Only train diseases' herb labels are inserted into the graph.
+herbTOchemical.csv:has_component,0,Excluded for this variant.
+herbTOeffect.csv:has_effect,0,Excluded for this variant.
+herbTOflavor.csv:has_property,0,Excluded for this variant.
+herbTOchannelTropism.csv:belongs_to_meridian,0,Excluded for this variant.
+herb_disease_jaccard_edges,969,Built from train diseases only.
+disease_herb_jaccard_edges,17971,Built from train diseases only.
+num_nodes,3109,
+num_relations,4,
+edge_count,426570,
+train_disease_count,2162,
+val_disease_count,270,
+test_disease_count,271,
+candidate_herb_count,395,
+train_label_edges,203815,
+val_label_edges,22547,
+test_label_edges,22468,

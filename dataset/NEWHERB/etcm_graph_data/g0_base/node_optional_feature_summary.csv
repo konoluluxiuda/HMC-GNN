@@ -1,0 +1,10 @@
+﻿item,value
+node_attributes_shape,"(17683, 24)"
+node_attributes_edges,1982
+node_chem_multihot_shape,"(17683, 7135)"
+node_chem_multihot_edges,12330
+node_herb_chemical_etcm_shape,"(17683, 7135)"
+node_herb_chemical_etcm_edges,10203
+node_chem_fingerprint_shape,"(17683, 167)"
+fingerprint_herb_hits,402
+fingerprint_avg_components,30.154228855721392

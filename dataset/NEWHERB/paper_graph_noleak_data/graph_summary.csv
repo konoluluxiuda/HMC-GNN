@@ -1,0 +1,15 @@
+﻿item,count,note
+num_nodes,13596,
+num_relations,12,
+edge_count,453552,
+train_treats_disease_edges_bidirectional,396130,Only original rec train positives are inserted.
+skipped_non_train_treats_disease_rows,50765,Held-out disease-herb rows removed from graph.
+herb_disease_jaccard_edges,0,Built from train_dict only.
+disease_herb_jaccard_edges,2864,Built from train_dict only.
+train_disease_count,2703,
+test_disease_count,2581,
+candidate_herb_count,395,
+belongs_to_meridian_rows_from_all_kge_splits,952,Non-recommendation edges kept.
+has_component_rows_from_all_kge_splits,11567,Non-recommendation edges kept.
+has_effect_rows_from_all_kge_splits,13730,Non-recommendation edges kept.
+has_property_rows_from_all_kge_splits,1030,Non-recommendation edges kept.

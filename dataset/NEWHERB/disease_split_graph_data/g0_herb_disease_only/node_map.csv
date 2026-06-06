@@ -1,0 +1,3110 @@
+﻿node_id,node_index,node_type,name,source
+ETCM_disease_id_2,0,disease,3-Methylglutaric Aciduria,existing
+ETCM_disease_id_4,1,disease,4-Hydroxyphenylpyruvic Aciduria,existing
+ETCM_disease_id_5,2,disease,5-Oxoprolinase Deficiency,existing
+ETCM_disease_id_6,3,disease,Abdominal Aortic Aneurysm,existing
+ETCM_disease_id_7,4,disease,Abdominal Colic,existing
+ETCM_disease_id_8,5,disease,Abdominal Distention,existing
+ETCM_disease_id_9,6,disease,Abdominal Mass,existing
+ETCM_disease_id_11,7,disease,Abdominal Pain,existing
+ETCM_disease_id_12,8,disease,Abdominal Wall Muscle Weakness,existing
+ETCM_disease_id_13,9,disease,Abducens Palsy,existing
+ETCM_disease_id_15,10,disease,Abetalipoproteinemia,existing
+ETCM_disease_id_19,11,disease,Abnormal Apolipoprotein Level,existing
+ETCM_disease_id_21,12,disease,Abnormal Autonomic Nervous System Physiology,existing
+ETCM_disease_id_22,13,disease,Abnormal Basophil Morphology,existing
+ETCM_disease_id_23,14,disease,Abnormal Bleeding,existing
+ETCM_disease_id_24,15,disease,Abnormal Blistering Of The Skin,existing
+ETCM_disease_id_26,16,disease,Abnormal Bone Structure,existing
+ETCM_disease_id_28,17,disease,Abnormal C-Peptide Level,existing
+ETCM_disease_id_31,18,disease,Abnormal Circulating Aldosterone,existing
+ETCM_disease_id_34,19,disease,Abnormal Circulating Renin,existing
+ETCM_disease_id_38,20,disease,Abnormal Eating Behavior,existing
+ETCM_disease_id_39,21,disease,Abnormal Echocardiogram,existing
+ETCM_disease_id_40,22,disease,Abnormal Ekg,existing
+ETCM_disease_id_41,23,disease,Abnormal Electroretinogram,existing
+ETCM_disease_id_42,24,disease,Abnormal Enchondral Ossification,existing
+ETCM_disease_id_43,25,disease,Abnormal Enzyme/Coenzyme Activity,existing
+ETCM_disease_id_45,26,disease,Abnormal Erythrocyte Morphology,existing
+ETCM_disease_id_46,27,disease,Abnormal Eyelash Morphology,existing
+ETCM_disease_id_49,28,disease,Abnormal Foot Bone Ossification,existing
+ETCM_disease_id_50,29,disease,Abnormal Globus Pallidus Morphology,existing
+ETCM_disease_id_52,30,disease,Abnormal Glycosylation,existing
+ETCM_disease_id_53,31,disease,Abnormal Granulocytopoietic Cell Morphology,existing
+ETCM_disease_id_54,32,disease,Abnormal Hair Pattern,existing
+ETCM_disease_id_55,33,disease,Abnormal Hair Quantity,existing
+ETCM_disease_id_57,34,disease,Abnormal Head Movements,existing
+ETCM_disease_id_58,35,disease,Abnormal Hemoglobin,existing
+ETCM_disease_id_59,36,disease,Abnormal Immunoglobulin Level,existing
+ETCM_disease_id_60,37,disease,Abnormal Intestine Morphology,existing
+ETCM_disease_id_61,38,disease,Abnormal Involuntary Eye Movements,existing
+ETCM_disease_id_64,39,disease,Abnormal Isoelectric Focusing Of Serum Transferrin,existing
+ETCM_disease_id_67,40,disease,Abnormal Large Intestine Morphology,existing
+ETCM_disease_id_69,41,disease,Abnormal Leukocyte Morphology,existing
+ETCM_disease_id_70,42,disease,Abnormal Levels Of Creatine Kinase In Blood,existing
+ETCM_disease_id_71,43,disease,Abnormal Light- And Dark-Adapted Electroretinogram,existing
+ETCM_disease_id_72,44,disease,Abnormal Lower Motor Neuron Morphology,existing
+ETCM_disease_id_73,45,disease,Abnormal Metaphyseal Vascular Invasion,existing
+ETCM_disease_id_74,46,disease,Abnormal Middle Ear Reflexes,existing
+ETCM_disease_id_75,47,disease,Abnormal Mitochondria In Muscle Tissue,existing
+ETCM_disease_id_76,48,disease,Abnormal Mitochondrial Morphology,existing
+ETCM_disease_id_81,49,disease,Abnormal Oral Glucose Tolerance,existing
+ETCM_disease_id_82,50,disease,Abnormal Pattern Of Respiration,existing
+ETCM_disease_id_85,51,disease,Abnormal Platelet Function,existing
+ETCM_disease_id_87,52,disease,Abnormal Platelet Morphology,existing
+ETCM_disease_id_89,53,disease,Abnormal Prolactin Level,existing
+ETCM_disease_id_91,54,disease,Abnormal Rapid Eye Movement Sleep,existing
+ETCM_disease_id_92,55,disease,Abnormal Renal Morphology,existing
+ETCM_disease_id_93,56,disease,Abnormal Renal Physiology,existing
+ETCM_disease_id_94,57,disease,Abnormal Serum Dehydroepiandrosterone Level,existing
+ETCM_disease_id_95,58,disease,Abnormal Serum Testosterone Level,existing
+ETCM_disease_id_96,59,disease,Abnormal Social Behavior,existing
+ETCM_disease_id_98,60,disease,Abnormal Subcutaneous Fat Tissue Distribution,existing
+ETCM_disease_id_100,61,disease,Abnormal Thrombocyte Morphology,existing
+ETCM_disease_id_101,62,disease,Abnormal Thrombosis,existing
+ETCM_disease_id_103,63,disease,Abnormal Upper Motor Neuron Morphology,existing
+ETCM_disease_id_104,64,disease,Abnormal Urinary Color,existing
+ETCM_disease_id_105,65,disease,Abnormal Urine Alpha-Ketoglutarate Concentration,existing
+ETCM_disease_id_107,66,disease,Abnormality Of Acetylcarnitine Metabolism,existing
+ETCM_disease_id_108,67,disease,Abnormality Of Amino Acid Metabolism,existing
+ETCM_disease_id_109,68,disease,Abnormality Of B Cell Physiology,existing
+ETCM_disease_id_110,69,disease,Abnormality Of Blood And Blood-Forming Tissues,existing
+ETCM_disease_id_111,70,disease,Abnormality Of Body Height,existing
+ETCM_disease_id_112,71,disease,Abnormality Of Bone Marrow Cell Morphology,existing
+ETCM_disease_id_114,72,disease,Abnormality Of Branched Chain Family Amino Acid Metabolism,existing
+ETCM_disease_id_115,73,disease,Abnormality Of Calcium-Phosphate Metabolism,existing
+ETCM_disease_id_116,74,disease,Abnormality Of Carboxylic Acid Metabolism,existing
+ETCM_disease_id_117,75,disease,Abnormality Of Cardiovascular System Morphology,existing
+ETCM_disease_id_121,76,disease,Abnormality Of Chromosome Stability,existing
+ETCM_disease_id_122,77,disease,Abnormality Of Circulating Adrenocorticotropin Level,existing
+ETCM_disease_id_123,78,disease,Abnormality Of Circulating Enzyme Level,existing
+ETCM_disease_id_125,79,disease,Abnormality Of Coagulation,existing
+ETCM_disease_id_126,80,disease,Abnormality Of Color Vision,existing
+ETCM_disease_id_128,81,disease,Abnormality Of Connective Tissue,existing
+ETCM_disease_id_129,82,disease,Abnormality Of Creatine Metabolism,existing
+ETCM_disease_id_130,83,disease,Abnormality Of Dental Color,existing
+ETCM_disease_id_131,84,disease,Abnormality Of Dental Enamel,existing
+ETCM_disease_id_132,85,disease,Abnormality Of Earlobe,existing
+ETCM_disease_id_133,86,disease,Abnormality Of Exocrine Pancreas Physiology,existing
+ETCM_disease_id_134,87,disease,Abnormality Of Extrapyramidal Motor Function,existing
+ETCM_disease_id_135,88,disease,Abnormality Of Eye Movement,existing
+ETCM_disease_id_136,89,disease,Abnormality Of Fatty-Acid Metabolism,existing
+ETCM_disease_id_137,90,disease,Abnormality Of Female External Genitalia,existing
+ETCM_disease_id_138,91,disease,Abnormality Of Female Internal Genitalia,existing
+ETCM_disease_id_141,92,disease,Abnormality Of Glycosphingolipid Metabolism,existing
+ETCM_disease_id_145,93,disease,Abnormality Of Hair Texture,existing
+ETCM_disease_id_146,94,disease,Abnormality Of Histidine Metabolism,existing
+ETCM_disease_id_147,95,disease,Abnormality Of Immune System Physiology,existing
+ETCM_disease_id_148,96,disease,Abnormality Of Iron Homeostasis,existing
+ETCM_disease_id_149,97,disease,Abnormality Of Leucine Metabolism,existing
+ETCM_disease_id_150,98,disease,Abnormality Of Lipid Metabolism,existing
+ETCM_disease_id_152,99,disease,Abnormality Of Male Internal Genitalia,existing
+ETCM_disease_id_153,100,disease,Abnormality Of Masticatory Muscle,existing
+ETCM_disease_id_154,101,disease,Abnormality Of Metabolism/Homeostasis,existing
+ETCM_disease_id_155,102,disease,Abnormality Of Mitochondrial Metabolism,existing
+ETCM_disease_id_156,103,disease,Abnormality Of Movement,existing
+ETCM_disease_id_161,104,disease,Abnormality Of Neck Blood Vessel,existing
+ETCM_disease_id_162,105,disease,Abnormality Of Nervous System Morphology,existing
+ETCM_disease_id_163,106,disease,Abnormality Of Neuronal Migration,existing
+ETCM_disease_id_164,107,disease,Abnormality Of Neutrophil Physiology,existing
+ETCM_disease_id_165,108,disease,Abnormality Of Neutrophils,existing
+ETCM_disease_id_166,109,disease,Abnormality Of Ocular Abduction,existing
+ETCM_disease_id_170,110,disease,Abnormality Of Renal Excretion,existing
+ETCM_disease_id_171,111,disease,Abnormality Of Reproductive System Physiology,existing
+ETCM_disease_id_174,112,disease,Abnormality Of Skeletal Muscles,existing
+ETCM_disease_id_175,113,disease,Abnormality Of Skin Pigmentation,existing
+ETCM_disease_id_176,114,disease,Abnormality Of Temperature Regulation,existing
+ETCM_disease_id_178,115,disease,Abnormality Of The Abdominal Wall,existing
+ETCM_disease_id_180,116,disease,Abnormality Of The Ankles,existing
+ETCM_disease_id_181,117,disease,Abnormality Of The Anus,existing
+ETCM_disease_id_182,118,disease,Abnormality Of The Autonomic Nervous System,existing
+ETCM_disease_id_183,119,disease,Abnormality Of The Basal Ganglia,existing
+ETCM_disease_id_185,120,disease,Abnormality Of The Cerebral Vasculature,existing
+ETCM_disease_id_186,121,disease,Abnormality Of The Cerebral White Matter,existing
+ETCM_disease_id_188,122,disease,Abnormality Of The Coagulation Cascade,existing
+ETCM_disease_id_189,123,disease,Abnormality Of The Corticospinal Tract,existing
+ETCM_disease_id_191,124,disease,Abnormality Of The Ear,existing
+ETCM_disease_id_193,125,disease,Abnormality Of The Endocrine System,existing
+ETCM_disease_id_194,126,disease,Abnormality Of The Extraocular Muscles,existing
+ETCM_disease_id_195,127,disease,Abnormality Of The Face,existing
+ETCM_disease_id_196,128,disease,Abnormality Of The Fallopian Tube,existing
+ETCM_disease_id_197,129,disease,Abnormality Of The Fingernails,existing
+ETCM_disease_id_200,130,disease,Abnormality Of The Gallbladder,existing
+ETCM_disease_id_201,131,disease,Abnormality Of The Gastric Mucosa,existing
+ETCM_disease_id_202,132,disease,Abnormality Of The Genital System,existing
+ETCM_disease_id_203,133,disease,Abnormality Of The Genitourinary System,existing
+ETCM_disease_id_204,134,disease,Abnormality Of The Gingiva,existing
+ETCM_disease_id_207,135,disease,Abnormality Of The Immune System,existing
+ETCM_disease_id_208,136,disease,Abnormality Of The Intervertebral Disk,existing
+ETCM_disease_id_209,137,disease,Abnormality Of The Intrinsic Pathway,existing
+ETCM_disease_id_210,138,disease,Abnormality Of The Kidney,existing
+ETCM_disease_id_211,139,disease,Abnormality Of The Knee,existing
+ETCM_disease_id_212,140,disease,Abnormality Of The Labia,existing
+ETCM_disease_id_213,141,disease,Abnormality Of The Larynx,existing
+ETCM_disease_id_215,142,disease,Abnormality Of The Liver,existing
+ETCM_disease_id_216,143,disease,Abnormality Of The Lower Limb,existing
+ETCM_disease_id_218,144,disease,Abnormality Of The Lymphatic System,existing
+ETCM_disease_id_219,145,disease,Abnormality Of The Menstrual Cycle,existing
+ETCM_disease_id_220,146,disease,Abnormality Of The Mitochondrion,existing
+ETCM_disease_id_221,147,disease,Abnormality Of The Mouth,existing
+ETCM_disease_id_222,148,disease,Abnormality Of The Musculature,existing
+ETCM_disease_id_223,149,disease,Abnormality Of The Neck,existing
+ETCM_disease_id_224,150,disease,Abnormality Of The Nervous System,existing
+ETCM_disease_id_225,151,disease,Abnormality Of The Nose,existing
+ETCM_disease_id_226,152,disease,Abnormality Of The Optic Nerve,existing
+ETCM_disease_id_227,153,disease,Abnormality Of The Pancreas,existing
+ETCM_disease_id_228,154,disease,Abnormality Of The Pancreatic Islet Cells,existing
+ETCM_disease_id_230,155,disease,Abnormality Of The Penis,existing
+ETCM_disease_id_232,156,disease,Abnormality Of The Peritoneum,existing
+ETCM_disease_id_233,157,disease,Abnormality Of The Periventricular White Matter,existing
+ETCM_disease_id_234,158,disease,Abnormality Of The Pharynx,existing
+ETCM_disease_id_235,159,disease,Abnormality Of The Philtrum,existing
+ETCM_disease_id_236,160,disease,Abnormality Of The Pleura,existing
+ETCM_disease_id_238,161,disease,Abnormality Of The Respiratory System,existing
+ETCM_disease_id_239,162,disease,Abnormality Of The Retinal Vasculature,existing
+ETCM_disease_id_240,163,disease,Abnormality Of The Sacroiliac Joint,existing
+ETCM_disease_id_241,164,disease,Abnormality Of The Scrotum,existing
+ETCM_disease_id_247,165,disease,Abnormality Of The Spleen,existing
+ETCM_disease_id_249,166,disease,Abnormality Of The Testis,existing
+ETCM_disease_id_250,167,disease,Abnormality Of The Tongue,existing
+ETCM_disease_id_251,168,disease,Abnormality Of The Tonsils,existing
+ETCM_disease_id_252,169,disease,Abnormality Of The Upper Urinary Tract,existing
+ETCM_disease_id_253,170,disease,Abnormality Of The Urinary System,existing
+ETCM_disease_id_254,171,disease,Abnormality Of The Uterus,existing
+ETCM_disease_id_255,172,disease,Abnormality Of The Vasculature,existing
+ETCM_disease_id_257,173,disease,Abnormality Of The Wrist,existing
+ETCM_disease_id_258,174,disease,Abnormality Of Thyroid Physiology,existing
+ETCM_disease_id_259,175,disease,Abnormality Of Tryptophan Metabolism,existing
+ETCM_disease_id_260,176,disease,Abnormality Of Tyrosine Metabolism,existing
+ETCM_disease_id_261,177,disease,Abnormality Of Vision,existing
+ETCM_disease_id_262,178,disease,Abnormality Of Visual Evoked Potentials,existing
+ETCM_disease_id_264,179,disease,Abnormality Of Vitamin D Metabolism,existing
+ETCM_disease_id_266,180,disease,Abnormality Of Vitamin Metabolism,existing
+ETCM_disease_id_270,181,disease,Absence Of Bactericidal Oxidative Respiratory Burst In Phagocytes,existing
+ETCM_disease_id_273,182,disease,Absence Of Lymph Node Germinal Center,existing
+ETCM_disease_id_274,183,disease,Absence Of Pubertal Development,existing
+ETCM_disease_id_275,184,disease,Absence Of Secondary Sex Characteristics,existing
+ETCM_disease_id_277,185,disease,Absence Seizures,existing
+ETCM_disease_id_278,186,disease,Absent Achilles Reflex,existing
+ETCM_disease_id_279,187,disease,Absent Axillary Hair,existing
+ETCM_disease_id_281,188,disease,Absent Facial Hair,existing
+ETCM_disease_id_287,189,disease,Absent Pubic Hair,existing
+ETCM_disease_id_288,190,disease,Absent Specific Antibody Response,existing
+ETCM_disease_id_290,191,disease,Abulia,existing
+ETCM_disease_id_291,192,disease,Acanthocytosis,existing
+ETCM_disease_id_292,193,disease,Acanthosis Nigricans,existing
+ETCM_disease_id_293,194,disease,Accelerated Atherosclerosis,existing
+ETCM_disease_id_295,195,disease,Accelerated Skeletal Maturation,existing
+ETCM_disease_id_296,196,disease,Achalasia,existing
+ETCM_disease_id_298,197,disease,Acid-Related Diseases,existing
+ETCM_disease_id_300,198,disease,Acne,existing
+ETCM_disease_id_302,199,disease,Acne Vulgaris,existing
+ETCM_disease_id_304,200,disease,Acral Ulceration,existing
+ETCM_disease_id_305,201,disease,Acrocyanosis,existing
+ETCM_disease_id_308,202,disease,"Acth Syndrome, Ectopic",existing
+ETCM_disease_id_309,203,disease,Action Tremor,existing
+ETCM_disease_id_313,204,disease,Acute Cardiac Allograft Rejection,existing
+ETCM_disease_id_314,205,disease,Acute Coronary Syndromes,existing
+ETCM_disease_id_318,206,disease,Acute Hepatic Failure,existing
+ETCM_disease_id_319,207,disease,Acute Hepatic Steatosis,existing
+ETCM_disease_id_320,208,disease,Acute Hepatitis,existing
+ETCM_disease_id_321,209,disease,Acute Hyperammonaemia,existing
+ETCM_disease_id_322,210,disease,Acute Kidney Injury,existing
+ETCM_disease_id_323,211,disease,Acute Leukaemia,existing
+ETCM_disease_id_325,212,disease,Acute Lung Injury,existing
+ETCM_disease_id_326,213,disease,Acute Lymphoblastic Leukaemia,existing
+ETCM_disease_id_327,214,disease,Acute Migraine,existing
+ETCM_disease_id_328,215,disease,Acute Non-Lymphocytic Leukaemia,existing
+ETCM_disease_id_329,216,disease,Acute Otitis Media,existing
+ETCM_disease_id_334,217,disease,Acute Ureteric Colic,existing
+ETCM_disease_id_336,218,disease,Acutely Decompensated Congestive Heart Failure,existing
+ETCM_disease_id_339,219,disease,Adenocarcinoma Of Lung (Disorder),existing
+ETCM_disease_id_341,220,disease,Adenoma Sebaceum,existing
+ETCM_disease_id_343,221,disease,Adenomatous Polyposis,existing
+ETCM_disease_id_344,222,disease,Adipose Tissue Loss,existing
+ETCM_disease_id_347,223,disease,Adrenal Hyperplasia,existing
+ETCM_disease_id_348,224,disease,Adrenal Pheochromocytoma,existing
+ETCM_disease_id_349,225,disease,Adrenocortical Adenoma,existing
+ETCM_disease_id_350,226,disease,Adrenocortical Carcinoma,existing
+ETCM_disease_id_353,227,disease,Adrenocorticotrophic Hormone-Secreting Pituitary Tumor,existing
+ETCM_disease_id_354,228,disease,Adrenocorticotrophic Hormone-Secreting Tumor,existing
+ETCM_disease_id_355,229,disease,Adrenocorticotropic Hormone Deficiency,existing
+ETCM_disease_id_356,230,disease,Adrenocorticotropic Hormone Excess,existing
+ETCM_disease_id_357,231,disease,Adrenocorticotropin Deficient Adrenal Insufficiency,existing
+ETCM_disease_id_360,232,disease,Adult Onset,existing
+ETCM_disease_id_362,233,disease,Adult Respiratory Distress Syndrome,existing
+ETCM_disease_id_363,234,disease,Advanced Eruption Of Teeth,existing
+ETCM_disease_id_364,235,disease,Advanced Lung Cancer,existing
+ETCM_disease_id_367,236,disease,Advanced Ossification Of Carpal Bones,existing
+ETCM_disease_id_369,237,disease,Adverse Effects In Chemotherapy,existing
+ETCM_disease_id_370,238,disease,Adverse Reaction To Drug,existing
+ETCM_disease_id_371,239,disease,"Affective Disorders, Psychotic",existing
+ETCM_disease_id_372,240,disease,African Trypanosomiasis,existing
+ETCM_disease_id_373,241,disease,Aganglionic Megacolon,existing
+ETCM_disease_id_375,242,disease,Aggregation And Activation Of Platelets,existing
+ETCM_disease_id_376,243,disease,Aggressive Behavior,existing
+ETCM_disease_id_377,244,disease,Agitation,existing
+ETCM_disease_id_378,245,disease,Agnosia,existing
+ETCM_disease_id_381,246,disease,Aids Related Dementia,existing
+ETCM_disease_id_383,247,disease,Akinesia,existing
+ETCM_disease_id_385,248,disease,Albinism,existing
+ETCM_disease_id_387,249,disease,Alcohol-Related Disorders,existing
+ETCM_disease_id_388,250,disease,Alcohol Abuse,existing
+ETCM_disease_id_389,251,disease,Alcohol Dependence,existing
+ETCM_disease_id_390,252,disease,Alcohol Withdrawal Syndrome,existing
+ETCM_disease_id_391,253,disease,Alcoholic Intoxication,existing
+ETCM_disease_id_392,254,disease,"Alcoholic Intoxication, Chronic",existing
+ETCM_disease_id_393,255,disease,Alcoholism,existing
+ETCM_disease_id_395,256,disease,Alexia,existing
+ETCM_disease_id_396,257,disease,Alk-Positive Advanced Or Metastatic Nsclc,existing
+ETCM_disease_id_397,258,disease,Alk-Positive Nsclc,existing
+ETCM_disease_id_399,259,disease,Allergic Airway Inflammation,existing
+ETCM_disease_id_400,260,disease,Allergic Conjunctivitis,existing
+ETCM_disease_id_401,261,disease,Allergic Diseases,existing
+ETCM_disease_id_403,262,disease,Allergic Reaction,existing
+ETCM_disease_id_404,263,disease,Allergic Rhinitis,existing
+ETCM_disease_id_405,264,disease,Allergy,existing
+ETCM_disease_id_407,265,disease,Alopecia,existing
+ETCM_disease_id_408,266,disease,Alopecia Areata,existing
+ETCM_disease_id_410,267,disease,Alopecia Totalis,existing
+ETCM_disease_id_411,268,disease,Alopecia Universalis,existing
+ETCM_disease_id_412,269,disease,Alveolar Cell Carcinoma,existing
+ETCM_disease_id_414,270,disease,Alveolar Rhabdomyosarcoma,existing
+ETCM_disease_id_416,271,disease,Alzheimer's Disease,existing
+ETCM_disease_id_417,272,disease,Amblyopia,existing
+ETCM_disease_id_421,273,disease,Amenorrhea,existing
+ETCM_disease_id_422,274,disease,Aminoaciduria,existing
+ETCM_disease_id_425,275,disease,Amphetamine-Related Disorders,existing
+ETCM_disease_id_427,276,disease,Amyloidosis,existing
+ETCM_disease_id_428,277,disease,Amyoplasia,existing
+ETCM_disease_id_429,278,disease,Amyotrophic Lateral Sclerosis,existing
+ETCM_disease_id_431,279,disease,Anal Atresia,existing
+ETCM_disease_id_433,280,disease,Anal Pain,existing
+ETCM_disease_id_434,281,disease,Anal Stenosis,existing
+ETCM_disease_id_435,282,disease,Analgesics,existing
+ETCM_disease_id_437,283,disease,Anaplastic Large Cell Lymphomas,existing
+ETCM_disease_id_438,284,disease,Anarthria,existing
+ETCM_disease_id_440,285,disease,Androgen-Independent Prostate Cancer,existing
+ETCM_disease_id_441,286,disease,Androgen Insufficiency,existing
+ETCM_disease_id_442,287,disease,Anemia,existing
+ETCM_disease_id_443,288,disease,"Anemia, Hemolytic",existing
+ETCM_disease_id_447,289,disease,Anesthesia,existing
+ETCM_disease_id_449,290,disease,Angina,existing
+ETCM_disease_id_450,291,disease,Angina Pectoris,existing
+ETCM_disease_id_451,292,disease,Angioedema,existing
+ETCM_disease_id_454,293,disease,Angiogenesis,existing
+ETCM_disease_id_455,294,disease,Angiokeratoma,existing
+ETCM_disease_id_456,295,disease,Angular Cheilitis,existing
+ETCM_disease_id_457,296,disease,Anhidrosis,existing
+ETCM_disease_id_458,297,disease,Anisocytosis,existing
+ETCM_disease_id_459,298,disease,Ankle Clonus,existing
+ETCM_disease_id_460,299,disease,Ankle Contracture,existing
+ETCM_disease_id_461,300,disease,Ankle Weakness,existing
+ETCM_disease_id_462,301,disease,Ankylosing Spondylitis,existing
+ETCM_disease_id_463,302,disease,Ankylosis,existing
+ETCM_disease_id_464,303,disease,Anodontia,existing
+ETCM_disease_id_468,304,disease,Anorexia,existing
+ETCM_disease_id_469,305,disease,Anorexia Nervosa,existing
+ETCM_disease_id_470,306,disease,Anosmia,existing
+ETCM_disease_id_472,307,disease,Anterior Hypopituitarism,existing
+ETCM_disease_id_477,308,disease,Anti-Thyroid Peroxidase Antibody Positivity,existing
+ETCM_disease_id_478,309,disease,Antigen-Induced Decrease In Coronary Flow And Cardiac Anaphylaxis,existing
+ETCM_disease_id_480,310,disease,Antinuclear Antibody Positivity,existing
+ETCM_disease_id_481,311,disease,Antiphospholipid Syndrome,existing
+ETCM_disease_id_482,312,disease,Anxiety,existing
+ETCM_disease_id_483,313,disease,Anxiety Disorders,existing
+ETCM_disease_id_484,314,disease,Aortic Aneurysm,existing
+ETCM_disease_id_486,315,disease,Aortic Arch Aneurysm,existing
+ETCM_disease_id_490,316,disease,Aortic Valve Calcification,existing
+ETCM_disease_id_492,317,disease,Apathy,existing
+ETCM_disease_id_493,318,disease,Aphasia,existing
+ETCM_disease_id_494,319,disease,Aplasia/Hypoplasia Involving The Central Nervous System,existing
+ETCM_disease_id_496,320,disease,Aplasia/Hypoplasia Of The Skin,existing
+ETCM_disease_id_498,321,disease,Aplasia Of The Uterus,existing
+ETCM_disease_id_499,322,disease,Aplastic Anemia,existing
+ETCM_disease_id_500,323,disease,Apnea,existing
+ETCM_disease_id_501,324,disease,Apneic Episodes In Infancy,existing
+ETCM_disease_id_502,325,disease,"Apneic Episodes Precipitated By Illness, Fatigue, Stress",existing
+ETCM_disease_id_503,326,disease,Apraxia,existing
+ETCM_disease_id_506,327,disease,Areflexia,existing
+ETCM_disease_id_507,328,disease,Areflexia Of Lower Limbs,existing
+ETCM_disease_id_509,329,disease,Argininuria,existing
+ETCM_disease_id_510,330,disease,Arrhythmia,existing
+ETCM_disease_id_512,331,disease,Arterial Dissection,existing
+ETCM_disease_id_516,332,disease,Arterial Occlusion,existing
+ETCM_disease_id_518,333,disease,Arterial Rupture,existing
+ETCM_disease_id_519,334,disease,Arterial Thrombosis,existing
+ETCM_disease_id_520,335,disease,Arteriosclerosis,existing
+ETCM_disease_id_522,336,disease,Arthralgia,existing
+ETCM_disease_id_524,337,disease,Arthritis,existing
+ETCM_disease_id_525,338,disease,Arthropathy,existing
+ETCM_disease_id_527,339,disease,Ascending Tubular Aorta Aneurysm,existing
+ETCM_disease_id_528,340,disease,Ascites,existing
+ETCM_disease_id_529,341,disease,Aseptic Meningitis,existing
+ETCM_disease_id_530,342,disease,Aseptic Necrosis,existing
+ETCM_disease_id_532,343,disease,Aspiration,existing
+ETCM_disease_id_536,344,disease,Asthma,existing
+ETCM_disease_id_537,345,disease,"Asthma, Aspirin-Induced",existing
+ETCM_disease_id_539,346,disease,Astigmatism,existing
+ETCM_disease_id_540,347,disease,Astrocytic Tumors,existing
+ETCM_disease_id_541,348,disease,Astrocytoma,existing
+ETCM_disease_id_542,349,disease,Astrocytosis,existing
+ETCM_disease_id_544,350,disease,"Asymmetric, Linear Skin Defects",existing
+ETCM_disease_id_545,351,disease,Ataxia,existing
+ETCM_disease_id_548,352,disease,Atherosclerosis,existing
+ETCM_disease_id_549,353,disease,Atherosclerotic Cardiovascular Disease,existing
+ETCM_disease_id_550,354,disease,Atherothrombosis,existing
+ETCM_disease_id_551,355,disease,Athetosis,existing
+ETCM_disease_id_552,356,disease,Atlantoaxial Dislocation,existing
+ETCM_disease_id_554,357,disease,Atonic Seizures,existing
+ETCM_disease_id_555,358,disease,Atopic Asthma,existing
+ETCM_disease_id_556,359,disease,Atopic Dermatitis,existing
+ETCM_disease_id_558,360,disease,Atransferrinemia,existing
+ETCM_disease_id_559,361,disease,Atresia Of The External Auditory Canal,existing
+ETCM_disease_id_562,362,disease,Atrial Fibrillation,existing
+ETCM_disease_id_563,363,disease,Atrial Flutter,existing
+ETCM_disease_id_564,364,disease,Atrial Standstill,existing
+ETCM_disease_id_566,365,disease,Atrophic Scars,existing
+ETCM_disease_id_568,366,disease,Attention-Deficit Hyperactivity Disorder,existing
+ETCM_disease_id_569,367,disease,Attention Deficit Hyperactivity Disorder,existing
+ETCM_disease_id_570,368,disease,Attenuation Of Retinal Blood Vessels,existing
+ETCM_disease_id_571,369,disease,Atypical Absence Seizures,existing
+ETCM_disease_id_572,370,disease,Atypical Nevi In Non-Sun Exposed Areas,existing
+ETCM_disease_id_573,371,disease,Atypical Nevus,existing
+ETCM_disease_id_575,372,disease,Atypical Scarring Of Skin,existing
+ETCM_disease_id_576,373,disease,Auditory Hallucinations,existing
+ETCM_disease_id_577,374,disease,Autism,existing
+ETCM_disease_id_579,375,disease,Autistic Behavior,existing
+ETCM_disease_id_580,376,disease,Autistic Disorder,existing
+ETCM_disease_id_581,377,disease,Autoimmune Cardiomyopathy,existing
+ETCM_disease_id_582,378,disease,Autoimmune Diseases,existing
+ETCM_disease_id_583,379,disease,Autoimmune Hemolytic Anemia,existing
+ETCM_disease_id_584,380,disease,Autoimmune Neutropenia,existing
+ETCM_disease_id_585,381,disease,Autoimmune Thrombocytopenia,existing
+ETCM_disease_id_586,382,disease,Autoimmunity,existing
+ETCM_disease_id_587,383,disease,Autonomic Bladder Dysfunction,existing
+ETCM_disease_id_589,384,disease,Autophagic Vacuoles,existing
+ETCM_disease_id_591,385,disease,Axial Dystonia,existing
+ETCM_disease_id_592,386,disease,Axial Muscle Weakness,existing
+ETCM_disease_id_593,387,disease,Axonal Degeneration,existing
+ETCM_disease_id_594,388,disease,Axonal Degeneration/Regeneration,existing
+ETCM_disease_id_595,389,disease,Axonal Regeneration,existing
+ETCM_disease_id_596,390,disease,Azoospermia,existing
+ETCM_disease_id_598,391,disease,B-Cell Immunodeficiency,existing
+ETCM_disease_id_599,392,disease,B-Cell Lymphoma,existing
+ETCM_disease_id_600,393,disease,B-Cell Malignancies,existing
+ETCM_disease_id_601,394,disease,B-Lineage Malignancies,existing
+ETCM_disease_id_602,395,disease,B12 Deficiency,existing
+ETCM_disease_id_603,396,disease,B Lymphocytopenia,existing
+ETCM_disease_id_604,397,disease,Babinski Sign,existing
+ETCM_disease_id_606,398,disease,Back Pain,existing
+ETCM_disease_id_607,399,disease,Bacterial Endocarditis,existing
+ETCM_disease_id_608,400,disease,Bacterial Infections,existing
+ETCM_disease_id_609,401,disease,Band Keratopathy,existing
+ETCM_disease_id_610,402,disease,Barrett's Esophageal Adenocarcinoma,existing
+ETCM_disease_id_611,403,disease,Barrett Esophagus,existing
+ETCM_disease_id_612,404,disease,Bartter Disease,existing
+ETCM_disease_id_613,405,disease,Basal Cell Carcinoma,existing
+ETCM_disease_id_614,406,disease,Basal Ganglia Calcification,existing
+ETCM_disease_id_615,407,disease,Basal Ganglia Diseases,existing
+ETCM_disease_id_617,408,disease,Behcet's Disease,existing
+ETCM_disease_id_620,409,disease,Benign Neoplasm Of The Central Nervous System,existing
+ETCM_disease_id_621,410,disease,Benign Prostatic Hyperplasia,existing
+ETCM_disease_id_622,411,disease,Beta-Cell Dysfunction,existing
+ETCM_disease_id_624,412,disease,Beta Thalassemia,existing
+ETCM_disease_id_627,413,disease,Bifid Scrotum,existing
+ETCM_disease_id_629,414,disease,Bilateral Elbow Dislocations,existing
+ETCM_disease_id_630,415,disease,Bilateral Sensorineural Hearing Impairment,existing
+ETCM_disease_id_631,416,disease,Bile Duct Proliferation,existing
+ETCM_disease_id_632,417,disease,Biliary Cirrhosis,existing
+ETCM_disease_id_633,418,disease,Biliary Tract Abnormality,existing
+ETCM_disease_id_635,419,disease,Bipolar Affective Disorder,existing
+ETCM_disease_id_636,420,disease,Bipolar Disorder,existing
+ETCM_disease_id_639,421,disease,Bladder Cancer,existing
+ETCM_disease_id_640,422,disease,Bladder Diverticulum,existing
+ETCM_disease_id_642,423,disease,Bladder Neoplasm,existing
+ETCM_disease_id_649,424,disease,Blurred Vision,existing
+ETCM_disease_id_653,425,disease,Bone Cyst,existing
+ETCM_disease_id_657,426,disease,Bone Marrow Hypocellularity,existing
+ETCM_disease_id_658,427,disease,Bone Marrow Transplantation,existing
+ETCM_disease_id_659,428,disease,Bone Metastases,existing
+ETCM_disease_id_660,429,disease,Bone Pain,existing
+ETCM_disease_id_662,430,disease,Bowel Diverticulosis,existing
+ETCM_disease_id_663,431,disease,Bowel Incontinence,existing
+ETCM_disease_id_665,432,disease,Bowing Of Limbs Due To Multiple Fractures,existing
+ETCM_disease_id_666,433,disease,Bowing Of The Legs,existing
+ETCM_disease_id_667,434,disease,Brachycephaly,existing
+ETCM_disease_id_668,435,disease,Bradycardia,existing
+ETCM_disease_id_669,436,disease,Bradykinesia,existing
+ETCM_disease_id_670,437,disease,Bradyopsia,existing
+ETCM_disease_id_671,438,disease,Brain Abscess,existing
+ETCM_disease_id_672,439,disease,Brain Atrophy,existing
+ETCM_disease_id_673,440,disease,Brain Cancer,existing
+ETCM_disease_id_676,441,disease,Brain Injury,existing
+ETCM_disease_id_678,442,disease,Brain Ischemia,existing
+ETCM_disease_id_682,443,disease,Breast Cancer,existing
+ETCM_disease_id_683,444,disease,Breathing Dysregulation,existing
+ETCM_disease_id_684,445,disease,Brittle Hair,existing
+ETCM_disease_id_686,446,disease,Broad-Based Gait,existing
+ETCM_disease_id_688,447,disease,Bronchiectasis,existing
+ETCM_disease_id_689,448,disease,Bronchiolar Carcinoma,existing
+ETCM_disease_id_693,449,disease,Bronchitis,existing
+ETCM_disease_id_694,450,disease,Bronchogenic Cyst,existing
+ETCM_disease_id_695,451,disease,Bronchomalacia,existing
+ETCM_disease_id_696,452,disease,Bronchospasm,existing
+ETCM_disease_id_697,453,disease,Bruising Susceptibility,existing
+ETCM_disease_id_698,454,disease,Bruxism,existing
+ETCM_disease_id_700,455,disease,Bulbar Palsy,existing
+ETCM_disease_id_701,456,disease,Bulbar Signs,existing
+ETCM_disease_id_702,457,disease,Buphthalmos,existing
+ETCM_disease_id_705,458,disease,C1-C2 Subluxation,existing
+ETCM_disease_id_708,459,disease,Cachexia,existing
+ETCM_disease_id_709,460,disease,Calcaneovalgus Deformity,existing
+ETCM_disease_id_710,461,disease,Calcific Stippling,existing
+ETCM_disease_id_712,462,disease,Calcification Of The Aorta,existing
+ETCM_disease_id_714,463,disease,Calcification Of The Small Brain Vessels,existing
+ETCM_disease_id_715,464,disease,Calcinosis,existing
+ETCM_disease_id_716,465,disease,Calcinosis Cutis,existing
+ETCM_disease_id_718,466,disease,Calcium Oxalate Nephrolithiasis,existing
+ETCM_disease_id_719,467,disease,Calf Muscle Pseudohypertrophy,existing
+ETCM_disease_id_720,468,disease,Camptodactyly,existing
+ETCM_disease_id_721,469,disease,Camptodactyly Of Finger,existing
+ETCM_disease_id_722,470,disease,Cancer,existing
+ETCM_disease_id_725,471,disease,Capillary Hemangioma,existing
+ETCM_disease_id_729,472,disease,Carcinoma,existing
+ETCM_disease_id_732,473,disease,"Carcinoma, Transitional Cell",existing
+ETCM_disease_id_733,474,disease,Carcinoma In Situ,existing
+ETCM_disease_id_736,475,disease,Cardiac Arrest,existing
+ETCM_disease_id_737,476,disease,Cardiac Arrhythmias,existing
+ETCM_disease_id_738,477,disease,Cardiac Conduction Abnormality,existing
+ETCM_disease_id_740,478,disease,Cardiac Dysrhythmias,existing
+ETCM_disease_id_743,479,disease,Cardiac Myxoma,existing
+ETCM_disease_id_745,480,disease,Cardiac Surgery,existing
+ETCM_disease_id_746,481,disease,Cardiomegaly,existing
+ETCM_disease_id_747,482,disease,Cardiomyocyte Mitochondrial Proliferation,existing
+ETCM_disease_id_751,483,disease,Cardiorespiratory Arrest,existing
+ETCM_disease_id_752,484,disease,Cardiovascular Diseases,existing
+ETCM_disease_id_756,485,disease,Catalepsy,existing
+ETCM_disease_id_757,486,disease,Cataplexy,existing
+ETCM_disease_id_758,487,disease,Cataract,existing
+ETCM_disease_id_759,488,disease,Cavernous Hemangioma,existing
+ETCM_disease_id_761,489,disease,Cellular Immunodeficiency,existing
+ETCM_disease_id_762,490,disease,Cellulitis,existing
+ETCM_disease_id_763,491,disease,Central Adrenal Insufficiency,existing
+ETCM_disease_id_764,492,disease,Central And Peripheral Nervous System Diseases,existing
+ETCM_disease_id_765,493,disease,Central Apnea,existing
+ETCM_disease_id_767,494,disease,Central Heterochromia,existing
+ETCM_disease_id_769,495,disease,Central Nervous System Degeneration,existing
+ETCM_disease_id_770,496,disease,Central Nervous System Diseases,existing
+ETCM_disease_id_771,497,disease,Central Sleep Apnea,existing
+ETCM_disease_id_776,498,disease,Cerebellar Hemorrhage,existing
+ETCM_disease_id_777,499,disease,Cerebral Amyloid Angiopathy,existing
+ETCM_disease_id_779,500,disease,Cerebral Atrophy,existing
+ETCM_disease_id_780,501,disease,Cerebral Calcification,existing
+ETCM_disease_id_782,502,disease,Cerebral Cortical Atrophy,existing
+ETCM_disease_id_785,503,disease,Cerebral Edema,existing
+ETCM_disease_id_786,504,disease,Cerebral Hemorrhage,existing
+ETCM_disease_id_787,505,disease,Cerebral Infarction,existing
+ETCM_disease_id_788,506,disease,Cerebral Ischemia,existing
+ETCM_disease_id_789,507,disease,Cerebral Oxidative Damage,existing
+ETCM_disease_id_790,508,disease,Cerebral Palsy,existing
+ETCM_disease_id_791,509,disease,Cerebral Vasculitis,existing
+ETCM_disease_id_792,510,disease,Cerebral Vasospasm,existing
+ETCM_disease_id_793,511,disease,Cerebral Venous Thrombosis,existing
+ETCM_disease_id_795,512,disease,Cerebrovascular Accident,existing
+ETCM_disease_id_796,513,disease,Cerebrovascular Ischaemia,existing
+ETCM_disease_id_798,514,disease,Cervical Cancer,existing
+ETCM_disease_id_803,515,disease,Cervical Spinal Cord Atrophy,existing
+ETCM_disease_id_805,516,disease,Chagas' Disease,existing
+ETCM_disease_id_808,517,disease,Chemical And Drug Induced Liver Injury,existing
+ETCM_disease_id_809,518,disease,Chemodectoma,existing
+ETCM_disease_id_811,519,disease,Chest Pain,existing
+ETCM_disease_id_813,520,disease,Childhood-Onset Short-Trunk Short Stature,existing
+ETCM_disease_id_814,521,disease,Childhood-Onset Truncal Obesity,existing
+ETCM_disease_id_815,522,disease,Childhood Seizure Disorders,existing
+ETCM_disease_id_816,523,disease,Cholangiocarcinoma,existing
+ETCM_disease_id_818,524,disease,Cholecystitis,existing
+ETCM_disease_id_819,525,disease,Cholelithiasis,existing
+ETCM_disease_id_820,526,disease,Cholestasis,existing
+ETCM_disease_id_821,527,disease,Cholestatic Liver Disease,existing
+ETCM_disease_id_823,528,disease,Cholesterol-Related Diseases,existing
+ETCM_disease_id_827,529,disease,Chondrosarcoma,existing
+ETCM_disease_id_829,530,disease,Chorea,existing
+ETCM_disease_id_831,531,disease,Chorioretinal Coloboma,existing
+ETCM_disease_id_833,532,disease,Choroid Plexus Cyst,existing
+ETCM_disease_id_834,533,disease,Choroid Plexus Papilloma,existing
+ETCM_disease_id_837,534,disease,Choroidal Neovascularization,existing
+ETCM_disease_id_845,535,disease,Chronic Angina Pectoris,existing
+ETCM_disease_id_848,536,disease,Chronic Axonal Neuropathy,existing
+ETCM_disease_id_850,537,disease,Chronic Constipation,existing
+ETCM_disease_id_852,538,disease,Chronic Depression,existing
+ETCM_disease_id_853,539,disease,Chronic Diarrhea,existing
+ETCM_disease_id_854,540,disease,Chronic Experimental Allergic Encephalomyelitis,existing
+ETCM_disease_id_855,541,disease,Chronic Fatigue,existing
+ETCM_disease_id_858,542,disease,Chronic Heart Failure,existing
+ETCM_disease_id_859,543,disease,Chronic Hemolytic Anemia,existing
+ETCM_disease_id_860,544,disease,Chronic Hepatic Failure,existing
+ETCM_disease_id_862,545,disease,Chronic Hepatitis C,existing
+ETCM_disease_id_864,546,disease,Chronic Ileitis,existing
+ETCM_disease_id_865,547,disease,Chronic Inflammatory Diseases,existing
+ETCM_disease_id_866,548,disease,Chronic Irritative Conjunctivitis,existing
+ETCM_disease_id_867,549,disease,Chronic Kidney Disease,existing
+ETCM_disease_id_868,550,disease,Chronic Lactic Acidosis,existing
+ETCM_disease_id_869,551,disease,Chronic Lung Diseases,existing
+ETCM_disease_id_870,552,disease,Chronic Metabolic Acidosis,existing
+ETCM_disease_id_872,553,disease,Chronic Neuropathic Pain,existing
+ETCM_disease_id_873,554,disease,Chronic Noninfectious Lymphadenopathy,existing
+ETCM_disease_id_874,555,disease,Chronic Obstructive Pulmonary Disease,existing
+ETCM_disease_id_875,556,disease,Chronic Otitis Media,existing
+ETCM_disease_id_876,557,disease,Chronic Pain,existing
+ETCM_disease_id_878,558,disease,Chronic Pathological Pain,existing
+ETCM_disease_id_879,559,disease,Chronic Primary Insomnia,existing
+ETCM_disease_id_881,560,disease,Chronic Renal Failure,existing
+ETCM_disease_id_882,561,disease,Chronic Rhinitis,existing
+ETCM_disease_id_883,562,disease,Chronic Rhinitis Due To Narrow Nasal Airway,existing
+ETCM_disease_id_885,563,disease,Chronic Stable Angina,existing
+ETCM_disease_id_886,564,disease,Chronic Tendon Injury,existing
+ETCM_disease_id_888,565,disease,Chronic Urticaria,existing
+ETCM_disease_id_890,566,disease,Cigarette-Paper Scars,existing
+ETCM_disease_id_892,567,disease,Cirrhosis,existing
+ETCM_disease_id_894,568,disease,Clinodactyly,existing
+ETCM_disease_id_895,569,disease,Clonus,existing
+ETCM_disease_id_897,570,disease,Clumsiness,existing
+ETCM_disease_id_899,571,disease,Cns Hypomyelination,existing
+ETCM_disease_id_900,572,disease,Coagulative Disorders,existing
+ETCM_disease_id_901,573,disease,Coarse Hair,existing
+ETCM_disease_id_902,574,disease,Cocaine-Related Disorders,existing
+ETCM_disease_id_903,575,disease,Cocaine Dependence,existing
+ETCM_disease_id_904,576,disease,Cocaine Overdose,existing
+ETCM_disease_id_906,577,disease,Coeliac Disease,existing
+ETCM_disease_id_907,578,disease,Cognition Disorders,existing
+ETCM_disease_id_908,579,disease,Cognitive Deficits,existing
+ETCM_disease_id_909,580,disease,Cognitive Disorders,existing
+ETCM_disease_id_910,581,disease,Cognitive Impairment,existing
+ETCM_disease_id_911,582,disease,Cold-Induced Hand Cramps,existing
+ETCM_disease_id_913,583,disease,Cold-Sensitive Myotonia,existing
+ETCM_disease_id_914,584,disease,Cold Air-Induced Bronchoconstriction,existing
+ETCM_disease_id_915,585,disease,Cold Paresis,existing
+ETCM_disease_id_916,586,disease,Colitis,existing
+ETCM_disease_id_917,587,disease,Colon Adenocarcinoma,existing
+ETCM_disease_id_918,588,disease,Colon Cancer,existing
+ETCM_disease_id_919,589,disease,Colonic Diverticula,existing
+ETCM_disease_id_920,590,disease,Colonic Neoplasms,existing
+ETCM_disease_id_921,591,disease,Colorectal Cancer,existing
+ETCM_disease_id_922,592,disease,Colorectal Neoplasms,existing
+ETCM_disease_id_923,593,disease,Coma,existing
+ETCM_disease_id_925,594,disease,Combined Immunodeficiency,existing
+ETCM_disease_id_927,595,disease,Comedonal Acne,existing
+ETCM_disease_id_929,596,disease,Compensated Hemolytic Anemia,existing
+ETCM_disease_id_930,597,disease,Compensated Hypothyroidism,existing
+ETCM_disease_id_932,598,disease,Complete Heart Block With Broad Qrs Complexes,existing
+ETCM_disease_id_937,599,disease,Confusion,existing
+ETCM_disease_id_938,600,disease,"Congenital, Generalized Hypertrichosis",existing
+ETCM_disease_id_939,601,disease,Congenital Adrenal Hyperplasia,existing
+ETCM_disease_id_940,602,disease,Congenital Agranulocytosis,existing
+ETCM_disease_id_942,603,disease,Congenital Cataract,existing
+ETCM_disease_id_947,604,disease,Congenital Giant Melanocytic Nevus,existing
+ETCM_disease_id_948,605,disease,Congenital Glaucoma,existing
+ETCM_disease_id_949,606,disease,Congenital Hemolytic Anemia,existing
+ETCM_disease_id_952,607,disease,Congenital Hypoplastic Anemia,existing
+ETCM_disease_id_953,608,disease,Congenital Lactic Acidosis,existing
+ETCM_disease_id_957,609,disease,Congenital Onset,existing
+ETCM_disease_id_959,610,disease,Congenital Sensorineural Hearing Impairment,existing
+ETCM_disease_id_960,611,disease,Congenital Stationary Night Blindness,existing
+ETCM_disease_id_962,612,disease,Congestive Heart Failure,existing
+ETCM_disease_id_963,613,disease,Conjugated Hyperbilirubinemia,existing
+ETCM_disease_id_965,614,disease,Conjunctival Hamartoma,existing
+ETCM_disease_id_967,615,disease,Conjunctivitis,existing
+ETCM_disease_id_970,616,disease,Constipation,existing
+ETCM_disease_id_974,617,disease,Contractures Of The Interphalangeal Joint Of The Thumb,existing
+ETCM_disease_id_975,618,disease,Contractures Of The Joints Of The Lower Limbs,existing
+ETCM_disease_id_977,619,disease,Convulsions,existing
+ETCM_disease_id_982,620,disease,Corneal Neovascularization,existing
+ETCM_disease_id_985,621,disease,Coronary Artery Disease,existing
+ETCM_disease_id_986,622,disease,Coronary Artery Stenosis,existing
+ETCM_disease_id_987,623,disease,Coronary Atherosclerosis,existing
+ETCM_disease_id_988,624,disease,Coronary Heart Disease,existing
+ETCM_disease_id_990,625,disease,Coronary Thrombosis,existing
+ETCM_disease_id_991,626,disease,Cortical Cataract,existing
+ETCM_disease_id_992,627,disease,Cortical Dysplasia,existing
+ETCM_disease_id_993,628,disease,Cortical Myoclonus,existing
+ETCM_disease_id_998,629,disease,Cough,existing
+ETCM_disease_id_1001,630,disease,Craniofacial Dystonia,existing
+ETCM_disease_id_1004,631,disease,Crohn's Disease,existing
+ETCM_disease_id_1006,632,disease,Cryptorchidism,existing
+ETCM_disease_id_1009,633,disease,Cushing's Disease,existing
+ETCM_disease_id_1010,634,disease,Cushing's Syndrome,existing
+ETCM_disease_id_1016,635,disease,Cutaneous Melanoma,existing
+ETCM_disease_id_1017,636,disease,Cutaneous Photosensitivity,existing
+ETCM_disease_id_1018,637,disease,Cutaneous T-Cell Lymphoma,existing
+ETCM_disease_id_1020,638,disease,Cutis Laxa,existing
+ETCM_disease_id_1021,639,disease,Cutis Marmorata,existing
+ETCM_disease_id_1024,640,disease,Cystathioninuria,existing
+ETCM_disease_id_1026,641,disease,Cystic Fibrosis,existing
+ETCM_disease_id_1028,642,disease,Cystic Hygroma,existing
+ETCM_disease_id_1032,643,disease,Cystinuria,existing
+ETCM_disease_id_1036,644,disease,D-2-Hydroxyglutaric Aciduria,existing
+ETCM_disease_id_1038,645,disease,Dark Urine,existing
+ETCM_disease_id_1040,646,disease,Decerebrate Rigidity,existing
+ETCM_disease_id_1041,647,disease,Decrease In T Cell Count,existing
+ETCM_disease_id_1043,648,disease,Decreased Activity Of Mitochondrial Complex I,existing
+ETCM_disease_id_1044,649,disease,Decreased Activity Of Mitochondrial Complex Ii,existing
+ETCM_disease_id_1045,650,disease,Decreased Activity Of Mitochondrial Complex Iii,existing
+ETCM_disease_id_1046,651,disease,Decreased Activity Of Mitochondrial Complex Iv,existing
+ETCM_disease_id_1047,652,disease,Decreased Activity Of Nadph Oxidase,existing
+ETCM_disease_id_1048,653,disease,Decreased Activity Of The Pyruvate Dehydrogenase Complex,existing
+ETCM_disease_id_1049,654,disease,Decreased Adenosylcobalamin,existing
+ETCM_disease_id_1052,655,disease,Decreased Amplitude Of Sensory Action Potentials,existing
+ETCM_disease_id_1054,656,disease,Decreased Body Weight,existing
+ETCM_disease_id_1055,657,disease,Decreased Carnitine Level In Liver,existing
+ETCM_disease_id_1058,658,disease,Decreased Circulating Acth Level,existing
+ETCM_disease_id_1059,659,disease,Decreased Circulating Aldosterone Level,existing
+ETCM_disease_id_1060,660,disease,Decreased Circulating Androgen Level,existing
+ETCM_disease_id_1061,661,disease,Decreased Circulating Cortisol Level,existing
+ETCM_disease_id_1065,662,disease,Decreased Circulating Parathyroid Hormone Level,existing
+ETCM_disease_id_1067,663,disease,Decreased Circulating Renin Level,existing
+ETCM_disease_id_1070,664,disease,Decreased Fertility,existing
+ETCM_disease_id_1071,665,disease,Decreased Fertility In Males,existing
+ETCM_disease_id_1072,666,disease,Decreased Fetal Movement,existing
+ETCM_disease_id_1073,667,disease,Decreased Glomerular Filtration Rate,existing
+ETCM_disease_id_1074,668,disease,Decreased Glucosephosphate Isomerase Activity,existing
+ETCM_disease_id_1075,669,disease,Decreased Hdl Cholesterol Concentration,existing
+ETCM_disease_id_1077,670,disease,Decreased Ldl Cholesterol Concentration,existing
+ETCM_disease_id_1080,671,disease,Decreased Level Of Gaba In Serum,existing
+ETCM_disease_id_1081,672,disease,Decreased Level Of Plasminogen,existing
+ETCM_disease_id_1083,673,disease,Decreased Liver Function,existing
+ETCM_disease_id_1086,674,disease,Decreased Methionine Synthase Activity,existing
+ETCM_disease_id_1087,675,disease,Decreased Methylcobalamin,existing
+ETCM_disease_id_1088,676,disease,Decreased Methylmalonyl-Coa Mutase Activity,existing
+ETCM_disease_id_1090,677,disease,Decreased Motor Nerve Conduction Velocity,existing
+ETCM_disease_id_1092,678,disease,Decreased Muscle Glycogen Content,existing
+ETCM_disease_id_1093,679,disease,Decreased Muscle Mass,existing
+ETCM_disease_id_1094,680,disease,Decreased Number Of Large Peripheral Myelinated Nerve Fibers,existing
+ETCM_disease_id_1095,681,disease,Decreased Number Of Peripheral Myelinated Nerve Fibers,existing
+ETCM_disease_id_1096,682,disease,Decreased Number Of Small Peripheral Myelinated Nerve Fibers,existing
+ETCM_disease_id_1101,683,disease,Decreased Plasma Carnitine,existing
+ETCM_disease_id_1102,684,disease,Decreased Plasma Free Carnitine,existing
+ETCM_disease_id_1103,685,disease,Decreased Plasma Total Carnitine,existing
+ETCM_disease_id_1105,686,disease,Decreased Platelet Glycoprotein Iib-Iiia,existing
+ETCM_disease_id_1108,687,disease,Decreased Proportion Of Cd4-Positive T Cells,existing
+ETCM_disease_id_1110,688,disease,Decreased Pulmonary Function,existing
+ETCM_disease_id_1111,689,disease,Decreased Pyruvate Carboxylase Activity,existing
+ETCM_disease_id_1112,690,disease,Decreased Resting Energy Expenditure,existing
+ETCM_disease_id_1114,691,disease,Decreased Sensory Nerve Conduction Velocity,existing
+ETCM_disease_id_1115,692,disease,Decreased Serum Ceruloplasmin,existing
+ETCM_disease_id_1122,693,disease,Decreased Serum Creatinine,existing
+ETCM_disease_id_1123,694,disease,Decreased Serum Estradiol,existing
+ETCM_disease_id_1124,695,disease,Decreased Serum Ferritin,existing
+ETCM_disease_id_1125,696,disease,Decreased Serum Insulin-Like Growth Factor 1,existing
+ETCM_disease_id_1126,697,disease,Decreased Serum Iron,existing
+ETCM_disease_id_1128,698,disease,Decreased Serum Testosterone Level,existing
+ETCM_disease_id_1130,699,disease,Decreased Skull Ossification,existing
+ETCM_disease_id_1131,700,disease,Decreased Small Intestinal Mucosa Lactase Activity,existing
+ETCM_disease_id_1134,701,disease,Decreased Taste Sensation,existing
+ETCM_disease_id_1135,702,disease,Decreased Testosterone In Males,existing
+ETCM_disease_id_1137,703,disease,Decreased Urinary Potassium,existing
+ETCM_disease_id_1142,704,disease,Deep Venous Thrombosis,existing
+ETCM_disease_id_1145,705,disease,Defective Dehydrogenation Of Isovaleryl Coa And Butyryl Coa,existing
+ETCM_disease_id_1147,706,disease,Defective Production Of Nfkb1-Dependent Cytokines,existing
+ETCM_disease_id_1148,707,disease,Defective T Cell Proliferation,existing
+ETCM_disease_id_1150,708,disease,Deficiency Or Absence Of Cytochrome B(-245),existing
+ETCM_disease_id_1154,709,disease,Degenerative Polyarthritis,existing
+ETCM_disease_id_1155,710,disease,Dehydration,existing
+ETCM_disease_id_1156,711,disease,Delayed Ability To Walk,existing
+ETCM_disease_id_1157,712,disease,Delayed Cns Myelination,existing
+ETCM_disease_id_1158,713,disease,Delayed Epiphyseal Ossification,existing
+ETCM_disease_id_1159,714,disease,Delayed Gross Motor Development,existing
+ETCM_disease_id_1161,715,disease,Delayed Oxidation Of Acetaldehyde,existing
+ETCM_disease_id_1164,716,disease,Delayed Skeletal Maturation,existing
+ETCM_disease_id_1165,717,disease,Delayed Social Development,existing
+ETCM_disease_id_1166,718,disease,Delayed Speech And Language Development,existing
+ETCM_disease_id_1167,719,disease,Delirium,existing
+ETCM_disease_id_1168,720,disease,Delusional Disorder,existing
+ETCM_disease_id_1169,721,disease,Delusions,existing
+ETCM_disease_id_1170,722,disease,Dementia,existing
+ETCM_disease_id_1171,723,disease,Demyelinating Peripheral Neuropathy,existing
+ETCM_disease_id_1173,724,disease,Dense Calcifications In The Cerebellar Dentate Nucleus,existing
+ETCM_disease_id_1175,725,disease,Depigmentation/Hyperpigmentation Of Skin,existing
+ETCM_disease_id_1178,726,disease,Depletion Of Mitochondrial Dna In Muscle Tissue,existing
+ETCM_disease_id_1179,727,disease,Deposits Immunoreactive To Beta-Amyloid Protein,existing
+ETCM_disease_id_1180,728,disease,Depressed Mood,existing
+ETCM_disease_id_1181,729,disease,Depression,existing
+ETCM_disease_id_1182,730,disease,"Depression, Postpartum",existing
+ETCM_disease_id_1183,731,disease,Depressive Disorder,existing
+ETCM_disease_id_1184,732,disease,"Depressive Disorder, Treatment-Resistant",existing
+ETCM_disease_id_1185,733,disease,Depressivity,existing
+ETCM_disease_id_1186,734,disease,Dermal Atrophy,existing
+ETCM_disease_id_1188,735,disease,Dermatitis,existing
+ETCM_disease_id_1192,736,disease,Dermatological Disorders,existing
+ETCM_disease_id_1194,737,disease,Descending Thoracic Aorta Aneurysm,existing
+ETCM_disease_id_1198,738,disease,Detrusor Hyperreflexia,existing
+ETCM_disease_id_1199,739,disease,Developmental Disabilities,existing
+ETCM_disease_id_1200,740,disease,Developmental Regression,existing
+ETCM_disease_id_1201,741,disease,Developmental Stagnation,existing
+ETCM_disease_id_1203,742,disease,Dexamethasone-Suppresible Primary Hyperaldosteronism,existing
+ETCM_disease_id_1205,743,disease,Diabetes Insipidus,existing
+ETCM_disease_id_1206,744,disease,Diabetes Mellitus,existing
+ETCM_disease_id_1207,745,disease,"Diabetes Mellitus, Non-Insulin-Dependent",existing
+ETCM_disease_id_1208,746,disease,Diabetes Mellitus Type 1,existing
+ETCM_disease_id_1209,747,disease,Diabetes Mellitus Type 2,existing
+ETCM_disease_id_1210,748,disease,Diabetic Angiopathy,existing
+ETCM_disease_id_1211,749,disease,Diabetic Cardiovascular Dysfunction,existing
+ETCM_disease_id_1212,750,disease,Diabetic Complications,existing
+ETCM_disease_id_1214,751,disease,Diabetic Dyslipidemia,existing
+ETCM_disease_id_1215,752,disease,Diabetic Endothelial Dysfunction,existing
+ETCM_disease_id_1217,753,disease,Diabetic Ketoacidosis,existing
+ETCM_disease_id_1220,754,disease,Diabetic Nephropathy,existing
+ETCM_disease_id_1221,755,disease,Diabetic Neuropathy,existing
+ETCM_disease_id_1222,756,disease,Diabetic Retinopathy,existing
+ETCM_disease_id_1223,757,disease,Diaminoaciduria,existing
+ETCM_disease_id_1224,758,disease,Diaphragmatic Paralysis,existing
+ETCM_disease_id_1225,759,disease,Diaphragmatic Weakness,existing
+ETCM_disease_id_1226,760,disease,Diaphyseal Cortical Sclerosis,existing
+ETCM_disease_id_1227,761,disease,Diaphyseal Sclerosis,existing
+ETCM_disease_id_1228,762,disease,Diaphyseal Thickening,existing
+ETCM_disease_id_1229,763,disease,Diarrhea,existing
+ETCM_disease_id_1231,764,disease,Dicarboxylic Aciduria,existing
+ETCM_disease_id_1232,765,disease,Dietary Shortage,existing
+ETCM_disease_id_1233,766,disease,Difficulty Adjusting From Light To Dark,existing
+ETCM_disease_id_1234,767,disease,Difficulty Climbing Stairs,existing
+ETCM_disease_id_1236,768,disease,Difficulty Running,existing
+ETCM_disease_id_1237,769,disease,Difficulty Standing,existing
+ETCM_disease_id_1238,770,disease,Difficulty Walking,existing
+ETCM_disease_id_1240,771,disease,Diffuse Cerebral Atrophy,existing
+ETCM_disease_id_1241,772,disease,Diffuse Hepatic Steatosis,existing
+ETCM_disease_id_1245,773,disease,Diffuse Mesangial Sclerosis,existing
+ETCM_disease_id_1246,774,disease,Diffuse Nuclear Cataract,existing
+ETCM_disease_id_1252,775,disease,Dilatation,existing
+ETCM_disease_id_1254,776,disease,Dilated Cardiomyopathy,existing
+ETCM_disease_id_1255,777,disease,Dilated Fourth Ventricle,existing
+ETCM_disease_id_1257,778,disease,Disabling Peak-Dose Dyskinesias,existing
+ETCM_disease_id_1258,779,disease,Dislocated Radial Head,existing
+ETCM_disease_id_1260,780,disease,Disorders Associated With Nmdar Hypofunction,existing
+ETCM_disease_id_1261,781,disease,Disorders Of Bone Mineralization,existing
+ETCM_disease_id_1263,782,disease,Disorders Of Initiating And Maintaining Sleep,existing
+ETCM_disease_id_1264,783,disease,Disseminated Intravascular Coagulation,existing
+ETCM_disease_id_1265,784,disease,Distal Amyotrophy,existing
+ETCM_disease_id_1267,785,disease,Distal Lower Limb Amyotrophy,existing
+ETCM_disease_id_1268,786,disease,Distal Lower Limb Muscle Weakness,existing
+ETCM_disease_id_1269,787,disease,Distal Muscle Weakness,existing
+ETCM_disease_id_1270,788,disease,Distal Renal Tubular Acidosis,existing
+ETCM_disease_id_1271,789,disease,Distal Sensory Impairment,existing
+ETCM_disease_id_1272,790,disease,Distal Sensory Impairment Of All Modalities,existing
+ETCM_disease_id_1274,791,disease,Distal Upper Limb Muscle Weakness,existing
+ETCM_disease_id_1277,792,disease,Dorsocervical Fat Pad,existing
+ETCM_disease_id_1278,793,disease,Downbeat Nystagmus,existing
+ETCM_disease_id_1279,794,disease,Doxorubicin-Induced Apoptosis,existing
+ETCM_disease_id_1280,795,disease,Drooling,existing
+ETCM_disease_id_1281,796,disease,Drowsiness,existing
+ETCM_disease_id_1283,797,disease,Drug-Induced Dyskinesias,existing
+ETCM_disease_id_1284,798,disease,Drug Allergy,existing
+ETCM_disease_id_1285,799,disease,Drug Dependence,existing
+ETCM_disease_id_1286,800,disease,Drusen,existing
+ETCM_disease_id_1287,801,disease,Dry Hair,existing
+ETCM_disease_id_1288,802,disease,Dry Skin,existing
+ETCM_disease_id_1290,803,disease,Duchenne Muscular Dystrophy,existing
+ETCM_disease_id_1294,804,disease,Duodenal Ulcer,existing
+ETCM_disease_id_1295,805,disease,Dysarthria,existing
+ETCM_disease_id_1296,806,disease,Dyscalculia,existing
+ETCM_disease_id_1297,807,disease,Dysdiadochokinesis,existing
+ETCM_disease_id_1298,808,disease,Dysesthesia,existing
+ETCM_disease_id_1301,809,disease,Dysgenesis Of The Cerebellar Vermis,existing
+ETCM_disease_id_1302,810,disease,Dysgerminoma,existing
+ETCM_disease_id_1303,811,disease,Dysgraphia,existing
+ETCM_disease_id_1304,812,disease,Dyskinesia,existing
+ETCM_disease_id_1305,813,disease,"Dyskinesia, Drug-Induced",existing
+ETCM_disease_id_1306,814,disease,Dyslexia,existing
+ETCM_disease_id_1307,815,disease,Dyslipidemia,existing
+ETCM_disease_id_1308,816,disease,Dysmenorrhea,existing
+ETCM_disease_id_1310,817,disease,Dyspareunia,existing
+ETCM_disease_id_1311,818,disease,Dysphagia,existing
+ETCM_disease_id_1312,819,disease,Dysphasia,existing
+ETCM_disease_id_1313,820,disease,Dysphonia,existing
+ETCM_disease_id_1314,821,disease,Dysphoric Mood,existing
+ETCM_disease_id_1315,822,disease,Dysplastic Gangliocytoma Of The Cerebellum,existing
+ETCM_disease_id_1316,823,disease,Dyspnea,existing
+ETCM_disease_id_1317,824,disease,Dysregulation Of Apoptosis,existing
+ETCM_disease_id_1319,825,disease,Dystrophic Fingernails,existing
+ETCM_disease_id_1320,826,disease,Dysuria,existing
+ETCM_disease_id_1322,827,disease,Early Stage Hormone Sensitive Prostate Cancer,existing
+ETCM_disease_id_1323,828,disease,Easy Fatigability,existing
+ETCM_disease_id_1325,829,disease,Ecchymosis,existing
+ETCM_disease_id_1326,830,disease,Echolalia,existing
+ETCM_disease_id_1327,831,disease,Eclampsia,existing
+ETCM_disease_id_1328,832,disease,Ectopic Kidney,existing
+ETCM_disease_id_1329,833,disease,Eczema,existing
+ETCM_disease_id_1330,834,disease,Eczematoid Dermatitis,existing
+ETCM_disease_id_1331,835,disease,Edema,existing
+ETCM_disease_id_1333,836,disease,Edema Of The Dorsum Of Hands,existing
+ETCM_disease_id_1334,837,disease,Edema Of The Lower Limbs,existing
+ETCM_disease_id_1335,838,disease,Eeg Abnormality,existing
+ETCM_disease_id_1341,839,disease,Eicosanoid-Mediated Disorders,existing
+ETCM_disease_id_1342,840,disease,Elbow Ankylosis,existing
+ETCM_disease_id_1343,841,disease,Elbow Dislocation,existing
+ETCM_disease_id_1344,842,disease,Elbow Flexion Contracture,existing
+ETCM_disease_id_1345,843,disease,Elevated 8(9)-Cholestenol,existing
+ETCM_disease_id_1346,844,disease,Elevated 8-Dehydrocholesterol,existing
+ETCM_disease_id_1348,845,disease,Elevated Alkaline Phosphatase,existing
+ETCM_disease_id_1349,846,disease,Elevated Alkaline Phosphatase Of Bone Origin,existing
+ETCM_disease_id_1351,847,disease,Elevated Alpha-Fetoprotein,existing
+ETCM_disease_id_1353,848,disease,Elevated Apolipoprotein A-Ii Level,existing
+ETCM_disease_id_1354,849,disease,Elevated Apolipoprotein B Level,existing
+ETCM_disease_id_1355,850,disease,Elevated C-Reactive Protein Level,existing
+ETCM_disease_id_1356,851,disease,Elevated Calcitonin,existing
+ETCM_disease_id_1357,852,disease,Elevated Circulating Catecholamine Level,existing
+ETCM_disease_id_1358,853,disease,Elevated Circulating Follicle Stimulating Hormone Level,existing
+ETCM_disease_id_1359,854,disease,Elevated Circulating Luteinizing Hormone Level,existing
+ETCM_disease_id_1360,855,disease,Elevated Circulating Parathyroid Hormone Level,existing
+ETCM_disease_id_1362,856,disease,Elevated Creatine Kinase After Exercise,existing
+ETCM_disease_id_1363,857,disease,Elevated Diastolic Blood Pressure,existing
+ETCM_disease_id_1364,858,disease,Elevated Erythrocyte Sedimentation Rate,existing
+ETCM_disease_id_1365,859,disease,Elevated Hemoglobin A1C,existing
+ETCM_disease_id_1366,860,disease,Elevated Hepatic Iron Concentration,existing
+ETCM_disease_id_1367,861,disease,Elevated Hepatic Transaminase,existing
+ETCM_disease_id_1368,862,disease,Elevated Intracellular Cystine,existing
+ETCM_disease_id_1371,863,disease,Elevated Levels Of Phytanic Acid,existing
+ETCM_disease_id_1372,864,disease,Elevated Long Chain Fatty Acids,existing
+ETCM_disease_id_1374,865,disease,Elevated Mean Arterial Pressure,existing
+ETCM_disease_id_1375,866,disease,Elevated Plasma Acylcarnitine Levels,existing
+ETCM_disease_id_1376,867,disease,Elevated Plasma Branched Chain Amino Acids,existing
+ETCM_disease_id_1377,868,disease,Elevated Plasma Citrulline,existing
+ETCM_disease_id_1380,869,disease,Elevated Red Cell Adenosine Deaminase Activity,existing
+ETCM_disease_id_1382,870,disease,Elevated Serum 11-Deoxycortisol,existing
+ETCM_disease_id_1383,871,disease,Elevated Serum Acid Phosphatase,existing
+ETCM_disease_id_1386,872,disease,Elevated Serum Creatine Phosphokinase,existing
+ETCM_disease_id_1387,873,disease,Elevated Serum Creatinine,existing
+ETCM_disease_id_1388,874,disease,Elevated Serum Long-Chain Fatty Acids,existing
+ETCM_disease_id_1390,875,disease,Elevated Sweat Chloride,existing
+ETCM_disease_id_1391,876,disease,Elevated Systolic Blood Pressure,existing
+ETCM_disease_id_1392,877,disease,Elevated Tissue Non-Specific Alkaline Phosphatase,existing
+ETCM_disease_id_1393,878,disease,Elevated Transferrin Saturation,existing
+ETCM_disease_id_1394,879,disease,Elevated Urinary Catecholamines,existing
+ETCM_disease_id_1395,880,disease,Elevated Urinary Delta-Aminolevulinic Acid,existing
+ETCM_disease_id_1396,881,disease,Elevated Urinary Dopamine,existing
+ETCM_disease_id_1397,882,disease,Elevated Urinary Epinephrine,existing
+ETCM_disease_id_1398,883,disease,Elevated Urinary Homovanillic Acid,existing
+ETCM_disease_id_1399,884,disease,Elevated Urinary Norepinephrine,existing
+ETCM_disease_id_1400,885,disease,Elevated Urinary Vanillylmandelic Acid,existing
+ETCM_disease_id_1402,886,disease,Elliptocytosis,existing
+ETCM_disease_id_1404,887,disease,Emg Abnormality,existing
+ETCM_disease_id_1405,888,disease,Emotional Blunting,existing
+ETCM_disease_id_1406,889,disease,Emotional Diseases,existing
+ETCM_disease_id_1407,890,disease,Emotional Lability,existing
+ETCM_disease_id_1408,891,disease,Emphysema,existing
+ETCM_disease_id_1409,892,disease,Encephalitis,existing
+ETCM_disease_id_1413,893,disease,Endometrial Neoplasms,existing
+ETCM_disease_id_1414,894,disease,Endometriosis,existing
+ETCM_disease_id_1421,895,disease,Endotoxin-Mediated Diseases,existing
+ETCM_disease_id_1423,896,disease,Enlarged Cisterna Magna,existing
+ETCM_disease_id_1424,897,disease,Enlarged Joints,existing
+ETCM_disease_id_1426,898,disease,Enlarged Polycystic Ovaries,existing
+ETCM_disease_id_1429,899,disease,Enlargement Of The Ankles,existing
+ETCM_disease_id_1430,900,disease,Enlargement Of The Wrists,existing
+ETCM_disease_id_1431,901,disease,Enterocolitis,existing
+ETCM_disease_id_1432,902,disease,Enteroviral Dermatomyositis Syndrome,existing
+ETCM_disease_id_1433,903,disease,Enteroviral Hepatitis,existing
+ETCM_disease_id_1435,904,disease,Enthesitis,existing
+ETCM_disease_id_1436,905,disease,Enuresis,existing
+ETCM_disease_id_1439,906,disease,Eosinophilia,existing
+ETCM_disease_id_1440,907,disease,Ependymoma,existing
+ETCM_disease_id_1441,908,disease,Epidermal Hyperplasia,existing
+ETCM_disease_id_1445,909,disease,Epididymitis,existing
+ETCM_disease_id_1448,910,disease,Epilepsy,existing
+ETCM_disease_id_1449,911,disease,"Epilepsy, Frontal Lobe",existing
+ETCM_disease_id_1450,912,disease,Epileptic Encephalopathy,existing
+ETCM_disease_id_1451,913,disease,Epileptic Seizures,existing
+ETCM_disease_id_1452,914,disease,Epileptic Spasms,existing
+ETCM_disease_id_1453,915,disease,Epiphora,existing
+ETCM_disease_id_1454,916,disease,Epiphyseal Dysplasia,existing
+ETCM_disease_id_1456,917,disease,Episodic Abdominal Pain,existing
+ETCM_disease_id_1457,918,disease,Episodic Ammonia Intoxication,existing
+ETCM_disease_id_1458,919,disease,Episodic Ataxia,existing
+ETCM_disease_id_1459,920,disease,Episodic Fever,existing
+ETCM_disease_id_1460,921,disease,Episodic Flaccid Weakness,existing
+ETCM_disease_id_1461,922,disease,Episodic Generalized Hypotonia,existing
+ETCM_disease_id_1462,923,disease,Episodic Hemiplegia,existing
+ETCM_disease_id_1464,924,disease,Episodic Hyperhidrosis,existing
+ETCM_disease_id_1465,925,disease,Episodic Hypertension,existing
+ETCM_disease_id_1466,926,disease,Episodic Hypokalemia,existing
+ETCM_disease_id_1467,927,disease,Episodic Ketoacidosis,existing
+ETCM_disease_id_1468,928,disease,Episodic Metabolic Acidosis,existing
+ETCM_disease_id_1469,929,disease,Episodic Paroxysmal Anxiety,existing
+ETCM_disease_id_1470,930,disease,Episodic Peripheral Neuropathy,existing
+ETCM_disease_id_1471,931,disease,Episodic Quadriplegia,existing
+ETCM_disease_id_1472,932,disease,Episodic Respiratory Distress,existing
+ETCM_disease_id_1475,933,disease,Episodic Vomiting,existing
+ETCM_disease_id_1476,934,disease,Epispadias,existing
+ETCM_disease_id_1477,935,disease,Epistaxis,existing
+ETCM_disease_id_1479,936,disease,Er Beta-Positive Prostate Tumors,existing
+ETCM_disease_id_1480,937,disease,Erectile Dysfunction,existing
+ETCM_disease_id_1482,938,disease,Eruptive Xanthomas,existing
+ETCM_disease_id_1484,939,disease,Erythema,existing
+ETCM_disease_id_1486,940,disease,Erythematous Plaque,existing
+ETCM_disease_id_1487,941,disease,Erythroderma,existing
+ETCM_disease_id_1489,942,disease,Erythroid Hypoplasia,existing
+ETCM_disease_id_1490,943,disease,Erythromelalgia,existing
+ETCM_disease_id_1493,944,disease,Esophageal Neoplasms,existing
+ETCM_disease_id_1494,945,disease,Esophageal Stricture,existing
+ETCM_disease_id_1495,946,disease,Esophageal Ulceration,existing
+ETCM_disease_id_1496,947,disease,Esophageal Varix,existing
+ETCM_disease_id_1497,948,disease,Esophagitis,existing
+ETCM_disease_id_1498,949,disease,Esotropia,existing
+ETCM_disease_id_1499,950,disease,Essential Hypertension,existing
+ETCM_disease_id_1500,951,disease,Essential Thrombocythemia,existing
+ETCM_disease_id_1501,952,disease,Estrogen Disorders,existing
+ETCM_disease_id_1502,953,disease,Ethylmalonic Aciduria,existing
+ETCM_disease_id_1505,954,disease,Everted Lower Lip Vermilion,existing
+ETCM_disease_id_1506,955,disease,Ewing's Sarcoma,existing
+ETCM_disease_id_1508,956,disease,Exaggerated Startle Response,existing
+ETCM_disease_id_1509,957,disease,Excessive Collagen Deposition,existing
+ETCM_disease_id_1510,958,disease,Excessive Daytime Sleepiness,existing
+ETCM_disease_id_1511,959,disease,Excessive Postoperative Bleeding,existing
+ETCM_disease_id_1512,960,disease,Excessive Salivation,existing
+ETCM_disease_id_1516,961,disease,Exercise-Induced Muscle Cramps,existing
+ETCM_disease_id_1517,962,disease,Exercise-Induced Muscle Fatigue,existing
+ETCM_disease_id_1518,963,disease,Exercise-Induced Muscle Stiffness,existing
+ETCM_disease_id_1519,964,disease,Exercise-Induced Myalgia,existing
+ETCM_disease_id_1520,965,disease,Exercise-Induced Myoglobinuria,existing
+ETCM_disease_id_1521,966,disease,Exercise-Induced Rhabdomyolysis,existing
+ETCM_disease_id_1522,967,disease,Exercise Intolerance,existing
+ETCM_disease_id_1523,968,disease,Exertional Dyspnea,existing
+ETCM_disease_id_1524,969,disease,Exostoses,existing
+ETCM_disease_id_1525,970,disease,Exotropia,existing
+ETCM_disease_id_1529,971,disease,External Ophthalmoplegia,existing
+ETCM_disease_id_1530,972,disease,Extraadrenal Pheochromocytoma,existing
+ETCM_disease_id_1531,973,disease,Extrahepatic Cholestasis,existing
+ETCM_disease_id_1532,974,disease,Extramedullary Hematopoiesis,existing
+ETCM_disease_id_1534,975,disease,Exudative Age-Related Macular Degeneration,existing
+ETCM_disease_id_1535,976,disease,Eye Diseases,existing
+ETCM_disease_id_1536,977,disease,Eye Inflammation,existing
+ETCM_disease_id_1537,978,disease,Eyelid Coloboma,existing
+ETCM_disease_id_1538,979,disease,Eyelid Myoclonias,existing
+ETCM_disease_id_1539,980,disease,Eyelid Myokymia,existing
+ETCM_disease_id_1542,981,disease,Facial Diplegia,existing
+ETCM_disease_id_1545,982,disease,Facial Flushing After Alcohol Intake,existing
+ETCM_disease_id_1548,983,disease,Facial Myokymia,existing
+ETCM_disease_id_1549,984,disease,Facial Palsy,existing
+ETCM_disease_id_1551,985,disease,Facial Paralysis,existing
+ETCM_disease_id_1552,986,disease,Facial Telangiectasia,existing
+ETCM_disease_id_1555,987,disease,Fair Hair,existing
+ETCM_disease_id_1557,988,disease,Falls,existing
+ETCM_disease_id_1559,989,disease,Fasciculations,existing
+ETCM_disease_id_1560,990,disease,Fasting Hyperinsulinemia,existing
+ETCM_disease_id_1561,991,disease,Fasting Hypoglycemia,existing
+ETCM_disease_id_1562,992,disease,Fat Malabsorption,existing
+ETCM_disease_id_1564,993,disease,Fatigable Weakness,existing
+ETCM_disease_id_1565,994,disease,Fatigable Weakness Of Bulbar Muscles,existing
+ETCM_disease_id_1566,995,disease,Fatigable Weakness Of Distal Limb Muscles,existing
+ETCM_disease_id_1567,996,disease,Fatigable Weakness Of Neck Muscles,existing
+ETCM_disease_id_1568,997,disease,Fatigable Weakness Of Respiratory Muscles,existing
+ETCM_disease_id_1569,998,disease,Fatigable Weakness Of Swallowing Muscles,existing
+ETCM_disease_id_1570,999,disease,Fatiguable Weakness Of Proximal Limb Muscles,existing
+ETCM_disease_id_1571,1000,disease,Fatigue,existing
+ETCM_disease_id_1573,1001,disease,Fatty Replacement Of Skeletal Muscle,existing
+ETCM_disease_id_1574,1002,disease,Fava Bean-Induced Hemolytic Anemia,existing
+ETCM_disease_id_1577,1003,disease,Febrile Seizures,existing
+ETCM_disease_id_1578,1004,disease,Feeding Difficulties,existing
+ETCM_disease_id_1579,1005,disease,Feeding Difficulties In Infancy,existing
+ETCM_disease_id_1581,1006,disease,Female Hypogonadism,existing
+ETCM_disease_id_1582,1007,disease,Female Infertility,existing
+ETCM_disease_id_1583,1008,disease,Female Sexual Dysfunction,existing
+ETCM_disease_id_1584,1009,disease,Femoral Bowing,existing
+ETCM_disease_id_1585,1010,disease,Femoral Hernia,existing
+ETCM_disease_id_1588,1011,disease,Fever,existing
+ETCM_disease_id_1589,1012,disease,Fibroadenoma Of The Breast,existing
+ETCM_disease_id_1591,1013,disease,Fibroma,existing
+ETCM_disease_id_1592,1014,disease,Fibrosarcoma,existing
+ETCM_disease_id_1593,1015,disease,Fibrosing Alveolitis,existing
+ETCM_disease_id_1594,1016,disease,Fibrosis,existing
+ETCM_disease_id_1599,1017,disease,Fine Hair,existing
+ETCM_disease_id_1600,1018,disease,Finger Clinodactyly,existing
+ETCM_disease_id_1601,1019,disease,Finger Swelling,existing
+ETCM_disease_id_1603,1020,disease,Firm Muscles,existing
+ETCM_disease_id_1604,1021,disease,First Dorsal Interossei Muscle Atrophy,existing
+ETCM_disease_id_1609,1022,disease,Flavivirus Infection,existing
+ETCM_disease_id_1610,1023,disease,Flexion Contracture,existing
+ETCM_disease_id_1611,1024,disease,Flexion Contracture Of Finger,existing
+ETCM_disease_id_1614,1025,disease,Flexion Contracture Of Toe,existing
+ETCM_disease_id_1616,1026,disease,Flushing,existing
+ETCM_disease_id_1617,1027,disease,Focal-Onset Seizure,existing
+ETCM_disease_id_1619,1028,disease,Focal Clonic Seizures,existing
+ETCM_disease_id_1620,1029,disease,Focal Cortical Dysplasia Type Ii,existing
+ETCM_disease_id_1621,1030,disease,Focal Dystonia,existing
+ETCM_disease_id_1623,1031,disease,Focal Impaired Awareness Seizure,existing
+ETCM_disease_id_1624,1032,disease,Focal Ischemia,existing
+ETCM_disease_id_1625,1033,disease,Focal Myoclonic Seizures,existing
+ETCM_disease_id_1626,1034,disease,Focal Segmental Glomerulosclerosis,existing
+ETCM_disease_id_1627,1035,disease,"Focal Seizures, Afebril",existing
+ETCM_disease_id_1629,1036,disease,Focal Tonic Seizures,existing
+ETCM_disease_id_1631,1037,disease,Folate-Unresponsive Megaloblastic Anemia,existing
+ETCM_disease_id_1633,1038,disease,Follicular Thyroid Carcinoma,existing
+ETCM_disease_id_1636,1039,disease,Foot Acroosteolysis,existing
+ETCM_disease_id_1637,1040,disease,Foot Osteomyelitis,existing
+ETCM_disease_id_1640,1041,disease,Fractures Of The Long Bones,existing
+ETCM_disease_id_1642,1042,disease,Freckling,existing
+ETCM_disease_id_1643,1043,disease,Frequent Falls,existing
+ETCM_disease_id_1644,1044,disease,Frontal Balding,existing
+ETCM_disease_id_1647,1045,disease,Frontal Lobe Epilepsy,existing
+ETCM_disease_id_1650,1046,disease,Frontalis Muscle Weakness,existing
+ETCM_disease_id_1652,1047,disease,Frontotemporal Cerebral Atrophy,existing
+ETCM_disease_id_1653,1048,disease,Frontotemporal Dementia,existing
+ETCM_disease_id_1655,1049,disease,Fulminant Hepatic Failure,existing
+ETCM_disease_id_1659,1050,disease,Functional Intestinal Obstruction,existing
+ETCM_disease_id_1660,1051,disease,Functional Motor Deficit,existing
+ETCM_disease_id_1662,1052,disease,Fundus Albipunctatus,existing
+ETCM_disease_id_1663,1053,disease,Fungal Diseases,existing
+ETCM_disease_id_1664,1054,disease,Furrowed Tongue,existing
+ETCM_disease_id_1665,1055,disease,Gain Weight In Morbid Obesity,existing
+ETCM_disease_id_1667,1056,disease,Gait Ataxia,existing
+ETCM_disease_id_1668,1057,disease,Gait Disturbance,existing
+ETCM_disease_id_1669,1058,disease,Gait Imbalance,existing
+ETCM_disease_id_1671,1059,disease,Galactorrhea,existing
+ETCM_disease_id_1672,1060,disease,Galactosuria,existing
+ETCM_disease_id_1675,1061,disease,Ganglioneuroblastoma,existing
+ETCM_disease_id_1676,1062,disease,Ganglioneuroma,existing
+ETCM_disease_id_1677,1063,disease,Gangrene,existing
+ETCM_disease_id_1679,1064,disease,Gastric Cancer,existing
+ETCM_disease_id_1681,1065,disease,Gastric Emptying Disorders,existing
+ETCM_disease_id_1683,1066,disease,Gastric Ulcer,existing
+ETCM_disease_id_1687,1067,disease,Gastroesophageal Reflux,existing
+ETCM_disease_id_1689,1068,disease,Gastrointestinal Arteriovenous Malformation,existing
+ETCM_disease_id_1691,1069,disease,Gastrointestinal Cancers,existing
+ETCM_disease_id_1693,1070,disease,Gastrointestinal Dysmotility,existing
+ETCM_disease_id_1694,1071,disease,Gastrointestinal Hemorrhage,existing
+ETCM_disease_id_1695,1072,disease,Gastrointestinal Infarctions,existing
+ETCM_disease_id_1696,1073,disease,Gastrointestinal Inflammation,existing
+ETCM_disease_id_1700,1074,disease,Gastrointestinal Stromal Tumors,existing
+ETCM_disease_id_1701,1075,disease,Gastrointestinal Telangiectasia,existing
+ETCM_disease_id_1702,1076,disease,Gastroparesis,existing
+ETCM_disease_id_1703,1077,disease,Gaze-Evoked Horizontal Nystagmus,existing
+ETCM_disease_id_1704,1078,disease,Generalized-Onset Seizure,existing
+ETCM_disease_id_1706,1079,disease,Generalized Aminoaciduria,existing
+ETCM_disease_id_1707,1080,disease,Generalized Amyloid Deposition,existing
+ETCM_disease_id_1708,1081,disease,Generalized Amyotrophy,existing
+ETCM_disease_id_1711,1082,disease,Generalized Arterial Calcification,existing
+ETCM_disease_id_1713,1083,disease,Generalized Clonic Seizures,existing
+ETCM_disease_id_1715,1084,disease,Generalized Dystonia,existing
+ETCM_disease_id_1716,1085,disease,Generalized Edema,existing
+ETCM_disease_id_1717,1086,disease,Generalized Hirsutism,existing
+ETCM_disease_id_1718,1087,disease,Generalized Hyperpigmentation,existing
+ETCM_disease_id_1719,1088,disease,Generalized Hyperreflexia,existing
+ETCM_disease_id_1720,1089,disease,Generalized Hypopigmentation Of Hair,existing
+ETCM_disease_id_1721,1090,disease,Generalized Hypotonia Due To Defect At The Neuromuscular Junction,existing
+ETCM_disease_id_1722,1091,disease,Generalized Joint Laxity,existing
+ETCM_disease_id_1723,1092,disease,Generalized Limb Muscle Atrophy,existing
+ETCM_disease_id_1726,1093,disease,Generalized Muscle Hypertrophy,existing
+ETCM_disease_id_1727,1094,disease,Generalized Muscle Weakness,existing
+ETCM_disease_id_1729,1095,disease,Generalized Myoclonic Seizures,existing
+ETCM_disease_id_1730,1096,disease,Generalized Osteoporosis,existing
+ETCM_disease_id_1732,1097,disease,Generalized Reticulate Brown Pigmentation,existing
+ETCM_disease_id_1734,1098,disease,Generalized Tonic-Clonic Seizures,existing
+ETCM_disease_id_1735,1099,disease,Generalized Tonic-Clonic Seizures With Focal Onset,existing
+ETCM_disease_id_1736,1100,disease,Generalized Tonic Seizures,existing
+ETCM_disease_id_1737,1101,disease,Genetic Disorder,existing
+ETCM_disease_id_1740,1102,disease,Genital Warts,existing
+ETCM_disease_id_1742,1103,disease,Genitourinary Tumors,existing
+ETCM_disease_id_1743,1104,disease,Genu Varum,existing
+ETCM_disease_id_1745,1105,disease,Gestational Hypertension,existing
+ETCM_disease_id_1747,1106,disease,Giant Melanosomes In Melanocytes,existing
+ETCM_disease_id_1748,1107,disease,Giant Platelets,existing
+ETCM_disease_id_1749,1108,disease,Giardiasis Infections,existing
+ETCM_disease_id_1750,1109,disease,Gingival Bleeding,existing
+ETCM_disease_id_1751,1110,disease,Gingival Overgrowth,existing
+ETCM_disease_id_1752,1111,disease,Gingivitis,existing
+ETCM_disease_id_1754,1112,disease,Glaucoma,existing
+ETCM_disease_id_1756,1113,disease,Glial Proliferation,existing
+ETCM_disease_id_1757,1114,disease,Glioblastoma,existing
+ETCM_disease_id_1758,1115,disease,Glioma,existing
+ETCM_disease_id_1760,1116,disease,Gliosis,existing
+ETCM_disease_id_1761,1117,disease,Global Brain Atrophy,existing
+ETCM_disease_id_1764,1118,disease,Glomerulonephritis,existing
+ETCM_disease_id_1765,1119,disease,Glomerulopathy,existing
+ETCM_disease_id_1766,1120,disease,Glomerulosclerosis,existing
+ETCM_disease_id_1767,1121,disease,Glomus Jugular Tumor,existing
+ETCM_disease_id_1770,1122,disease,Glucocortocoid-Insensitive Primary Hyperaldosteronism,existing
+ETCM_disease_id_1772,1123,disease,Glutaric Aciduria,existing
+ETCM_disease_id_1773,1124,disease,Glutathione Synthetase Deficiency,existing
+ETCM_disease_id_1774,1125,disease,Glycosuria,existing
+ETCM_disease_id_1775,1126,disease,Gm2-Ganglioside Accumulation,existing
+ETCM_disease_id_1776,1127,disease,Goiter,existing
+ETCM_disease_id_1778,1128,disease,Gonadal Neoplasm,existing
+ETCM_disease_id_1781,1129,disease,Gonadotropin Deficiency,existing
+ETCM_disease_id_1782,1130,disease,Gout,existing
+ETCM_disease_id_1785,1131,disease,Grammar-Specific Speech Disorder,existing
+ETCM_disease_id_1786,1132,disease,Granulocytopenia,existing
+ETCM_disease_id_1787,1133,disease,"Granuloma, Plasma Cell",existing
+ETCM_disease_id_1788,1134,disease,Granulomatosis,existing
+ETCM_disease_id_1792,1135,disease,Green Urine,existing
+ETCM_disease_id_1797,1136,disease,Guillain-Barre Syndrome,existing
+ETCM_disease_id_1798,1137,disease,Gynecomastia,existing
+ETCM_disease_id_1799,1138,disease,Haemorrhagic Conditions,existing
+ETCM_disease_id_1801,1139,disease,Hallucinations,existing
+ETCM_disease_id_1803,1140,disease,Hamartoma,existing
+ETCM_disease_id_1804,1141,disease,Hamartomatous Polyposis,existing
+ETCM_disease_id_1805,1142,disease,Hamstring Contractures,existing
+ETCM_disease_id_1806,1143,disease,Hand Muscle Atrophy,existing
+ETCM_disease_id_1807,1144,disease,Hand Muscle Weakness,existing
+ETCM_disease_id_1808,1145,disease,Hand Tremor,existing
+ETCM_disease_id_1809,1146,disease,Handgrip Myotonia,existing
+ETCM_disease_id_1810,1147,disease,Hangover From Alcohol,existing
+ETCM_disease_id_1811,1148,disease,Hashimoto Thyroiditis,existing
+ETCM_disease_id_1812,1149,disease,Hcv Infection,existing
+ETCM_disease_id_1813,1150,disease,Head And Neck Cancer,existing
+ETCM_disease_id_1815,1151,disease,Head Titubation,existing
+ETCM_disease_id_1816,1152,disease,Head Tremor,existing
+ETCM_disease_id_1817,1153,disease,Headache,existing
+ETCM_disease_id_1818,1154,disease,Hearing Abnormality,existing
+ETCM_disease_id_1819,1155,disease,Hearing Disorder,existing
+ETCM_disease_id_1820,1156,disease,Hearing Impairment,existing
+ETCM_disease_id_1823,1157,disease,Heart Disease,existing
+ETCM_disease_id_1824,1158,disease,Heart Failure,existing
+ETCM_disease_id_1826,1159,disease,Heart Transplant,existing
+ETCM_disease_id_1827,1160,disease,Heat Intolerance,existing
+ETCM_disease_id_1828,1161,disease,Heinz Body Anemia,existing
+ETCM_disease_id_1829,1162,disease,Helminth Infection,existing
+ETCM_disease_id_1830,1163,disease,Hemangiomatosis,existing
+ETCM_disease_id_1832,1164,disease,Hematemesis,existing
+ETCM_disease_id_1833,1165,disease,Hematochezia,existing
+ETCM_disease_id_1834,1166,disease,Hematologic Malignancies,existing
+ETCM_disease_id_1836,1167,disease,Hematuria,existing
+ETCM_disease_id_1838,1168,disease,Hemiclonic Seizures,existing
+ETCM_disease_id_1840,1169,disease,Hemihypertrophy,existing
+ETCM_disease_id_1841,1170,disease,Hemiparesis,existing
+ETCM_disease_id_1842,1171,disease,Hemiplegia,existing
+ETCM_disease_id_1843,1172,disease,Hemiplegia/Hemiparesis,existing
+ETCM_disease_id_1844,1173,disease,Hemivertebrae,existing
+ETCM_disease_id_1846,1174,disease,Hemoglobin H,existing
+ETCM_disease_id_1847,1175,disease,Hemoglobinuria,existing
+ETCM_disease_id_1848,1176,disease,Hemolytic-Uremic Syndrome,existing
+ETCM_disease_id_1849,1177,disease,Hemolytic Anemia,existing
+ETCM_disease_id_1851,1178,disease,Hemoptysis,existing
+ETCM_disease_id_1852,1179,disease,Hemorrhage,existing
+ETCM_disease_id_1853,1180,disease,Hemorrhagic Ovarian Cyst,existing
+ETCM_disease_id_1856,1181,disease,Heparin-Induced Thrombocytopenia Type Ii,existing
+ETCM_disease_id_1858,1182,disease,Hepatic Calcification,existing
+ETCM_disease_id_1859,1183,disease,Hepatic Cysts,existing
+ETCM_disease_id_1860,1184,disease,Hepatic Encephalopathy,existing
+ETCM_disease_id_1861,1185,disease,Hepatic Failure,existing
+ETCM_disease_id_1862,1186,disease,Hepatic Fibrosis,existing
+ETCM_disease_id_1863,1187,disease,Hepatic Necrosis,existing
+ETCM_disease_id_1864,1188,disease,Hepatic Periportal Necrosis,existing
+ETCM_disease_id_1865,1189,disease,Hepatic Steatosis,existing
+ETCM_disease_id_1867,1190,disease,Hepatitis,existing
+ETCM_disease_id_1870,1191,disease,Hepatitis B Virus Infection,existing
+ETCM_disease_id_1873,1192,disease,Hepatitis C Virus Infection,existing
+ETCM_disease_id_1874,1193,disease,Hepatitis Virus Infection,existing
+ETCM_disease_id_1876,1194,disease,Hepatocellular Adenoma,existing
+ETCM_disease_id_1877,1195,disease,Hepatocellular Carcinoma,existing
+ETCM_disease_id_1878,1196,disease,Hepatocellular Necrosis,existing
+ETCM_disease_id_1879,1197,disease,Hepatolenticular Degeneration,existing
+ETCM_disease_id_1880,1198,disease,Hepatomegaly,existing
+ETCM_disease_id_1882,1199,disease,Hepatosplenomegaly,existing
+ETCM_disease_id_1883,1200,disease,Hereditary Angioedema,existing
+ETCM_disease_id_1885,1201,disease,Hereditary Nonpolyposis Colorectal Carcinoma,existing
+ETCM_disease_id_1886,1202,disease,Hereditary Nonpolyposis Colorectal Neoplasms,existing
+ETCM_disease_id_1887,1203,disease,Hereditary Polyposis Syndromes,existing
+ETCM_disease_id_1889,1204,disease,Hernia,existing
+ETCM_disease_id_1893,1205,disease,Herpes Virus Infection,existing
+ETCM_disease_id_1894,1206,disease,Herpetiform Corneal Ulceration,existing
+ETCM_disease_id_1895,1207,disease,Heterotopia,existing
+ETCM_disease_id_1896,1208,disease,Hiatus Hernia,existing
+ETCM_disease_id_1897,1209,disease,High-Frequency Hearing Impairment,existing
+ETCM_disease_id_1898,1210,disease,High-Frequency Sensorineural Hearing Impairment,existing
+ETCM_disease_id_1899,1211,disease,High-Pitched Cry,existing
+ETCM_disease_id_1902,1212,disease,High Hypermetropia,existing
+ETCM_disease_id_1904,1213,disease,High Myopia,existing
+ETCM_disease_id_1907,1214,disease,Hip Contracture,existing
+ETCM_disease_id_1908,1215,disease,Hip Dislocation,existing
+ETCM_disease_id_1909,1216,disease,Hip Flexor Weakness,existing
+ETCM_disease_id_1911,1217,disease,Hip Pain,existing
+ETCM_disease_id_1912,1218,disease,Hip Subluxation,existing
+ETCM_disease_id_1914,1219,disease,Hirsutism,existing
+ETCM_disease_id_1915,1220,disease,Histamine Induced Bronchospasm,existing
+ETCM_disease_id_1916,1221,disease,Histidinuria,existing
+ETCM_disease_id_1917,1222,disease,Histiocytoid Cardiomyopathy,existing
+ETCM_disease_id_1918,1223,disease,Histiocytoma,existing
+ETCM_disease_id_1920,1224,disease,Hiv-Associated Diarrhoea,existing
+ETCM_disease_id_1921,1225,disease,Hiv Infections,existing
+ETCM_disease_id_1922,1226,disease,Hoarse Voice,existing
+ETCM_disease_id_1926,1227,disease,Homocystinuria,existing
+ETCM_disease_id_1928,1228,disease,Horizontal Supranuclear Gaze Palsy,existing
+ETCM_disease_id_1929,1229,disease,Hormone-Refractory Prostate Cancer,existing
+ETCM_disease_id_1930,1230,disease,Hormone-Sensitive Breast Cancer,existing
+ETCM_disease_id_1934,1231,disease,Human Cytomegalovirus Infections,existing
+ETCM_disease_id_1935,1232,disease,Human Immunodeficiency Virus Infection,existing
+ETCM_disease_id_1940,1233,disease,Huntington's Disease,existing
+ETCM_disease_id_1942,1234,disease,Hydrocele Testis,existing
+ETCM_disease_id_1943,1235,disease,Hydrocephalus,existing
+ETCM_disease_id_1945,1236,disease,Hydronephrosis,existing
+ETCM_disease_id_1946,1237,disease,Hydroureter,existing
+ETCM_disease_id_1949,1238,disease,Hyperactivity,existing
+ETCM_disease_id_1950,1239,disease,Hyperacusis,existing
+ETCM_disease_id_1951,1240,disease,Hyperaldosteronism,existing
+ETCM_disease_id_1952,1241,disease,Hyperalgesia,existing
+ETCM_disease_id_1955,1242,disease,Hyperbilirubinemia,existing
+ETCM_disease_id_1956,1243,disease,Hypercalcemia,existing
+ETCM_disease_id_1957,1244,disease,Hypercalciuria,existing
+ETCM_disease_id_1958,1245,disease,Hypercapnia,existing
+ETCM_disease_id_1961,1246,disease,Hyperchloremic Metabolic Acidosis,existing
+ETCM_disease_id_1962,1247,disease,Hyperchloriduria,existing
+ETCM_disease_id_1963,1248,disease,Hypercholesterolemia,existing
+ETCM_disease_id_1964,1249,disease,Hyperechogenic Kidneys,existing
+ETCM_disease_id_1967,1250,disease,Hyperesthesia,existing
+ETCM_disease_id_1968,1251,disease,Hyperextensibility At Elbow,existing
+ETCM_disease_id_1970,1252,disease,Hyperextensibility Of The Knee,existing
+ETCM_disease_id_1972,1253,disease,Hyperextensible Skin,existing
+ETCM_disease_id_1973,1254,disease,Hypergalactosemia,existing
+ETCM_disease_id_1974,1255,disease,Hyperglutaminemia,existing
+ETCM_disease_id_1975,1256,disease,Hyperglycemia,existing
+ETCM_disease_id_1976,1257,disease,Hyperglycinemia,existing
+ETCM_disease_id_1977,1258,disease,Hyperglycinuria,existing
+ETCM_disease_id_1978,1259,disease,Hyperhidrosis,existing
+ETCM_disease_id_1979,1260,disease,Hyperhomocysteinemia,existing
+ETCM_disease_id_1980,1261,disease,Hyperhomocystinemia,existing
+ETCM_disease_id_1981,1262,disease,Hyperinflammatory Provoked Organ Injury,existing
+ETCM_disease_id_1982,1263,disease,Hyperinsulinemia,existing
+ETCM_disease_id_1983,1264,disease,Hyperinsulinism,existing
+ETCM_disease_id_1984,1265,disease,Hyperintensity Of Cerebral White Matter On Mri,existing
+ETCM_disease_id_1985,1266,disease,Hyperkalemia,existing
+ETCM_disease_id_1987,1267,disease,Hyperkeratosis,existing
+ETCM_disease_id_1988,1268,disease,Hyperkinesis,existing
+ETCM_disease_id_1989,1269,disease,Hyperlipidemia,existing
+ETCM_disease_id_1991,1270,disease,Hyperlysinemia,existing
+ETCM_disease_id_1992,1271,disease,Hypermagnesemia,existing
+ETCM_disease_id_1993,1272,disease,Hypermagnesiuria,existing
+ETCM_disease_id_1994,1273,disease,Hypermelanotic Macule,existing
+ETCM_disease_id_1995,1274,disease,Hypermethioninemia,existing
+ETCM_disease_id_1996,1275,disease,Hypermetric Saccades,existing
+ETCM_disease_id_1997,1276,disease,Hypermetropia,existing
+ETCM_disease_id_1999,1277,disease,Hypernatremia,existing
+ETCM_disease_id_2000,1278,disease,Hypernatremic Dehydration,existing
+ETCM_disease_id_2002,1279,disease,Hyperornithinemia,existing
+ETCM_disease_id_2003,1280,disease,Hyperostosis,existing
+ETCM_disease_id_2004,1281,disease,Hyperoxaluria,existing
+ETCM_disease_id_2005,1282,disease,Hyperparakeratosis,existing
+ETCM_disease_id_2006,1283,disease,Hyperparathyroidism,existing
+ETCM_disease_id_2007,1284,disease,Hyperperistalsis,existing
+ETCM_disease_id_2009,1285,disease,Hyperphenylalaninemia,existing
+ETCM_disease_id_2010,1286,disease,Hyperphosphatemia,existing
+ETCM_disease_id_2011,1287,disease,Hyperphosphaturia,existing
+ETCM_disease_id_2013,1288,disease,Hyperpigmentation Of The Skin,existing
+ETCM_disease_id_2014,1289,disease,Hyperplasia,existing
+ETCM_disease_id_2015,1290,disease,Hyperplasia Of The Femoral Trochanters,existing
+ETCM_disease_id_2019,1291,disease,Hyperproliferative Disorders,existing
+ETCM_disease_id_2020,1292,disease,Hyperprolinemia,existing
+ETCM_disease_id_2022,1293,disease,Hyperreflexia,existing
+ETCM_disease_id_2023,1294,disease,Hyperreflexia In Upper Limbs,existing
+ETCM_disease_id_2025,1295,disease,Hypersomnia,existing
+ETCM_disease_id_2026,1296,disease,Hypersplenism,existing
+ETCM_disease_id_2027,1297,disease,Hypertension,existing
+ETCM_disease_id_2028,1298,disease,Hypertension Associated With Pheochromocytoma,existing
+ETCM_disease_id_2029,1299,disease,Hypertensive Crisis,existing
+ETCM_disease_id_2030,1300,disease,Hypertensive Disease,existing
+ETCM_disease_id_2031,1301,disease,Hypertensive Retinopathy,existing
+ETCM_disease_id_2033,1302,disease,Hyperthyroidism,existing
+ETCM_disease_id_2034,1303,disease,Hypertonia,existing
+ETCM_disease_id_2035,1304,disease,Hypertonic Dehydration,existing
+ETCM_disease_id_2036,1305,disease,Hypertonicity Of Bladder,existing
+ETCM_disease_id_2037,1306,disease,Hypertrichosis,existing
+ETCM_disease_id_2038,1307,disease,Hypertriglyceridemia,existing
+ETCM_disease_id_2040,1308,disease,Hypertrophic Cardiomyopathy,existing
+ETCM_disease_id_2042,1309,disease,Hypertrophic Vascular Disease,existing
+ETCM_disease_id_2045,1310,disease,Hypertyrosinemia,existing
+ETCM_disease_id_2046,1311,disease,Hyperuricemia,existing
+ETCM_disease_id_2047,1312,disease,Hyperuricosuria,existing
+ETCM_disease_id_2048,1313,disease,Hyperventilation,existing
+ETCM_disease_id_2050,1314,disease,Hypnagogic Hallucinations,existing
+ETCM_disease_id_2051,1315,disease,Hypoalbuminemia,existing
+ETCM_disease_id_2052,1316,disease,Hypoargininemia,existing
+ETCM_disease_id_2054,1317,disease,Hypocalcemia,existing
+ETCM_disease_id_2055,1318,disease,Hypocalcemic Seizures,existing
+ETCM_disease_id_2056,1319,disease,Hypocalcemic Tetany,existing
+ETCM_disease_id_2057,1320,disease,Hypocalciuria,existing
+ETCM_disease_id_2058,1321,disease,Hypochloremia,existing
+ETCM_disease_id_2060,1322,disease,Hypocholesterolemia,existing
+ETCM_disease_id_2061,1323,disease,Hypochromic Anemia,existing
+ETCM_disease_id_2062,1324,disease,Hypochromic Microcytic Anemia,existing
+ETCM_disease_id_2066,1325,disease,Hypoglycemia,existing
+ETCM_disease_id_2067,1326,disease,Hypoglycemic Encephalopathy,existing
+ETCM_disease_id_2068,1327,disease,Hypoglycemic Seizures,existing
+ETCM_disease_id_2069,1328,disease,Hypoglycinemia,existing
+ETCM_disease_id_2070,1329,disease,Hypogonadism,existing
+ETCM_disease_id_2071,1330,disease,Hypogonadotrophic Hypogonadism,existing
+ETCM_disease_id_2072,1331,disease,Hypogonadotropic Hypogonadism,existing
+ETCM_disease_id_2074,1332,disease,Hypoinsulinemia,existing
+ETCM_disease_id_2076,1333,disease,Hypokalemia,existing
+ETCM_disease_id_2077,1334,disease,Hypokalemic Alkalosis,existing
+ETCM_disease_id_2079,1335,disease,Hypokalemic Metabolic Alkalosis,existing
+ETCM_disease_id_2080,1336,disease,Hypokinesia,existing
+ETCM_disease_id_2081,1337,disease,Hypolipidemia,existing
+ETCM_disease_id_2082,1338,disease,Hypomagnesemia,existing
+ETCM_disease_id_2083,1339,disease,Hyponatremia,existing
+ETCM_disease_id_2084,1340,disease,Hypoparathyroidism,existing
+ETCM_disease_id_2086,1341,disease,Hypophosphatemia,existing
+ETCM_disease_id_2087,1342,disease,Hypophosphatemic Rickets,existing
+ETCM_disease_id_2088,1343,disease,Hypopigmentation Of Hair,existing
+ETCM_disease_id_2089,1344,disease,Hypopigmentation Of The Skin,existing
+ETCM_disease_id_2090,1345,disease,Hypopigmented Skin Patches,existing
+ETCM_disease_id_2093,1346,disease,Hypoplasia Of The Uterus,existing
+ETCM_disease_id_2096,1347,disease,Hypoplastic Nipples,existing
+ETCM_disease_id_2098,1348,disease,Hypoproteinemia,existing
+ETCM_disease_id_2100,1349,disease,Hyporeflexia Of Lower Limbs,existing
+ETCM_disease_id_2101,1350,disease,Hyposerinemia,existing
+ETCM_disease_id_2102,1351,disease,Hyposmia,existing
+ETCM_disease_id_2103,1352,disease,Hypospadias,existing
+ETCM_disease_id_2104,1353,disease,Hyposthenuria,existing
+ETCM_disease_id_2105,1354,disease,Hypotension,existing
+ETCM_disease_id_2106,1355,disease,Hypothalamic-Pituitary Acth Function,existing
+ETCM_disease_id_2110,1356,disease,Hypothermia,existing
+ETCM_disease_id_2111,1357,disease,Hypothyroidism,existing
+ETCM_disease_id_2112,1358,disease,Hypotrichosis,existing
+ETCM_disease_id_2117,1359,disease,Hypouricemia,existing
+ETCM_disease_id_2119,1360,disease,Hypoxemia,existing
+ETCM_disease_id_2121,1361,disease,Hypoxic-Ischemic Encephalopathy,existing
+ETCM_disease_id_2122,1362,disease,Hypsarrhythmia,existing
+ETCM_disease_id_2124,1363,disease,Ichthyosis,existing
+ETCM_disease_id_2126,1364,disease,Iga Deficiency,existing
+ETCM_disease_id_2129,1365,disease,Igg Deficiency,existing
+ETCM_disease_id_2130,1366,disease,Igm Deficiency,existing
+ETCM_disease_id_2134,1367,disease,Immune Disorder,existing
+ETCM_disease_id_2136,1368,disease,Immunodeficiency,existing
+ETCM_disease_id_2137,1369,disease,Immunoglobulin Igg2 Deficiency,existing
+ETCM_disease_id_2138,1370,disease,Immunologic Hypersensitivity,existing
+ETCM_disease_id_2139,1371,disease,Immunological Disorders,existing
+ETCM_disease_id_2140,1372,disease,Immunosuppression,existing
+ETCM_disease_id_2141,1373,disease,Impaired Adp-Induced Platelet Aggregation,existing
+ETCM_disease_id_2143,1374,disease,Impaired Continence,existing
+ETCM_disease_id_2145,1375,disease,Impaired Gluconeogenesis,existing
+ETCM_disease_id_2149,1376,disease,Impaired Myocardial Contractility,existing
+ETCM_disease_id_2150,1377,disease,Impaired Neutrophil Bactericidal Activity,existing
+ETCM_disease_id_2152,1378,disease,Impaired Pain Sensation,existing
+ETCM_disease_id_2153,1379,disease,Impaired Platelet Aggregation,existing
+ETCM_disease_id_2154,1380,disease,Impaired Proprioception,existing
+ETCM_disease_id_2158,1381,disease,Impaired T Cell Function,existing
+ETCM_disease_id_2160,1382,disease,Impaired Temperature Sensation,existing
+ETCM_disease_id_2162,1383,disease,Impaired Vibration Sensation In The Lower Limbs,existing
+ETCM_disease_id_2163,1384,disease,Impaired Vibratory Sensation,existing
+ETCM_disease_id_2165,1385,disease,Impairment Of Galactose Metabolism,existing
+ETCM_disease_id_2166,1386,disease,Inability To Walk,existing
+ETCM_disease_id_2168,1387,disease,Inappropriate Behavior,existing
+ETCM_disease_id_2169,1388,disease,Inappropriate Crying,existing
+ETCM_disease_id_2173,1389,disease,Incomprehensible Speech,existing
+ETCM_disease_id_2174,1390,disease,Incoordination,existing
+ETCM_disease_id_2175,1391,disease,Increased Adipose Tissue,existing
+ETCM_disease_id_2177,1392,disease,Increased Antibody Level In Blood,existing
+ETCM_disease_id_2180,1393,disease,Increased Body Weight,existing
+ETCM_disease_id_2181,1394,disease,Increased Bone Mineral Density,existing
+ETCM_disease_id_2182,1395,disease,Increased C-Peptide Level,existing
+ETCM_disease_id_2184,1396,disease,Increased Circulating Acth Level,existing
+ETCM_disease_id_2186,1397,disease,Increased Circulating Chylomicron Concentration,existing
+ETCM_disease_id_2187,1398,disease,Increased Circulating Cortisol Level,existing
+ETCM_disease_id_2188,1399,disease,Increased Circulating Free Fatty Acid Level,existing
+ETCM_disease_id_2189,1400,disease,Increased Connective Tissue,existing
+ETCM_disease_id_2191,1401,disease,Increased Csf Lactate,existing
+ETCM_disease_id_2192,1402,disease,Increased Csf Protein,existing
+ETCM_disease_id_2193,1403,disease,Increased Density Of Long Bone Diaphyses,existing
+ETCM_disease_id_2195,1404,disease,Increased Erythrocyte Protoporphyrin Concentration,existing
+ETCM_disease_id_2196,1405,disease,Increased Female Libido,existing
+ETCM_disease_id_2199,1406,disease,Increased Hematocrit,existing
+ETCM_disease_id_2200,1407,disease,Increased Hemoglobin,existing
+ETCM_disease_id_2201,1408,disease,Increased Hepatic Glycogen Content,existing
+ETCM_disease_id_2202,1409,disease,Increased Hepatocellular Lipid Droplets,existing
+ETCM_disease_id_2204,1410,disease,Increased Ige Level,existing
+ETCM_disease_id_2209,1411,disease,Increased Intracranial Pressure,existing
+ETCM_disease_id_2211,1412,disease,Increased Intramyocellular Lipid Droplets,existing
+ETCM_disease_id_2212,1413,disease,Increased Intraocular Pressure,existing
+ETCM_disease_id_2213,1414,disease,Increased Lactate Dehydrogenase Activity,existing
+ETCM_disease_id_2215,1415,disease,Increased Ldl Cholesterol Concentration,existing
+ETCM_disease_id_2216,1416,disease,Increased Level Of 3-Hydroxy-3-Methylglutaric Acid In Urine,existing
+ETCM_disease_id_2224,1417,disease,Increased Level Of Hippuric Acid In Urine,existing
+ETCM_disease_id_2225,1418,disease,Increased Level Of L-Fucose In Urine,existing
+ETCM_disease_id_2226,1419,disease,Increased Level Of L-Glutamic Acid In Blood,existing
+ETCM_disease_id_2227,1420,disease,Increased Level Of L-Pyroglutamic Acid In Urine,existing
+ETCM_disease_id_2237,1421,disease,Increased Mean Corpuscular Volume,existing
+ETCM_disease_id_2238,1422,disease,Increased Mean Platelet Volume,existing
+ETCM_disease_id_2239,1423,disease,Increased Megakaryocyte Count,existing
+ETCM_disease_id_2240,1424,disease,Increased Mitochondrial Number,existing
+ETCM_disease_id_2241,1425,disease,Increased Muscle Fatiguability,existing
+ETCM_disease_id_2242,1426,disease,Increased Muscle Lipid Content,existing
+ETCM_disease_id_2247,1427,disease,Increased Red Blood Cell Mass,existing
+ETCM_disease_id_2249,1428,disease,Increased Red Cell Osmotic Fragility,existing
+ETCM_disease_id_2251,1429,disease,Increased Red Cell Sickling Tendency,existing
+ETCM_disease_id_2253,1430,disease,"Increased Serum 1,25-Dihydroxyvitamin D3",existing
+ETCM_disease_id_2254,1431,disease,Increased Serum Androstenedione,existing
+ETCM_disease_id_2256,1432,disease,Increased Serum Bile Acid Concentration,existing
+ETCM_disease_id_2258,1433,disease,Increased Serum Estradiol,existing
+ETCM_disease_id_2259,1434,disease,Increased Serum Ferritin,existing
+ETCM_disease_id_2262,1435,disease,Increased Serum Insulin-Like Growth Factor 1,existing
+ETCM_disease_id_2263,1436,disease,Increased Serum Iron,existing
+ETCM_disease_id_2264,1437,disease,Increased Serum Lactate,existing
+ETCM_disease_id_2265,1438,disease,Increased Serum Prostaglandin E2,existing
+ETCM_disease_id_2266,1439,disease,Increased Serum Pyruvate,existing
+ETCM_disease_id_2267,1440,disease,Increased Serum Serotonin,existing
+ETCM_disease_id_2268,1441,disease,Increased Serum Testosterone Level,existing
+ETCM_disease_id_2270,1442,disease,Increased Spinal Bone Density,existing
+ETCM_disease_id_2271,1443,disease,Increased Susceptibility To Fractures,existing
+ETCM_disease_id_2273,1444,disease,Increased Thyroid-Stimulating Hormone Level,existing
+ETCM_disease_id_2274,1445,disease,Increased Total Bilirubin,existing
+ETCM_disease_id_2275,1446,disease,Increased Urinary Cortisol Level,existing
+ETCM_disease_id_2278,1447,disease,Increased Urinary O-Linked Sialopeptides,existing
+ETCM_disease_id_2279,1448,disease,Increased Urinary Potassium,existing
+ETCM_disease_id_2281,1449,disease,Increased Urinary Taurine,existing
+ETCM_disease_id_2284,1450,disease,Increased Urine Alpha-Ketoglutarate Concentration,existing
+ETCM_disease_id_2285,1451,disease,Increased Variability In Muscle Fiber Diameter,existing
+ETCM_disease_id_2286,1452,disease,Increased Vldl Cholesterol Concentration,existing
+ETCM_disease_id_2288,1453,disease,Infantile Encephalopathy,existing
+ETCM_disease_id_2290,1454,disease,Infantile Muscular Hypotonia,existing
+ETCM_disease_id_2291,1455,disease,Infantile Onset,existing
+ETCM_disease_id_2292,1456,disease,Infantile Spasms,existing
+ETCM_disease_id_2293,1457,disease,"Infarction, Middle Cerebral Artery",existing
+ETCM_disease_id_2294,1458,disease,Infectious Disease,existing
+ETCM_disease_id_2295,1459,disease,Infertility,existing
+ETCM_disease_id_2296,1460,disease,Inflammation,existing
+ETCM_disease_id_2298,1461,disease,Inflammatory Abnormality Of The Eye,existing
+ETCM_disease_id_2299,1462,disease,Inflammatory Abnormality Of The Skin,existing
+ETCM_disease_id_2305,1463,disease,Inflammatory Lung Disease,existing
+ETCM_disease_id_2307,1464,disease,Inflammatory Neurological Disease,existing
+ETCM_disease_id_2308,1465,disease,Inflammatory Pain,existing
+ETCM_disease_id_2309,1466,disease,Inflammatory Response In Alcoholic Liver Disease,existing
+ETCM_disease_id_2310,1467,disease,Inflammatory Skin Disorder,existing
+ETCM_disease_id_2313,1468,disease,Inguinal Hernia,existing
+ETCM_disease_id_2315,1469,disease,Injury To Spine And Spinal Cord,existing
+ETCM_disease_id_2318,1470,disease,Insomnia,existing
+ETCM_disease_id_2319,1471,disease,Inspiratory Stridor,existing
+ETCM_disease_id_2321,1472,disease,Insulin-Dependent Diabetes Mellitus,existing
+ETCM_disease_id_2322,1473,disease,Insulin-Resistant Diabetes Mellitus,existing
+ETCM_disease_id_2327,1474,disease,Insulin Resistance,existing
+ETCM_disease_id_2329,1475,disease,Intellectual Disability,existing
+ETCM_disease_id_2330,1476,disease,"Intellectual Disability, Borderline",existing
+ETCM_disease_id_2331,1477,disease,"Intellectual Disability, Moderate",existing
+ETCM_disease_id_2332,1478,disease,"Intellectual Disability, Profound",existing
+ETCM_disease_id_2333,1479,disease,"Intellectual Disability, Progressive",existing
+ETCM_disease_id_2334,1480,disease,"Intellectual Disability, Severe",existing
+ETCM_disease_id_2335,1481,disease,Intention Tremor,existing
+ETCM_disease_id_2336,1482,disease,Intercostal Muscle Weakness,existing
+ETCM_disease_id_2337,1483,disease,Intermittent Diarrhea,existing
+ETCM_disease_id_2338,1484,disease,Intermittent Episodes Of Respiratory Insufficiency Due To Muscle Weakness,existing
+ETCM_disease_id_2340,1485,disease,Intermittent Hyperpnea At Rest,existing
+ETCM_disease_id_2342,1486,disease,Intermittent Hypothermia,existing
+ETCM_disease_id_2343,1487,disease,Intermittent Jaundice,existing
+ETCM_disease_id_2345,1488,disease,Intermittent Painful Muscle Spasms,existing
+ETCM_disease_id_2346,1489,disease,Intermittent Thrombocytopenia,existing
+ETCM_disease_id_2348,1490,disease,Interphalangeal Joint Erosions,existing
+ETCM_disease_id_2350,1491,disease,Interstitial Pneumonitis,existing
+ETCM_disease_id_2351,1492,disease,Interstitial Pulmonary Abnormality,existing
+ETCM_disease_id_2355,1493,disease,Intestinal Carcinoid,existing
+ETCM_disease_id_2358,1494,disease,Intestinal Malrotation,existing
+ETCM_disease_id_2360,1495,disease,Intestinal Obstruction,existing
+ETCM_disease_id_2362,1496,disease,Intestinal Polyposis,existing
+ETCM_disease_id_2363,1497,disease,Intestinal Polyps,existing
+ETCM_disease_id_2364,1498,disease,Intestinal Pseudo-Obstruction,existing
+ETCM_disease_id_2365,1499,disease,Intimal Hyperplasia,existing
+ETCM_disease_id_2368,1500,disease,Intracranial Hemorrhage,existing
+ETCM_disease_id_2369,1501,disease,Intracranial Hemorrhages,existing
+ETCM_disease_id_2373,1502,disease,Intrahepatic Cholestasis,existing
+ETCM_disease_id_2375,1503,disease,Intramuscular Hematoma,existing
+ETCM_disease_id_2379,1504,disease,Involuntary Movements,existing
+ETCM_disease_id_2383,1505,disease,Iris Hypopigmentation,existing
+ETCM_disease_id_2388,1506,disease,Iron Deficiency Anemia,existing
+ETCM_disease_id_2390,1507,disease,Irregular Hyperpigmentation,existing
+ETCM_disease_id_2392,1508,disease,Irritability,existing
+ETCM_disease_id_2393,1509,disease,Irritable Bowel Syndrome,existing
+ETCM_disease_id_2394,1510,disease,Irritation,existing
+ETCM_disease_id_2395,1511,disease,Ischemia,existing
+ETCM_disease_id_2396,1512,disease,Ischemia Reperfusion Injuries,existing
+ETCM_disease_id_2397,1513,disease,Ischemic Complications Of Nonurgent Coronary Stent Implantation,existing
+ETCM_disease_id_2400,1514,disease,Ischemic Injury Of The Liver,existing
+ETCM_disease_id_2402,1515,disease,Ischemic Stroke,existing
+ETCM_disease_id_2406,1516,disease,Jaundice,existing
+ETCM_disease_id_2407,1517,disease,Jaw Pain,existing
+ETCM_disease_id_2409,1518,disease,Jerky Head Movements,existing
+ETCM_disease_id_2411,1519,disease,Joint Contracture Of The Hand,existing
+ETCM_disease_id_2412,1520,disease,Joint Hemorrhage,existing
+ETCM_disease_id_2413,1521,disease,Joint Laxity,existing
+ETCM_disease_id_2414,1522,disease,Joint Stiffness,existing
+ETCM_disease_id_2415,1523,disease,Joint Swelling,existing
+ETCM_disease_id_2417,1524,disease,Juvenile Onset,existing
+ETCM_disease_id_2418,1525,disease,Juvenile Rheumatoid Arthritis,existing
+ETCM_disease_id_2419,1526,disease,Kaposi's Sarcoma,existing
+ETCM_disease_id_2424,1527,disease,Ketoacidosis,existing
+ETCM_disease_id_2425,1528,disease,Ketonemia,existing
+ETCM_disease_id_2426,1529,disease,Ketonuria,existing
+ETCM_disease_id_2427,1530,disease,Ketotic Hypoglycemia,existing
+ETCM_disease_id_2428,1531,disease,Ki-1+ Anaplastic Large Cell Lymphoma,existing
+ETCM_disease_id_2429,1532,disease,Kidney Cancer,existing
+ETCM_disease_id_2431,1533,disease,Kidney Diseases,existing
+ETCM_disease_id_2432,1534,disease,Kidney Neoplasm,existing
+ETCM_disease_id_2433,1535,disease,Kinetic Tremor,existing
+ETCM_disease_id_2435,1536,disease,Knee Dislocation,existing
+ETCM_disease_id_2436,1537,disease,Knee Flexion Contracture,existing
+ETCM_disease_id_2438,1538,disease,Korsakov's Alcoholic Psychosis,existing
+ETCM_disease_id_2440,1539,disease,Kyphosis,existing
+ETCM_disease_id_2444,1540,disease,Lack Of Skin Elasticity,existing
+ETCM_disease_id_2446,1541,disease,Lack Of T Cell Function,existing
+ETCM_disease_id_2447,1542,disease,Lactic Acidosis,existing
+ETCM_disease_id_2448,1543,disease,Lactose Intolerance,existing
+ETCM_disease_id_2449,1544,disease,Lamellar Cataract,existing
+ETCM_disease_id_2450,1545,disease,Large Cafe-Au-Lait Macules With Irregular Margins,existing
+ETCM_disease_id_2451,1546,disease,Large Fontanelles,existing
+ETCM_disease_id_2456,1547,disease,Laryngeal Dystonia,existing
+ETCM_disease_id_2459,1548,disease,Laryngospasm,existing
+ETCM_disease_id_2460,1549,disease,Lasting Tachycardia,existing
+ETCM_disease_id_2461,1550,disease,Late-Onset Distal Muscle Weakness,existing
+ETCM_disease_id_2462,1551,disease,Late-Onset Proximal Muscle Weakness,existing
+ETCM_disease_id_2463,1552,disease,Late-Stage B-Cell Lymphoma,existing
+ETCM_disease_id_2465,1553,disease,Late-Stage Solid Tumors,existing
+ETCM_disease_id_2466,1554,disease,Late Onset,existing
+ETCM_disease_id_2467,1555,disease,Late Onset Congenital Glaucoma,existing
+ETCM_disease_id_2468,1556,disease,Learning Disorders,existing
+ETCM_disease_id_2469,1557,disease,Leber Optic Atrophy,existing
+ETCM_disease_id_2472,1558,disease,Leg Muscle Stiffness,existing
+ETCM_disease_id_2473,1559,disease,Leishmania Infections,existing
+ETCM_disease_id_2474,1560,disease,"Leishmaniasis, Cutaneous",existing
+ETCM_disease_id_2475,1561,disease,"Leishmaniasis, Visceral",existing
+ETCM_disease_id_2477,1562,disease,Lethargy,existing
+ETCM_disease_id_2478,1563,disease,Leukocyte Inclusion Bodies,existing
+ETCM_disease_id_2479,1564,disease,Leukocytosis,existing
+ETCM_disease_id_2480,1565,disease,Leukodystrophy,existing
+ETCM_disease_id_2481,1566,disease,Leukoencephalopathy,existing
+ETCM_disease_id_2482,1567,disease,Leukonychia,existing
+ETCM_disease_id_2483,1568,disease,Leukopenia,existing
+ETCM_disease_id_2484,1569,disease,Levator Palpebrae Superioris Atrophy,existing
+ETCM_disease_id_2487,1570,disease,Limb-Girdle Muscle Weakness,existing
+ETCM_disease_id_2488,1571,disease,Limb Ataxia,existing
+ETCM_disease_id_2489,1572,disease,Limb Dystonia,existing
+ETCM_disease_id_2490,1573,disease,Limb Hypertonia,existing
+ETCM_disease_id_2491,1574,disease,Limb Joint Contracture,existing
+ETCM_disease_id_2492,1575,disease,Limb Muscle Weakness,existing
+ETCM_disease_id_2493,1576,disease,Limb Myoclonus,existing
+ETCM_disease_id_2494,1577,disease,Limb Pain,existing
+ETCM_disease_id_2495,1578,disease,Limb Tremor,existing
+ETCM_disease_id_2500,1579,disease,Limited Elbow Movement,existing
+ETCM_disease_id_2501,1580,disease,Limited Extraocular Movements,existing
+ETCM_disease_id_2505,1581,disease,Limited Knee Flexion,existing
+ETCM_disease_id_2515,1582,disease,Lip Telangiectasia,existing
+ETCM_disease_id_2516,1583,disease,Lipid Metabolic Disorders,existing
+ETCM_disease_id_2518,1584,disease,Lipodystrophy,existing
+ETCM_disease_id_2520,1585,disease,Lipoidosis,existing
+ETCM_disease_id_2521,1586,disease,Lipoma,existing
+ETCM_disease_id_2526,1587,disease,Liver Abscess,existing
+ETCM_disease_id_2528,1588,disease,Liver Cirrhosis,existing
+ETCM_disease_id_2529,1589,disease,Liver Diseases,existing
+ETCM_disease_id_2530,1590,disease,Liver Failure,existing
+ETCM_disease_id_2533,1591,disease,Liver Neoplasms,existing
+ETCM_disease_id_2534,1592,disease,Local Anesthesia,existing
+ETCM_disease_id_2536,1593,disease,Localized Neuroblastoma,existing
+ETCM_disease_id_2537,1594,disease,Localized Skin Lesion,existing
+ETCM_disease_id_2538,1595,disease,Long Eyebrows,existing
+ETCM_disease_id_2539,1596,disease,Long Penis,existing
+ETCM_disease_id_2541,1597,disease,Loss Of Ability To Walk,existing
+ETCM_disease_id_2542,1598,disease,Loss Of Ability To Walk In Early Childhood,existing
+ETCM_disease_id_2544,1599,disease,Loss Of Consciousness,existing
+ETCM_disease_id_2546,1600,disease,Loss Of Speech,existing
+ETCM_disease_id_2547,1601,disease,Loss Of Subcutaneous Adipose Tissue In Limbs,existing
+ETCM_disease_id_2551,1602,disease,Low-Molecular-Weight Proteinuria,existing
+ETCM_disease_id_2553,1603,disease,"Low-Set, Posteriorly Rotated Ears",existing
+ETCM_disease_id_2555,1604,disease,Low-To-Normal Blood Pressure,existing
+ETCM_disease_id_2557,1605,disease,Low Anterior Hairline,existing
+ETCM_disease_id_2558,1606,disease,Low Apgar Score,existing
+ETCM_disease_id_2561,1607,disease,Low Frustration Tolerance,existing
+ETCM_disease_id_2562,1608,disease,Low High Density Lipoprotein Syndromes,existing
+ETCM_disease_id_2563,1609,disease,Low Maternal Serum Estriol,existing
+ETCM_disease_id_2564,1610,disease,Low Plasma Citrulline,existing
+ETCM_disease_id_2565,1611,disease,Low Posterior Hairline,existing
+ETCM_disease_id_2566,1612,disease,Low Serum Calcitriol,existing
+ETCM_disease_id_2567,1613,disease,Low Urinary Cyclic Amp Response To Pth Administration,existing
+ETCM_disease_id_2568,1614,disease,Lower Eyelid Coloboma,existing
+ETCM_disease_id_2569,1615,disease,Lower Limb Amyotrophy,existing
+ETCM_disease_id_2570,1616,disease,Lower Limb Hyperreflexia,existing
+ETCM_disease_id_2572,1617,disease,Lower Limb Muscle Weakness,existing
+ETCM_disease_id_2574,1618,disease,Lower Limb Spasticity,existing
+ETCM_disease_id_2577,1619,disease,Lps-Induced Left Ventricular Dysfunction,existing
+ETCM_disease_id_2578,1620,disease,Lumbar Hyperlordosis,existing
+ETCM_disease_id_2580,1621,disease,Lung Adenocarcinoma,existing
+ETCM_disease_id_2581,1622,disease,Lung Cancer,existing
+ETCM_disease_id_2587,1623,disease,Lung Neoplasms,existing
+ETCM_disease_id_2588,1624,disease,Lupus,existing
+ETCM_disease_id_2592,1625,disease,Lymph Node Hypoplasia,existing
+ETCM_disease_id_2593,1626,disease,Lymphadenitis,existing
+ETCM_disease_id_2594,1627,disease,Lymphadenopathy,existing
+ETCM_disease_id_2595,1628,disease,Lymphangiectasis,existing
+ETCM_disease_id_2596,1629,disease,Lymphangioma,existing
+ETCM_disease_id_2599,1630,disease,Lymphatic Metastasis,existing
+ETCM_disease_id_2600,1631,disease,Lymphedema,existing
+ETCM_disease_id_2602,1632,disease,Lymphocytosis,existing
+ETCM_disease_id_2604,1633,disease,Lymphoma,existing
+ETCM_disease_id_2606,1634,disease,Lymphopenia,existing
+ETCM_disease_id_2609,1635,disease,Macrocytic Anemia,existing
+ETCM_disease_id_2611,1636,disease,Macronodular Adrenal Hyperplasia,existing
+ETCM_disease_id_2612,1637,disease,"Macroorchidism, Postpubertal",existing
+ETCM_disease_id_2613,1638,disease,Macrothrombocytopenia,existing
+ETCM_disease_id_2614,1639,disease,Macrovesicular Hepatic Steatosis,existing
+ETCM_disease_id_2615,1640,disease,Macular Degeneration,existing
+ETCM_disease_id_2616,1641,disease,Macular Edema,existing
+ETCM_disease_id_2617,1642,disease,Macular Flecks,existing
+ETCM_disease_id_2621,1643,disease,Macule,existing
+ETCM_disease_id_2624,1644,disease,Magnesium Deficiency Dermatitis,existing
+ETCM_disease_id_2625,1645,disease,Major Depressive Disorder,existing
+ETCM_disease_id_2626,1646,disease,Malabsorption,existing
+ETCM_disease_id_2627,1647,disease,Malabsorption Of Vitamin B12,existing
+ETCM_disease_id_2629,1648,disease,Malaria,existing
+ETCM_disease_id_2630,1649,disease,Male Hypogonadism,existing
+ETCM_disease_id_2631,1650,disease,Male Infertility,existing
+ETCM_disease_id_2635,1651,disease,Malignant Adrenal Gland Cancer,existing
+ETCM_disease_id_2637,1652,disease,Malignant Eosinophil Proliferation,existing
+ETCM_disease_id_2641,1653,disease,Malignant Hyperthermia,existing
+ETCM_disease_id_2642,1654,disease,Malignant Melanoma,existing
+ETCM_disease_id_2643,1655,disease,Malignant Mesothelioma,existing
+ETCM_disease_id_2644,1656,disease,Malignant Neoplasm Of Prostate,existing
+ETCM_disease_id_2647,1657,disease,Malnutrition,existing
+ETCM_disease_id_2649,1658,disease,Malrotation Of Small Bowel,existing
+ETCM_disease_id_2650,1659,disease,Mammary Neoplasms,existing
+ETCM_disease_id_2651,1660,disease,Mandibular Osteomyelitis,existing
+ETCM_disease_id_2652,1661,disease,Mandibular Pain,existing
+ETCM_disease_id_2653,1662,disease,Mania,existing
+ETCM_disease_id_2654,1663,disease,Manic Disorder,existing
+ETCM_disease_id_2655,1664,disease,Marijuana Abuse,existing
+ETCM_disease_id_2656,1665,disease,Marked Delay In Bone Age,existing
+ETCM_disease_id_2659,1666,disease,Maternal Diabetes,existing
+ETCM_disease_id_2660,1667,disease,Maternal Hypertension,existing
+ETCM_disease_id_2661,1668,disease,Maternal Virilization In Pregnancy,existing
+ETCM_disease_id_2662,1669,disease,Maturity-Onset Diabetes Of The Young,existing
+ETCM_disease_id_2663,1670,disease,Mccune-Albright Syndrome,existing
+ETCM_disease_id_2664,1671,disease,Mechanical Nociceptor Hypersensitivity,existing
+ETCM_disease_id_2665,1672,disease,Meckel Diverticulum,existing
+ETCM_disease_id_2666,1673,disease,Meconium Ileus,existing
+ETCM_disease_id_2667,1674,disease,Medial Calcification Of Large Arteries,existing
+ETCM_disease_id_2668,1675,disease,Medial Calcification Of Medium-Sized Arteries,existing
+ETCM_disease_id_2669,1676,disease,Medial Deviation Of The Foot,existing
+ETCM_disease_id_2671,1677,disease,Mediastinal Lymphadenopathy,existing
+ETCM_disease_id_2672,1678,disease,Medium Chain Dicarboxylic Aciduria,existing
+ETCM_disease_id_2675,1679,disease,Medulloblastoma,existing
+ETCM_disease_id_2676,1680,disease,Megacystis,existing
+ETCM_disease_id_2678,1681,disease,Megaloblastic Anemia,existing
+ETCM_disease_id_2679,1682,disease,Megaloblastic Bone Marrow,existing
+ETCM_disease_id_2681,1683,disease,Melancholia,existing
+ETCM_disease_id_2683,1684,disease,Melanoma,existing
+ETCM_disease_id_2684,1685,disease,Melena,existing
+ETCM_disease_id_2687,1686,disease,Membranous Glomerulonephritis,existing
+ETCM_disease_id_2688,1687,disease,Membranous Nephropathy,existing
+ETCM_disease_id_2689,1688,disease,Memory Disorders,existing
+ETCM_disease_id_2690,1689,disease,Memory Impairment,existing
+ETCM_disease_id_2691,1690,disease,Meningioma,existing
+ETCM_disease_id_2692,1691,disease,Meningitis,existing
+ETCM_disease_id_2693,1692,disease,Menometrorrhagia,existing
+ETCM_disease_id_2695,1693,disease,Menorrhagia,existing
+ETCM_disease_id_2696,1694,disease,Menstrual Irregularities,existing
+ETCM_disease_id_2697,1695,disease,Mental Depression,existing
+ETCM_disease_id_2699,1696,disease,Mesothelioma,existing
+ETCM_disease_id_2700,1697,disease,Metabolic Alkalosis,existing
+ETCM_disease_id_2702,1698,disease,Metabolic Disorders,existing
+ETCM_disease_id_2703,1699,disease,Metabolic Ketoacidosis,existing
+ETCM_disease_id_2704,1700,disease,Metabolic Syndrome X,existing
+ETCM_disease_id_2706,1701,disease,Metaphyseal Cupping,existing
+ETCM_disease_id_2709,1702,disease,Metaphyseal Irregularity,existing
+ETCM_disease_id_2711,1703,disease,Metastatic Colorectal Cancer,existing
+ETCM_disease_id_2713,1704,disease,Metastatic Hormone Refractory Prostate Cancer,existing
+ETCM_disease_id_2715,1705,disease,Metastatic Or Locally Advanced Basal Cell Carcinoma,existing
+ETCM_disease_id_2716,1706,disease,Metastatic Prostate Cancer,existing
+ETCM_disease_id_2718,1707,disease,Metatarsus Valgus,existing
+ETCM_disease_id_2719,1708,disease,Methanol Poisoning,existing
+ETCM_disease_id_2720,1709,disease,Methemoglobinemia,existing
+ETCM_disease_id_2721,1710,disease,Methylmalonic Acidemia,existing
+ETCM_disease_id_2722,1711,disease,Methylmalonic Aciduria,existing
+ETCM_disease_id_2725,1712,disease,Microalbuminuria,existing
+ETCM_disease_id_2727,1713,disease,Microcolon,existing
+ETCM_disease_id_2728,1714,disease,Microcornea,existing
+ETCM_disease_id_2729,1715,disease,Microcytic Anemia,existing
+ETCM_disease_id_2730,1716,disease,Micronodular Cirrhosis,existing
+ETCM_disease_id_2732,1717,disease,Microscopic Hematuria,existing
+ETCM_disease_id_2734,1718,disease,Microvesicular Hepatic Steatosis,existing
+ETCM_disease_id_2738,1719,disease,Midgut Malrotation,existing
+ETCM_disease_id_2741,1720,disease,Migraine,existing
+ETCM_disease_id_2742,1721,disease,Migraine With Aura,existing
+ETCM_disease_id_2746,1722,disease,Mild Intrauterine Growth Retardation,existing
+ETCM_disease_id_2749,1723,disease,Mildly Elevated Creatine Phosphokinase,existing
+ETCM_disease_id_2754,1724,disease,Mitochondrial Malic Enzyme Reduced,existing
+ETCM_disease_id_2755,1725,disease,Mitochondrial Respiratory Chain Defects,existing
+ETCM_disease_id_2757,1726,disease,Mitral Valve Calcification,existing
+ETCM_disease_id_2759,1727,disease,Mixed Hearing Impairment,existing
+ETCM_disease_id_2761,1728,disease,Moderate-To-Severe Plaque Psoriasis,existing
+ETCM_disease_id_2764,1729,disease,Moderate Vision Loss,existing
+ETCM_disease_id_2770,1730,disease,Mood Affective Disorders,existing
+ETCM_disease_id_2771,1731,disease,Mood Changes,existing
+ETCM_disease_id_2772,1732,disease,Mood Disorders,existing
+ETCM_disease_id_2775,1733,disease,Morning Myoclonic Jerks,existing
+ETCM_disease_id_2776,1734,disease,Morphological Abnormality Of The Pyramidal Tract,existing
+ETCM_disease_id_2778,1735,disease,Motion Sickness,existing
+ETCM_disease_id_2779,1736,disease,Motor Aphasia,existing
+ETCM_disease_id_2780,1737,disease,Motor Deterioration,existing
+ETCM_disease_id_2781,1738,disease,Motor Disorder,existing
+ETCM_disease_id_2782,1739,disease,Motor Neurone Disease,existing
+ETCM_disease_id_2783,1740,disease,Mottled Pigmentation,existing
+ETCM_disease_id_2785,1741,disease,Movement Abnormality Of The Tongue,existing
+ETCM_disease_id_2790,1742,disease,Multicystic Kidney Dysplasia,existing
+ETCM_disease_id_2791,1743,disease,Multifocal Epileptiform Discharges,existing
+ETCM_disease_id_2794,1744,disease,Multinodular Goiter,existing
+ETCM_disease_id_2798,1745,disease,Multiple Epiphyseal Dysplasia,existing
+ETCM_disease_id_2800,1746,disease,Multiple Joint Contractures,existing
+ETCM_disease_id_2801,1747,disease,Multiple Joint Dislocation,existing
+ETCM_disease_id_2802,1748,disease,Multiple Lipomas,existing
+ETCM_disease_id_2803,1749,disease,Multiple Myeloma,existing
+ETCM_disease_id_2804,1750,disease,Multiple Organ Failure,existing
+ETCM_disease_id_2806,1751,disease,Multiple Prenatal Fractures,existing
+ETCM_disease_id_2807,1752,disease,Multiple Renal Cysts,existing
+ETCM_disease_id_2809,1753,disease,Multiple Sclerosis,existing
+ETCM_disease_id_2814,1754,disease,Muscle Cramps,existing
+ETCM_disease_id_2815,1755,disease,Muscle Fiber Necrosis,existing
+ETCM_disease_id_2816,1756,disease,Muscle Fiber Splitting,existing
+ETCM_disease_id_2820,1757,disease,Muscle Spasm,existing
+ETCM_disease_id_2821,1758,disease,Muscle Stiffness,existing
+ETCM_disease_id_2823,1759,disease,Muscle Weakness,existing
+ETCM_disease_id_2825,1760,disease,Muscular Dystrophy,existing
+ETCM_disease_id_2826,1761,disease,Mutism,existing
+ETCM_disease_id_2827,1762,disease,Myalgia,existing
+ETCM_disease_id_2829,1763,disease,Mycobacterium Tuberculosis Infection,existing
+ETCM_disease_id_2831,1764,disease,Mydriasis,existing
+ETCM_disease_id_2832,1765,disease,Myelodysplasia,existing
+ETCM_disease_id_2833,1766,disease,Myelodysplastic Syndromes,existing
+ETCM_disease_id_2834,1767,disease,Myelofibrosis,existing
+ETCM_disease_id_2835,1768,disease,Myelokathexis,existing
+ETCM_disease_id_2836,1769,disease,Myeloma,existing
+ETCM_disease_id_2837,1770,disease,Myelomeningocele,existing
+ETCM_disease_id_2838,1771,disease,Myeloneuropathy,existing
+ETCM_disease_id_2839,1772,disease,Myelopathy,existing
+ETCM_disease_id_2840,1773,disease,Myeloproliferative Disorder,existing
+ETCM_disease_id_2841,1774,disease,Myocardial Disease,existing
+ETCM_disease_id_2843,1775,disease,Myocardial Infarction,existing
+ETCM_disease_id_2844,1776,disease,Myocardial Ischemia,existing
+ETCM_disease_id_2845,1777,disease,Myocardial Reperfusion Injury,existing
+ETCM_disease_id_2847,1778,disease,Myocarditis,existing
+ETCM_disease_id_2848,1779,disease,Myoclonic Atonic Seizures,existing
+ETCM_disease_id_2849,1780,disease,Myoclonic Spasms,existing
+ETCM_disease_id_2850,1781,disease,Myoclonus,existing
+ETCM_disease_id_2851,1782,disease,Myofibrillar Myopathy,existing
+ETCM_disease_id_2852,1783,disease,Myoglobinuria,existing
+ETCM_disease_id_2853,1784,disease,Myokymia,existing
+ETCM_disease_id_2854,1785,disease,Myopathic Facies,existing
+ETCM_disease_id_2855,1786,disease,Myopathy,existing
+ETCM_disease_id_2856,1787,disease,Myopia,existing
+ETCM_disease_id_2858,1788,disease,Myositis,existing
+ETCM_disease_id_2859,1789,disease,Myotonia,existing
+ETCM_disease_id_2860,1790,disease,Myotonia Of The Face,existing
+ETCM_disease_id_2861,1791,disease,Myotonia Of The Jaw,existing
+ETCM_disease_id_2862,1792,disease,Myotonia Of The Upper Limb,existing
+ETCM_disease_id_2866,1793,disease,Myxoid Subcutaneous Tumors,existing
+ETCM_disease_id_2867,1794,disease,Narcolepsy,existing
+ETCM_disease_id_2868,1795,disease,Nasal Obstruction,existing
+ETCM_disease_id_2870,1796,disease,Nasal Speech,existing
+ETCM_disease_id_2871,1797,disease,Nausea,existing
+ETCM_disease_id_2872,1798,disease,Nausea And Vomiting,existing
+ETCM_disease_id_2873,1799,disease,Neck Flexor Weakness,existing
+ETCM_disease_id_2875,1800,disease,Necrosis,existing
+ETCM_disease_id_2876,1801,disease,Negative Nitroblue Tetrazolium Reduction Test,existing
+ETCM_disease_id_2877,1802,disease,Nemaline Bodies,existing
+ETCM_disease_id_2880,1803,disease,Neonatal Cholestatic Liver Disease,existing
+ETCM_disease_id_2881,1804,disease,Neonatal Hyperbilirubinemia,existing
+ETCM_disease_id_2882,1805,disease,Neonatal Inspiratory Stridor,existing
+ETCM_disease_id_2883,1806,disease,Neonatal Jaundice,existing
+ETCM_disease_id_2884,1807,disease,Neonatal Onset,existing
+ETCM_disease_id_2885,1808,disease,Neonatal Respiratory Distress,existing
+ETCM_disease_id_2888,1809,disease,Neoplasia Of The Nasopharynx,existing
+ETCM_disease_id_2889,1810,disease,Neoplasm,existing
+ETCM_disease_id_2890,1811,disease,Neoplasm Invasiveness,existing
+ETCM_disease_id_2891,1812,disease,Neoplasm Metastasis,existing
+ETCM_disease_id_2892,1813,disease,Neoplasm Of Head And Neck,existing
+ETCM_disease_id_2893,1814,disease,Neoplasm Of The Adrenal Cortex,existing
+ETCM_disease_id_2895,1815,disease,Neoplasm Of The Breast,existing
+ETCM_disease_id_2896,1816,disease,Neoplasm Of The Colon,existing
+ETCM_disease_id_2898,1817,disease,Neoplasm Of The Gastrointestinal Tract,existing
+ETCM_disease_id_2899,1818,disease,Neoplasm Of The Lung,existing
+ETCM_disease_id_2900,1819,disease,Neoplasm Of The Nervous System,existing
+ETCM_disease_id_2902,1820,disease,Neoplasm Of The Pancreas,existing
+ETCM_disease_id_2903,1821,disease,Neoplasm Of The Rectum,existing
+ETCM_disease_id_2904,1822,disease,Neoplasm Of The Skeletal System,existing
+ETCM_disease_id_2905,1823,disease,Neoplasm Of The Skin,existing
+ETCM_disease_id_2906,1824,disease,Neoplasm Of The Small Intestine,existing
+ETCM_disease_id_2907,1825,disease,Neoplasm Of The Stomach,existing
+ETCM_disease_id_2908,1826,disease,Neoplasm Of The Thyroid Gland,existing
+ETCM_disease_id_2909,1827,disease,Neoplastic Cell Transformation,existing
+ETCM_disease_id_2911,1828,disease,Neovascular Age-Related Macular Degeneration,existing
+ETCM_disease_id_2912,1829,disease,Nephritis,existing
+ETCM_disease_id_2913,1830,disease,"Nephritis, Interstitial",existing
+ETCM_disease_id_2914,1831,disease,Nephroblastoma,existing
+ETCM_disease_id_2916,1832,disease,Nephrocalcinosis,existing
+ETCM_disease_id_2917,1833,disease,Nephrogenic Diabetes Insipidus,existing
+ETCM_disease_id_2918,1834,disease,Nephrolithiasis,existing
+ETCM_disease_id_2920,1835,disease,Nephropathy,existing
+ETCM_disease_id_2922,1836,disease,Nephrosis,existing
+ETCM_disease_id_2923,1837,disease,Nephrotic Syndrome,existing
+ETCM_disease_id_2925,1838,disease,Nerve Degeneration,existing
+ETCM_disease_id_2929,1839,disease,Neuralgia,existing
+ETCM_disease_id_2930,1840,disease,Neuroblastoma,existing
+ETCM_disease_id_2931,1841,disease,Neurodegeneration,existing
+ETCM_disease_id_2932,1842,disease,Neurodegenerative Diseases,existing
+ETCM_disease_id_2934,1843,disease,Neurodevelopmental Abnormality,existing
+ETCM_disease_id_2935,1844,disease,Neurodevelopmental Delay,existing
+ETCM_disease_id_2937,1845,disease,Neurofibrillary Tangles,existing
+ETCM_disease_id_2938,1846,disease,Neurofibromas,existing
+ETCM_disease_id_2940,1847,disease,Neurogenic Bladder,existing
+ETCM_disease_id_2941,1848,disease,Neurogenic Inflammation,existing
+ETCM_disease_id_2943,1849,disease,Neurologic And Psychiatric Diseases,existing
+ETCM_disease_id_2944,1850,disease,Neurological Diseases,existing
+ETCM_disease_id_2945,1851,disease,Neurological Speech Impairment,existing
+ETCM_disease_id_2946,1852,disease,Neurological Symptom,existing
+ETCM_disease_id_2949,1853,disease,Neuronal Injury,existing
+ETCM_disease_id_2950,1854,disease,Neuronal Loss In Central Nervous System,existing
+ETCM_disease_id_2952,1855,disease,Neuropathic Pain,existing
+ETCM_disease_id_2954,1856,disease,Neuropsychiatric Disorders,existing
+ETCM_disease_id_2956,1857,disease,Neutropenia,existing
+ETCM_disease_id_2957,1858,disease,Neutrophil-Mediated Liver Injury,existing
+ETCM_disease_id_2960,1859,disease,Nevus,existing
+ETCM_disease_id_2961,1860,disease,Nevus Sebaceous,existing
+ETCM_disease_id_2962,1861,disease,Nicotine Dependence,existing
+ETCM_disease_id_2963,1862,disease,Night Sweats,existing
+ETCM_disease_id_2964,1863,disease,No Social Interaction,existing
+ETCM_disease_id_2965,1864,disease,Nocturia,existing
+ETCM_disease_id_2966,1865,disease,Nocturnal Hypoventilation,existing
+ETCM_disease_id_2967,1866,disease,Nocturnal Seizures,existing
+ETCM_disease_id_2968,1867,disease,Nodular Goiter,existing
+ETCM_disease_id_2970,1868,disease,Non-Hodgkin's Lymphoma,existing
+ETCM_disease_id_2971,1869,disease,Non-Medullary Thyroid Carcinoma,existing
+ETCM_disease_id_2973,1870,disease,Non-Obstructive Azoospermia,existing
+ETCM_disease_id_2974,1871,disease,Non-Small Cell Lung Cancer,existing
+ETCM_disease_id_2978,1872,disease,Nonketotic Hypoglycemia,existing
+ETCM_disease_id_2981,1873,disease,Nonprogressive,existing
+ETCM_disease_id_2982,1874,disease,Nonprogressive Cerebellar Ataxia,existing
+ETCM_disease_id_2983,1875,disease,Nonprogressive Encephalopathy,existing
+ETCM_disease_id_2984,1876,disease,Nonprogressive Muscular Atrophy,existing
+ETCM_disease_id_2985,1877,disease,Nonprogressive Restrictive External Ophthalmoplegia,existing
+ETCM_disease_id_2986,1878,disease,Nonspherocytic Hemolytic Anemia,existing
+ETCM_disease_id_2987,1879,disease,Normal Interictal Eeg,existing
+ETCM_disease_id_2989,1880,disease,Normochromic Anemia,existing
+ETCM_disease_id_2990,1881,disease,Normocytic Anemia,existing
+ETCM_disease_id_2993,1882,disease,Nuclear Cataract,existing
+ETCM_disease_id_2995,1883,disease,Numerous Nevi,existing
+ETCM_disease_id_2998,1884,disease,Nyctalopia,existing
+ETCM_disease_id_3000,1885,disease,Obesity,existing
+ETCM_disease_id_3002,1886,disease,Obesity-Related Insulin Resistance,existing
+ETCM_disease_id_3003,1887,disease,Obsessive-Compulsive Behavior,existing
+ETCM_disease_id_3004,1888,disease,Obsessive-Compulsive Disorder,existing
+ETCM_disease_id_3006,1889,disease,Obstructive Airway Disease,existing
+ETCM_disease_id_3007,1890,disease,Obstructive Azoospermia,existing
+ETCM_disease_id_3008,1891,disease,Obstructive Lung Disease,existing
+ETCM_disease_id_3009,1892,disease,Obstructive Sleep Apnea,existing
+ETCM_disease_id_3010,1893,disease,Occlusive Peripheral Vascular Disease,existing
+ETCM_disease_id_3011,1894,disease,Occupational Diseases,existing
+ETCM_disease_id_3014,1895,disease,Ocular Disease,existing
+ETCM_disease_id_3015,1896,disease,Ocular Hypertension,existing
+ETCM_disease_id_3016,1897,disease,Ocular Inflammation,existing
+ETCM_disease_id_3017,1898,disease,Ocular Pain,existing
+ETCM_disease_id_3018,1899,disease,Oculogyric Crisis,existing
+ETCM_disease_id_3019,1900,disease,Oculomotor Nerve Palsy,existing
+ETCM_disease_id_3021,1901,disease,Oesophageal Cancer,existing
+ETCM_disease_id_3022,1902,disease,Oligomenorrhea,existing
+ETCM_disease_id_3024,1903,disease,Oligospermia,existing
+ETCM_disease_id_3025,1904,disease,Oliguria,existing
+ETCM_disease_id_3027,1905,disease,Onset,existing
+ETCM_disease_id_3028,1906,disease,Onychomycosis,existing
+ETCM_disease_id_3031,1907,disease,Operable Basal Cell Carcinoma,existing
+ETCM_disease_id_3032,1908,disease,Opioid-Induced Bowel Dysfunction,existing
+ETCM_disease_id_3033,1909,disease,Opioid-Induced Neuropathology,existing
+ETCM_disease_id_3034,1910,disease,Opioid Dependence,existing
+ETCM_disease_id_3035,1911,disease,Opisthotonus,existing
+ETCM_disease_id_3037,1912,disease,Opsoclonus,existing
+ETCM_disease_id_3038,1913,disease,Optic Atrophy,existing
+ETCM_disease_id_3041,1914,disease,Optic Nerve Hypoplasia,existing
+ETCM_disease_id_3042,1915,disease,Oral-Pharyngeal Dysphagia,existing
+ETCM_disease_id_3045,1916,disease,Oral Facial Pain,existing
+ETCM_disease_id_3046,1917,disease,Oral Leukoplakia,existing
+ETCM_disease_id_3047,1918,disease,Oral Motor Hypotonia,existing
+ETCM_disease_id_3048,1919,disease,Oral Mucosal Blisters,existing
+ETCM_disease_id_3049,1920,disease,Oral Mucositis,existing
+ETCM_disease_id_3050,1921,disease,Oral Synechia,existing
+ETCM_disease_id_3051,1922,disease,Oral Ulcer,existing
+ETCM_disease_id_3052,1923,disease,Orchitis,existing
+ETCM_disease_id_3054,1924,disease,Organic Aciduria,existing
+ETCM_disease_id_3055,1925,disease,Organophosphate Poisoning,existing
+ETCM_disease_id_3056,1926,disease,Ornithinuria,existing
+ETCM_disease_id_3057,1927,disease,Orofacial Dyskinesia,existing
+ETCM_disease_id_3059,1928,disease,Oropharyngeal Squamous Cell Carcinoma,existing
+ETCM_disease_id_3060,1929,disease,Orotic Acid Crystalluria,existing
+ETCM_disease_id_3061,1930,disease,Oroticaciduria,existing
+ETCM_disease_id_3062,1931,disease,Orthopnea,existing
+ETCM_disease_id_3063,1932,disease,Orthostatic Hypotension,existing
+ETCM_disease_id_3064,1933,disease,Orthostatic Hypotension Due To Autonomic Dysfunction,existing
+ETCM_disease_id_3066,1934,disease,Orthostatic Tachycardia,existing
+ETCM_disease_id_3067,1935,disease,Osteoarthritis,existing
+ETCM_disease_id_3068,1936,disease,Osteoarthritis Of The Small Joints Of The Hand,existing
+ETCM_disease_id_3069,1937,disease,Osteoarthritis Pain,existing
+ETCM_disease_id_3071,1938,disease,Osteochondroma,existing
+ETCM_disease_id_3072,1939,disease,Osteochondrosis,existing
+ETCM_disease_id_3073,1940,disease,Osteolysis,existing
+ETCM_disease_id_3074,1941,disease,Osteolytic Metastatic Cancer,existing
+ETCM_disease_id_3075,1942,disease,Osteoma,existing
+ETCM_disease_id_3076,1943,disease,Osteoma Cutis,existing
+ETCM_disease_id_3077,1944,disease,Osteomalacia,existing
+ETCM_disease_id_3078,1945,disease,Osteomyelitis,existing
+ETCM_disease_id_3079,1946,disease,Osteomyelitis Leading To Amputation Due To Slow Healing Fractures,existing
+ETCM_disease_id_3081,1947,disease,Osteopenia,existing
+ETCM_disease_id_3083,1948,disease,Osteopetrosis,existing
+ETCM_disease_id_3085,1949,disease,Osteoporosis,existing
+ETCM_disease_id_3086,1950,disease,Osteoporosis Of Vertebrae,existing
+ETCM_disease_id_3087,1951,disease,Osteosarcoma,existing
+ETCM_disease_id_3089,1952,disease,Otitis Media,existing
+ETCM_disease_id_3090,1953,disease,Otosclerosis,existing
+ETCM_disease_id_3091,1954,disease,Ovarian Cancer,existing
+ETCM_disease_id_3092,1955,disease,Ovarian Cyst,existing
+ETCM_disease_id_3094,1956,disease,Ovarian Gonadoblastoma,existing
+ETCM_disease_id_3095,1957,disease,Ovarian Neoplasm,existing
+ETCM_disease_id_3096,1958,disease,Ovarian Papillary Adenocarcinoma,existing
+ETCM_disease_id_3098,1959,disease,Overactive Bladder Disorder,existing
+ETCM_disease_id_3100,1960,disease,Overriding Aorta,existing
+ETCM_disease_id_3102,1961,disease,Oxidative And Free Radical Damage,existing
+ETCM_disease_id_3103,1962,disease,Oxidative Tissue Injuries,existing
+ETCM_disease_id_3104,1963,disease,Oxygen-Induced Retinopathy,existing
+ETCM_disease_id_3105,1964,disease,P-Chloroamphetamine-Induced Hyperglycemia,existing
+ETCM_disease_id_3108,1965,disease,Pain,existing
+ETCM_disease_id_3109,1966,disease,Pain Insensitivity,existing
+ETCM_disease_id_3110,1967,disease,Painless Fractures Due To Injury,existing
+ETCM_disease_id_3111,1968,disease,Palate Telangiectasia,existing
+ETCM_disease_id_3113,1969,disease,Pallor,existing
+ETCM_disease_id_3115,1970,disease,Palmoplantar Hyperhidrosis,existing
+ETCM_disease_id_3116,1971,disease,Palmoplantar Hyperkeratosis,existing
+ETCM_disease_id_3117,1972,disease,Palmoplantar Keratoderma,existing
+ETCM_disease_id_3118,1973,disease,Palpebral Edema,existing
+ETCM_disease_id_3119,1974,disease,Palpitations,existing
+ETCM_disease_id_3120,1975,disease,Pancreatic Adenocarcinoma,existing
+ETCM_disease_id_3121,1976,disease,Pancreatic Calcification,existing
+ETCM_disease_id_3122,1977,disease,Pancreatic Cancer,existing
+ETCM_disease_id_3124,1978,disease,Pancreatic Disease,existing
+ETCM_disease_id_3127,1979,disease,Pancreatic Hypoplasia,existing
+ETCM_disease_id_3128,1980,disease,Pancreatic Islet-Cell Hyperplasia,existing
+ETCM_disease_id_3130,1981,disease,Pancreatic Neoplasm,existing
+ETCM_disease_id_3131,1982,disease,Pancreatic Pseudocyst,existing
+ETCM_disease_id_3133,1983,disease,Pancreatitis,existing
+ETCM_disease_id_3134,1984,disease,Pancytopenia,existing
+ETCM_disease_id_3135,1985,disease,Panhypogammaglobulinemia,existing
+ETCM_disease_id_3136,1986,disease,Panic Attack,existing
+ETCM_disease_id_3137,1987,disease,Panniculitis,existing
+ETCM_disease_id_3138,1988,disease,Papillary Cystadenoma Of The Epididymis,existing
+ETCM_disease_id_3139,1989,disease,Papillary Renal Cell Carcinoma,existing
+ETCM_disease_id_3140,1990,disease,Papillary Thyroid Carcinoma,existing
+ETCM_disease_id_3141,1991,disease,Papilledema,existing
+ETCM_disease_id_3142,1992,disease,Papilloma,existing
+ETCM_disease_id_3143,1993,disease,Papule,existing
+ETCM_disease_id_3144,1994,disease,Paradoxical Increased Cortisol Secretion On Dexamethasone Suppression Test,existing
+ETCM_disease_id_3145,1995,disease,Paradoxical Myotonia,existing
+ETCM_disease_id_3146,1996,disease,Paraganglioma,existing
+ETCM_disease_id_3147,1997,disease,Paraganglioma Of Head And Neck,existing
+ETCM_disease_id_3148,1998,disease,Parakeratosis,existing
+ETCM_disease_id_3149,1999,disease,Paralysed,existing
+ETCM_disease_id_3150,2000,disease,Paralysis,existing
+ETCM_disease_id_3151,2001,disease,Paralytic Ileus,existing
+ETCM_disease_id_3153,2002,disease,Paranoia,existing
+ETCM_disease_id_3154,2003,disease,Paraparesis,existing
+ETCM_disease_id_3155,2004,disease,Paraplegia,existing
+ETCM_disease_id_3156,2005,disease,Parasitic Diseases,existing
+ETCM_disease_id_3160,2006,disease,Parathyroid Adenoma,existing
+ETCM_disease_id_3163,2007,disease,Parathyroid Disease,existing
+ETCM_disease_id_3166,2008,disease,Paresis Of Extensor Muscles Of The Big Toe,existing
+ETCM_disease_id_3167,2009,disease,Paresthesia,existing
+ETCM_disease_id_3170,2010,disease,Parkinson's Disease,existing
+ETCM_disease_id_3171,2011,disease,Parkinsonian Disorders,existing
+ETCM_disease_id_3172,2012,disease,Parkinsonism,existing
+ETCM_disease_id_3173,2013,disease,Parkinsonism With Favorable Response To Dopaminergic Medication,existing
+ETCM_disease_id_3174,2014,disease,Paronychia,existing
+ETCM_disease_id_3175,2015,disease,Paroxysmal Atrial Fibrillation,existing
+ETCM_disease_id_3177,2016,disease,Paroxysmal Choreoathetosis,existing
+ETCM_disease_id_3178,2017,disease,Paroxysmal Drowsiness,existing
+ETCM_disease_id_3179,2018,disease,Paroxysmal Dyskinesia,existing
+ETCM_disease_id_3180,2019,disease,Paroxysmal Dyspnea,existing
+ETCM_disease_id_3181,2020,disease,Paroxysmal Dystonia,existing
+ETCM_disease_id_3182,2021,disease,Paroxysmal Lethargy,existing
+ETCM_disease_id_3184,2022,disease,Paroxysmal Supraventricular Tachycardia,existing
+ETCM_disease_id_3186,2023,disease,Paroxysmal Vertigo,existing
+ETCM_disease_id_3191,2024,disease,Patchy Osteosclerosis,existing
+ETCM_disease_id_3192,2025,disease,Patellar Dislocation,existing
+ETCM_disease_id_3195,2026,disease,Pathologic Fracture,existing
+ETCM_disease_id_3196,2027,disease,Pathological Angiogenesis,existing
+ETCM_disease_id_3199,2028,disease,Pediatric Disease,existing
+ETCM_disease_id_3200,2029,disease,Pelvic Girdle Amyotrophy,existing
+ETCM_disease_id_3201,2030,disease,Pelvic Girdle Muscle Atrophy,existing
+ETCM_disease_id_3202,2031,disease,Pelvic Girdle Muscle Weakness,existing
+ETCM_disease_id_3203,2032,disease,Pendular Nystagmus,existing
+ETCM_disease_id_3204,2033,disease,Penile Diseases,existing
+ETCM_disease_id_3205,2034,disease,Peptic Ulcer,existing
+ETCM_disease_id_3207,2035,disease,Percussion Myotonia,existing
+ETCM_disease_id_3209,2036,disease,Periarticular Calcification,existing
+ETCM_disease_id_3210,2037,disease,Pericardial Effusion,existing
+ETCM_disease_id_3213,2038,disease,Periodic Hyperkalemic Paralysis,existing
+ETCM_disease_id_3214,2039,disease,Periodic Hypokalemic Paresis,existing
+ETCM_disease_id_3215,2040,disease,Periodic Paralysis,existing
+ETCM_disease_id_3217,2041,disease,Periodontitis,existing
+ETCM_disease_id_3218,2042,disease,Perioral Eczema,existing
+ETCM_disease_id_3220,2043,disease,Periorbital Fullness,existing
+ETCM_disease_id_3221,2044,disease,Periosteal Thickening Of Long Tubular Bones,existing
+ETCM_disease_id_3223,2045,disease,Peripheral And Cutaneous T-Cell Lymphomas,existing
+ETCM_disease_id_3225,2046,disease,Peripheral Axonal Neuropathy,existing
+ETCM_disease_id_3226,2047,disease,Peripheral Edema,existing
+ETCM_disease_id_3228,2048,disease,Peripheral Neuroectodermal Tumor,existing
+ETCM_disease_id_3229,2049,disease,Peripheral Neuropathy,existing
+ETCM_disease_id_3231,2050,disease,Peripheral Schwannoma,existing
+ETCM_disease_id_3234,2051,disease,Peritonitis,existing
+ETCM_disease_id_3235,2052,disease,Periventricular Leukomalacia,existing
+ETCM_disease_id_3236,2053,disease,Periventricular White Matter Hyperdensities,existing
+ETCM_disease_id_3237,2054,disease,Peroneal Muscle Atrophy,existing
+ETCM_disease_id_3238,2055,disease,Peroneal Muscle Weakness,existing
+ETCM_disease_id_3240,2056,disease,Perseveration,existing
+ETCM_disease_id_3241,2057,disease,Persistence Of Hemoglobin F,existing
+ETCM_disease_id_3242,2058,disease,Persistent Bleeding After Trauma,existing
+ETCM_disease_id_3243,2059,disease,Personality Changes,existing
+ETCM_disease_id_3244,2060,disease,Personality Disorder,existing
+ETCM_disease_id_3245,2061,disease,Pes Valgus,existing
+ETCM_disease_id_3249,2062,disease,Phenylpyruvic Acidemia,existing
+ETCM_disease_id_3250,2063,disease,Pheochromocytoma,existing
+ETCM_disease_id_3252,2064,disease,Phonophobia,existing
+ETCM_disease_id_3254,2065,disease,Photoaging,existing
+ETCM_disease_id_3255,2066,disease,Photophobia,existing
+ETCM_disease_id_3256,2067,disease,Photosensitive Tonic-Clonic Seizures,existing
+ETCM_disease_id_3258,2068,disease,Pigment Gallstones,existing
+ETCM_disease_id_3260,2069,disease,Pili Canaliculi,existing
+ETCM_disease_id_3261,2070,disease,Pilomatrixoma,existing
+ETCM_disease_id_3264,2071,disease,Pituitary Adenoma,existing
+ETCM_disease_id_3266,2072,disease,Pituitary Growth Hormone Cell Adenoma,existing
+ETCM_disease_id_3267,2073,disease,Pituitary Hypothyroidism,existing
+ETCM_disease_id_3270,2074,disease,Pituitary Prolactin Cell Adenoma,existing
+ETCM_disease_id_3271,2075,disease,Pituitary Resistance To Thyroid Hormone,existing
+ETCM_disease_id_3273,2076,disease,Plasmodium Falciparum Infection,existing
+ETCM_disease_id_3274,2077,disease,Plasmodium Infection,existing
+ETCM_disease_id_3276,2078,disease,Platelet Adhesion,existing
+ETCM_disease_id_3277,2079,disease,Platelet Aggregation,existing
+ETCM_disease_id_3280,2080,disease,Pleural Effusion,existing
+ETCM_disease_id_3281,2081,disease,Pleuritis,existing
+ETCM_disease_id_3282,2082,disease,Pleuropulmonary Blastoma,existing
+ETCM_disease_id_3283,2083,disease,Pneumocystis Infections,existing
+ETCM_disease_id_3284,2084,disease,Pneumonia,existing
+ETCM_disease_id_3285,2085,disease,Pneumothorax,existing
+ETCM_disease_id_3286,2086,disease,Podagra,existing
+ETCM_disease_id_3287,2087,disease,Poikilocytosis,existing
+ETCM_disease_id_3290,2088,disease,Pollakisuria,existing
+ETCM_disease_id_3291,2089,disease,Pollakiuria,existing
+ETCM_disease_id_3292,2090,disease,Polyarthritis,existing
+ETCM_disease_id_3293,2091,disease,Polyarticular Arthritis,existing
+ETCM_disease_id_3298,2092,disease,Polycystic Kidney Disease,existing
+ETCM_disease_id_3300,2093,disease,Polycystic Ovaries,existing
+ETCM_disease_id_3301,2094,disease,Polycystic Ovary Syndrome,existing
+ETCM_disease_id_3302,2095,disease,Polycythemia,existing
+ETCM_disease_id_3303,2096,disease,Polycythemia Vera,existing
+ETCM_disease_id_3304,2097,disease,Polydipsia,existing
+ETCM_disease_id_3306,2098,disease,Polyostotic Fibrous Dysplasia,existing
+ETCM_disease_id_3307,2099,disease,Polyphagia,existing
+ETCM_disease_id_3308,2100,disease,Polyuria,existing
+ETCM_disease_id_3309,2101,disease,Poor Appetite,existing
+ETCM_disease_id_3310,2102,disease,Poor Coordination,existing
+ETCM_disease_id_3311,2103,disease,Poor Fine Motor Coordination,existing
+ETCM_disease_id_3314,2104,disease,Poor Head Control,existing
+ETCM_disease_id_3315,2105,disease,Poor Motor Coordination,existing
+ETCM_disease_id_3316,2106,disease,Poor Speech,existing
+ETCM_disease_id_3317,2107,disease,Poor Suck,existing
+ETCM_disease_id_3318,2108,disease,Poor Wound Healing,existing
+ETCM_disease_id_3319,2109,disease,Porencephalic Cyst,existing
+ETCM_disease_id_3323,2110,disease,Portal Fibrosis,existing
+ETCM_disease_id_3324,2111,disease,Portal Hypertension,existing
+ETCM_disease_id_3329,2112,disease,Post-Menopausal Osteoporosis,existing
+ETCM_disease_id_3332,2113,disease,Posterior Embryotoxon,existing
+ETCM_disease_id_3333,2114,disease,Posterior Polar Cataract,existing
+ETCM_disease_id_3334,2115,disease,Posterior Subcapsular Cataract,existing
+ETCM_disease_id_3337,2116,disease,Postherpetic Neuralgia,existing
+ETCM_disease_id_3341,2117,disease,Postnatal Growth Retardation,existing
+ETCM_disease_id_3342,2118,disease,Postoperative Nausea And Vomiting,existing
+ETCM_disease_id_3343,2119,disease,Postoperative Residual Curarisation,existing
+ETCM_disease_id_3344,2120,disease,Postprandial Hyperglycemia,existing
+ETCM_disease_id_3346,2121,disease,Postural Instability,existing
+ETCM_disease_id_3347,2122,disease,Postural Tremor,existing
+ETCM_disease_id_3349,2123,disease,Precancerous Conditions,existing
+ETCM_disease_id_3353,2124,disease,Predominantly Lower Limb Lymphedema,existing
+ETCM_disease_id_3354,2125,disease,Preeclampsia,existing
+ETCM_disease_id_3355,2126,disease,Premature Adrenarche,existing
+ETCM_disease_id_3357,2127,disease,Premature Atrial Contractions,existing
+ETCM_disease_id_3358,2128,disease,Premature Birth Following Premature Rupture Of Fetal Membranes,existing
+ETCM_disease_id_3359,2129,disease,Premature Coronary Artery Atherosclerosis,existing
+ETCM_disease_id_3362,2130,disease,Premature Graying Of Hair,existing
+ETCM_disease_id_3364,2131,disease,Premature Loss Of Teeth,existing
+ETCM_disease_id_3365,2132,disease,Premature Osteoarthritis,existing
+ETCM_disease_id_3366,2133,disease,Premature Ovarian Insufficiency,existing
+ETCM_disease_id_3367,2134,disease,Premature Pubarche,existing
+ETCM_disease_id_3368,2135,disease,Prematurely Aged Appearance,existing
+ETCM_disease_id_3369,2136,disease,Prenatal Maternal Abnormality,existing
+ETCM_disease_id_3371,2137,disease,Presenile Cataracts,existing
+ETCM_disease_id_3374,2138,disease,Primary Adrenal Insufficiency,existing
+ETCM_disease_id_3375,2139,disease,Primary Amenorrhea,existing
+ETCM_disease_id_3376,2140,disease,Primary Biliary Cirrhosis,existing
+ETCM_disease_id_3377,2141,disease,Primary Congenital Glaucoma,existing
+ETCM_disease_id_3378,2142,disease,Primary Gonadal Insufficiency,existing
+ETCM_disease_id_3379,2143,disease,Primary Hyperparathyroidism,existing
+ETCM_disease_id_3380,2144,disease,Primary Hypothyroidism,existing
+ETCM_disease_id_3381,2145,disease,Primary Peritoneal Carcinoma,existing
+ETCM_disease_id_3383,2146,disease,Primitive Reflex,existing
+ETCM_disease_id_3384,2147,disease,Profound Global Developmental Delay,existing
+ETCM_disease_id_3386,2148,disease,Profound Sensorineural Hearing Impairment,existing
+ETCM_disease_id_3388,2149,disease,Profuse Pigmented Skin Lesions,existing
+ETCM_disease_id_3393,2150,disease,Progressive Cerebellar Ataxia,existing
+ETCM_disease_id_3396,2151,disease,Progressive Distal Muscle Weakness,existing
+ETCM_disease_id_3397,2152,disease,Progressive Distal Muscular Atrophy,existing
+ETCM_disease_id_3398,2153,disease,Progressive Encephalopathy,existing
+ETCM_disease_id_3399,2154,disease,Progressive External Ophthalmoplegia,existing
+ETCM_disease_id_3401,2155,disease,Progressive Flexion Contractures,existing
+ETCM_disease_id_3403,2156,disease,Progressive Gait Ataxia,existing
+ETCM_disease_id_3409,2157,disease,Progressive Leukoencephalopathy,existing
+ETCM_disease_id_3410,2158,disease,Progressive Muscle Weakness,existing
+ETCM_disease_id_3411,2159,disease,Progressive Neurologic Deterioration,existing
+ETCM_disease_id_3412,2160,disease,Progressive Night Blindness,existing
+ETCM_disease_id_3414,2161,disease,Progressive Peripheral Neuropathy,existing
+ETCM_disease_id_3415,2162,disease,Progressive Proximal Muscle Weakness,existing
+ETCM_disease_id_3416,2163,disease,Progressive Psychomotor Deterioration,existing
+ETCM_disease_id_3419,2164,disease,Progressive Sensorineural Hearing Impairment,existing
+ETCM_disease_id_3421,2165,disease,Progressive Spastic Paraplegia,existing
+ETCM_disease_id_3422,2166,disease,Progressive Spastic Quadriplegia,existing
+ETCM_disease_id_3423,2167,disease,Progressive Spasticity,existing
+ETCM_disease_id_3425,2168,disease,Progressive Visual Loss,existing
+ETCM_disease_id_3428,2169,disease,Prolactin Deficiency,existing
+ETCM_disease_id_3429,2170,disease,Prolactinoma,existing
+ETCM_disease_id_3430,2171,disease,Proliferative Diseases,existing
+ETCM_disease_id_3432,2172,disease,Proliferative Vitreoretinopathy,existing
+ETCM_disease_id_3433,2173,disease,Prolinuria,existing
+ETCM_disease_id_3434,2174,disease,Prolonged Bleeding After Dental Extraction,existing
+ETCM_disease_id_3435,2175,disease,Prolonged Bleeding After Surgery,existing
+ETCM_disease_id_3436,2176,disease,Prolonged Bleeding Time,existing
+ETCM_disease_id_3439,2177,disease,Prolonged Partial Thromboplastin Time,existing
+ETCM_disease_id_3440,2178,disease,Prolonged Prothrombin Time,existing
+ETCM_disease_id_3441,2179,disease,Prolonged Whole-Blood Clotting Time,existing
+ETCM_disease_id_3442,2180,disease,Prominent Superficial Blood Vessels,existing
+ETCM_disease_id_3443,2181,disease,Propionyl-Coa Carboxylase Deficiency,existing
+ETCM_disease_id_3444,2182,disease,Proptosis,existing
+ETCM_disease_id_3445,2183,disease,Prostate Cancer,existing
+ETCM_disease_id_3447,2184,disease,Prostatic Neoplasms,existing
+ETCM_disease_id_3448,2185,disease,Prostatitis,existing
+ETCM_disease_id_3450,2186,disease,Protein Avoidance,existing
+ETCM_disease_id_3451,2187,disease,Protein C Deficiency,existing
+ETCM_disease_id_3452,2188,disease,Proteinuria,existing
+ETCM_disease_id_3453,2189,disease,Protracted Diarrhea,existing
+ETCM_disease_id_3457,2190,disease,Proximal Lower Limb Amyotrophy,existing
+ETCM_disease_id_3458,2191,disease,Proximal Muscle Weakness,existing
+ETCM_disease_id_3461,2192,disease,Proximal Renal Tubular Acidosis,existing
+ETCM_disease_id_3463,2193,disease,Prune Belly,existing
+ETCM_disease_id_3464,2194,disease,Pruritus,existing
+ETCM_disease_id_3465,2195,disease,Pruritus In Chronic Liver Disease,existing
+ETCM_disease_id_3466,2196,disease,Pseudobulbar Behavioral Symptoms,existing
+ETCM_disease_id_3467,2197,disease,Pseudobulbar Paralysis,existing
+ETCM_disease_id_3468,2198,disease,Pseudobulbar Signs,existing
+ETCM_disease_id_3469,2199,disease,Pseudohypoaldosteronism,existing
+ETCM_disease_id_3470,2200,disease,Pseudohypoparathyroidism,existing
+ETCM_disease_id_3471,2201,disease,Psoriasiform Dermatitis,existing
+ETCM_disease_id_3472,2202,disease,Psoriasis,existing
+ETCM_disease_id_3473,2203,disease,Psoriatic Disorders,existing
+ETCM_disease_id_3474,2204,disease,Psychiatric Illness,existing
+ETCM_disease_id_3475,2205,disease,Psychomotor Deterioration,existing
+ETCM_disease_id_3476,2206,disease,Psychomotor Retardation,existing
+ETCM_disease_id_3477,2207,disease,Psychosis,existing
+ETCM_disease_id_3478,2208,disease,Psychotic Disorders,existing
+ETCM_disease_id_3480,2209,disease,Psychotic Mentation,existing
+ETCM_disease_id_3482,2210,disease,Pulmonary Arterial Hypertension,existing
+ETCM_disease_id_3483,2211,disease,Pulmonary Artery Aneurysm,existing
+ETCM_disease_id_3489,2212,disease,Pulmonary Edema,existing
+ETCM_disease_id_3490,2213,disease,Pulmonary Embolism,existing
+ETCM_disease_id_3491,2214,disease,Pulmonary Fibrosis,existing
+ETCM_disease_id_3493,2215,disease,Pulmonary Hypertension,existing
+ETCM_disease_id_3494,2216,disease,Pulmonary Infiltrates,existing
+ETCM_disease_id_3497,2217,disease,Pulsatile Tinnitus,existing
+ETCM_disease_id_3498,2218,disease,Pulverulent Cataract,existing
+ETCM_disease_id_3502,2219,disease,Purpura,existing
+ETCM_disease_id_3503,2220,disease,Pustule,existing
+ETCM_disease_id_3504,2221,disease,Pyelonephritis,existing
+ETCM_disease_id_3505,2222,disease,Pyloric Stenosis,existing
+ETCM_disease_id_3506,2223,disease,Pyoderma,existing
+ETCM_disease_id_3508,2224,disease,Pyresis,existing
+ETCM_disease_id_3509,2225,disease,Pyridoxine-Responsive Sideroblastic Anemia,existing
+ETCM_disease_id_3510,2226,disease,Pyrimidine-Responsive Megaloblastic Anemia,existing
+ETCM_disease_id_3513,2227,disease,Quadriceps Muscle Weakness,existing
+ETCM_disease_id_3515,2228,disease,Radiation Enteropathy,existing
+ETCM_disease_id_3516,2229,disease,Radioulnar Synostosis,existing
+ETCM_disease_id_3517,2230,disease,Ragged-Red Muscle Fibers,existing
+ETCM_disease_id_3519,2231,disease,Rapidly Progressive,existing
+ETCM_disease_id_3521,2232,disease,Raynaud's Syndrome,existing
+ETCM_disease_id_3522,2233,disease,Raynaud Phenomenon,existing
+ETCM_disease_id_3525,2234,disease,Rectal Abscess,existing
+ETCM_disease_id_3526,2235,disease,Rectal Prolapse,existing
+ETCM_disease_id_3531,2236,disease,Recurrent Aphthous Stomatitis,existing
+ETCM_disease_id_3532,2237,disease,Recurrent Aspergillus Infections,existing
+ETCM_disease_id_3533,2238,disease,Recurrent Aspiration Pneumonia,existing
+ETCM_disease_id_3534,2239,disease,Recurrent Bacterial Infections,existing
+ETCM_disease_id_3536,2240,disease,Recurrent Bacterial Skin Infections,existing
+ETCM_disease_id_3538,2241,disease,Recurrent Bronchitis,existing
+ETCM_disease_id_3539,2242,disease,Recurrent Bronchopulmonary Infections,existing
+ETCM_disease_id_3540,2243,disease,Recurrent Burkholderia Cepacia Infections,existing
+ETCM_disease_id_3542,2244,disease,Recurrent Cerebral Hemorrhage,existing
+ETCM_disease_id_3543,2245,disease,Recurrent Corneal Erosions,existing
+ETCM_disease_id_3544,2246,disease,Recurrent Cutaneous Abscess Formation,existing
+ETCM_disease_id_3545,2247,disease,Recurrent Deep Vein Thrombosis,existing
+ETCM_disease_id_3546,2248,disease,Recurrent Depression,existing
+ETCM_disease_id_3547,2249,disease,Recurrent E. Coli Infections,existing
+ETCM_disease_id_3549,2250,disease,Recurrent Encephalopathy,existing
+ETCM_disease_id_3550,2251,disease,Recurrent Enteroviral Infections,existing
+ETCM_disease_id_3551,2252,disease,Recurrent Fractures,existing
+ETCM_disease_id_3552,2253,disease,Recurrent Fungal Infections,existing
+ETCM_disease_id_3554,2254,disease,Recurrent Gram-Negative Bacterial Infections,existing
+ETCM_disease_id_3556,2255,disease,Recurrent Hypoglycemia,existing
+ETCM_disease_id_3557,2256,disease,Recurrent Infection Of The Gastrointestinal Tract,existing
+ETCM_disease_id_3558,2257,disease,Recurrent Infections,existing
+ETCM_disease_id_3563,2258,disease,Recurrent Klebsiella Infections,existing
+ETCM_disease_id_3565,2259,disease,Recurrent Lower Respiratory Tract Infections,existing
+ETCM_disease_id_3569,2260,disease,Recurrent Mycobacterial Infections,existing
+ETCM_disease_id_3572,2261,disease,Recurrent Opportunistic Infections,existing
+ETCM_disease_id_3573,2262,disease,Recurrent Otitis Media,existing
+ETCM_disease_id_3574,2263,disease,Recurrent Pancreatitis,existing
+ETCM_disease_id_3575,2264,disease,Recurrent Paroxysmal Headache,existing
+ETCM_disease_id_3576,2265,disease,Recurrent Pharyngitis,existing
+ETCM_disease_id_3577,2266,disease,Recurrent Pneumonia,existing
+ETCM_disease_id_3579,2267,disease,Recurrent Respiratory Infections,existing
+ETCM_disease_id_3580,2268,disease,Recurrent Serratia Marcescens Infections,existing
+ETCM_disease_id_3581,2269,disease,Recurrent Singultus,existing
+ETCM_disease_id_3582,2270,disease,Recurrent Sinopulmonary Infections,existing
+ETCM_disease_id_3583,2271,disease,Recurrent Sinusitis,existing
+ETCM_disease_id_3584,2272,disease,Recurrent Spontaneous Abortion,existing
+ETCM_disease_id_3585,2273,disease,Recurrent Staphylococcal Infections,existing
+ETCM_disease_id_3586,2274,disease,Recurrent Staphylococcus Aureus Infections,existing
+ETCM_disease_id_3590,2275,disease,Recurrent Thrombophlebitis,existing
+ETCM_disease_id_3592,2276,disease,Recurrent Upper Respiratory Tract Infections,existing
+ETCM_disease_id_3593,2277,disease,Recurrent Urinary Tract Infections,existing
+ETCM_disease_id_3594,2278,disease,Recurrent Viral Infections,existing
+ETCM_disease_id_3596,2279,disease,Red-Green Dyschromatopsia,existing
+ETCM_disease_id_3597,2280,disease,Red Hair,existing
+ETCM_disease_id_3598,2281,disease,Reduced Alpha/Beta Synthesis Ratio,existing
+ETCM_disease_id_3599,2282,disease,Reduced Antithrombin Iii Activity,existing
+ETCM_disease_id_3600,2283,disease,Reduced Beta/Alpha Synthesis Ratio,existing
+ETCM_disease_id_3601,2284,disease,Reduced Bone Mineral Density,existing
+ETCM_disease_id_3604,2285,disease,Reduced Consciousness/Confusion,existing
+ETCM_disease_id_3606,2286,disease,"Reduced Erythrocyte 2,3-Diphosphoglycerate Concentration",existing
+ETCM_disease_id_3607,2287,disease,Reduced Factor Ix Activity,existing
+ETCM_disease_id_3608,2288,disease,Reduced Factor Vii Activity,existing
+ETCM_disease_id_3610,2289,disease,Reduced Factor X Activity,existing
+ETCM_disease_id_3613,2290,disease,Reduced Factor Xiii Activity,existing
+ETCM_disease_id_3618,2291,disease,Reduced Muscle Carnitine Level,existing
+ETCM_disease_id_3620,2292,disease,Reduced Orotidine 5-Prime Phosphate Decarboxylase Activity,existing
+ETCM_disease_id_3621,2293,disease,Reduced Pancreatic Beta Cells,existing
+ETCM_disease_id_3622,2294,disease,Reduced Protein C Activity,existing
+ETCM_disease_id_3623,2295,disease,Reduced Protein S Activity,existing
+ETCM_disease_id_3624,2296,disease,Reduced Prothrombin Activity,existing
+ETCM_disease_id_3626,2297,disease,Reduced Red Cell Adenosine Deaminase Activity,existing
+ETCM_disease_id_3627,2298,disease,Reduced Red Cell Pyruvate Kinase Activity,existing
+ETCM_disease_id_3629,2299,disease,Reduced Subcutaneous Adipose Tissue,existing
+ETCM_disease_id_3630,2300,disease,Reduced Visual Acuity,existing
+ETCM_disease_id_3631,2301,disease,Reduced Vital Capacity,existing
+ETCM_disease_id_3633,2302,disease,Reduced Xanthine Dehydrogenase Activity,existing
+ETCM_disease_id_3635,2303,disease,Refractory Anemia,existing
+ETCM_disease_id_3637,2304,disease,Refractory Cutaneous T-Cell Lymphoma,existing
+ETCM_disease_id_3638,2305,disease,Refractory Hematological Malignancies,existing
+ETCM_disease_id_3642,2306,disease,Refractory Partial Epilepsy,existing
+ETCM_disease_id_3643,2307,disease,Refractory Renal Cell Carcinoma,existing
+ETCM_disease_id_3647,2308,disease,Renal Agenesis,existing
+ETCM_disease_id_3648,2309,disease,Renal Aminoaciduria,existing
+ETCM_disease_id_3651,2310,disease,Renal Artery Stenosis,existing
+ETCM_disease_id_3653,2311,disease,Renal Cell Carcinoma,existing
+ETCM_disease_id_3654,2312,disease,Renal Colic Pain,existing
+ETCM_disease_id_3658,2313,disease,Renal Diseases,existing
+ETCM_disease_id_3660,2314,disease,Renal Failure,existing
+ETCM_disease_id_3661,2315,disease,Renal Fanconi Syndrome,existing
+ETCM_disease_id_3662,2316,disease,Renal Fibrosis,existing
+ETCM_disease_id_3664,2317,disease,Renal Hypoplasia,existing
+ETCM_disease_id_3665,2318,disease,Renal Hypoplasia/Aplasia,existing
+ETCM_disease_id_3668,2319,disease,Renal Insufficiency,existing
+ETCM_disease_id_3674,2320,disease,Renal Tubular Acidosis,existing
+ETCM_disease_id_3675,2321,disease,Renovascular Hypertension,existing
+ETCM_disease_id_3676,2322,disease,Reperfusion Injury,existing
+ETCM_disease_id_3677,2323,disease,Reperfusion Injury Following Acute Myocardial Infarction,existing
+ETCM_disease_id_3679,2324,disease,Reproductive Disorder,existing
+ETCM_disease_id_3682,2325,disease,Respiratory Alkalosis,existing
+ETCM_disease_id_3683,2326,disease,Respiratory Arrest,existing
+ETCM_disease_id_3684,2327,disease,Respiratory Diseases,existing
+ETCM_disease_id_3685,2328,disease,Respiratory Distress,existing
+ETCM_disease_id_3686,2329,disease,Respiratory Distress Syndrome,existing
+ETCM_disease_id_3687,2330,disease,Respiratory Failure,existing
+ETCM_disease_id_3689,2331,disease,Respiratory Insufficiency,existing
+ETCM_disease_id_3690,2332,disease,Respiratory Insufficiency Due To Muscle Weakness,existing
+ETCM_disease_id_3691,2333,disease,Respiratory Paralysis,existing
+ETCM_disease_id_3692,2334,disease,Respiratory Tract Infection,existing
+ETCM_disease_id_3693,2335,disease,Resting Tremor,existing
+ETCM_disease_id_3695,2336,disease,Restlessness,existing
+ETCM_disease_id_3700,2337,disease,Restrictive Ventilatory Defect,existing
+ETCM_disease_id_3701,2338,disease,Reticular Hyperpigmentation,existing
+ETCM_disease_id_3704,2339,disease,Reticulocytopenia,existing
+ETCM_disease_id_3705,2340,disease,Reticulocytosis,existing
+ETCM_disease_id_3706,2341,disease,Retinal Capillary Hemangioma,existing
+ETCM_disease_id_3707,2342,disease,Retinal Degeneration,existing
+ETCM_disease_id_3708,2343,disease,Retinal Detachment,existing
+ETCM_disease_id_3711,2344,disease,Retinal Hamartoma,existing
+ETCM_disease_id_3712,2345,disease,Retinal Hemorrhage,existing
+ETCM_disease_id_3718,2346,disease,Retinoblastoma,existing
+ETCM_disease_id_3719,2347,disease,Retinopathy,existing
+ETCM_disease_id_3722,2348,disease,Rhabdomyolysis,existing
+ETCM_disease_id_3723,2349,disease,Rhabdomyosarcoma,existing
+ETCM_disease_id_3724,2350,disease,Rheumatic Diseases,existing
+ETCM_disease_id_3725,2351,disease,Rheumatoid Arthritis,existing
+ETCM_disease_id_3728,2352,disease,Rhinorrhea,existing
+ETCM_disease_id_3729,2353,disease,Rickets,existing
+ETCM_disease_id_3730,2354,disease,Rickets Of The Lower Limbs,existing
+ETCM_disease_id_3731,2355,disease,Right Ventricular Cardiomyopathy,existing
+ETCM_disease_id_3732,2356,disease,Rigidity,existing
+ETCM_disease_id_3735,2357,disease,Sacral Lipoma,existing
+ETCM_disease_id_3737,2358,disease,Salivary Glands Cancer,existing
+ETCM_disease_id_3740,2359,disease,Sarcoma,existing
+ETCM_disease_id_3742,2360,disease,Scanning Speech,existing
+ETCM_disease_id_3743,2361,disease,Scapular Muscle Atrophy,existing
+ETCM_disease_id_3744,2362,disease,Scapuloperoneal Amyotrophy,existing
+ETCM_disease_id_3746,2363,disease,Scarring,existing
+ETCM_disease_id_3748,2364,disease,Schistosomiasis,existing
+ETCM_disease_id_3749,2365,disease,Schizophrenia,existing
+ETCM_disease_id_3750,2366,disease,Schwannoma,existing
+ETCM_disease_id_3752,2367,disease,Sclerocornea,existing
+ETCM_disease_id_3753,2368,disease,Scleroderma,existing
+ETCM_disease_id_3755,2369,disease,Sclerosis Of Skull Base,existing
+ETCM_disease_id_3756,2370,disease,Sclerotic Cranial Sutures,existing
+ETCM_disease_id_3758,2371,disease,Scrotal Hypoplasia,existing
+ETCM_disease_id_3759,2372,disease,Seasonal Allergic Rhinitis,existing
+ETCM_disease_id_3761,2373,disease,Sebaceous Gland Disease,existing
+ETCM_disease_id_3763,2374,disease,Seborrheic Dermatitis,existing
+ETCM_disease_id_3765,2375,disease,Secondary Amenorrhea,existing
+ETCM_disease_id_3766,2376,disease,Secondary Growth Hormone Deficiency,existing
+ETCM_disease_id_3767,2377,disease,Secondary Hyperparathyroidism,existing
+ETCM_disease_id_3769,2378,disease,Sedation,existing
+ETCM_disease_id_3771,2379,disease,Seizures,existing
+ETCM_disease_id_3772,2380,disease,Seizures In Epilepsy,existing
+ETCM_disease_id_3773,2381,disease,Seizures Of Lennox-Gastaut Syndrome,existing
+ETCM_disease_id_3774,2382,disease,Selenium Deficiency,existing
+ETCM_disease_id_3775,2383,disease,Self-Mutilation,existing
+ETCM_disease_id_3779,2384,disease,Senile Plaques,existing
+ETCM_disease_id_3780,2385,disease,Sensorineural Hearing Impairment,existing
+ETCM_disease_id_3782,2386,disease,Sensory Ataxia,existing
+ETCM_disease_id_3784,2387,disease,Sensory Axonal Neuropathy,existing
+ETCM_disease_id_3785,2388,disease,Sensory Impairment,existing
+ETCM_disease_id_3786,2389,disease,Sepsis,existing
+ETCM_disease_id_3787,2390,disease,Septic Arthritis,existing
+ETCM_disease_id_3788,2391,disease,Septic Shock,existing
+ETCM_disease_id_3789,2392,disease,Sertoli Cell Neoplasm,existing
+ETCM_disease_id_3791,2393,disease,Severe B Lymphocytopenia,existing
+ETCM_disease_id_3792,2394,disease,Severe Carpal Ossification Delay,existing
+ETCM_disease_id_3793,2395,disease,Severe Combined Immunodeficiency,existing
+ETCM_disease_id_3796,2396,disease,Severe Generalized Osteoporosis,existing
+ETCM_disease_id_3799,2397,disease,Severe Lactic Acidosis,existing
+ETCM_disease_id_3800,2398,disease,Severe Muscular Hypotonia,existing
+ETCM_disease_id_3802,2399,disease,Severe Photosensitivity,existing
+ETCM_disease_id_3803,2400,disease,Severe Postnatal Growth Retardation,existing
+ETCM_disease_id_3804,2401,disease,Severe Recurrent Varicella,existing
+ETCM_disease_id_3807,2402,disease,Severe Viral Infections,existing
+ETCM_disease_id_3808,2403,disease,Sexual Arousal Disorders,existing
+ETCM_disease_id_3811,2404,disease,Shivering,existing
+ETCM_disease_id_3812,2405,disease,Short Attention Span,existing
+ETCM_disease_id_3816,2406,disease,Shortened Pr Interval,existing
+ETCM_disease_id_3817,2407,disease,Shoulder Dislocation,existing
+ETCM_disease_id_3819,2408,disease,Shoulder Girdle Muscle Atrophy,existing
+ETCM_disease_id_3820,2409,disease,Shoulder Girdle Muscle Weakness,existing
+ETCM_disease_id_3822,2410,disease,Shuffling Gait,existing
+ETCM_disease_id_3823,2411,disease,Sick Sinus Syndrome,existing
+ETCM_disease_id_3824,2412,disease,Sideroblastic Anemia,existing
+ETCM_disease_id_3827,2413,disease,Sinoatrial Node Dysfunction,existing
+ETCM_disease_id_3828,2414,disease,Sinus Bradycardia,existing
+ETCM_disease_id_3829,2415,disease,Sinus Tachycardia,existing
+ETCM_disease_id_3830,2416,disease,Sinusitis,existing
+ETCM_disease_id_3833,2417,disease,Skeletal Muscle Associated Spasticity,existing
+ETCM_disease_id_3834,2418,disease,Skeletal Muscle Atrophy,existing
+ETCM_disease_id_3835,2419,disease,Skeletal Muscle Hypertrophy,existing
+ETCM_disease_id_3837,2420,disease,Skeletal Muscle Wasting,existing
+ETCM_disease_id_3838,2421,disease,Skeletal Muscle Weakness,existing
+ETCM_disease_id_3842,2422,disease,Skin Cancers,existing
+ETCM_disease_id_3843,2423,disease,Skin Diseases,existing
+ETCM_disease_id_3844,2424,disease,Skin Erosion,existing
+ETCM_disease_id_3845,2425,disease,Skin Fissure,existing
+ETCM_disease_id_3847,2426,disease,Skin Infections,existing
+ETCM_disease_id_3848,2427,disease,Skin Neoplasms,existing
+ETCM_disease_id_3849,2428,disease,Skin Nodule,existing
+ETCM_disease_id_3851,2429,disease,Skin Rash,existing
+ETCM_disease_id_3852,2430,disease,Skin Ulcer,existing
+ETCM_disease_id_3853,2431,disease,Skin Vesicle,existing
+ETCM_disease_id_3854,2432,disease,Sleep-Wake Cycle Disturbance,existing
+ETCM_disease_id_3856,2433,disease,Sleep Apnea,existing
+ETCM_disease_id_3857,2434,disease,Sleep Disorders,existing
+ETCM_disease_id_3858,2435,disease,Sleep Disturbance,existing
+ETCM_disease_id_3859,2436,disease,Sleeping Sickness,existing
+ETCM_disease_id_3861,2437,disease,Slow-Growing Hair,existing
+ETCM_disease_id_3862,2438,disease,Slow Decrease In Visual Acuity,existing
+ETCM_disease_id_3863,2439,disease,Slow Progression,existing
+ETCM_disease_id_3864,2440,disease,Slow Saccadic Eye Movements,existing
+ETCM_disease_id_3866,2441,disease,Slurred Speech,existing
+ETCM_disease_id_3867,2442,disease,Small Cell Lung Cancer,existing
+ETCM_disease_id_3869,2443,disease,Small Intestinal Dysmotility,existing
+ETCM_disease_id_3870,2444,disease,Small Intestine Carcinoid,existing
+ETCM_disease_id_3873,2445,disease,Smooth Muscle Hyperplasia,existing
+ETCM_disease_id_3876,2446,disease,Soft Skin,existing
+ETCM_disease_id_3877,2447,disease,Soft Tissue Sarcoma,existing
+ETCM_disease_id_3879,2448,disease,Sparse Axillary Hair,existing
+ETCM_disease_id_3880,2449,disease,Sparse Body Hair,existing
+ETCM_disease_id_3881,2450,disease,Sparse Eyebrow,existing
+ETCM_disease_id_3883,2451,disease,Sparse Hair,existing
+ETCM_disease_id_3884,2452,disease,Sparse Lateral Eyebrow,existing
+ETCM_disease_id_3886,2453,disease,Sparse Pubic Hair,existing
+ETCM_disease_id_3887,2454,disease,Sparse Scalp Hair,existing
+ETCM_disease_id_3889,2455,disease,Spastic/Hyperactive Bladder,existing
+ETCM_disease_id_3890,2456,disease,Spastic Ataxia,existing
+ETCM_disease_id_3891,2457,disease,Spastic Dysarthria,existing
+ETCM_disease_id_3892,2458,disease,Spastic Gait,existing
+ETCM_disease_id_3894,2459,disease,Spastic Paraparesis,existing
+ETCM_disease_id_3895,2460,disease,Spastic Paraplegia,existing
+ETCM_disease_id_3896,2461,disease,Spastic Tetraparesis,existing
+ETCM_disease_id_3897,2462,disease,Spastic Tetraplegia,existing
+ETCM_disease_id_3898,2463,disease,Spasticity,existing
+ETCM_disease_id_3902,2464,disease,Specific Cognitive Deficits Associated With Aging And Neurological Diseases,existing
+ETCM_disease_id_3905,2465,disease,Sphingolipid Storage Disorders,existing
+ETCM_disease_id_3907,2466,disease,Spina Bifida,existing
+ETCM_disease_id_3908,2467,disease,Spinal And Bulbar Muscular Atrophy,existing
+ETCM_disease_id_3909,2468,disease,Spinal Cord Compression,existing
+ETCM_disease_id_3913,2469,disease,Spinal Muscular Atrophy,existing
+ETCM_disease_id_3914,2470,disease,Spinal Myoclonus,existing
+ETCM_disease_id_3915,2471,disease,Spinal Rigidity,existing
+ETCM_disease_id_3918,2472,disease,Splenomegaly,existing
+ETCM_disease_id_3919,2473,disease,Spoken Word Recognition Deficit,existing
+ETCM_disease_id_3920,2474,disease,Spondyloepiphyseal Dysplasia,existing
+ETCM_disease_id_3921,2475,disease,Spondylolisthesis,existing
+ETCM_disease_id_3922,2476,disease,Spondylolysis,existing
+ETCM_disease_id_3923,2477,disease,Spondylometaphyseal Dysplasia,existing
+ETCM_disease_id_3924,2478,disease,"Spontaneous, Recurrent Epistaxis",existing
+ETCM_disease_id_3925,2479,disease,Spontaneous Abortion,existing
+ETCM_disease_id_3926,2480,disease,Spontaneous Hematomas,existing
+ETCM_disease_id_3927,2481,disease,Spontaneous Hemolytic Crises,existing
+ETCM_disease_id_3929,2482,disease,Spontaneous Pneumothorax,existing
+ETCM_disease_id_3932,2483,disease,Squamous Cell Carcinoma,existing
+ETCM_disease_id_3933,2484,disease,Squamous Cell Carcinoma Of Esophagus,existing
+ETCM_disease_id_3934,2485,disease,Squamous Cell Carcinoma Of The Skin,existing
+ETCM_disease_id_3935,2486,disease,Stage 5 Chronic Kidney Disease,existing
+ETCM_disease_id_3936,2487,disease,Status Epilepticus,existing
+ETCM_disease_id_3938,2488,disease,Steatorrhea,existing
+ETCM_disease_id_3940,2489,disease,Stevens-Johnson Syndrome,existing
+ETCM_disease_id_3948,2490,disease,Stomach Cancer,existing
+ETCM_disease_id_3949,2491,disease,Stomach Neoplasms,existing
+ETCM_disease_id_3950,2492,disease,Stomatitis,existing
+ETCM_disease_id_3951,2493,disease,Stomatocytosis,existing
+ETCM_disease_id_3952,2494,disease,Strabismus,existing
+ETCM_disease_id_3953,2495,disease,Streaky Metaphyseal Sclerosis,existing
+ETCM_disease_id_3954,2496,disease,Streptococcus Pneumoniae Infections,existing
+ETCM_disease_id_3955,2497,disease,Stress-Related Disorders,existing
+ETCM_disease_id_3956,2498,disease,Stress/Infection-Induced Lactic Acidosis,existing
+ETCM_disease_id_3957,2499,disease,Stroke,existing
+ETCM_disease_id_3962,2500,disease,Subacute Progressive Viral Hepatitis,existing
+ETCM_disease_id_3963,2501,disease,Subarachnoid Hemorrhage,existing
+ETCM_disease_id_3964,2502,disease,Subcortical Dementia,existing
+ETCM_disease_id_3966,2503,disease,Subcutaneous Hemorrhage,existing
+ETCM_disease_id_3969,2504,disease,Subperiosteal Bone Resorption,existing
+ETCM_disease_id_3972,2505,disease,Subretinal Pigment Epithelium Hemorrhage,existing
+ETCM_disease_id_3973,2506,disease,Subsarcolemmal Accumulations Of Abnormally Shaped Mitochondria,existing
+ETCM_disease_id_3975,2507,disease,Subungual Hyperkeratosis,existing
+ETCM_disease_id_3978,2508,disease,Sudden Cardiac Death,existing
+ETCM_disease_id_3979,2509,disease,Sudden Death,existing
+ETCM_disease_id_3980,2510,disease,Sudden Episodic Apnea,existing
+ETCM_disease_id_3981,2511,disease,Superficial Thrombophlebitis,existing
+ETCM_disease_id_3982,2512,disease,Superior Rectus Atrophy,existing
+ETCM_disease_id_3983,2513,disease,Supernumerary Nipple,existing
+ETCM_disease_id_3984,2514,disease,Supranuclear Ophthalmoplegia,existing
+ETCM_disease_id_3986,2515,disease,Supraventricular Tachycardia,existing
+ETCM_disease_id_3989,2516,disease,Sustained Ventricular Tachycardia,existing
+ETCM_disease_id_3993,2517,disease,Syncope,existing
+ETCM_disease_id_3994,2518,disease,Syndrome Of Inappropriate Secretion Of Antidiuretic Hormone,existing
+ETCM_disease_id_3999,2519,disease,Syringomyelia,existing
+ETCM_disease_id_4000,2520,disease,Systemic-Onset Juvenile Idiopathic Arthritis,existing
+ETCM_disease_id_4001,2521,disease,Systemic Arterial Vasodilation,existing
+ETCM_disease_id_4003,2522,disease,Systemic Lupus Erythematosus,existing
+ETCM_disease_id_4004,2523,disease,Systemic Sclerosis,existing
+ETCM_disease_id_4006,2524,disease,T-Cell Proliferation,existing
+ETCM_disease_id_4009,2525,disease,Tachypnea,existing
+ETCM_disease_id_4010,2526,disease,Talipes,existing
+ETCM_disease_id_4011,2527,disease,Talipes Calcaneovalgus,existing
+ETCM_disease_id_4015,2528,disease,Tall Stature,existing
+ETCM_disease_id_4017,2529,disease,Tapetoretinal Degeneration,existing
+ETCM_disease_id_4019,2530,disease,Telangiectases Of The Cheeks,existing
+ETCM_disease_id_4020,2531,disease,Telangiectasia,existing
+ETCM_disease_id_4023,2532,disease,Telangiectasia Of The Oral Mucosa,existing
+ETCM_disease_id_4024,2533,disease,Telangiectasia Of The Skin,existing
+ETCM_disease_id_4025,2534,disease,Temperature Instability,existing
+ETCM_disease_id_4030,2535,disease,Tenesmus,existing
+ETCM_disease_id_4032,2536,disease,Testicular Atrophy,existing
+ETCM_disease_id_4033,2537,disease,Testicular Cancer,existing
+ETCM_disease_id_4034,2538,disease,Testicular Seminoma,existing
+ETCM_disease_id_4035,2539,disease,Tetany,existing
+ETCM_disease_id_4036,2540,disease,Tethered Cord,existing
+ETCM_disease_id_4037,2541,disease,Tetraparesis,existing
+ETCM_disease_id_4038,2542,disease,Tetraplegia,existing
+ETCM_disease_id_4040,2543,disease,Thenar Muscle Atrophy,existing
+ETCM_disease_id_4041,2544,disease,Thenar Muscle Weakness,existing
+ETCM_disease_id_4042,2545,disease,Thick Eyebrow,existing
+ETCM_disease_id_4043,2546,disease,Thick Hair,existing
+ETCM_disease_id_4044,2547,disease,Thick Lower Lip Vermilion,existing
+ETCM_disease_id_4045,2548,disease,Thick Upper Lip Vermilion,existing
+ETCM_disease_id_4046,2549,disease,Thickened Skin,existing
+ETCM_disease_id_4053,2550,disease,Thin Upper Lip Vermilion,existing
+ETCM_disease_id_4055,2551,disease,Thoracic Aortic Aneurysm,existing
+ETCM_disease_id_4058,2552,disease,Thrombocytopenia,existing
+ETCM_disease_id_4059,2553,disease,Thrombocytosis,existing
+ETCM_disease_id_4060,2554,disease,Thromboembolic Disorder,existing
+ETCM_disease_id_4062,2555,disease,Thromboembolism,existing
+ETCM_disease_id_4063,2556,disease,Thrombophlebitis,existing
+ETCM_disease_id_4064,2557,disease,Thrombosis,existing
+ETCM_disease_id_4065,2558,disease,Thrombotic Disease,existing
+ETCM_disease_id_4067,2559,disease,Thyroid Adenoma,existing
+ETCM_disease_id_4069,2560,disease,Thyroid Carcinoma,existing
+ETCM_disease_id_4071,2561,disease,Thyroid Defect In Oxidation And Organification Of Iodide,existing
+ETCM_disease_id_4073,2562,disease,Thyroid Follicular Carcinoma,existing
+ETCM_disease_id_4074,2563,disease,Thyroid Follicular Hyperplasia,existing
+ETCM_disease_id_4078,2564,disease,Thyroid Hypoplasia,existing
+ETCM_disease_id_4082,2565,disease,Thyroiditis,existing
+ETCM_disease_id_4083,2566,disease,Thyrotoxicosis Hyperthyroidism,existing
+ETCM_disease_id_4085,2567,disease,Thyrotoxicosis With Toxic Multinodular Goitre,existing
+ETCM_disease_id_4086,2568,disease,Thyrotoxicosis With Toxic Single Thyroid Nodule,existing
+ETCM_disease_id_4087,2569,disease,Tibial Bowing,existing
+ETCM_disease_id_4089,2570,disease,Tinnitus,existing
+ETCM_disease_id_4095,2571,disease,Tongue Telangiectasia,existing
+ETCM_disease_id_4096,2572,disease,Tooth Abscess,existing
+ETCM_disease_id_4098,2573,disease,Toxoplasmosis,existing
+ETCM_disease_id_4102,2574,disease,Tracheoesophageal Fistula,existing
+ETCM_disease_id_4103,2575,disease,Tracheomalacia,existing
+ETCM_disease_id_4104,2576,disease,Transient Global Amnesia,existing
+ETCM_disease_id_4105,2577,disease,Transient Hyperlipidemia,existing
+ETCM_disease_id_4106,2578,disease,Transient Hypophosphatemia,existing
+ETCM_disease_id_4107,2579,disease,Transient Ischemic Attack,existing
+ETCM_disease_id_4108,2580,disease,Transient Neonatal Diabetes Mellitus,existing
+ETCM_disease_id_4110,2581,disease,Transitional Cell Carcinoma Of The Bladder,existing
+ETCM_disease_id_4111,2582,disease,Transmissible Spongiform Encephalopathies,existing
+ETCM_disease_id_4112,2583,disease,Traumatic Brain Injury,existing
+ETCM_disease_id_4114,2584,disease,Treatment-Refractory Psychoses,existing
+ETCM_disease_id_4115,2585,disease,Tremor,existing
+ETCM_disease_id_4116,2586,disease,Triceps Weakness,existing
+ETCM_disease_id_4117,2587,disease,Trichilemmoma,existing
+ETCM_disease_id_4118,2588,disease,Trichodysplasia,existing
+ETCM_disease_id_4119,2589,disease,Trichomoniasis,existing
+ETCM_disease_id_4120,2590,disease,Trigonocephaly,existing
+ETCM_disease_id_4121,2591,disease,Trismus,existing
+ETCM_disease_id_4123,2592,disease,Truncal Ataxia,existing
+ETCM_disease_id_4124,2593,disease,Truncal Obesity,existing
+ETCM_disease_id_4125,2594,disease,Trypanolytic Infections,existing
+ETCM_disease_id_4126,2595,disease,Trypanosomatid Infections,existing
+ETCM_disease_id_4127,2596,disease,Trypanosomiasis,existing
+ETCM_disease_id_4129,2597,disease,Tubular Atrophy,existing
+ETCM_disease_id_4130,2598,disease,Tubulointerstitial Abnormality,existing
+ETCM_disease_id_4131,2599,disease,Tubulointerstitial Fibrosis,existing
+ETCM_disease_id_4132,2600,disease,Tubulointerstitial Nephritis,existing
+ETCM_disease_id_4133,2601,disease,Tumor Angiogenesis,existing
+ETCM_disease_id_4134,2602,disease,Tumor Angiogenesis And Metastasis,existing
+ETCM_disease_id_4137,2603,disease,Type 1 Fibers Relatively Smaller Than Type 2 Fibers,existing
+ETCM_disease_id_4138,2604,disease,Type 1 Muscle Fiber Atrophy,existing
+ETCM_disease_id_4139,2605,disease,Type 1 Muscle Fiber Predominance,existing
+ETCM_disease_id_4140,2606,disease,Type 2 Diabetes,existing
+ETCM_disease_id_4141,2607,disease,Type 2 Muscle Fiber Atrophy,existing
+ETCM_disease_id_4143,2608,disease,Type I Diabetes Mellitus,existing
+ETCM_disease_id_4145,2609,disease,Type Ii Diabetes Mellitus,existing
+ETCM_disease_id_4148,2610,disease,Ulcer,existing
+ETCM_disease_id_4149,2611,disease,Ulcerative Colitis,existing
+ETCM_disease_id_4150,2612,disease,Ulnar Bowing,existing
+ETCM_disease_id_4153,2613,disease,Unconjugated Hyperbilirubinemia,existing
+ETCM_disease_id_4155,2614,disease,Unexplained Fevers,existing
+ETCM_disease_id_4158,2615,disease,Unipolar Depression,existing
+ETCM_disease_id_4159,2616,disease,Unstable Angina,existing
+ETCM_disease_id_4160,2617,disease,Unsteady Gait,existing
+ETCM_disease_id_4162,2618,disease,Upper Airway Obstruction,existing
+ETCM_disease_id_4164,2619,disease,Upper Limb Amyotrophy,existing
+ETCM_disease_id_4167,2620,disease,Upper Limb Muscle Weakness,existing
+ETCM_disease_id_4168,2621,disease,Upper Limb Postural Tremor,existing
+ETCM_disease_id_4170,2622,disease,Upper Motor Neuron Dysfunction,existing
+ETCM_disease_id_4171,2623,disease,Upper Respiratory Infection,existing
+ETCM_disease_id_4172,2624,disease,Ureteral Obstruction,existing
+ETCM_disease_id_4173,2625,disease,Ureteral Stenosis,existing
+ETCM_disease_id_4175,2626,disease,Urge Incontinence,existing
+ETCM_disease_id_4178,2627,disease,Urinary Bladder Sphincter Dysfunction,existing
+ETCM_disease_id_4181,2628,disease,Urinary Incontinence,existing
+ETCM_disease_id_4182,2629,disease,Urinary Retention,existing
+ETCM_disease_id_4183,2630,disease,Urinary Urgency,existing
+ETCM_disease_id_4186,2631,disease,Urological Cancers,existing
+ETCM_disease_id_4187,2632,disease,Urticaria,existing
+ETCM_disease_id_4190,2633,disease,Uterine Leiomyosarcoma,existing
+ETCM_disease_id_4191,2634,disease,Uterine Neoplasm,existing
+ETCM_disease_id_4192,2635,disease,Uterine Prolapse,existing
+ETCM_disease_id_4193,2636,disease,Uveal Melanoma,existing
+ETCM_disease_id_4196,2637,disease,Vagal Paraganglioma,existing
+ETCM_disease_id_4197,2638,disease,Vaginal Atresia,existing
+ETCM_disease_id_4199,2639,disease,Varicose And Spider Veins Of The Leg,existing
+ETCM_disease_id_4200,2640,disease,Varicose Veins,existing
+ETCM_disease_id_4202,2641,disease,Vascular Calcification,existing
+ETCM_disease_id_4203,2642,disease,Vascular Diseases,existing
+ETCM_disease_id_4204,2643,disease,Vascular Headache,existing
+ETCM_disease_id_4206,2644,disease,Vascular Injury Response,existing
+ETCM_disease_id_4207,2645,disease,Vascular Lesion Regression,existing
+ETCM_disease_id_4209,2646,disease,Vascular Ring,existing
+ETCM_disease_id_4210,2647,disease,Vascular Skin Abnormality,existing
+ETCM_disease_id_4211,2648,disease,Vasculitis,existing
+ETCM_disease_id_4213,2649,disease,Vasoconstriction,existing
+ETCM_disease_id_4215,2650,disease,Vasospasm,existing
+ETCM_disease_id_4216,2651,disease,Vasospastic Angina,existing
+ETCM_disease_id_4217,2652,disease,Venous Thromboembolism,existing
+ETCM_disease_id_4218,2653,disease,Venous Thrombosis,existing
+ETCM_disease_id_4221,2654,disease,Ventricular Arrhythmia,existing
+ETCM_disease_id_4223,2655,disease,Ventricular Escape Rhythm,existing
+ETCM_disease_id_4225,2656,disease,Ventricular Preexcitation,existing
+ETCM_disease_id_4226,2657,disease,Ventricular Preexcitation With Multiple Accessory Pathways,existing
+ETCM_disease_id_4227,2658,disease,Ventricular Tachycardia,existing
+ETCM_disease_id_4228,2659,disease,Verrucae,existing
+ETCM_disease_id_4229,2660,disease,Vertebral Compression Fractures,existing
+ETCM_disease_id_4230,2661,disease,Vertical Nystagmus,existing
+ETCM_disease_id_4231,2662,disease,Vertigo,existing
+ETCM_disease_id_4232,2663,disease,Vertigo Of Central And Peripheral Origin,existing
+ETCM_disease_id_4235,2664,disease,Viral Infections,existing
+ETCM_disease_id_4236,2665,disease,Visceral Angiomatosis,existing
+ETCM_disease_id_4238,2666,disease,Visceral Pain,existing
+ETCM_disease_id_4241,2667,disease,Visual Hallucinations,existing
+ETCM_disease_id_4242,2668,disease,Visual Impairment,existing
+ETCM_disease_id_4243,2669,disease,Vitamin A Deficiency,existing
+ETCM_disease_id_4244,2670,disease,Vitamin B1 Deficiency,existing
+ETCM_disease_id_4247,2671,disease,Vitamin D Deficiency,existing
+ETCM_disease_id_4249,2672,disease,Vitamin K Deficiency,existing
+ETCM_disease_id_4250,2673,disease,Vitelliform-Like Macular Lesions,existing
+ETCM_disease_id_4252,2674,disease,Vitritis,existing
+ETCM_disease_id_4253,2675,disease,Vocal Cord Paralysis,existing
+ETCM_disease_id_4254,2676,disease,Vocal Cord Paresis,existing
+ETCM_disease_id_4255,2677,disease,Volvulus,existing
+ETCM_disease_id_4256,2678,disease,Vomiting,existing
+ETCM_disease_id_4257,2679,disease,Von Willebrand's Disease,existing
+ETCM_disease_id_4258,2680,disease,Waddling Gait,existing
+ETCM_disease_id_4259,2681,disease,Waldenstrom's Macroglobulinemia,existing
+ETCM_disease_id_4260,2682,disease,Water-Retaining Diseases,existing
+ETCM_disease_id_4262,2683,disease,Weak Voice,existing
+ETCM_disease_id_4264,2684,disease,Weakness Of Long Finger Extensor Muscles,existing
+ETCM_disease_id_4265,2685,disease,Weakness Of The Intrinsic Hand Muscles,existing
+ETCM_disease_id_4267,2686,disease,Weight Loss,existing
+ETCM_disease_id_4269,2687,disease,White Eyebrow,existing
+ETCM_disease_id_4270,2688,disease,White Eyelashes,existing
+ETCM_disease_id_4271,2689,disease,White Forelock,existing
+ETCM_disease_id_4272,2690,disease,White Hair,existing
+ETCM_disease_id_4273,2691,disease,Wide Anterior Fontanel,existing
+ETCM_disease_id_4274,2692,disease,Woolly Hair,existing
+ETCM_disease_id_4276,2693,disease,Wound Healing,existing
+ETCM_disease_id_4277,2694,disease,Wrist Drop,existing
+ETCM_disease_id_4278,2695,disease,Writer's Cramp,existing
+ETCM_disease_id_4279,2696,disease,Xanthelasma,existing
+ETCM_disease_id_4280,2697,disease,Xanthinuria,existing
+ETCM_disease_id_4281,2698,disease,Xanthomatosis,existing
+ETCM_disease_id_4283,2699,disease,Xerostomia,existing
+ETCM_disease_id_4285,2700,disease,Yellow/White Lesions Of The Macula,existing
+ETCM_disease_id_4286,2701,disease,Yellow Papule,existing
+ETCM_disease_id_4287,2702,disease,Zollinger-Ellison Syndrome,existing
+HN3,2703,herb,蓍草,existing
+HN16,2704,herb,大皂角,existing
+HN30,2705,herb,青葙子,existing
+HN33,2706,herb,商陆,existing
+HN41,2707,herb,白果,existing
+HN53,2708,herb,柿蒂,existing
+HN148,2709,herb,细辛,existing
+HN178,2710,herb,檀香,existing
+HN180,2711,herb,吴茱萸,existing
+HN185,2712,herb,黑种草子,existing
+HN206,2713,herb,玄参,existing
+HN226,2714,herb,何首乌,existing
+HN230,2715,herb,党参,existing
+HN334,2716,herb,青果,existing
+HN352,2717,herb,豨莶草,existing
+HN353,2718,herb,筋骨草,existing
+HN392,2719,herb,灵芝,existing
+HN402,2720,herb,益智,existing
+HN412,2721,herb,鸡冠花,existing
+HN422,2722,herb,肿节风,existing
+HN465,2723,herb,桔梗,existing
+HN486,2724,herb,夏枯草,existing
+HN527,2725,herb,荜茇,existing
+HN531,2726,herb,颠茄草,existing
+HN552,2727,herb,赤芍,existing
+HN555,2728,herb,麦冬,existing
+HN578,2729,herb,预知子,existing
+HN585,2730,herb,谷精草,existing
+HN595,2731,herb,薄荷,existing
+HN656,2732,herb,丝瓜络,existing
+HN657,2733,herb,麻黄,existing
+HN699,2734,herb,菊花,existing
+HN754,2735,herb,竹茹,existing
+HN844,2736,herb,葶苈子,existing
+HN889,2737,herb,火麻仁,existing
+HN927,2738,herb,巴戟天,existing
+HN934,2739,herb,山柰,existing
+HN950,2740,herb,草乌,existing
+HN997,2741,herb,益母草,existing
+HN1009,2742,herb,芥子,existing
+HN1019,2743,herb,茯苓,existing
+HN1104,2744,herb,荷叶,existing
+HN1125,2745,herb,白茅根,existing
+HN1133,2746,herb,冬凌草,existing
+HN1174,2747,herb,茵陈,existing
+HN1184,2748,herb,旋覆花,existing
+HN1215,2749,herb,香附,existing
+HN1297,2750,herb,白前,existing
+HN1315,2751,herb,覆盆子,existing
+HN1322,2752,herb,木贼,existing
+HN1329,2753,herb,天冬,existing
+HN1335,2754,herb,冬瓜皮,existing
+HN1355,2755,herb,香加皮,existing
+HN1380,2756,herb,苦木,existing
+HN1382,2757,herb,柏子仁,existing
+HN1392,2758,herb,芦根,existing
+HN1418,2759,herb,人参,existing
+HN1421,2760,herb,桃仁,existing
+HN1426,2761,herb,金铁锁,existing
+HN1431,2762,herb,浙贝母,existing
+HN1436,2763,herb,土贝母,existing
+HN1464,2764,herb,王不留行,existing
+HN1519,2765,herb,西洋参,existing
+HN1548,2766,herb,续断,existing
+HN1565,2767,herb,胡芦巴,existing
+HN1599,2768,herb,拳参,existing
+HN1608,2769,herb,土木香,existing
+HN1615,2770,herb,干姜,existing
+HN1663,2771,herb,胡椒,existing
+HN1677,2772,herb,黑豆,existing
+HN1678,2773,herb,丁公藤,existing
+HN1692,2774,herb,款冬花,existing
+HN1693,2775,herb,姜黄,existing
+HN1697,2776,herb,槐花,existing
+HN1739,2777,herb,九里香,existing
+HN1754,2778,herb,北刘寄奴,existing
+HN1777,2779,herb,杠板归,existing
+HN1780,2780,herb,黑芝麻,existing
+HN1845,2781,herb,番泻叶,existing
+HN1874,2782,herb,罗汉果,existing
+HN1893,2783,herb,防风,existing
+HN1896,2784,herb,地榆,existing
+HN1915,2785,herb,土荆皮,existing
+HN1986,2786,herb,酸枣仁,existing
+HN2062,2787,herb,佩兰,existing
+HN2072,2788,herb,石吊兰,existing
+HN2078,2789,herb,杜仲叶,existing
+HN2081,2790,herb,韭菜子,existing
+HN2083,2791,herb,川贝母,existing
+HN2151,2792,herb,青风藤,existing
+HN2154,2793,herb,木香,existing
+HN2187,2794,herb,砂仁,existing
+HN2191,2795,herb,三七,existing
+HN2242,2796,herb,枳壳,existing
+HN2253,2797,herb,天南星,existing
+HN2276,2798,herb,半夏,existing
+HN2291,2799,herb,郁金,existing
+HN2293,2800,herb,广金钱草,existing
+HN2313,2801,herb,乳香,existing
+HN2333,2802,herb,葛根,existing
+HN2334,2803,herb,柴胡,existing
+HN2341,2804,herb,合欢花,existing
+HN2342,2805,herb,千金子,existing
+HN2351,2806,herb,白附子,existing
+HN2479,2807,herb,一枝黄花,existing
+HN2506,2808,herb,辣椒,existing
+HN2509,2809,herb,四季青,existing
+HN2543,2810,herb,墨旱莲,existing
+HN2552,2811,herb,花椒,existing
+HN2598,2812,herb,鹅不食草,existing
+HN2604,2813,herb,栀子,existing
+HN2634,2814,herb,菊苣,existing
+HN2637,2815,herb,仙鹤草,existing
+HN2681,2816,herb,鸦胆子,existing
+HN2707,2817,herb,使君子,existing
+HN2714,2818,herb,芦荟,existing
+HN2743,2819,herb,偏头七,existing
+HN2789,2820,herb,鸭跖草,existing
+HN2791,2821,herb,大蒜,existing
+HN2792,2822,herb,木通,existing
+HN2830,2823,herb,玫瑰花,existing
+HN2867,2824,herb,虎杖,existing
+HN2874,2825,herb,忍冬藤,existing
+HN2900,2826,herb,红景天,existing
+HN2911,2827,herb,仙茅,existing
+HN2935,2828,herb,板蓝根,existing
+HN2937,2829,herb,侧柏叶,existing
+HN2944,2830,herb,菟丝子,existing
+HN2980,2831,herb,大枣,existing
+HN2986,2832,herb,川芎,existing
+HN2993,2833,herb,北豆根,existing
+HN3006,2834,herb,白屈菜,existing
+HN3022,2835,herb,赤小豆,existing
+HN3058,2836,herb,海藻,existing
+HN3066,2837,herb,薏苡仁,existing
+HN3077,2838,herb,急性子,existing
+HN3105,2839,herb,大黄,existing
+HN3126,2840,herb,艾叶,existing
+HN3133,2841,herb,路路通,existing
+HN3170,2842,herb,草果,existing
+HN3191,2843,herb,山楂,existing
+HN3193,2844,herb,金樱子,existing
+HN3233,2845,herb,附子,existing
+HN3238,2846,herb,白芷,existing
+HN3240,2847,herb,苏合香,existing
+HN3285,2848,herb,淡竹叶,existing
+HN3300,2849,herb,棕榈,existing
+HN3321,2850,herb,泽兰,existing
+HN3325,2851,herb,月季花,existing
+HN3334,2852,herb,乌梅,existing
+HN3348,2853,herb,苦楝皮,existing
+HN3383,2854,herb,蒲黄,existing
+HN3394,2855,herb,甘遂,existing
+HN3437,2856,herb,草豆蔻,existing
+HN3440,2857,herb,芫花,existing
+HN3485,2858,herb,车前草,existing
+HN3506,2859,herb,紫花地丁,existing
+HN3531,2860,herb,鹿衔草,existing
+HN3548,2861,herb,香橼,existing
+HN3564,2862,herb,蒺藜,existing
+HN3586,2863,herb,红花,existing
+HN3631,2864,herb,五味子,existing
+HN3661,2865,herb,金银花,existing
+HN3663,2866,herb,罂粟壳,existing
+HN3677,2867,herb,小茴香,existing
+HN3725,2868,herb,八角茴香,existing
+HN3744,2869,herb,沉香,existing
+HN3769,2870,herb,人参叶,existing
+HN3780,2871,herb,降香,existing
+HN3786,2872,herb,化橘红,existing
+HN3788,2873,herb,大蓟,existing
+HN3804,2874,herb,小蓟,existing
+HN3862,2875,herb,紫草,existing
+HN3897,2876,herb,青叶胆,existing
+HN3931,2877,herb,明党参,existing
+HN3938,2878,herb,焦栀子,existing
+HN3945,2879,herb,金沸草,existing
+HN3968,2880,herb,牡荆叶,existing
+HN3986,2881,herb,白头翁,existing
+HN4042,2882,herb,川楝子,existing
+HN4066,2883,herb,蛇床子,existing
+HN4075,2884,herb,狼毒,existing
+HN4091,2885,herb,补骨脂,existing
+HN4113,2886,herb,百合,existing
+HN4147,2887,herb,连翘,existing
+HN4162,2888,herb,银柴胡,existing
+HN4182,2889,herb,苦地丁,existing
+HN4241,2890,herb,蓼大青叶,existing
+HN4301,2891,herb,千里光,existing
+HN4319,2892,herb,绵萆薢,existing
+HN4332,2893,herb,生姜,existing
+HN4391,2894,herb,天竺黄,existing
+HN4397,2895,herb,香薷,existing
+HN4423,2896,herb,伊贝母,existing
+HN4429,2897,herb,北沙参,existing
+HN4453,2898,herb,安息香,existing
+HN4454,2899,herb,追风七,existing
+HN4501,2900,herb,牛蒡子,existing
+HN4506,2901,herb,鸡骨草,existing
+HN4511,2902,herb,洋金花,existing
+HN4512,2903,herb,罗布麻叶,existing
+HN4529,2904,herb,川木香,existing
+HN4562,2905,herb,三颗针,existing
+HN4565,2906,herb,榼藤子,existing
+HN4577,2907,herb,萹蓄,existing
+HN4581,2908,herb,半枝莲,existing
+HN4648,2909,herb,满山红,existing
+HN4663,2910,herb,荜澄茄,existing
+HN4667,2911,herb,闹羊花,existing
+HN4668,2912,herb,前胡,existing
+HN4679,2913,herb,豆蔻,existing
+HN4701,2914,herb,厚朴,existing
+HN4709,2915,herb,升麻,existing
+HN4828,2916,herb,山慈菇,existing
+HN4849,2917,herb,土茯苓,existing
+HN4875,2918,herb,龙胆,existing
+HN4913,2919,herb,肉豆蔻,existing
+HN4923,2920,herb,甘草,existing
+HN4932,2921,herb,乌药,existing
+HN4990,2922,herb,雷公藤,existing
+HN4991,2923,herb,蔓荆子,existing
+HN5056,2924,herb,牵牛子,existing
+HN5069,2925,herb,地骨皮,existing
+HN5105,2926,herb,徐长卿,existing
+HN5109,2927,herb,枸骨叶,existing
+HN5126,2928,herb,紫苏梗,existing
+HN5138,2929,herb,桑枝,existing
+HN5162,2930,herb,钩藤,existing
+HN5209,2931,herb,龙眼肉,existing
+HN5274,2932,herb,独一味,existing
+HN5301,2933,herb,马钱子,existing
+HN5331,2934,herb,锁阳,existing
+HN5338,2935,herb,芡实,existing
+HN5365,2936,herb,高良姜,existing
+HN5411,2937,herb,岩白菜,existing
+HN5454,2938,herb,藁本,existing
+HN5471,2939,herb,荆芥,existing
+HN5505,2940,herb,紫菀,existing
+HN5530,2941,herb,牡丹皮,existing
+HN5544,2942,herb,野木瓜,existing
+HN5554,2943,herb,威灵仙,existing
+HN5565,2944,herb,黄芩,existing
+HN5566,2945,herb,枳实,existing
+HN5568,2946,herb,冰片,existing
+HN5591,2947,herb,菝葜,existing
+HN5612,2948,herb,骨碎补,existing
+HN5614,2949,herb,延胡索,existing
+HN5622,2950,herb,莪术,existing
+HN5652,2951,herb,佛手,existing
+HN5658,2952,herb,合欢皮,existing
+HN5698,2953,herb,海风藤,existing
+HN5705,2954,herb,海藻,existing
+HN5742,2955,herb,知母,existing
+HN5749,2956,herb,黄连,existing
+HN5775,2957,herb,丁香,existing
+HN5813,2958,herb,槐角,existing
+HN5820,2959,herb,木瓜,existing
+HN5833,2960,herb,瓜蒌,existing
+HN5885,2961,herb,独活,existing
+HN5993,2962,herb,广藿香,existing
+HN6002,2963,herb,石斛,existing
+HN6008,2964,herb,辛夷,existing
+HN6009,2965,herb,淫羊藿,existing
+HN6041,2966,herb,蓖麻子,existing
+HN6050,2967,herb,猪牙皂,existing
+HN6068,2968,herb,蒲公英,existing
+HN6072,2969,herb,白芍,existing
+HN6079,2970,herb,当归,existing
+HN6088,2971,herb,昆布,existing
+HN6096,2972,herb,石菖蒲,existing
+HN6123,2973,herb,药王茶,existing
+HN6143,2974,herb,胡黄连,existing
+HN6164,2975,herb,血竭,existing
+HN6173,2976,herb,莲子,existing
+HN6178,2977,herb,白扁豆,existing
+HN6198,2978,herb,天仙子,existing
+HN6201,2979,herb,泽泻,existing
+HN6218,2980,herb,茜草,existing
+HN6241,2981,herb,桂枝,existing
+HN6299,2982,herb,冰片,existing
+HN6313,2983,herb,苏木,existing
+HN6323,2984,herb,丹参,existing
+HN6326,2985,herb,马鞭草,existing
+HN6402,2986,herb,金钱草,existing
+HN6435,2987,herb,卷柏,existing
+HN6444,2988,herb,甘松,existing
+HN6464,2989,herb,肉苁蓉,existing
+HN6465,2990,herb,羌活,existing
+HN6467,2991,herb,红参,existing
+HN6476,2992,herb,穿心莲,existing
+HN6536,2993,herb,南鹤虱,existing
+HN6558,2994,herb,平贝母,existing
+HN6607,2995,herb,郁李仁,existing
+HN6640,2996,herb,皂角刺,existing
+HN6646,2997,herb,青蒿,existing
+HN6661,2998,herb,陈皮,existing
+HN6673,2999,herb,白及,existing
+HN6752,3000,herb,苦杏仁,existing
+HN6831,3001,herb,黄柏,existing
+HN6853,3002,herb,麻黄根,existing
+HN6862,3003,herb,连钱草,existing
+HN6899,3004,herb,远志,existing
+HN6909,3005,herb,天花粉,existing
+HN6918,3006,herb,垂盆草,existing
+HN6952,3007,herb,没药,existing
+HN6990,3008,herb,苍术,existing
+HN7005,3009,herb,木鳖子,existing
+HN7011,3010,herb,山豆根,existing
+HN7018,3011,herb,大青叶,existing
+HN7032,3012,herb,杜仲,existing
+HN7053,3013,herb,太子参,existing
+HN7066,3014,herb,水飞蓟,existing
+HN7077,3015,herb,朱砂根,existing
+HN7079,3016,herb,常山,existing
+HN7102,3017,herb,当药,existing
+HN7113,3018,herb,五加皮,existing
+HN7142,3019,herb,地黄,existing
+HN7147,3020,herb,马兜铃,existing
+HN7154,3021,herb,漏芦,existing
+HN7161,3022,herb,蜘蛛香,existing
+HN7180,3023,herb,槲寄生,existing
+HN7192,3024,herb,野菊花,existing
+HN7196,3025,herb,白蔹,existing
+HN7213,3026,herb,白术,existing
+HN7253,3027,herb,穿山龙,existing
+HN7256,3028,herb,石韦,existing
+HN7288,3029,herb,桃枝,existing
+HN7385,3030,herb,救必应,existing
+HN7424,3031,herb,夏天无,existing
+HN7434,3032,herb,两面针,existing
+HN7464,3033,herb,桑寄生,existing
+HN7500,3034,herb,肉桂,existing
+HN7531,3035,herb,紫苏叶,existing
+HN7587,3036,herb,莱菔子,existing
+HN7588,3037,herb,枸杞子,existing
+HN7611,3038,herb,胖大海,existing
+HN7614,3039,herb,老鹳草,existing
+HN7617,3040,herb,山药,existing
+HN7629,3041,herb,川乌,existing
+HN7636,3042,herb,三棱,existing
+HN7653,3043,herb,金果榄,existing
+HN7658,3044,herb,南五味子,existing
+HN7660,3045,herb,亚麻子,existing
+HN7692,3046,herb,竹根七,existing
+HN7698,3047,herb,山茱萸,existing
+HN7712,3048,herb,珠子参,existing
+HN7741,3049,herb,百部,existing
+HN7742,3050,herb,黄蜀葵花,existing
+HN7757,3051,herb,络石藤,existing
+HN7764,3052,herb,紫苏子,existing
+HN7792,3053,herb,白鲜皮,existing
+HN7845,3054,herb,大血藤,existing
+HN7857,3055,herb,灯盏细辛,existing
+HN7865,3056,herb,鸡血藤,existing
+HN7884,3057,herb,橘核,existing
+HN7895,3058,herb,黄精,existing
+HN7896,3059,herb,木蝴蝶,existing
+HN7899,3060,herb,桑叶,existing
+HN7971,3061,herb,大叶紫珠,existing
+HN7973,3062,herb,桑白皮,existing
+HN8012,3063,herb,苍耳子,existing
+HN8044,3064,herb,半边莲,existing
+HN8079,3065,herb,黄芪,existing
+HN8081,3066,herb,巴豆,existing
+HN8087,3067,herb,槟榔,existing
+HN8093,3068,herb,菥蓂,existing
+HN8125,3069,herb,海金沙,existing
+HN8131,3070,herb,浮萍,existing
+HN8140,3071,herb,麦芽,existing
+HN8142,3072,herb,女贞子,existing
+HN8157,3073,herb,鱼腥草,existing
+HN8240,3074,herb,玉竹,existing
+HN8254,3075,herb,射干,existing
+HN8261,3076,herb,灯心草,existing
+HN8270,3077,herb,马齿苋,existing
+HN8291,3078,herb,川牛膝,existing
+HN8297,3079,herb,苦玄参,existing
+HN8302,3080,herb,灯盏细辛,existing
+HN8338,3081,herb,积雪草,existing
+HN8341,3082,herb,秦艽,existing
+HN8391,3083,herb,巴豆霜,existing
+HN8400,3084,herb,委陵菜,existing
+HN8460,3085,herb,黄山药,existing
+HN8463,3086,herb,决明子,existing
+HN8499,3087,herb,川木通,existing
+HN8503,3088,herb,三白草,existing
+HN8523,3089,herb,莲子心,existing
+HN8531,3090,herb,天仙藤,existing
+HN8564,3091,herb,藕节,existing
+HN8595,3092,herb,车前子,existing
+HN8617,3093,herb,白薇,existing
+HN8630,3094,herb,刀豆,existing
+HN8638,3095,herb,枇杷叶,existing
+HN8791,3096,herb,薤白,existing
+HN8817,3097,herb,刺五加,existing
+HN8843,3098,herb,天麻,existing
+HN8855,3099,herb,密蒙花,existing
+HN8867,3100,herb,青皮,existing
+HN8918,3101,herb,石榴皮,existing
+HN8925,3102,herb,龙葵,existing
+HN8976,3103,herb,诃子,existing
+HN9011,3104,herb,苦参,existing
+HN9055,3105,herb,防己,existing
+HN9072,3106,herb,娑罗子,existing
+HN9134,3107,herb,牛膝,existing
+HN9139,3108,herb,延胡索,existing

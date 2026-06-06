@@ -1,0 +1,15 @@
+﻿relation,type_id
+treats_disease,0
+rev_treats_disease,1
+has_effect,2
+rev_has_effect,3
+has_property,4
+rev_has_property,5
+belongs_to_meridian,6
+rev_belongs_to_meridian,7
+herb_disease_jaccard,8
+disease_herb_jaccard,9
+disease_associated_gene,10
+rev_disease_associated_gene,11
+herb_associated_gene,12
+rev_herb_associated_gene,13

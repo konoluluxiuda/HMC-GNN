@@ -1,0 +1,10 @@
+﻿item,count,note
+num_nodes,3109,
+num_genes,5655,
+disease_gene_nnz,68955,node_disease_gene.pt
+herb_gene_nnz,46955,node_herb_gene.pt
+combined_gene_nnz,115910,node_gene_matrix.pt
+disease_missing_start,0,
+disease_missing_gene,0,
+herb_missing_start,0,
+herb_missing_gene,0,

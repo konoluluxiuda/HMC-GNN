@@ -1,0 +1,15 @@
+﻿item,count,note
+train_treats_disease_edges_bidirectional,396130,Only train disease-herb positives are inserted into the graph.
+herbTOchemical.csv:has_component,24498,
+herbTOeffect.csv:has_effect,27460,
+herbTOflavor.csv:has_property,2060,
+herbTOchannelTropism.csv:belongs_to_meridian,1904,
+herb_disease_jaccard_edges,0,
+disease_herb_jaccard_edges,2891,
+herbTOgene_etcm_matched.csv:herb_associated_gene,93910,
+num_nodes,17683,
+num_relations,14,
+edge_count,548853,
+train_disease_count,2703,
+test_disease_count,2581,
+candidate_herb_count,395,
