@@ -1,0 +1,736 @@
+%% 
+%% Copyright 2019-2024 Elsevier Ltd
+%% 
+%% This file is part of the 'CAS Bundle'.
+%% --------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.3c of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'CAS Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for cas-dc documentclass for 
+%% double column output.
+
+\documentclass[a4paper,fleqn]{cas-dc}
+
+% If the frontmatter runs over more than one page
+% use the longmktitle option.
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{makecell}
+\setlength{\mathindent}{0pt}
+%\usepackage[authoryear]{natbib}
+%\usepackage[authoryear,longnamesfirst]{natbib}
+
+%%%Author macros
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+%%%
+
+% Uncomment and use as if needed
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newdefinition{rmk}{Remark}
+%\newproof{pf}{Proof}
+%\newproof{pot}{Proof of Theorem \ref{thm}}
+\usepackage{amsmath}
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+% Short title
+\shorttitle{}    
+\shortauthors{Zhang et al.}
+
+\let\printorcid\relax
+
+\title[mode = title]{HMC-GNN: Multimodal Heterogeneous Graph Learning for Disease-Driven TCM Prescription Recommendation}
+
+% =========================
+% Authors
+% =========================
+
+\author[1]{Rongyun Zhang}
+
+\credit{Software, Formal analysis, Investigation, Writing - original draft}
+
+\author[1,2]{Xiangping Wu}
+
+\cormark[1]
+\ead{xiangpingwu@cjlu.edu.cn}
+
+\credit{Conceptualization, Methodology, Project administration}
+
+\author[3,4]{Shengqiang Tong}
+
+\credit{Supervision, Validation, Writing - review \& editing}
+
+% =========================
+% Affiliations
+% =========================
+
+\affiliation[1]{
+    organization={College of Information Engineering, China Jiliang University},
+    city={Hangzhou},
+    postcode={310018},
+    country={China}
+}
+
+\affiliation[2]{
+    organization={Zhejiang-New Zealand Joint Laboratory on Vision-Based Intelligent Metrology},
+    city={Hangzhou},
+    postcode={310018},
+    country={China}
+}
+
+\affiliation[3]{
+    organization={College of Pharmaceutical Science, Zhejiang University of Technology},
+    city={Hangzhou},
+    postcode={310014},
+    country={China}
+}
+
+\affiliation[4]{
+    organization={Zhejiang Provincial Key Laboratory of TCM for Innovative R\&D and Digital Intelligent Manufacturing of TCM Great Health Products},
+    city={Hangzhou},
+    postcode={310014},
+    country={China}
+}
+
+% =========================
+% Corresponding author
+% =========================
+
+\cortext[1]{Corresponding author}
+
+% Here goes the abstract
+\begin{abstract}
+\noindent\textbf{Objective:} Traditional Chinese Medicine (TCM) prescription recommendation requires modeling complex, synergistic herbal combinations. While graph-based methods have advanced automated recommendation, disease-driven settings remain challenging. Existing approaches struggle with popularity bias (hub-node dominance) in scale-free graphs, which aggravates topological over-smoothing, and lack explicit alignment between macroscopic TCM properties and microscopic molecular semantics.
+
+\noindent\textbf{Methods:} We propose HMC-GNN, a heterogeneous multimodal contrastive graph neural network. We construct an asymmetric collaborative graph utilizing Jaccard similarity and Top-K pruning to filter hub-node noise while preserving synergistic neighborhoods. We then introduce an adaptive gated fusion module to integrate structural embeddings, macroscopic TCM attributes, and microscopic chemical descriptors. The graph is optimized using a joint objective combining collaborative ranking with multi-view contrastive learning for cross-modal semantic alignment.
+
+\noindent\textbf{Results:} Evaluated on ETCM-HERBKG, a multimodal TCM benchmark, HMC-GNN significantly outperforms state-of-the-art baselines across major metrics, achieving up to an 81.4\% relative improvement in F1-score over strong graph baselines. Extensive analysis and geometric visualization confirm that the asymmetric pruning effectively mitigates over-smoothing. Furthermore, the contrastive objectives successfully align topological and biochemical entities in a cohesive latent space, generating clinically interpretable prescriptions in real-world case studies.
+
+\noindent\textbf{Conclusion:} This framework shifts disease-driven TCM recommendation from isolated topological learning to a structurally robust, semantically aligned multimodal paradigm, providing pharmacologically interpretable insights and demonstrating strong applicability for integrative medicine.
+\end{abstract}
+
+% Use if graphical abstract is present
+%\begin{graphicalabstract}
+%\includegraphics{}
+%\end{graphicalabstract}
+
+% Research highlights
+%\begin{highlights}
+%\item 
+%\item 
+%\item 
+%\end{highlights}
+
+
+%\nocite{*}
+
+% Keywords
+% Each keyword is seperated by \sep
+\begin{keywords}
+ Traditional Chinese Medicine \sep Disease-Driven Prescription Recommendation \sep Heterogeneous Graph Neural Network \sep Multimodal Fusion \sep Contrastive Learning
+\end{keywords}
+
+\maketitle
+
+% Main text
+\section{Introduction}\label{sec:intro}
+
+Traditional Chinese Medicine (TCM) has developed over thousands of years into a systematic and holistic medical framework \cite{ref1,ref2,ref3}. Unlike modern Western medicine, which often targets specific molecular pathways with single active compounds \cite{ref4}, TCM commonly relies on herbal prescriptions composed of multiple herbs with complementary or synergistic effects. These prescriptions are guided by the classic compatibility principle of “Monarch, Minister, Assistant, and Courier” (Jun-Chen-Zuo-Shi), in which different herbs work together to address complex pathological conditions from multiple perspectives \cite{ref5,ref6,ref7}. As efforts to modernize and digitize TCM continue, artificial intelligence (AI) has been increasingly adopted to analyze prescription patterns and support intelligent recommendation \cite{ref8,ref9,ref10}.
+
+Most existing AI studies on TCM prescription recommendation focus on symptom-driven settings, in which a relatively rich set of symptoms is used to predict candidate herbs \cite{ref11,ref12}. However, this setting does not fully reflect an increasingly important clinical scenario in integrative medicine: combining disease diagnosis with syndrome differentiation \cite{ref13,ref14,ref15}. In practice, patients are often first diagnosed with a specific modern disease, such as hypothyroidism or type 2 diabetes, before receiving further TCM consultation. This setting gives rise to disease-driven prescription recommendation, whose goal is to generate a core herbal formula directly from a disease diagnosis \cite{ref16,ref17}. Compared with symptom-driven recommendation, this task is more challenging because the input is much sparser. Instead of a dense symptom set, the model may receive only a single disease node. It must therefore rely more heavily on external knowledge and multimodal semantics to infer appropriate herb combinations \cite{ref18,ref19,ref20}.
+
+Existing computational methods for TCM prescription recommendation can be grouped into three broad categories. The first includes statistical and topic-modeling approaches, which treat prescriptions as documents and herbs or symptoms as words to mine latent therapeutic patterns \cite{ref21,ref22}. Representative methods such as PTM \cite{ref23}, SHDT \cite{ref24}, and MCLDA \cite{ref25} model latent associations among symptoms, pathogenesis, and herbs, while KGETM \cite{ref26} further incorporates knowledge graph embedding into a topic-modeling framework. These methods provide useful probabilistic insights, but they are often limited in their ability to model fine-grained structural dependencies and higher-order pharmacological interactions.
+
+The second category consists of sequence-based generative models, which formulate prescription generation as a sequence-to-sequence task \cite{ref27,ref28}. Models such as TCM Translator \cite{ref29}, AttentiveHerb \cite{ref30}, Herb-Know \cite{ref31}, and TCMBERT \cite{ref32} use recurrent or Transformer-based architectures to map symptom inputs to herb sequences, sometimes with the support of external textual knowledge. More recent methods, including PreGenerator \cite{ref33} and GSCCAM \cite{ref34}, introduce compatibility-aware or dual-branch mechanisms to improve generation quality. Although these models are effective in some settings, representing prescriptions as ordered sequences can weaken the modeling of the inherently unordered and synergistic nature of herbal combinations.
+
+The third category, and the one most relevant to this work, comprises knowledge-graph-based graph neural networks (GNNs) \cite{ref35,ref36}. By modeling TCM entities and their relations as a graph, these methods can explicitly capture structured therapeutic associations and have shown clear advantages over earlier statistical and sequential approaches. Representative studies such as SMGCN \cite{ref37} and KDHR \cite{ref38} show that graph-based propagation can improve herb recommendation by leveraging symptom-herb or formula-herb relations. Subsequent methods, including MGCN \cite{ref39}, TCM-GCN \cite{ref40}, and SMRGAT \cite{ref41}, further enhance representation learning through multi-layer aggregation and attention mechanisms. Taken together, these studies suggest that graph learning provides a strong foundation for prescription recommendation.
+
+Despite their promise, existing graph-based methods still face important limitations in the disease-driven setting. One challenge is hub-node bias and topological over-smoothing. TCM data typically follow a long-tailed distribution, in which a small number of highly frequent herbs, such as Licorice or Ginseng, appear in a large number of prescriptions \cite{ref42}. When collaborative graphs are constructed directly from co-occurrence statistics, these ubiquitous herbs tend to become dominant hub nodes, producing overly dense and noisy connections. During graph propagation, such structures may aggravate over-smoothing and weaken the model’s ability to preserve discriminative signals for specific or rare diseases \cite{ref43,ref44}.
+
+A second challenge is cross-modal misalignment between structural and semantic information. To compensate for sparse disease inputs, recent studies have begun to incorporate dense multimodal features, such as textual embeddings, SMILES-based molecular representations, and chemical descriptors \cite{ref45,ref46}. Although these features can enrich node semantics, simple direct concatenation may cause high-dimensional dense features to dominate sparse topological signals, leading to suboptimal multimodal integration \cite{ref47}. More importantly, many existing methods still lack an explicit mechanism for aligning macroscopic TCM knowledge, such as medicinal properties and meridian tropisms, with microscopic biochemical information, such as molecular fingerprints and chemical semantics, in a shared representation space \cite{ref48,ref49}. This limits the model’s ability to jointly exploit traditional pharmacological theory and modern molecular evidence.
+
+To address these challenges, we propose HMC-GNN, a Heterogeneous Multimodal Contrastive Graph Neural Network for disease-driven TCM prescription recommendation. The framework is built around three central ideas. First, we construct an asymmetric collaborative graph with Jaccard-based Top-K pruning to reduce popularity bias while preserving informative synergistic neighborhoods. Second, we introduce an adaptive gated multimodal fusion module to align and integrate structural embeddings, TCM attribute features, and chemical descriptors. Third, we optimize the model with a multi-view self-supervised objective that combines graph-level contrastive learning with cross-modal alignment, thereby improving representation learning under sparse disease inputs. Through these components, HMC-GNN is designed to learn node representations that are both structurally informative and semantically aligned.
+
+To evaluate this problem systematically, we build ETCM-HERBKG, a multimodal benchmark derived from the authoritative ETCM database \cite{ref50}. Experiments on this benchmark show that HMC-GNN consistently outperforms several competitive baselines, including KDHR, BSGAM, and PresRecRF, across major evaluation metrics. Representation visualization further provides qualitative evidence that the learned latent space captures meaningful pharmacological structure and improves multimodal interpretability.
+
+The main contributions of this work are summarized as follows:
+
+\begin{itemize}
+\item An asymmetric collaborative graph construction strategy based on Jaccard similarity and Top-K pruning is introduced to alleviate hub-node bias and reduce over-smoothing in disease-driven TCM prescription recommendation.
+\item An adaptive gated multimodal fusion framework is developed to align and integrate structural embeddings, macroscopic TCM attributes, and microscopic chemical descriptors within a shared latent space.
+\item A joint self-supervised optimization framework is formulated by combining collaborative ranking, structural contrastive learning, and cross-modal alignment to improve representation learning under sparse disease inputs.
+\item A multimodal benchmark, ETCM-HERBKG, is constructed for systematic evaluation, and experiments on this benchmark show competitive performance against strong baselines together with improved representation interpretability.
+\end{itemize}
+
+% Use the style of numbering in square brackets.
+% If nothing is used, default style will be taken.
+%\begin{enumerate}[a)]
+%\item 
+%\item 
+%\item 
+%\end{enumerate}  
+
+% Unnumbered list
+%\begin{itemize}
+%\item 
+%\item 
+%\item 
+%\end{itemize}  
+
+% Description list
+%\begin{description}
+%\item[]
+%\item[] 
+%\item[] 
+%\end{description}  
+
+%\clearpage %%Remove this from your manuscript
+
+
+\section{Problem Formulation}\label{sec:problem_formulation}
+
+In this section, we formally define the notations used throughout this paper and frame the intelligent disease-driven herb recommendation task as an implicit feedback ranking problem on a multimodal heterogeneous graph.
+
+\subsection{Notations and Definitions}
+
+Let $D = \{d_1, \allowbreak d_2, \allowbreak \dots, \allowbreak d_{N_d}\}$ and $H = \{h_1, \allowbreak h_2, \allowbreak \dots, \allowbreak h_{N_h}\}$ represent the sets of diseases (or clinical syndromes) and candidate herbs, respectively, with $N_d$ and $N_h$ denoting their total counts. 
+
+To capture complex therapeutic interactions and rich multimodal information, we construct a unified multi-\hspace{0pt}relational heterogeneous graph, defined as $G = (V, \allowbreak E, \allowbreak R)$. The node set $V$ comprises not only the core diseases and herbs ($D \cup H$), but also multi-\hspace{0pt}granularity attribute nodes, denoted as $A$, including macroscopic TCM attribute nodes (e.g., medicinal properties, flavors, and meridian tropisms) and microscopic chemical attribute nodes (e.g., molecular fingerprints and related chemical descriptors). The multi-\hspace{0pt}relational edge set $E$ encompasses various interaction types $r \in R$ (e.g., treats\_disease, \allowbreak has\_property, \allowbreak and collaborative\_co\_occurrence). This multi-relational topology provides the structural basis for applying Relational Graph Convolutional Networks (RGCN), explicitly empowering the model to distinguish among and aggregate information across semantically different pathways during the message-passing phase.
+
+\subsection{Task Formulation}
+
+Prescription generation is formulated as an implicit-feedback ranking task. Under this setting, the clinical dataset only provides observed positive interactions, indicating that an herb $h^+$ is historically prescribed for a specific disease condition $d$.
+
+The goal is to learn a robust representation-based scoring function $\hat{y}_{d,h} = \langle \mathbf{e}_d, \mathbf{e}_h \rangle$, where $\mathbf{e}_d$ and $\mathbf{e}_h$ denote the final $d_e$-dimensional latent representations of the disease and the herb learned by the model, and $\langle \cdot, \cdot \rangle$ denotes the inner product. The objective of the recommendation system is to optimize these representations such that the score assigned to herb $h^+$ is consistently ranked higher than that of an unobserved negative herb $h^-$ sampled from the candidate space $H$. By learning this ranking boundary, the model can recommend a highly precise and pharmacologically sound subset of herbs for a given disease query.
+
+\section{Proposed Methodology}\label{sec:methodology}
+
+\subsection{Overall Architecture}
+
+% Figure
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Figure_1.png}
+  \caption{Overall architecture of the proposed HMC-GNN framework. The model is organized as a four-stage pipeline: (1) data input and robust graph construction, where a heterogeneous disease-herb graph is built and refined by asymmetric Top-K Jaccard pruning; (2) multimodal feature alignment and gated fusion, where structural embeddings, macroscopic TCM attributes, and microscopic chemical descriptors are projected and adaptively integrated; (3) unified heterogeneous graph reasoning, where fused node representations are propagated over the graph to capture high-order therapeutic associations; and (4) quadruple joint optimization, where the recommendation objective is optimized together with intra-graph structural contrastive learning, cross-modal alignment, and property-chemical semantic alignment.}
+  \label{fig1}
+\end{figure*}
+
+The overall architecture of the proposed HMC-GNN framework is illustrated in Fig. \ref{fig1}. To bridge the semantic gap between high-dimensional molecular information and macroscopic TCM knowledge, the model is organized as a four-stage pipeline:
+
+\begin{itemize}
+    \item \textbf{Data Input and Robust Graph Construction (Section 3.2):} A heterogeneous disease-herb bipartite network is first constructed. An asymmetric Top-K Jaccard pruning strategy is then applied to reduce hub-node noise and produce a high-quality sparse topology.
+    \item \textbf{Multimodal Feature Alignment and Gated Fusion (Section 3.3):} Nodes are initialized from three distinct semantic spaces: topological structural embeddings, macroscopic TCM attributes (properties and meridian tropisms), and microscopic chemical descriptors (dense vectors and molecular fingerprints). After an initial linear alignment step, an adaptive sigmoid-gated mechanism dynamically integrates these heterogeneous modalities into unified representations.
+    \item \textbf{Unified Heterogeneous Graph Reasoning (Section 3.4):} The fused node embeddings are fed into a multi-layer message-passing neural network to capture high-order synergistic relationships over the reconstructed graph.
+    \item \textbf{Quadruple Joint Optimization Framework (Section 3.5):} To mitigate topological over-smoothing and modality imbalance, the model is jointly optimized with the primary BPR recommendation loss ($\mathcal{L}_{BPR}$) and three auxiliary self-supervised learning (SSL) objectives: the intra-graph structural contrastive loss ($\mathcal{L}_{Graph}$), the cross-modal alignment loss ($\mathcal{L}_{CM}$), and the property-chemical semantic alignment loss ($\mathcal{L}_{PC}$).
+\end{itemize}
+
+\subsection{Robust Graph Construction via Top-K Jaccard Pruning}
+
+A primary challenge in TCM datasets is popularity bias, also referred to as the hub-node problem, as reflected in the power-law co-occurrence distribution shown in Fig. \ref{fig2}(c). A small number of highly frequent ``harmonizing'' herbs, such as Ginseng and Licorice, appear in a large number of prescriptions. As a result, collaborative graphs constructed directly from raw co-occurrence frequencies tend to become overly dense and weakly selective (Fig. \ref{fig2}(a)). Such structures may aggravate over-smoothing in graph neural networks (GNNs) and weaken the therapeutic signals associated with long-tail herbs.
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Figure_2.png}
+  \caption{Illustration of robust collaborative graph construction via Top-K Jaccard pruning. (a) The raw ego-network centered on the hub herb Ginseng, showing dense co-occurrence connections. (b) The pruned asymmetric ego-network obtained after Jaccard normalization and Top-K pruning ($\delta\geq0.8$, $K_{max}=10$). (c) The long-tailed distribution of herb-pair co-occurrence frequencies in the dataset. (d) The out-degree distribution of nodes in the pruned subgraph, bounded by the predefined capacity limit $K_{max}=10$.}
+  \label{fig2}
+\end{figure*}
+
+An asymmetric collaborative graph construction module is introduced based on Jaccard normalization and Top-K pruning to address this issue. Specifically, the collaborative similarity between two herbs $h_i$ and $h_j$ is evaluated based on the overlap of their treated diseases, formulated as Eq. (\ref{eq:jaccard}):
+\begin{equation}
+\label{eq:jaccard}
+Sim(h_i, h_j) = \frac{|D(h_i) \cap D(h_j)|}{|D(h_i) \cup D(h_j)|}
+\end{equation}
+where $D(h_i)$ denotes the set of diseases associated with herb $h_i$. The union term in the denominator acts as a natural penalty on high-degree hub nodes. For frequently occurring herbs with very large degrees, the enlarged denominator reduces their similarity scores with ordinary herbs, thereby limiting spurious universal associations.
+
+Top-K Jaccard pruning is then applied to the similarities computed in Eq. (\ref{eq:jaccard}) to further denoise the graph and preserve an informative sparse structure. The tailored collaborative neighborhood $N_{collab}(h_i)$ for each herb is formulated as Eq. (\ref{eq:topk}):
+\begin{equation}
+\label{eq:topk}
+N_{collab}(h_i) = \operatorname{Top-K} \{ h_j \in H \mid Sim(h_i, h_j) \geq \delta \}
+\end{equation}
+where $\delta$ denotes a predefined similarity threshold. This truncation yields an asymmetric directed graph, meaning that $h_j$ may belong to the Top-K neighborhood of $h_i$ without the reverse relation necessarily holding.
+
+As illustrated in Fig. \ref{fig2}(b), this design reduces the influence of hub nodes that fail to satisfy the $\delta$ threshold while preserving stronger local associations among long-tail herbs. These retained connections form clearer local clusters and support more discriminative collaborative structure learning. Because the outbound degree is bounded above by $K_{max}$ (Fig. \ref{fig2}(d)), the resulting graph remains sparse and more suitable for unbiased representation learning. Specifically, each retained herb-herb association obtained from Eq. (\ref{eq:topk}) is incorporated into the unified heterogeneous graph $G$ as a directed collaborative relation, denoted as $r_{collab}$. In this way, the pruned asymmetric collaborative graph becomes an integral component of the multi-relational edge set $E$ and is subsequently used in heterogeneous message passing.
+
+\subsection{Explicit Multimodal Feature Alignment and Fusion}
+
+Following the graph formulation in Section \ref{sec:problem_formulation}, the two attribute categories are instantiated during node feature initialization as macroscopic TCM features $h_{attr}$ and microscopic chemical features $h_{chem}$. Three complementary modalities are therefore considered to enrich graph nodes with domain-specific information: learnable structural embeddings $x_{st}$, macroscopic TCM attributes represented by multi-\hspace{0pt}hot property and meridian vectors $h_{attr}$, and microscopic chemical features $h_{chem}$, consisting of dense vectors concatenated with molecular fingerprints. Direct concatenation of these heterogeneous modalities, however, can lead to dimensional imbalance and semantic misalignment.
+
+The high-dimensional sparse and dense inputs are first projected into a shared $d_e$-dimensional latent space through modality-specific linear transformations to align these features, as defined in Eq. (\ref{eq:align_attr}) and Eq. (\ref{eq:align_chem}):
+\begin{gather}
+x_{attr} = W_{attr} h_{attr} + b_{attr}
+\label{eq:align_attr} \\
+x_{chem} = W_{chem} h_{chem} + b_{chem}
+\label{eq:align_chem}
+\end{gather}
+where $W_*$ and $b_*$ denote the trainable weight matrices and bias vectors for each modality, respectively.
+
+An adaptive gated multimodal fusion mechanism is then introduced. Because different herbs may depend on different sources of information, a Softmax-based gating network is employed to dynamically regulate the contribution of each modality at the node level. Let $x_{concat} = x_{st} \oplus x_{attr} \oplus x_{chem}$ denote the unified representation, where $\oplus$ represents the concatenation operation. As shown in Eq. (\ref{eq:gate}), the modality-specific importance weights are computed as follows:
+\begin{equation}
+\label{eq:gate}
+[\alpha_{st}, \alpha_{attr}, \alpha_{chem}] = \operatorname{Softmax}(W_{gate} x_{concat} + b_{gate})
+\end{equation}
+where $\alpha_{st}$, $\alpha_{attr}$, and $\alpha_{chem} \in (0, 1)$ are the learned importance weights for the structural, macroscopic, and microscopic modalities, respectively. Driven by the Softmax function, these weights naturally satisfy the constraint: $\alpha_{st} + \alpha_{attr} + \alpha_{chem} = 1$.
+
+The final fused representation is then obtained by adaptively combining the three modalities, as defined in Eq. (\ref{eq:fuse}):
+\begin{equation}
+\label{eq:fuse}
+x_{input} = \alpha_{st} x_{st} + \alpha_{attr} x_{attr} + \alpha_{chem} x_{chem}
+\end{equation}
+The fused embedding $x_{input}$ is subsequently fed into the message-passing layers, allowing structural propagation to be guided by multimodal semantic information.
+
+\subsection{Unified Heterogeneous Graph Reasoning}
+
+The fused initial representation $x_{input}$ serves as the 0-th layer node embedding $h_v^{(0)}$ and is fed into a unified Relational Graph Convolutional Network (RGCN) to capture high-order collaborative signals over the heterogeneous graph $G$. Here, $G$ includes not only disease-herb and herb-attribute relations, but also the directed herb-herb collaborative edges constructed in Section 3.2 and encoded as relation type $r_{collab}$. Unlike standard GCNs, RGCN applies relation-specific weight transformations to preserve the distinct semantics of different edge types $r \in R$, for example, by distinguishing therapeutic relations from attribute assignment. The message-passing process at the $l$-th layer is defined in Eq. (\ref{eq:rgcn}):
+\begin{equation}
+\label{eq:rgcn}
+h_v^{(l)} = \sigma \Biggl( \sum_{r \in R} \sum_{u \in N_r(v)} \frac{1}{c_{v,r}} W_r^{(l-1)} h_u^{(l-1)} + W_{self}^{(l-1)} h_v^{(l-1)} \Biggr)
+\end{equation}
+where $N_r(v)$ denotes the neighborhood of node $v$ under relation $r$, $c_{v,r}$ is a structure-based normalization constant, $W_r^{(l-1)}$ is the trainable relation-specific transformation matrix, $W_{self}^{(l-1)}$ models the self-loop connection, and $\sigma(\cdot)$ is the non-linear activation function.
+
+A well-known limitation of deep GNNs is over-smoothing, under which node representations become increasingly indistinguishable as network depth increases. To mitigate this effect while capturing both local and global topology, a layer aggregation strategy is introduced. Rather than relying only on the final-layer output, intermediate embeddings from different hops, such as Layer 1 and Layer 2, are concatenated and linearly projected to obtain the final node representation $Z_v$, as defined in Eq. (\ref{eq:agg}):
+\begin{equation}
+\label{eq:agg}
+Z_v = W_{agg} (h_v^{(1)} \parallel h_v^{(2)}) + b_{agg}
+\end{equation}
+where $W_{agg}$ and $b_{agg}$ are the projection weights and biases, respectively. This aggregation scheme combines multi-hop neighborhood information while preserving local topological structure, thereby improving the discriminative capacity of the learned representations for downstream tasks.
+
+\subsection{Quadruple Joint Optimization Framework}
+
+A quadruple joint optimization framework is introduced to fully exploit the multimodal graph structure and alleviate data sparsity. The total objective function is formulated as Eq. (\ref{eq:total_loss}):
+\begin{equation}
+\label{eq:total_loss}
+\mathcal{L}_{Total} = \mathcal{L}_{BPR} + \lambda_1 \mathcal{L}_{Graph} + \lambda_2 \mathcal{L}_{CM} + \lambda_3 \mathcal{L}_{PC}
+\end{equation}
+where $\lambda_1, \lambda_2$, and $\lambda_3$ are hyperparameters that control the contributions of the auxiliary self-supervised learning (SSL) objectives. Each component plays a distinct role in regularizing the latent representation space.
+
+\textbf{Recommendation Loss ($\mathcal{L}_{BPR}$):} As the primary objective, the Bayesian Personalized Ranking (BPR) \cite{ref51} loss is used to model pairwise ranking preferences. This objective encourages the model to assign a higher score to an observed positive disease-herb pair than to an unobserved negative pair. This pairwise loss is computed as shown in Eq. (\ref{eq:bpr}):
+\begin{equation}
+\label{eq:bpr}
+\mathcal{L}_{BPR} = -\sum_{(d, h^+, h^-) \in O} \ln \sigma(\hat{y}_{d,h^+} - \hat{y}_{d,h^-})
+\end{equation}
+where $O$ denotes the training set containing observed positive interactions $(d, h^+)$ together with negatively sampled pairs $(d, h^-)$. Specifically, for each observed positive herb $h^+$, we sample an unobserved herb $h^- \in H \setminus H_d^+$ from the candidate set $H$, where $H_d^+$ represents the set of herbs known to treat disease $d$. Here, $\hat{y}$ denotes the predicted pairing score, and $\sigma(\cdot)$ is the sigmoid activation function.
+
+\textbf{Intra-Graph SSL ($\mathcal{L}_{Graph}$):} Two augmented topological views are generated through dual-view edge perturbation, such as stochastic edge dropout, to improve structural consistency. An InfoNCE \cite{ref52} objective is then applied to maximize agreement between the same node across the two views. Let $z_v'$ and $z_v''$ represent the embeddings of node $v$ in the two augmented views. The formula is mathematically expanded as Eq. (\ref{eq:graph}):
+\begin{equation}
+\label{eq:graph}
+\mathcal{L}_{Graph} = -\sum_{v \in V} \log \frac{\exp(s(z_v', z_v'')/\tau)}{\sum_{u \in V} \exp(s(z_v', z_u'')/\tau)}
+\end{equation}
+where $s(\cdot, \cdot)$ denotes the cosine similarity function, and $\tau$ denotes the temperature hyperparameter. The representations of the same node across the two views form a positive pair, whereas the representations of other nodes in the batch serve as negative samples.
+
+\textbf{Cross-Modal SSL ($\mathcal{L}_{CM}$):} This objective is designed to align the GNN-derived structural representations with independently projected microscopic chemical features, thereby reducing semantic drift during graph propagation. Specifically, the structural features $z_h^g$ are contrasted with the microscopic chemical representations ($z_h^c$) using an InfoNCE-based objective, as defined in Eq. (\ref{eq:cm}):
+\begin{equation}
+\label{eq:cm}
+\mathcal{L}_{CM} = -\sum_{h \in H_b} \log \frac{\exp(s(z_h^g, z_h^c)/\tau)}{\sum_{h' \in H_b} \exp(s(z_h^g, z_{h'}^c)/\tau)}
+\end{equation}
+This objective encourages the topologically smoothed graph embeddings to remain consistent with intrinsic biochemical information, thereby preventing structural learning from overwhelming molecular semantics.
+
+\textbf{Property-Chemical Semantic Alignment ($\mathcal{L}_{PC}$):} This objective is designed to align macroscopic TCM property representations with their corresponding microscopic biochemical representations within a shared latent space. Specifically, the macroscopic TCM attributes, parameterized as $p_v^{macro}$, are contrasted with the corresponding microscopic biochemical representations $p_v^{micro}$, as defined in Eq. (\ref{eq:pc}):
+\begin{equation}
+\label{eq:pc}
+\mathcal{L}_{PC} = -\sum_{v \in V} \log \frac{\exp(s(p_v^{macro}, p_v^{micro})/\tau)}{\sum_{u \in V} \exp(s(p_v^{macro}, p_u^{micro})/\tau)}
+\end{equation}
+This auxiliary objective promotes consistency between traditional TCM property semantics and modern biochemical structure. Positive pairs are formed by the matched macro-micro representations of the same herb, whereas negative pairs are formed from mismatched representations of different herbs.
+
+\section{Experiments and Results}\label{sec:experiments}
+
+\subsection{Research Questions}
+To evaluate the effectiveness and analytical validity of HMC-GNN, the experiments are designed to address the following research questions (RQs):
+\begin{itemize}
+    \item \textbf{RQ1 (Overall Performance):} How does HMC-GNN perform against state-of-the-art baselines on disease-driven prescription recommendation, particularly under the long-tailed distribution of herb usage?
+    \item \textbf{RQ2 (Graph Topology and Hub-node Mitigation):} How effectively does the asymmetric graph construction strategy reduce popularity bias? In particular, does Top-K thresholding filter noisy associations while preserving informative local topology?
+    \item \textbf{RQ3 (Impact of Multimodal Fusion and Contrastive Learning):} How do the multimodal fusion module and the three contrastive objectives, including $\mathcal{L}_{Graph}$, $\mathcal{L}_{CM}$, and $\mathcal{L}_{PC}$, improve representation learning? Specifically, do these components enhance cross-modal alignment while preserving structurally informative embeddings?
+    \item \textbf{RQ4 (Hyperparameter Sensitivity):} How sensitive is the performance of HMC-GNN to key hyperparameters, including the SSL loss weights and the topological truncation threshold $K$?
+    \item \textbf{RQ5 (Geometric Interpretability):} Do the learned multimodal embeddings exhibit geometrically meaningful structure that is consistent with established TCM compatibility patterns? This question is examined through qualitative visualization of pharmacological clustering behavior.
+\end{itemize}
+
+The remainder of this section is organized as follows. The experimental settings, including datasets, evaluation metrics, and baseline configurations, are presented first. Overall performance comparisons are then reported for RQ1, followed by ablation analyses of graph topology and multimodal fusion for RQ2 and RQ3. Finally, the effects of key hyperparameters are examined for RQ4, and visual case studies are provided to assess geometric interpretability for RQ5.
+
+\subsection{Experimental Settings}
+
+\subsubsection{Datasets}
+Experiments are conducted on ETCM-HerbKG, a newly constructed multimodal benchmark for Traditional Chinese Medicine (TCM) prescription recommendation, to evaluate HMC-GNN comprehensively. The task focuses on recommending a synergistic set of herbs for a given disease query. The dataset comprises 2,703 diseases, 395 herbs, and 24 TCM properties, with a total of 591,414 edges. The interactions are split into training, validation, and test sets with sizes of 198,065, 24,960, and 25,805, respectively.
+
+ETCM-HerbKG is constructed by integrating knowledge from two authoritative sources. 
+
+\textbf{Entity and Modality Initialization:} Herb entities and their macroscopic TCM attributes, including the Four Natures, Five Flavors, and meridian tropisms, are curated from the Encyclopedia of Traditional Chinese Medicine (ETCM). To support cross-modal learning, each herb is further associated with microscopic chemical features, including 166-dimensional MACCS fingerprints and continuous chemical representations derived from pretrained ChemBERTa embeddings.
+
+\textbf{Disease-Herb Interaction Network:} Clinical disease-herb interaction records are filtered and aligned using the public KDHR dataset to construct the bipartite recommendation graph.
+
+\textbf{Data Distribution Characteristics:} A key statistical property of ETCM-HerbKG is the highly skewed long-tailed distribution of herb occurrence frequencies, as illustrated in Fig. \ref{fig2}(c). A small number of hub herbs, such as \textit{Glycyrrhiza uralensis} (Licorice) and \textit{Radix Ginseng} (Ginseng), appear in a large proportion of disease-prescription subgraphs, whereas most herbs are linked only sparsely. This popularity bias \cite{ref53} presents a substantial challenge for evaluation because conventional GNN aggregators tend to favor hub nodes and may suppress long-tail therapeutic signals through over-smoothing. As discussed in Section \ref{sec:methodology}, this structural property motivates the asymmetric collaborative graph construction module.
+
+\subsubsection{Baselines}
+Five representative baseline models are included for comparison to evaluate the proposed HMC-GNN framework. Because some baselines were originally developed for symptom-driven recommendation, they are adapted here to the disease-driven setting used in this study. The selected baselines cover traditional statistical modeling, classical machine learning, and graph-based knowledge-aware methods.
+
+\textbf{Traditional Statistical Modeling:}
+\begin{itemize}
+    \item \textbf{PTM \cite{ref23}:} The Probabilistic Topic Model is a generative method that treats diseases (originally symptoms) and herbs as words distributed over latent therapeutic topics. It incorporates TCM domain knowledge into prescription generation and models probabilistic co-occurrence patterns.
+\end{itemize}
+
+\textbf{Machine Learning and Shallow Representation:}
+\begin{itemize}
+    \item \textbf{TCMPR \cite{ref54}:} TCMPR is a recommendation model based on subnetwork mapping. It uses matrix projections to extract substructures from the knowledge network and learns representations of disease entities and herbs from existing connectivity patterns.
+    \item \textbf{PresRecRF \cite{ref28}:} PresRecRF follows a classical machine-learning paradigm for prescription recommendation. It constructs dense feature sets from entity attributes and uses Random Forest ensembles to learn the mapping from diagnostic inputs to target herbs.
+\end{itemize}
+
+\textbf{Graph-based Knowledge-aware Models:}
+\begin{itemize}
+    \item \textbf{KDHR \cite{ref38} (Knowledge-aware Disease-Herb Recommendation):} KDHR constructs an explicit TCM knowledge graph and applies a multi-layer information fusion mechanism. It uses predefined meta-paths, such as Disease-Symptom-Herb, to aggregate neighborhood information and integrate hierarchical graph structure with node attributes.
+    \item \textbf{BSGAM \cite{ref55} (Bipartite Sub-Graph Attention Model):} BSGAM is an attention-based GNN architecture designed for bipartite recommendation. It decomposes the large-scale network into localized subgraphs and applies attention mechanisms to aggregate local structural information and predict herb recommendation scores.
+\end{itemize}
+
+Compared with these methods, HMC-GNN follows a different modeling strategy. Rather than relying on predefined meta-paths or localized subgraph partitioning, it adopts an end-to-end multimodal graph contrastive learning framework that preserves global topological structure while integrating deep chemical and semantic features, including ChemBERTa embeddings and MACCS fingerprints.
+
+\subsubsection{Evaluation Metrics}
+To evaluate disease-driven herb recommendation performance, three widely used metrics are adopted: Precision@K, Recall@K, and F1-Score@K, as defined in Eqs. (\ref{eq:precision}), (\ref{eq:recall}), and (\ref{eq:f1}). For a given disease query $d_i$, let $\hat{H}_K(d_i)$ denote the set of Top-K herbs recommended by the model, and let $H^*(d_i)$ denote the ground-truth set of herbs historically prescribed for that disease. The metrics for an individual query are defined as follows:
+\begin{gather}
+\label{eq:precision}
+\mathit{Precision}@K = \frac{|\hat{H}_K(d_i) \cap H^*(d_i)|}{|\hat{H}_K(d_i)|} \\
+\label{eq:recall}
+\mathit{Recall}@K = \frac{|\hat{H}_K(d_i) \cap H^*(d_i)|}{|H^*(d_i)|} \\
+\label{eq:f1}
+\mathit{F1}@K = \frac{2 \times \mathit{Precision}@K \times \mathit{Recall}@K}{\mathit{Precision}@K + \mathit{Recall}@K}
+\end{gather}
+Here, Eq. (\ref{eq:precision}) measures precision, which quantifies the proportion of correctly recommended herbs among the top-K outputs. Eq. (\ref{eq:recall}) defines recall, evaluating the proportion of ground-truth herbs successfully captured by the recommendation list. Eq. (\ref{eq:f1}) gives the harmonic mean of precision and recall, providing a comprehensive and balanced evaluation of both exactness and completeness.
+
+In the experiments, the reported results are averaged over all test diseases $d_i \in D_{test}$, with the cutoff $K$ set to $\{5, 10, 20\}$.
+
+\subsection{Overall Performance (RQ1)}
+
+As shown in Table \ref{tbl3}, HMC-GNN achieves the best performance across all evaluation metrics. Using F1-score as the primary summary metric, the model shows clear improvements over all competing baselines. In particular, HMC-GNN improves F1@10 by 39.5\%, 69.1\%, and 81.4\% relative to TCMPR, KDHR, and BSGAM, respectively. It also achieves a Recall@10 of 0.3435, compared with 0.1521 for the strongest graph-based baseline, KDHR. Taken together, these results indicate that HMC-GNN provides a stronger balance between precision and recall for disease-driven prescription recommendation.
+
+\begin{table*}[width=\textwidth,cols=7,pos=htbp]
+\caption{Overall Performance Comparison.}\label{tbl3}
+\footnotesize % <----- 在这里加上 \small，表示缩小一号
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l c c c c c c @{}}
+\toprule
+Model & P@5 & R@5 & F1@5 & P@10 & R@10 & F1@10 \\
+\midrule
+PTM & 0.1173 & 0.0710 & 0.0632 & 0.1122 & 0.1187 & 0.0831 \\
+TCMPR & 0.1348 & 0.0848 & 0.0736 & 0.1250 & 0.1360 & 0.0953 \\
+PresRecRF & 0.1283 & 0.0704 & 0.0679 & 0.1239 & 0.1367 & 0.0935 \\
+KDHR & 0.1255 & 0.0903 & 0.0768 & 0.1232 & 0.1521 & 0.1035 \\
+BSGAM & 0.1356 & 0.0858 & 0.0747 & 0.1273 & 0.1391 & 0.0965 \\
+HMC-GNN (Ours) & \textbf{0.2029} & \textbf{0.2373} & \textbf{0.1557} & \textbf{0.1853} & \textbf{0.3435} & \textbf{0.1751} \\
+\midrule
+Improve. By TCMPR & 50.52\% & 179.83\% & 111.55\% & 48.24\% & 152.57\% & 83.74\% \\
+Improve. By KDHR & 61.67\% & 162.79\% & 102.73\% & 50.41\% & 125.84\% & 69.18\% \\
+Improve. By BSGAM & 49.63\% & 176.57\% & 108.43\% & 45.56\% & 146.94\% & 81.45\% \\
+\bottomrule
+\end{tabular*}
+\end{table*}
+
+These performance differences are consistent with the modeling assumptions of the baselines. Traditional statistical and shallow representation methods, including PTM, TCMPR, and PresRecRF, rely heavily on direct co-occurrence statistics or subnetwork projections. Because disease-herb interactions are sparse, many nodes receive limited association information, which restricts feature learning and leads to weaker overall performance. By contrast, the graph-based models KDHR and BSGAM achieve stronger results. KDHR incorporates external herb attributes and multi-layer information fusion, whereas BSGAM applies graph attention over bipartite subgraphs to emphasize local structural roles. As a result, both models capture higher-order therapeutic associations more effectively than the non-graph baselines.
+
+However, these graph-based methods remain constrained by two structural limitations. First, they operate on raw scale-free TCM networks in which connectivity is dominated by a small number of hub herbs, such as \textit{Glycyrrhiza uralensis}. Under this setting, unfiltered message passing can lead to over-smoothing, bias recommendations toward generic herbs, and weaken signals from specific long-tail candidates. Second, their feature integration remains limited in its ability to bridge discrete topological structure and continuous molecular properties. HMC-GNN addresses these issues by introducing asymmetric Top-K Jaccard pruning to reduce hub-node interference and by using multimodal contrastive learning to complement sparse topological signals with chemical and property-level semantics. More detailed empirical analyses of these components are provided in the ablation studies for RQ2 and RQ3.
+
+\subsection{Ablation Study (RQ2 and RQ3)}
+
+To evaluate the contributions of the key components in HMC-GNN, a systematic ablation study is conducted. We remove or replace specific mechanisms individually to assess their effects on performance. The evaluated components include macro-level architectural modifications and fine-grained semantic adjustments:
+\begin{itemize}
+    \item \textbf{Topological Information Bottleneck (W/O Top-K):} The local Top-K neighborhood filter is removed, and all candidate collaborative connections are retained.
+    \item \textbf{Unified Heterogeneous Connectivity (W/O Unified):} The unified heterogeneous graph is decoupled into separate homogeneous subgraphs (e.g., Disease-Herb and Herb-Herb graphs).
+    \item \textbf{Structural Normalization (W/O Jaccard):} Jaccard-based thresholding is replaced with a conventional TF-IDF-style penalization scheme.
+    \item \textbf{Incorporation of Molecular Knowledge (W/O Chem):} Excludes microscopic chemical representations, such as SMILES-derived and fingerprint features.
+    \item \textbf{Self-Supervised Learning Objectives (W/O SSL):} Removes all auxiliary self-supervised learning losses ($\mathcal{L}_{Graph}$, $\mathcal{L}_{CM}$, $\mathcal{L}_{PC}$) simultaneously, preserving only the primary recommendation objective.
+    \item \textbf{Fine-Grained Fusion and SSL Interventions:} Replaces the adaptive gated fusion with standard element-wise addition (W/O Gated Fusion), and individually removes the intra-graph structural contrastive loss (W/O Intra-Graph SSL), the cross-modal alignment loss (W/O Cross-Modal SSL), and the property-chemical semantic alignment loss (W/O Prop-Chem Alignment).
+\end{itemize}
+
+The ablation results and their corresponding degradation rates (DRs) relative to the full HMC-GNN model are summarized in Table \ref{tbl4}. Overall, removing any of these components leads to a decline in performance. For clarity, the analysis is organized into structural interventions (RQ2) and multimodal semantic mechanisms (RQ3).
+
+\begin{table*}[width=\textwidth,cols=7,pos=htbp]
+\caption{Overall and fine-grained ablation study results.}\label{tbl4}
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l c c c c c c @{}}
+\toprule
+Method & P@10 & R@10 & F1@10 & DR\_P@10 & DR\_R@10 & DR\_F1@10 \\
+\midrule
+\multicolumn{7}{c}{\textbf{Macro-Level Architectural Ablations}} \\
+\midrule
+HMC-GNN (Full Model) & \textbf{0.1853} & \textbf{0.3435} & \textbf{0.1751} & - & - & - \\
+W/O Top-K & 0.1258 & 0.1402 & 0.0973 & -32.11\% & -59.18\% & -44.43\% \\
+W/O Unified & 0.1466 & 0.2028 & 0.1223 & -20.89\% & -40.96\% & -30.15\% \\
+W/O Jaccard & 0.1788 & 0.3128 & 0.1659 & -3.51\% & -8.94\% & -5.25\% \\
+W/O Chem & 0.1670 & 0.2924 & 0.1547 & -9.88\% & -14.88\% & -11.65\% \\
+W/O SSL & 0.1763 & 0.3158 & 0.1659 & -4.86\% & -8.06\% & -5.25\% \\
+\midrule
+\multicolumn{7}{c}{\textbf{Fine-Grained Semantic \& Fusion Ablations}} \\
+\midrule
+W/O Gated Fusion (Add) & 0.1765 & 0.3355 & 0.1689 & -4.75\% & -2.33\% & -3.54\% \\
+W/O Intra-Graph SSL & 0.1829 & 0.3374 & 0.1722 & -1.30\% & -1.78\% & -1.66\% \\
+W/O Cross-Modal SSL & 0.1748 & 0.3328 & 0.1675 & -5.67\% & -3.11\% & -4.34\% \\
+W/O Prop-Chem Alignment & 0.1756 & 0.3248 & 0.1659 & -5.23\% & -5.44\% & -5.25\% \\
+\bottomrule
+\end{tabular*}
+\end{table*}
+
+\textbf{(1) Impact of Graph Topological Interventions (RQ2):}
+Removing the structural pruning components causes substantial performance degradation. In particular, removing the Top-K filter (W/O Top-K) yields the largest drop, with decreases of 59.18\% in R@10 and 44.43\% in F1@10. This result indicates that, without explicit truncation, dense hub connections can dominate message passing and aggravate over-smoothing. Similarly, decoupling the unified graph (W/O Unified) produces the second-largest decline, including a 30.15\% reduction in F1@10, which highlights the importance of modeling heterogeneous entities within a shared topological space. Replacing Jaccard normalization with TF-IDF-style penalization (W/O Jaccard) also reduces performance, suggesting that generic frequency penalization is less effective than the proposed topology-aware criterion.
+
+\textbf{(2) Mitigation of Hub-Node Bias and Semantic Over-Smoothing (RQ2):}
+To further examine why Top-K truncation improves robustness, a long-tail distribution analysis is performed. Based on global occurrence frequency, the 395 herbs are divided into three groups: Head (top 20\%, 79 herbs), Mid (20\%--60\%, 158 herbs), and Tail (bottom 40\%, 158 herbs). Recall@10 is then evaluated for each group. As shown in Fig. \ref{fig3}(a), standard bipartite models exhibit clear limitations under this setting. BSGAM achieves a Tail Recall@10 of 0.0000, highlighting the difficulty of recovering effective recommendations under extremely sparse long-tail conditions. This result likely reflects both the model’s tendency to favor more frequent herbs and the severe sparsity of the Tail subset itself. KDHR retains some Tail performance (0.1048) but remains weaker on the Mid group. By contrast, HMC-GNN produces a more balanced distribution, substantially improving performance in the Mid group (0.2449) while maintaining competitive Tail recommendation performance (0.1026).
+
+To better understand how the asymmetric Top-K Jaccard graph achieves this balance, it is compared with two extreme topological variants: Dense Graph, which retains all meta-path connections without Top-K pruning, and No Edge, which removes all collaborative edges. As shown in Fig. \ref{fig3}(b), the Dense Graph variant increases Head Recall to 0.5090 but reduces Tail Recall to 0.0724. This pattern suggests that overly dense connectivity intensifies topological over-smoothing and makes it more difficult to preserve rare local therapeutic signals. By contrast, the No Edge variant isolates nodes and removes the collaborative structure needed for generalization, also leading to poor Tail performance (0.0744). The proposed Top-K Jaccard strategy therefore acts as an effective structural bottleneck that filters spurious hub connections while preserving high-confidence local synergistic patterns, yielding the most balanced performance across groups.
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Figure_3.png} 
+  \caption{Long-tail distribution analysis and graph construction ablation. (a) Recall@10 comparison across the Head, Mid, and Tail herb groups for different baseline models. (b) Recall@10 under different graph construction strategies, illustrating the role of the proposed Top-K information bottleneck.}
+  \label{fig3}
+\end{figure*}
+
+\textbf{(3) Impact of Multimodal Fusion and Contrastive Alignment (RQ3):}
+In addition to topological robustness, multimodal features and their fusion strategy also affect recommendation accuracy. As shown in Table \ref{tbl4}, removing chemical representations entirely (W/O Chem) leads to a noticeable decline in performance, including an 11.65\% drop in F1@10, indicating the value of incorporating microscopic biochemical information.
+
+To further isolate the contributions of the adaptive gated fusion module (Eq. \ref{eq:fuse}) and components of the quadruple joint optimization framework (Eq. \ref{eq:total_loss}), our fine-grained ablation outcomes are also analyzed via Table \ref{tbl4}. First, replacing adaptive gated fusion with simple element-wise addition (W/O Gated Fusion) reduces F1@10 by 3.54\%. This finding suggests that different modalities contribute unequally across herbs, making node-specific fusion beneficial.
+
+In addition, decomposing the joint SSL framework further clarifies the roles of the contrastive objectives. Removing Cross-Modal SSL or Prop-Chem Alignment results in clear performance degradation, with F1@10 drops of 4.34\% and 5.25\%, respectively. These results indicate that naive graph propagation alone is insufficient for stable multimodal integration, whereas explicit contrastive alignment helps maintain consistency between topological and biochemical representations. The Intra-Graph SSL objective also provides useful structural regularization, further improving robustness under sparse graph conditions.
+
+\subsection{Influence of Hyperparameters (RQ4)}
+
+A parameter sensitivity analysis is conducted to better understand the robustness and behavior of HMC-GNN across six settings associated with four groups of hyperparameters: the cutoff size $K$ for asymmetric graph construction, the three auxiliary contrastive-learning weights ($\lambda_{graph}$, $\lambda_{cm}$, and $\lambda_{pc}$), the InfoNCE temperature coefficient $\tau$, and the latent embedding dimension $d$.
+
+\begin{itemize}
+    \item \textbf{Effect of Cutoff Size $K$:} As shown in Fig. \ref{fig4}(a), the performance curves measured by F1@5, F1@10, and F1@20 follow a clear inverted-U pattern and peak at $K = 10$. When $K$ is too small, the graph becomes overly sparse and limits the propagation of higher-order synergistic signals. When $K$ is too large, dense hub connections are insufficiently filtered, which increases over-smoothing and reduces node discrimination. These results suggest that $K = 10$ provides the best balance between preserving local semantic structure and suppressing generic graph noise.
+    \item \textbf{Effect of Contrastive Learning Weights:} We further examine the three auxiliary self-supervised learning weights independently. As shown in Fig. \ref{fig4}(b), the best performance for the intra-graph SSL term is obtained at $\lambda_{graph} = 0.01$. Larger values gradually reduce performance, suggesting that excessive emphasis on structural contrastive regularization may interfere with the primary recommendation objective. For the cross-modal alignment term, Fig. \ref{fig4}(c) shows that performance peaks at $\lambda_{cm} = 0.2$, indicating that moderate cross-modal alignment is most effective. For the property-chemical alignment term, Fig. \ref{fig4}(d) shows that the best results are obtained at $\lambda_{pc} = 0.5$, suggesting that this auxiliary constraint is most beneficial when given a relatively stronger weight.
+    \item \textbf{Effect of Temperature Coefficient $\tau$:} As shown in Fig. \ref{fig4}(e), the model achieves the best performance at $\tau = 0.2$. When $\tau$ is too large, negative samples are treated too uniformly, weakening the separation between distinct pharmacological properties. When $\tau$ is too small, the model becomes more sensitive to noise and local irregularities, which reduces training stability.
+    \item \textbf{Effect of Latent Embedding Dimension $d$:} As shown in Fig. \ref{fig4}(f), performance improves as $d$ increases from 32 to 128, and then declines slightly at $d = 256$. This pattern suggests that a sufficiently expressive latent space is needed to accommodate both sparse graph topology and rich chemical semantics, whereas excessively large dimensions may increase the risk of overfitting.
+\end{itemize}
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Figure_4.png}
+  \caption{Hyperparameter sensitivity analysis of HMC-GNN. (a) Effect of the cutoff size $K$. (b) Effect of the intra-graph contrastive weight $\lambda_{graph}$. (c) Effect of the cross-modal contrastive weight $\lambda_{cm}$. (d) Effect of the property-chemical alignment weight $\lambda_{pc}$. (e) Effect of the InfoNCE temperature coefficient $\tau$. (f) Effect of the latent embedding dimension $d$.}
+  \label{fig4}
+\end{figure*}
+
+% Uncomment and use as the case may be
+
+%\begin{theorem} 
+%\end{theorem}
+
+% Uncomment and use as the case may be
+%\begin{lemma} 
+%\end{lemma}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+\subsection{Case Studies and Representation Visualization (RQ5)}
+
+RQ5 is examined by analyzing whether the learned latent space captures coherent multimodal TCM structure and whether the resulting recommendations remain clinically interpretable beyond aggregate numerical metrics.
+
+\subsubsection{Latent Space Visualization}
+A central challenge in heterogeneous graphs is reducing the modality gap so that the model captures pharmacologically meaningful structure rather than relying on topological shortcuts. Figure \ref{fig5} presents 3D PCA projections of the learned latent representations.
+
+As shown in Figure \ref{fig5}(a) (w/o SSL), a clear modality gap remains: chemically derived features (blue squares) are separated from the structural manifold (red dots). By contrast, under the proposed contrastive alignment objectives ($\mathcal{L}_{CM}$ and $\mathcal{L}_{PC}$), Figure \ref{fig5}(b) shows a more cohesive shared manifold, indicating improved integration of heterogeneous features.
+
+The final herb embeddings are further recolored according to contrasting TCM flavor attributes (Bitter vs. Pungent) in Figure \ref{fig5}(c) to assess whether this convergence is pharmacologically meaningful. Distinct geometric regions emerge even without explicit flavor supervision: Bitter herbs tend to cluster separately from the Pungent subspace. This pattern suggests that the contrastive framework helps align topological embeddings with relationships between microscopic chemical features and macroscopic TCM attributes.
+
+\begin{figure*}[htbp]
+  \centering
+  \includegraphics[width=\textwidth]{Figure_5.png}
+  \caption{3D PCA visualizations of the multimodal latent representations. (a) Representation distribution under direct concatenation (w/o SSL). (b) Representation distribution under the proposed contrastive alignment framework (w/ SSL). (c) Final herb embeddings recolored according to TCM flavor attributes (Bitter vs. Pungent).}
+  \label{fig5}
+\end{figure*}
+
+\subsubsection{Clinical Case Study}
+Because TCM prescriptions are highly context-dependent, metric-based evaluation alone may not fully capture clinical plausibility. We therefore present two representative cases in Table \ref{tbl6}, Type 2 Diabetes and Cough, to qualitatively examine the interpretability of HMC-GNN’s recommendations.
+
+As shown in Table \ref{tbl6}, the generated prescriptions are broadly consistent with TCM therapeutic principles. In Case 1 (Type 2 Diabetes, corresponding to Xiaoke syndrome), the model successfully reconstructs the complete historical prescription. Rather than predicting herbs in isolation, the recommended set reflects a coherent therapeutic strategy involving heat clearance, blood activation, and Qi replenishment.
+
+In Case 2 (Cough), the model’s recommendation contains a single substitution, predicting Pokeweed Root in place of the recorded herb. Although this substitution reduces strict matching accuracy, it may still reflect a partially related therapeutic role in prescriptions involving fluid retention or dampness-related symptoms. However, whether such a substitution would be clinically appropriate should be evaluated cautiously by qualified TCM practitioners within a syndrome-differentiation framework. In this sense, the model provides a pharmacologically motivated suggestion rather than a directly prescriptive decision.
+
+Taken together, these observations suggest that HMC-GNN can generate clinically interpretable recommendations and may capture aspects of underlying formulation logic beyond exact dataset matching.
+
+
+
+
+\renewcommand{\arraystretch}{1.25}
+
+\begin{table*}[htbp]
+\caption{HMC-GNN herb recommendation cases.}
+\label{tbl6}
+\centering
+\footnotesize
+
+\begin{tabular}{
+>{\centering\arraybackslash}m{0.14\textwidth}
+>{\centering\arraybackslash}m{0.20\textwidth}
+>{\centering\arraybackslash}m{0.20\textwidth}
+>{\centering\arraybackslash}m{0.36\textwidth}}
+\toprule
+
+\multicolumn{4}{c}{\textbf{Case 1}} \\
+\midrule
+
+\multirow{2}{*}{\makecell[c]{Disease\\(TCM Syndrome)}}
+&
+\multicolumn{2}{c}{Herb Set}
+&
+\multirow{2}{*}{Effects}
+\\
+\cmidrule{2-3}
+
+&
+Ground Truth
+&
+HMC-GNN
+&
+\\
+\midrule
+
+\multirow{5}{*}{\makecell[c]{Type 2 Diabetes\\(Xiaoke Syndrome)}}
+
+& Brucea Fruit
+& \textbf{Brucea Fruit}
+& Clear Heat and Detoxify. \\
+
+& Achyranthes Root
+& \textbf{Achyranthes Root}
+& Activate Blood and Tonify Liver/Kidney. \\
+
+& Red Ginseng
+& \textbf{Red Ginseng}
+& Greatly Tonify Primal Qi. \\
+
+& Reishi Mushroom
+& \textbf{Reishi Mushroom}
+& Replenish Qi and Nourish Strength. \\
+
+& Lycopus
+& \textbf{Lycopus}
+& Activate Blood and Resolve Stasis. \\
+\midrule
+
+\multicolumn{4}{c}{\textbf{Precision@5: 1.0000}} \\
+\midrule
+
+\multicolumn{4}{c}{\textbf{Case 2}} \\
+\midrule
+
+\multirow{2}{*}{\makecell[c]{Disease\\(TCM Syndrome)}}
+&
+\multicolumn{2}{c}{Herb Set}
+&
+\multirow{2}{*}{Effects}
+\\
+\cmidrule{2-3}
+
+&
+Ground Truth
+&
+HMC-GNN
+&
+\\
+\midrule
+
+\multirow{10}{*}{\makecell[c]{Cough}}
+
+& Rehmannia
+& \textbf{Rehmannia}
+& Clear Heat and Generate Fluid. \\
+
+& Asparagus Root
+& \textbf{Asparagus Root}
+& Nourish Yin, Moisten Lungs and Generate Fluid. \\
+
+& Cornus
+& \textbf{Cornus}
+& Tonify Liver and Kidney. \\
+
+& Chinese Yam
+& \textbf{Chinese Yam}
+& Generate Fluid, Benefit Lungs and Tonify Spleen. \\
+
+& Jujube
+& \textbf{Jujube}
+& Tonify Spleen/Stomach and Moisten Lungs. \\
+
+& Atractylodes
+& \textbf{Atractylodes}
+& Tonify Spleen Qi and Resolve Phlegm/Dampness. \\
+
+& Purslane
+& \textbf{Purslane}
+& Clear Heat and Detoxify. \\
+
+& Cocklebur
+& \textbf{Cocklebur}
+& Dispel Wind-Cold and Open Nasal Passages. \\
+
+& Pollen Typhae
+& Pokeweed Root
+& Dispel Water Retention and Dissipate Nodules. \\
+
+& Codonopsis
+& \textbf{Codonopsis}
+& Tonify Spleen, Benefit Lungs and Replenish Middle Qi. \\
+\midrule
+
+\multicolumn{4}{c}{\textbf{Precision@10: 0.9000}} \\
+\bottomrule
+
+\end{tabular}
+\end{table*}
+
+
+
+\section{Discussion and Conclusion}\label{sec:discussion_and_conclusion}
+
+\subsection{Discussion}
+
+\subsubsection{Advantages and Clinical Prospects of HMC-GNN}
+HMC-GNN shows strong empirical performance in disease-driven TCM prescription recommendation and offers a structured framework for integrating heterogeneous therapeutic knowledge. The asymmetric Top-K graph construction alleviates hub-node bias and reduces over-smoothing during graph propagation, thereby preserving more discriminative local therapeutic signals. In addition, the adaptive multimodal fusion mechanism enables structural information, macroscopic TCM attributes, and microscopic chemical descriptors to be modeled jointly within a shared latent space. Representation visualization further suggests that the learned embeddings capture meaningful multimodal structure.
+
+From an application perspective, these properties may improve the interpretability of the recommendation process relative to methods that rely on a single modality or a simplified graph structure. However, HMC-GNN should be viewed as an assistive framework rather than a standalone clinical decision system. Its practical use still requires expert assessment and clinical validation.
+
+\subsubsection{Limitations and Future Work}
+Several limitations should be acknowledged. First, the current framework focuses on herb set recommendation and does not model dosage, although dosage is an important component of real-world TCM prescription formulation. Second, the graph construction strategy relies on fixed Top-K pruning and predefined thresholds, which may remove potentially useful long-range associations. Third, disease representation is currently derived mainly from textual and graph-based information and does not incorporate richer patient-level observations, such as tongue images, pulse signals, or temporal symptom evolution. Future work will explore dosage-aware recommendation, adaptive graph construction, and patient-level multimodal modeling to improve clinical relevance and generalizability.
+
+\subsection{Conclusion}
+This study proposes HMC-GNN, a multimodal graph neural network for disease-driven TCM prescription recommendation. By combining asymmetric graph construction, multimodal feature fusion, and self-supervised alignment, the framework reduces hub-node bias and improves cross-modal representation learning under sparse disease-input conditions. Experiments on the ETCM-HERBKG benchmark show that HMC-GNN consistently outperforms several competitive baselines across major evaluation metrics. In addition, representation visualization provides qualitative evidence that the model learns more structured and interpretable multimodal embeddings. Future work will further extend the framework toward dosage-aware and patient-level multimodal prescription recommendation.
+
+\section*{Declaration of Competing Interest}
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgements}
+This work was supported by the National Natural Science Foundation of China [22478347], and the ``Pioneer'' and ``Leading Goose'' R\&D Project of Zhejiang Province [2025C04034].
+
+% To print the credit authorship contribution details
+\printcredits
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{unsrtnat}
+
+% Loading bibliography database
+\bibliography{cas-refs}
+
+% Biography
+%\bio{}
+% Here goes the biography details.
+%\endbio
+
+%\bio{pic1}
+% Here goes the biography details.
+%\endbio
+
+\end{document}
