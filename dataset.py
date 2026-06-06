@@ -1,5 +1,6 @@
 # dataset.py
 import os
+import csv
 import torch
 import numpy as np
 from torch.utils.data import Dataset
@@ -10,8 +11,41 @@ class GraphDataManager:
         self.num_nodes = 0
         self.num_relations = 0
         self.herb_indices = []
+        self.herb_node_indices = []
+        self.disease_indices = []
         self.train_dict = {}
+        self.val_dict = None
         self.test_dict = {}
+
+    def _load_node_type_indices(self):
+        node_map_path = os.path.join(Config.REC_DATA_DIR, 'node_map.csv')
+        if not os.path.exists(node_map_path):
+            self.herb_node_indices = sorted(self.herb_indices)
+            disease_from_labels = set(self.train_dict.keys()) | set(self.test_dict.keys())
+            if self.val_dict is not None:
+                disease_from_labels.update(self.val_dict.keys())
+            self.disease_indices = sorted(disease_from_labels)
+            return
+
+        herb_node_indices = []
+        disease_indices = []
+        with open(node_map_path, 'r', encoding='utf-8-sig', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                node_type = str(row.get('node_type', '')).strip()
+                try:
+                    node_index = int(row.get('node_index', -1))
+                except (TypeError, ValueError):
+                    continue
+                if node_type == 'herb':
+                    herb_node_indices.append(node_index)
+                elif node_type == 'disease':
+                    disease_indices.append(node_index)
+
+        if herb_node_indices:
+            self.herb_node_indices = sorted(set(herb_node_indices))
+        if disease_indices:
+            self.disease_indices = sorted(set(disease_indices))
         
     def load_data(self):
         """直接加载 preprocess_kge.py 生成的 .pt 文件"""
@@ -29,8 +63,11 @@ class GraphDataManager:
         self.num_nodes = data_dict['num_nodes']
         self.num_relations = data_dict['num_relations']
         self.herb_indices = data_dict['herb_indices']
+        self.herb_node_indices = sorted(self.herb_indices)
         self.train_dict = data_dict['train_dict']
+        self.val_dict = data_dict.get('val_dict')
         self.test_dict = data_dict['test_dict']
+        self._load_node_type_indices()
         
         # 加载图结构
         edge_index = torch.load(edge_index_path)
@@ -40,7 +77,11 @@ class GraphDataManager:
         print(f"  - 节点数: {self.num_nodes}")
         print(f"  - 边数: {edge_index.shape[1]}")
         print(f"  - 训练集 Disease 数量: {len(self.train_dict)}")
+        if self.val_dict is not None:
+            print(f"  - 验证集 Disease 数量: {len(self.val_dict)}")
         print(f"  - 候选 Herb 数量: {len(self.herb_indices)}")
+        print(f"  - Herb 节点数量: {len(self.herb_node_indices)}")
+        print(f"  - Disease 节点数量: {len(self.disease_indices)}")
         
         return edge_index, edge_type, self.train_dict, self.test_dict
     

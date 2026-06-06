@@ -15,7 +15,29 @@ class Evaluator:
     def __init__(self, k_list=None):
         self.k_list = k_list if k_list else Config.top_k
 
-    def evaluate(self, model, test_dict, all_herb_ids, edge_index, edge_type):
+    @staticmethod
+    def _ndcg_at_k(ranked_ids, truth_set, k):
+        dcg = 0.0
+        for rank, item_id in enumerate(ranked_ids[:k], start=1):
+            if item_id in truth_set:
+                dcg += 1.0 / np.log2(rank + 1)
+
+        ideal_hits = min(len(truth_set), k)
+        if ideal_hits == 0:
+            return 0.0
+        idcg = sum(1.0 / np.log2(rank + 1) for rank in range(1, ideal_hits + 1))
+        return dcg / idcg if idcg > 0 else 0.0
+
+    def evaluate(
+        self,
+        model,
+        test_dict,
+        all_herb_ids,
+        edge_index,
+        edge_type,
+        local_edge_index=None,
+        local_edge_type=None,
+    ):
         """
         执行 Top-K 评估 (适用于 Unified Graph / HMC_GNN_SSL)
         test_dict: {disease_idx: [ground_truth_herb_indices]}
@@ -23,11 +45,17 @@ class Evaluator:
         model.eval()
         device = Config.device
         
-        metrics = {k: {'p': [], 'r': [], 'f1': []} for k in self.k_list}
+        metrics = {k: {'p': [], 'r': [], 'f1': [], 'ndcg': []} for k in self.k_list}
         
         # 1. 获取 inference 模式下的节点嵌入 (关闭扰动)
         with torch.no_grad():
-            full_emb = model.forward_encoder(edge_index, edge_type, perturbed=False)
+            full_emb = model.forward_encoder(
+                edge_index,
+                edge_type,
+                perturbed=False,
+                local_edge_index=local_edge_index,
+                local_edge_type=local_edge_type,
+            )
             
             # 准备候选药材的 Embedding 矩阵 [Num_Herbs, Dim]
             candidate_tensor = torch.tensor(list(all_herb_ids), dtype=torch.long, device=device)
@@ -63,10 +91,12 @@ class Evaluator:
                     p = hits / k
                     r = hits / len(truth_set)
                     f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+                    ndcg = self._ndcg_at_k(top_global_ids, truth_set, k)
                     
                     metrics[k]['p'].append(p)
                     metrics[k]['r'].append(r)
                     metrics[k]['f1'].append(f1)
+                    metrics[k]['ndcg'].append(ndcg)
         
         # 4. 汇总结果
         results = {}
@@ -75,6 +105,7 @@ class Evaluator:
             results[f'Precision@{k}'] = np.mean(metrics[k]['p'])
             results[f'Recall@{k}'] = np.mean(metrics[k]['r'])
             results[f'F1@{k}'] = np.mean(metrics[k]['f1'])
+            results[f'NDCG@{k}'] = np.mean(metrics[k]['ndcg'])
             
         return results
 
@@ -86,10 +117,23 @@ class SplitEvaluator:
     def __init__(self, k_list=[5, 10, 20]):
         self.k_list = k_list
 
+    @staticmethod
+    def _ndcg_at_k(ranked_ids, truth_set, k):
+        dcg = 0.0
+        for rank, item_id in enumerate(ranked_ids[:k], start=1):
+            if item_id in truth_set:
+                dcg += 1.0 / np.log2(rank + 1)
+
+        ideal_hits = min(len(truth_set), k)
+        if ideal_hits == 0:
+            return 0.0
+        idcg = sum(1.0 / np.log2(rank + 1) for rank in range(1, ideal_hits + 1))
+        return dcg / idcg if idcg > 0 else 0.0
+
     def evaluate(self, model, graphs, test_dict, all_herb_ids, device):
         model.eval()
         
-        metrics = {k: {'p': [], 'r': [], 'f1': []} for k in self.k_list}
+        metrics = {k: {'p': [], 'r': [], 'f1': [], 'ndcg': []} for k in self.k_list}
         
         with torch.no_grad():
             final_emb = model.forward_encoder(graphs, perturbed=False)
@@ -123,15 +167,18 @@ class SplitEvaluator:
                     p = hits / k
                     r = hits / len(truth_set)
                     f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+                    ndcg = self._ndcg_at_k(top_global_ids, truth_set, k)
                     
                     metrics[k]['p'].append(p)
                     metrics[k]['r'].append(r)
                     metrics[k]['f1'].append(f1)
+                    metrics[k]['ndcg'].append(ndcg)
         
         results = {}
         for k in self.k_list:
             results[f'Precision@{k}'] = np.mean(metrics[k]['p'])
             results[f'Recall@{k}'] = np.mean(metrics[k]['r'])
             results[f'F1@{k}'] = np.mean(metrics[k]['f1'])
+            results[f'NDCG@{k}'] = np.mean(metrics[k]['ndcg'])
             
         return results

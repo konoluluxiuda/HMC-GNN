@@ -6,7 +6,24 @@ from torch_geometric.nn import RGCNConv
 from config import Config
 
 class HMC_GNN_SSL(nn.Module):
-    def __init__(self, num_nodes, num_relations, pretrained_features=None, attr_matrix=None, chem_matrix=None, disease_matrix=None, fusion_mode='add'):
+    def __init__(
+        self,
+        num_nodes,
+        num_relations,
+        pretrained_features=None,
+        attr_matrix=None,
+        chem_matrix=None,
+        disease_matrix=None,
+        gene_matrix=None,
+        fusion_mode='add',
+        herb_indices=None,
+        disease_indices=None,
+        use_branch_gate=False,
+        branch_fusion_mode='sum',
+        use_global_branch=True,
+        use_local_branch=True,
+        use_semantic_branch=True,
+    ):
         super().__init__()
         
         self.emb_dim = Config.input_dim   # 128
@@ -42,14 +59,106 @@ class HMC_GNN_SSL(nn.Module):
             # 对齐到 emb_dim (128)
             self.disease_align = nn.Linear(disease_matrix.size(1), self.emb_dim)
 
+        self.use_gene = False
+        if gene_matrix is not None:
+            self.use_gene = True
+            if gene_matrix.is_sparse:
+                gene_matrix = gene_matrix.coalesce()
+            self.register_buffer('gene_matrix', gene_matrix)
+            self.gene_align = nn.Linear(gene_matrix.size(1), self.emb_dim)
+
+        if herb_indices is not None and len(herb_indices) > 0:
+            self.register_buffer('herb_indices', torch.as_tensor(herb_indices, dtype=torch.long))
+        else:
+            self.herb_indices = None
+
+        if disease_indices is not None and len(disease_indices) > 0:
+            self.register_buffer('disease_indices', torch.as_tensor(disease_indices, dtype=torch.long))
+        else:
+            self.disease_indices = None
+
         self.fusion_mode = fusion_mode
-        self.use_gated_fusion = self.fusion_mode == 'gated' and self.use_attr and self.use_chem
-        if self.use_gated_fusion:
-            # 节点级门控：为 (structure, attr, chem) 三路特征分配动态权重
-            self.fusion_gate = nn.Sequential(
-                nn.Linear(self.emb_dim * 3, self.emb_dim),
+        self.use_branch_gate = use_branch_gate
+        self.branch_fusion_mode = branch_fusion_mode
+        self.use_global_branch = use_global_branch
+        self.use_local_branch = use_local_branch
+        self.use_semantic_branch = use_semantic_branch
+        self.herb_gate_stream_names = ['structure']
+        if self.use_attr:
+            self.herb_gate_stream_names.append('attr')
+        if self.use_chem:
+            self.herb_gate_stream_names.append('chem')
+        if self.use_gene:
+            self.herb_gate_stream_names.append('gene')
+
+        self.disease_gate_stream_names = ['structure']
+        if self.use_disease:
+            self.disease_gate_stream_names.append('disease_text')
+        if self.use_gene:
+            self.disease_gate_stream_names.append('gene')
+
+        self.use_herb_gated_fusion = (
+            self.fusion_mode == 'gated'
+            and self.herb_indices is not None
+            and len(self.herb_gate_stream_names) > 1
+        )
+        if self.use_herb_gated_fusion:
+            self.herb_fusion_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.herb_gate_stream_names), self.emb_dim),
                 nn.ReLU(),
-                nn.Linear(self.emb_dim, 3)
+                nn.Linear(self.emb_dim, len(self.herb_gate_stream_names))
+            )
+
+        self.use_disease_gated_fusion = (
+            self.fusion_mode == 'gated'
+            and self.disease_indices is not None
+            and len(self.disease_gate_stream_names) > 1
+        )
+        if self.use_disease_gated_fusion:
+            self.disease_fusion_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.disease_gate_stream_names), self.emb_dim),
+                nn.ReLU(),
+                nn.Linear(self.emb_dim, len(self.disease_gate_stream_names))
+            )
+
+        self.use_gated_fusion = self.use_herb_gated_fusion or self.use_disease_gated_fusion
+
+        self.herb_semantic_stream_names = []
+        if self.use_attr:
+            self.herb_semantic_stream_names.append('attr')
+        if self.use_chem:
+            self.herb_semantic_stream_names.append('chem')
+        if self.use_gene:
+            self.herb_semantic_stream_names.append('gene')
+
+        self.disease_semantic_stream_names = []
+        if self.use_disease:
+            self.disease_semantic_stream_names.append('disease_text')
+        if self.use_gene:
+            self.disease_semantic_stream_names.append('gene')
+
+        self.use_herb_semantic_gate = (
+            self.fusion_mode == 'gated'
+            and self.herb_indices is not None
+            and len(self.herb_semantic_stream_names) > 1
+        )
+        if self.use_herb_semantic_gate:
+            self.herb_semantic_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.herb_semantic_stream_names), self.emb_dim),
+                nn.ReLU(),
+                nn.Linear(self.emb_dim, len(self.herb_semantic_stream_names))
+            )
+
+        self.use_disease_semantic_gate = (
+            self.fusion_mode == 'gated'
+            and self.disease_indices is not None
+            and len(self.disease_semantic_stream_names) > 1
+        )
+        if self.use_disease_semantic_gate:
+            self.disease_semantic_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.disease_semantic_stream_names), self.emb_dim),
+                nn.ReLU(),
+                nn.Linear(self.emb_dim, len(self.disease_semantic_stream_names))
             )
 
         # self.use_attr_chem_attn = self.use_attr and self.use_chem
@@ -83,44 +192,138 @@ class HMC_GNN_SSL(nn.Module):
         # Layer Aggregation Fusion
         self.layer_fusion = nn.Linear(self.hidden_dim * 2, self.hidden_dim)
 
-    def forward_encoder(self, edge_index, edge_type, perturbed=False):
+        # ========================================================
+        # 5. MRHAF-style local/global/semantic branch fusion
+        # ========================================================
+        # global branch: existing RGCN over the full heterogeneous graph.
+        # local branch: a second RGCN over disease-herb/Jaccard interaction edges.
+        # semantic branch: type-aware fused node semantics without graph propagation.
+        if self.use_branch_gate:
+            if self.use_local_branch:
+                self.local_conv1 = RGCNConv(self.emb_dim, self.hidden_dim, num_relations)
+                self.local_bn1 = nn.BatchNorm1d(self.hidden_dim)
+                self.local_conv2 = RGCNConv(self.hidden_dim, self.hidden_dim, num_relations)
+                self.local_bn2 = nn.BatchNorm1d(self.hidden_dim)
+                self.local_layer_fusion = nn.Linear(self.hidden_dim * 2, self.hidden_dim)
+
+            if self.use_semantic_branch:
+                self.semantic_proj = nn.Sequential(
+                    nn.Linear(self.emb_dim, self.hidden_dim),
+                    nn.ReLU(),
+                    nn.Dropout(Config.dropout),
+                )
+
+            self.branch_stream_names = []
+            if self.use_global_branch:
+                self.branch_stream_names.append('global')
+            if self.use_local_branch:
+                self.branch_stream_names.append('local')
+            if self.use_semantic_branch:
+                self.branch_stream_names.append('semantic')
+            if not self.branch_stream_names:
+                self.branch_stream_names.append('global')
+                self.use_global_branch = True
+
+            if self.branch_fusion_mode == 'gate':
+                self.herb_branch_gate = nn.Sequential(
+                    nn.Linear(self.hidden_dim * len(self.branch_stream_names), self.hidden_dim),
+                    nn.ReLU(),
+                    nn.Linear(self.hidden_dim, len(self.branch_stream_names))
+                )
+                self.disease_branch_gate = nn.Sequential(
+                    nn.Linear(self.hidden_dim * len(self.branch_stream_names), self.hidden_dim),
+                    nn.ReLU(),
+                    nn.Linear(self.hidden_dim, len(self.branch_stream_names))
+                )
+
+    def _project_feature_matrix(self, feature_matrix, linear_layer):
+        if feature_matrix.is_sparse:
+            projected = torch.sparse.mm(feature_matrix, linear_layer.weight.t())
+            if linear_layer.bias is not None:
+                projected = projected + linear_layer.bias
+            return projected
+        return linear_layer(feature_matrix)
+
+    def _apply_node_gate(self, x_fused, node_indices, streams, gate):
+        if node_indices is None or node_indices.numel() == 0:
+            return x_fused
+        node_streams = [stream[node_indices] for stream in streams]
+        fusion_in = torch.cat(node_streams, dim=-1)
+        fusion_logits = gate(fusion_in)
+        fusion_w = F.softmax(fusion_logits, dim=-1)
+        node_fused = sum(
+            fusion_w[:, idx:idx + 1] * stream
+            for idx, stream in enumerate(node_streams)
+        )
+        x_updated = x_fused.clone()
+        x_updated[node_indices] = node_fused
+        return x_updated
+
+    def _build_fused_input(self):
         # 1. 获取结构特征 (ST)
         x_st = self.embedding.weight # [N, 128]
         
-        # 2. 维度对齐与按维度相加 (Element-wise Addition ⊕)
-        x_fused = x_st
-        
-        x_se1 = None
-        x_se2 = None
+        # 2. 维度对齐，并根据节点类型使用加和或类型感知 gate 融合
+        x_attr = None
+        x_chem = None
+        x_disease = None
+        x_gene = None
 
         if self.use_attr:
             # 投影到 128 维
             attr_buf = self.attr_matrix
             if isinstance(attr_buf, torch.Tensor):
-                x_se1 = self.attr_align(attr_buf)
-                x_fused = x_fused + x_se1 # ⊕
+                x_attr = self.attr_align(attr_buf)
             
         if self.use_chem:
             # 投影到 128 维
             chem_buf = self.chem_matrix
             if isinstance(chem_buf, torch.Tensor):
-                x_se2 = self.chem_align(chem_buf)
-                x_fused = x_fused + x_se2 # ⊕
-
-        if self.use_gated_fusion and x_se1 is not None and x_se2 is not None:
-            fusion_in = torch.cat([x_st, x_se1, x_se2], dim=-1)
-            fusion_logits = self.fusion_gate(fusion_in)
-            fusion_w = F.softmax(fusion_logits, dim=-1)
-            w_st = fusion_w[:, 0:1]
-            w_attr = fusion_w[:, 1:2]
-            w_chem = fusion_w[:, 2:3]
-            x_fused = w_st * x_st + w_attr * x_se1 + w_chem * x_se2
+                x_chem = self.chem_align(chem_buf)
 
         if self.use_disease:
             disease_buf = self.disease_matrix
             if isinstance(disease_buf, torch.Tensor):
-                x_se3 = self.disease_align(disease_buf)
-                x_fused = x_fused + x_se3
+                x_disease = self._project_feature_matrix(disease_buf, self.disease_align)
+
+        if self.use_gene:
+            gene_buf = self.gene_matrix
+            if isinstance(gene_buf, torch.Tensor):
+                x_gene = self._project_feature_matrix(gene_buf, self.gene_align)
+
+        add_streams = [x_st]
+        for stream in [x_attr, x_chem, x_disease, x_gene]:
+            if stream is not None:
+                add_streams.append(stream)
+        x_fused = sum(add_streams)
+
+        if self.use_herb_gated_fusion:
+            herb_streams = [x_st]
+            if x_attr is not None:
+                herb_streams.append(x_attr)
+            if x_chem is not None:
+                herb_streams.append(x_chem)
+            if x_gene is not None:
+                herb_streams.append(x_gene)
+            x_fused = self._apply_node_gate(
+                x_fused,
+                self.herb_indices,
+                herb_streams,
+                self.herb_fusion_gate,
+            )
+
+        if self.use_disease_gated_fusion:
+            disease_streams = [x_st]
+            if x_disease is not None:
+                disease_streams.append(x_disease)
+            if x_gene is not None:
+                disease_streams.append(x_gene)
+            x_fused = self._apply_node_gate(
+                x_fused,
+                self.disease_indices,
+                disease_streams,
+                self.disease_fusion_gate,
+            )
             
         # # 1. 结构特征
         # x_st = self.embedding.weight  # [N, emb_dim]
@@ -157,8 +360,84 @@ class HMC_GNN_SSL(nn.Module):
         #         x_fused = x_fused + x_chem_aligned
         # 3. PresRecRF 非线性融合映射 (ReLU MLP)
         # 此时 x_input 就是论文中的 e_i
-        x_input = self.fusion_mlp(x_fused)
-        
+        return self.fusion_mlp(x_fused)
+
+    def _build_pure_semantic_input(self):
+        x_attr = None
+        x_chem = None
+        x_disease = None
+        x_gene = None
+
+        if self.use_attr:
+            attr_buf = self.attr_matrix
+            if isinstance(attr_buf, torch.Tensor):
+                x_attr = self.attr_align(attr_buf)
+
+        if self.use_chem:
+            chem_buf = self.chem_matrix
+            if isinstance(chem_buf, torch.Tensor):
+                x_chem = self.chem_align(chem_buf)
+
+        if self.use_disease:
+            disease_buf = self.disease_matrix
+            if isinstance(disease_buf, torch.Tensor):
+                x_disease = self._project_feature_matrix(disease_buf, self.disease_align)
+
+        if self.use_gene:
+            gene_buf = self.gene_matrix
+            if isinstance(gene_buf, torch.Tensor):
+                x_gene = self._project_feature_matrix(gene_buf, self.gene_align)
+
+        semantic_streams = [stream for stream in [x_attr, x_chem, x_disease, x_gene] if stream is not None]
+        if semantic_streams:
+            x_semantic = sum(semantic_streams)
+        else:
+            x_semantic = torch.zeros_like(self.embedding.weight)
+
+        if self.use_herb_semantic_gate:
+            herb_streams = []
+            if x_attr is not None:
+                herb_streams.append(x_attr)
+            if x_chem is not None:
+                herb_streams.append(x_chem)
+            if x_gene is not None:
+                herb_streams.append(x_gene)
+            if len(herb_streams) > 1:
+                x_semantic = self._apply_node_gate(
+                    x_semantic,
+                    self.herb_indices,
+                    herb_streams,
+                    self.herb_semantic_gate,
+                )
+
+        if self.use_disease_semantic_gate:
+            disease_streams = []
+            if x_disease is not None:
+                disease_streams.append(x_disease)
+            if x_gene is not None:
+                disease_streams.append(x_gene)
+            if len(disease_streams) > 1:
+                x_semantic = self._apply_node_gate(
+                    x_semantic,
+                    self.disease_indices,
+                    disease_streams,
+                    self.disease_semantic_gate,
+                )
+
+        return self.fusion_mlp(x_semantic)
+
+    def _run_rgcn_stack(
+        self,
+        x_input,
+        edge_index,
+        edge_type,
+        perturbed,
+        conv1,
+        bn1,
+        conv2,
+        bn2,
+        layer_fusion,
+    ):
         # ==================================
         # 下面是常规的图传播 (Graph Propagation)
         # ==================================
@@ -167,20 +446,105 @@ class HMC_GNN_SSL(nn.Module):
             edge_index = edge_index[:, mask]
             edge_type = edge_type[mask]
 
-        x1 = self.conv1(x_input, edge_index, edge_type)
-        x1 = self.bn1(x1)
+        x1 = conv1(x_input, edge_index, edge_type)
+        x1 = bn1(x1)
         x1 = F.elu(x1)
         x1 = self.dropout(x1)
         
-        x2 = self.conv2(x1, edge_index, edge_type)
-        x2 = self.bn2(x2)
+        x2 = conv2(x1, edge_index, edge_type)
+        x2 = bn2(x2)
         x2 = F.elu(x2)
         x2 = self.dropout(x2)
         
         x_concat = torch.cat([x1, x2], dim=-1)
-        x_final = self.layer_fusion(x_concat)
-        
-        return x_final
+        return layer_fusion(x_concat)
+
+    def _apply_branch_fusion(self, streams):
+        if self.branch_fusion_mode == 'sum':
+            return sum(streams)
+
+        if self.branch_fusion_mode != 'gate':
+            return sum(streams) / len(streams)
+
+        x_fused = sum(streams) / len(streams)
+
+        if self.herb_indices is not None and self.herb_indices.numel() > 0:
+            x_fused = self._apply_node_gate(
+                x_fused,
+                self.herb_indices,
+                streams,
+                self.herb_branch_gate,
+            )
+
+        if self.disease_indices is not None and self.disease_indices.numel() > 0:
+            x_fused = self._apply_node_gate(
+                x_fused,
+                self.disease_indices,
+                streams,
+                self.disease_branch_gate,
+            )
+
+        return x_fused
+
+    def forward_encoder(
+        self,
+        edge_index,
+        edge_type,
+        perturbed=False,
+        local_edge_index=None,
+        local_edge_type=None,
+    ):
+        x_input = self._build_fused_input()
+
+        if not self.use_branch_gate:
+            return self._run_rgcn_stack(
+                x_input,
+                edge_index,
+                edge_type,
+                perturbed,
+                self.conv1,
+                self.bn1,
+                self.conv2,
+                self.bn2,
+                self.layer_fusion,
+            )
+
+        if local_edge_index is None or local_edge_type is None:
+            local_edge_index = edge_index
+            local_edge_type = edge_type
+
+        streams = []
+        if self.use_global_branch:
+            streams.append(self._run_rgcn_stack(
+                x_input,
+                edge_index,
+                edge_type,
+                perturbed,
+                self.conv1,
+                self.bn1,
+                self.conv2,
+                self.bn2,
+                self.layer_fusion,
+            ))
+
+        if self.use_local_branch:
+            streams.append(self._run_rgcn_stack(
+                x_input,
+                local_edge_index,
+                local_edge_type,
+                perturbed,
+                self.local_conv1,
+                self.local_bn1,
+                self.local_conv2,
+                self.local_bn2,
+                self.local_layer_fusion,
+            ))
+
+        if self.use_semantic_branch:
+            x_semantic_input = self._build_pure_semantic_input()
+            streams.append(self.semantic_proj(x_semantic_input))
+
+        return self._apply_branch_fusion(streams)
 
     # calc_ssl_loss 保持不变
     def calc_ssl_loss(self, x_view1, x_view2, unique_nodes):

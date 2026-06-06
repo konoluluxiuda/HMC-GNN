@@ -18,6 +18,9 @@ node_chem_dense.pt
 # node_disease_text.pt: 40MB × 4 个副本 = 160MB
 node_disease_text.pt
 
+# node_herb_chemical_etcm.pt: up to 480MB, generated from ETCM herb-chemical relations
+node_herb_chemical_etcm.pt
+
 # KDHR 中间数据
 dataset/NEWHERB/kdhr_newherb/train_pS.npy
 dataset/NEWHERB/kdhr_newherb/train_pH.npy
