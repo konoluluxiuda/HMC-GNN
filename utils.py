@@ -37,6 +37,8 @@ class Evaluator:
         edge_type,
         local_edge_index=None,
         local_edge_type=None,
+        edge_weight=None,
+        local_edge_weight=None,
     ):
         """
         执行 Top-K 评估 (适用于 Unified Graph / HMC_GNN_SSL)
@@ -55,6 +57,8 @@ class Evaluator:
                 perturbed=False,
                 local_edge_index=local_edge_index,
                 local_edge_type=local_edge_type,
+                edge_weight=edge_weight,
+                local_edge_weight=local_edge_weight,
             )
             
             # 准备候选药材的 Embedding 矩阵 [Num_Herbs, Dim]

@@ -12,6 +12,7 @@ herbTOchemical_etcm_matched.csv:has_component,162,Full side-information relation
 num_nodes,17683,
 num_relations,16,
 edge_count,714474,
+weighted_gene_jaccard_edge_count,0,edge_weight.pt stores raw Jaccard for gene-overlap edges and 1.0 for other edges.
 train_disease_count,2162,
 val_disease_count,270,
 test_disease_count,271,

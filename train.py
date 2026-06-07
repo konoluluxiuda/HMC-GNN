@@ -34,7 +34,123 @@ def load_optional_node_matrix(path, expected_num_nodes, label):
 
     return matrix
 
-def build_mrhaf_branch_views(graph_dir, edge_index, edge_type):
+def _load_relation_ids(graph_dir, relation_names):
+    relation_map_path = os.path.join(graph_dir, 'relation_map.csv')
+    relation_ids = []
+    if not os.path.exists(relation_map_path):
+        return relation_ids
+
+    with open(relation_map_path, 'r', encoding='utf-8-sig', newline='') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row.get('relation') in relation_names:
+                try:
+                    relation_ids.append(int(row['type_id']))
+                except (KeyError, TypeError, ValueError):
+                    continue
+    return relation_ids
+
+
+def _transform_gene_jaccard_weight(score, mode):
+    if mode == 'jaccard':
+        return float(score)
+    if mode == 'one_plus_jaccard':
+        return 1.0 + float(score)
+    raise ValueError(f"Unsupported gene-jaccard edge weight mode: {mode}")
+
+
+def load_gene_jaccard_edge_weight(graph_dir, edge_index, edge_type, mode='one_plus_jaccard'):
+    """
+    Return model-ready edge weights aligned with edge_index/edge_type.
+
+    Only herb_gene_jaccard and disease_gene_jaccard edges are reweighted.
+    Other edges keep weight 1.0. When gene_jaccard_edges.csv is present, it is
+    preferred because it preserves the actual Jaccard score for every selected
+    edge. edge_weight.pt is used as a fallback for regenerated graphs.
+    """
+    gene_relation_names = {'herb_gene_jaccard', 'disease_gene_jaccard'}
+    gene_relation_ids = _load_relation_ids(graph_dir, gene_relation_names)
+    if not gene_relation_ids:
+        print("⚠️ Gene-jaccard edge weighting enabled, but relation ids were not found.")
+        return None
+
+    weights = torch.ones(edge_type.size(0), dtype=torch.float32)
+    gene_relation_id_set = set(gene_relation_ids)
+    gene_edge_positions = {}
+    edge_index_cpu = edge_index.cpu()
+    edge_type_cpu = edge_type.cpu()
+    for pos in torch.nonzero(torch.isin(edge_type_cpu, torch.tensor(gene_relation_ids))).flatten().tolist():
+        key = (
+            int(edge_index_cpu[0, pos].item()),
+            int(edge_index_cpu[1, pos].item()),
+            int(edge_type_cpu[pos].item()),
+        )
+        gene_edge_positions[key] = pos
+
+    csv_path = os.path.join(graph_dir, 'gene_jaccard_edges.csv')
+    matched = 0
+    missing = 0
+    if os.path.exists(csv_path):
+        relation_to_id = {}
+        relation_map_path = os.path.join(graph_dir, 'relation_map.csv')
+        with open(relation_map_path, 'r', encoding='utf-8-sig', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if row.get('relation') in gene_relation_names:
+                    relation_to_id[row['relation']] = int(row['type_id'])
+
+        with open(csv_path, 'r', encoding='utf-8-sig', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                relation_id = relation_to_id.get(row.get('relation'))
+                if relation_id is None:
+                    continue
+                key = (
+                    int(row['src_node_index']),
+                    int(row['dst_node_index']),
+                    relation_id,
+                )
+                pos = gene_edge_positions.get(key)
+                if pos is None:
+                    missing += 1
+                    continue
+                weights[pos] = _transform_gene_jaccard_weight(float(row['jaccard']), mode)
+                matched += 1
+    else:
+        edge_weight_path = os.path.join(graph_dir, 'edge_weight.pt')
+        if not os.path.exists(edge_weight_path):
+            print("⚠️ Gene-jaccard edge weighting enabled, but neither gene_jaccard_edges.csv nor edge_weight.pt exists.")
+            return None
+        stored = torch.load(edge_weight_path, map_location='cpu').float()
+        if stored.size(0) != edge_type.size(0):
+            print(f"⚠️ edge_weight.pt length mismatch: {stored.size(0)} != {edge_type.size(0)}. Skipped.")
+            return None
+        gene_mask = torch.zeros(edge_type.size(0), dtype=torch.bool)
+        for relation_id in gene_relation_id_set:
+            gene_mask |= edge_type_cpu == relation_id
+        if mode == 'jaccard':
+            weights[gene_mask] = stored[gene_mask]
+        elif mode == 'one_plus_jaccard':
+            weights[gene_mask] = 1.0 + stored[gene_mask]
+        else:
+            raise ValueError(f"Unsupported gene-jaccard edge weight mode: {mode}")
+        matched = int(gene_mask.sum().item())
+
+    changed_mask = weights != 1.0
+    if changed_mask.any():
+        changed = weights[changed_mask]
+        print(
+            "✅ Loaded gene-jaccard edge weights: "
+            f"mode={mode}, weighted_edges={int(changed_mask.sum().item())}, "
+            f"matched={matched}, missing={missing}, "
+            f"range=({changed.min().item():.4f}, {changed.max().item():.4f})"
+        )
+    else:
+        print("⚠️ Gene-jaccard edge weighting produced no non-unit edge weights.")
+    return weights
+
+
+def build_mrhaf_branch_views(graph_dir, edge_index, edge_type, edge_weight=None):
     """
     Build complementary MRHAF-style graph views from the current aligned node
     space.
@@ -78,9 +194,11 @@ def build_mrhaf_branch_views(graph_dir, edge_index, edge_type):
 
     local_edge_index = edge_index[:, mask]
     local_edge_type = edge_type[mask]
+    local_edge_weight = edge_weight[mask] if edge_weight is not None else None
     global_mask = ~mask
     global_edge_index = edge_index[:, global_mask]
     global_edge_type = edge_type[global_mask]
+    global_edge_weight = edge_weight[global_mask] if edge_weight is not None else None
 
     print(
         "✅ MRHAF-style local branch edges: "
@@ -91,7 +209,14 @@ def build_mrhaf_branch_views(graph_dir, edge_index, edge_type):
         "✅ MRHAF-style global branch external edges: "
         f"{global_edge_index.size(1)} / {edge_index.size(1)}"
     )
-    return global_edge_index, global_edge_type, local_edge_index, local_edge_type
+    return (
+        global_edge_index,
+        global_edge_type,
+        global_edge_weight,
+        local_edge_index,
+        local_edge_type,
+        local_edge_weight,
+    )
 
 def main():
     # =========================================================================
@@ -161,6 +286,12 @@ def main():
     # Keep external disease/herb gene side information for disease-disjoint generalization.
     USE_GENE_FEATURE = True
 
+    # Edge-weighted gene-jaccard RGCN:
+    # only reweight herb_gene_jaccard / disease_gene_jaccard edges in local branch.
+    USE_EDGE_WEIGHTED_GENE_JACCARD = True
+    # jaccard: use raw Jaccard in [0, 1]; one_plus_jaccard: use 1 + Jaccard.
+    GENE_JACCARD_EDGE_WEIGHT_MODE = 'jaccard'
+
     # =========================================================================
 
     set_seed(Config.seed)
@@ -185,6 +316,7 @@ def main():
     print(f"  [SSL]  Property-Chem Align: {USE_PROP_CHEM_ALIGN}")
     print(f"  [Feat] Chem Fingerprint: {USE_CHEM_FINGERPRINT}")
     print(f"  [Feat] Disease Text (BERT): {USE_DISEASE_TEXT}")
+    print(f"  [Graph] Edge-weighted Gene-Jaccard: {USE_EDGE_WEIGHTED_GENE_JACCARD} ({GENE_JACCARD_EDGE_WEIGHT_MODE if USE_EDGE_WEIGHTED_GENE_JACCARD else '-'})")
     print(f"{'='*40}\n")
 
     # --- 1. 动态路径调整 ---
@@ -197,6 +329,8 @@ def main():
     elif USE_DISEASE_SPLIT_GRAPH:
         print(f">>> [Experiment] Loading DISEASE-SPLIT GRAPH variant: {ETCM_GRAPH_VARIANT}")
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data', ETCM_GRAPH_VARIANT)
+        # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_percentile90', ETCM_GRAPH_VARIANT)
+        # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_adaptive05', ETCM_GRAPH_VARIANT)
     elif USE_TFIDF_GRAPH:
         print(">>> [Experiment] Loading TF-IDF GRAPH (Anti-Hub Strategy)...")
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'tfidf_graph_data')
@@ -355,19 +489,40 @@ def main():
     train_dataset = HerbRecDataset(train_dict, data_manager.herb_indices)
     train_loader = DataLoader(train_dataset, batch_size=Config.batch_size, shuffle=True)
 
-    # 将图移至 GPU
-    edge_index = edge_index.to(Config.device)
-    edge_type = edge_type.to(Config.device)
-
-    local_edge_index = None
-    local_edge_type = None
-    global_edge_index = edge_index
-    global_edge_type = edge_type
-    if USE_MRHAF_BRANCH_FUSION:
-        global_edge_index, global_edge_type, local_edge_index, local_edge_type = build_mrhaf_branch_views(
+    edge_weight = None
+    if USE_EDGE_WEIGHTED_GENE_JACCARD:
+        edge_weight = load_gene_jaccard_edge_weight(
             Config.REC_DATA_DIR,
             edge_index,
             edge_type,
+            mode=GENE_JACCARD_EDGE_WEIGHT_MODE,
+        )
+
+    # 将图移至 GPU
+    edge_index = edge_index.to(Config.device)
+    edge_type = edge_type.to(Config.device)
+    if edge_weight is not None:
+        edge_weight = edge_weight.to(Config.device)
+
+    local_edge_index = None
+    local_edge_type = None
+    local_edge_weight = None
+    global_edge_index = edge_index
+    global_edge_type = edge_type
+    global_edge_weight = edge_weight
+    if USE_MRHAF_BRANCH_FUSION:
+        (
+            global_edge_index,
+            global_edge_type,
+            global_edge_weight,
+            local_edge_index,
+            local_edge_type,
+            local_edge_weight,
+        ) = build_mrhaf_branch_views(
+            Config.REC_DATA_DIR,
+            edge_index,
+            edge_type,
+            edge_weight=edge_weight,
         )
 
     # --- 5. 初始化模型 ---
@@ -385,6 +540,7 @@ def main():
         disease_indices=data_manager.disease_indices,
         use_branch_gate=USE_MRHAF_BRANCH_FUSION,
         branch_fusion_mode=BRANCH_FUSION_MODE,
+        use_edge_weighted_rgcn=USE_EDGE_WEIGHTED_GENE_JACCARD,
     ).to(Config.device)
     if getattr(model, 'use_gated_fusion', False):
         if getattr(model, 'use_herb_gated_fusion', False):
@@ -431,6 +587,8 @@ def main():
                     perturbed=True,
                     local_edge_index=local_edge_index,
                     local_edge_type=local_edge_type,
+                    edge_weight=global_edge_weight,
+                    local_edge_weight=local_edge_weight,
                 )
                 x_view2 = model.forward_encoder(
                     global_edge_index,
@@ -438,6 +596,8 @@ def main():
                     perturbed=True,
                     local_edge_index=local_edge_index,
                     local_edge_type=local_edge_type,
+                    edge_weight=global_edge_weight,
+                    local_edge_weight=local_edge_weight,
                 )
                 
                 # --- Task 1: Recommendation Loss (BPR) ---
@@ -494,6 +654,8 @@ def main():
                 global_edge_type,
                 local_edge_index=local_edge_index,
                 local_edge_type=local_edge_type,
+                edge_weight=global_edge_weight,
+                local_edge_weight=local_edge_weight,
             )
             
             # 格式化输出
@@ -537,6 +699,8 @@ def main():
         global_edge_type,
         local_edge_index=local_edge_index,
         local_edge_type=local_edge_type,
+        edge_weight=global_edge_weight,
+        local_edge_weight=local_edge_weight,
     )
 
     print("HMC_GNN_SSL (NEWHERB) Test Results:")

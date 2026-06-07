@@ -1,0 +1,27 @@
+﻿item,count,note
+train_treats_disease_edges_bidirectional,407630,Only train diseases' herb labels are inserted into the graph.
+herbTOchemical.csv:has_component,24498,Full side-information relation.
+herbTOeffect.csv:has_effect,27460,Full side-information relation.
+herbTOflavor.csv:has_property,2060,Full side-information relation.
+herbTOchannelTropism.csv:belongs_to_meridian,1904,Full side-information relation.
+herb_disease_jaccard_edges,969,Built from train diseases only.
+disease_herb_jaccard_edges,17971,Built from train diseases only.
+herb_gene_jaccard_edges,3100,Built from shared herb-associated ETCM genes.
+disease_gene_jaccard_edges,1507,Built from shared disease-associated ETCM genes.
+gene_jaccard_sparsify_mode,percentile,
+gene_jaccard_score_percentile,90.0,
+gene_jaccard_adaptive_alpha,0.0,
+gene_jaccard_min_topk,1,
+diseaseTOgene_etcm_matched.csv:disease_associated_gene,137910,Full side-information relation.
+herbTOgene_etcm_matched.csv:herb_associated_gene,93910,Full side-information relation.
+herbTOchemical_etcm_matched.csv:has_component,162,Full side-information relation.
+num_nodes,17683,
+num_relations,18,
+edge_count,719081,
+train_disease_count,2162,
+val_disease_count,270,
+test_disease_count,271,
+candidate_herb_count,395,
+train_label_edges,203815,
+val_label_edges,22547,
+test_label_edges,22468,

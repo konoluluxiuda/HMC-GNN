@@ -5,6 +5,65 @@ import torch.nn.functional as F
 from torch_geometric.nn import RGCNConv
 from config import Config
 
+
+class WeightedRGCNConv(nn.Module):
+    """
+    Minimal edge-weighted RGCN layer for dense node features.
+
+    PyG's RGCNConv does not accept per-edge weights in this environment. This
+    layer keeps the same relation-specific linear message idea, while applying
+    a weighted mean per relation and destination node. When all edge weights
+    equal 1.0, it reduces to the standard mean aggregation used by RGCNConv.
+    """
+    def __init__(self, in_channels, out_channels, num_relations, bias=True, root_weight=True):
+        super().__init__()
+        self.in_channels = in_channels
+        self.out_channels = out_channels
+        self.num_relations = num_relations
+        self.weight = nn.Parameter(torch.empty(num_relations, in_channels, out_channels))
+        self.root = nn.Parameter(torch.empty(in_channels, out_channels)) if root_weight else None
+        self.bias = nn.Parameter(torch.empty(out_channels)) if bias else None
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        nn.init.xavier_uniform_(self.weight)
+        if self.root is not None:
+            nn.init.xavier_uniform_(self.root)
+        if self.bias is not None:
+            nn.init.zeros_(self.bias)
+
+    def forward(self, x, edge_index, edge_type, edge_weight=None):
+        if edge_weight is None:
+            edge_weight = torch.ones(edge_type.size(0), dtype=x.dtype, device=x.device)
+        else:
+            edge_weight = edge_weight.to(device=x.device, dtype=x.dtype)
+
+        out = x.new_zeros(x.size(0), self.out_channels)
+        for relation_id in range(self.num_relations):
+            mask = edge_type == relation_id
+            if not torch.any(mask):
+                continue
+
+            src = edge_index[0, mask]
+            dst = edge_index[1, mask]
+            rel_weight = edge_weight[mask].unsqueeze(-1)
+            msg = x[src].matmul(self.weight[relation_id]) * rel_weight
+
+            rel_out = x.new_zeros(x.size(0), self.out_channels)
+            rel_out.index_add_(0, dst, msg)
+
+            denom = x.new_zeros(x.size(0), 1)
+            denom.index_add_(0, dst, rel_weight)
+            rel_out = rel_out / denom.clamp_min(1e-12)
+            out = out + rel_out
+
+        if self.root is not None:
+            out = out + x.matmul(self.root)
+        if self.bias is not None:
+            out = out + self.bias
+        return out
+
+
 class HMC_GNN_SSL(nn.Module):
     def __init__(
         self,
@@ -23,6 +82,7 @@ class HMC_GNN_SSL(nn.Module):
         use_global_branch=True,
         use_local_branch=True,
         use_semantic_branch=True,
+        use_edge_weighted_rgcn=False,
     ):
         super().__init__()
         
@@ -83,6 +143,7 @@ class HMC_GNN_SSL(nn.Module):
         self.use_global_branch = use_global_branch
         self.use_local_branch = use_local_branch
         self.use_semantic_branch = use_semantic_branch
+        self.use_edge_weighted_rgcn = use_edge_weighted_rgcn
         self.herb_gate_stream_names = ['structure']
         if self.use_attr:
             self.herb_gate_stream_names.append('attr')
@@ -200,9 +261,10 @@ class HMC_GNN_SSL(nn.Module):
         # semantic branch: type-aware fused node semantics without graph propagation.
         if self.use_branch_gate:
             if self.use_local_branch:
-                self.local_conv1 = RGCNConv(self.emb_dim, self.hidden_dim, num_relations)
+                local_conv_cls = WeightedRGCNConv if self.use_edge_weighted_rgcn else RGCNConv
+                self.local_conv1 = local_conv_cls(self.emb_dim, self.hidden_dim, num_relations)
                 self.local_bn1 = nn.BatchNorm1d(self.hidden_dim)
-                self.local_conv2 = RGCNConv(self.hidden_dim, self.hidden_dim, num_relations)
+                self.local_conv2 = local_conv_cls(self.hidden_dim, self.hidden_dim, num_relations)
                 self.local_bn2 = nn.BatchNorm1d(self.hidden_dim)
                 self.local_layer_fusion = nn.Linear(self.hidden_dim * 2, self.hidden_dim)
 
@@ -437,6 +499,7 @@ class HMC_GNN_SSL(nn.Module):
         conv2,
         bn2,
         layer_fusion,
+        edge_weight=None,
     ):
         # ==================================
         # 下面是常规的图传播 (Graph Propagation)
@@ -445,13 +508,21 @@ class HMC_GNN_SSL(nn.Module):
             mask = torch.rand(edge_index.size(1), device=edge_index.device) > Config.edge_drop_rate
             edge_index = edge_index[:, mask]
             edge_type = edge_type[mask]
+            if edge_weight is not None:
+                edge_weight = edge_weight[mask]
 
-        x1 = conv1(x_input, edge_index, edge_type)
+        if isinstance(conv1, WeightedRGCNConv):
+            x1 = conv1(x_input, edge_index, edge_type, edge_weight=edge_weight)
+        else:
+            x1 = conv1(x_input, edge_index, edge_type)
         x1 = bn1(x1)
         x1 = F.elu(x1)
         x1 = self.dropout(x1)
         
-        x2 = conv2(x1, edge_index, edge_type)
+        if isinstance(conv2, WeightedRGCNConv):
+            x2 = conv2(x1, edge_index, edge_type, edge_weight=edge_weight)
+        else:
+            x2 = conv2(x1, edge_index, edge_type)
         x2 = bn2(x2)
         x2 = F.elu(x2)
         x2 = self.dropout(x2)
@@ -493,6 +564,8 @@ class HMC_GNN_SSL(nn.Module):
         perturbed=False,
         local_edge_index=None,
         local_edge_type=None,
+        edge_weight=None,
+        local_edge_weight=None,
     ):
         x_input = self._build_fused_input()
 
@@ -507,11 +580,13 @@ class HMC_GNN_SSL(nn.Module):
                 self.conv2,
                 self.bn2,
                 self.layer_fusion,
+                edge_weight=edge_weight,
             )
 
         if local_edge_index is None or local_edge_type is None:
             local_edge_index = edge_index
             local_edge_type = edge_type
+            local_edge_weight = edge_weight
 
         streams = []
         if self.use_global_branch:
@@ -525,6 +600,7 @@ class HMC_GNN_SSL(nn.Module):
                 self.conv2,
                 self.bn2,
                 self.layer_fusion,
+                edge_weight=edge_weight,
             ))
 
         if self.use_local_branch:
@@ -538,6 +614,7 @@ class HMC_GNN_SSL(nn.Module):
                 self.local_conv2,
                 self.local_bn2,
                 self.local_layer_fusion,
+                edge_weight=local_edge_weight,
             ))
 
         if self.use_semantic_branch:

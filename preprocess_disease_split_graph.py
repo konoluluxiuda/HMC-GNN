@@ -292,6 +292,36 @@ def build_jaccard_edges(train_dict, node_registry, threshold, top_k, mode):
     return edges
 
 
+def select_sparse_neighbors(
+    items,
+    top_k,
+    sparsify_mode,
+    score_percentile,
+    adaptive_alpha,
+    min_topk,
+):
+    if not items:
+        return []
+
+    items = sorted(items, key=lambda item: (item[1], item[2]), reverse=True)
+    if sparsify_mode == "topk":
+        return items[:top_k]
+
+    scores = np.asarray([item[1] for item in items], dtype=np.float32)
+    if sparsify_mode == "percentile":
+        cutoff = float(np.percentile(scores, score_percentile))
+        selected = [item for item in items if item[1] >= cutoff]
+    elif sparsify_mode == "adaptive":
+        cutoff = float(scores.mean() + adaptive_alpha * scores.std())
+        selected = [item for item in items if item[1] >= cutoff]
+    else:
+        raise ValueError(f"Unsupported sparsify mode: {sparsify_mode}")
+
+    if len(selected) < min_topk:
+        selected = items[:min_topk]
+    return selected[:top_k]
+
+
 def build_gene_jaccard_edges(
     relation_filename,
     node_registry,
@@ -299,6 +329,10 @@ def build_gene_jaccard_edges(
     min_shared,
     top_k,
     source_type,
+    sparsify_mode="topk",
+    score_percentile=90.0,
+    adaptive_alpha=0.0,
+    min_topk=1,
 ):
     pairs = load_relation_pairs(os.path.join(RELATION_DIR, relation_filename))
     source_to_genes = defaultdict(set)
@@ -349,15 +383,23 @@ def build_gene_jaccard_edges(
 
     edges = []
     for i, items in neighbors.items():
-        items.sort(key=lambda item: (item[1], item[2]), reverse=True)
+        selected_items = select_sparse_neighbors(
+            items,
+            top_k=top_k,
+            sparsify_mode=sparsify_mode,
+            score_percentile=score_percentile,
+            adaptive_alpha=adaptive_alpha,
+            min_topk=min_topk,
+        )
         src_idx = node_registry.add(known_sources[i])
-        for j, score, shared in items[:top_k]:
+        for j, score, shared in selected_items:
             dst_idx = node_registry.add(known_sources[j])
-            edges.append((src_idx, dst_idx, score, shared))
+            edges.append((src_idx, dst_idx, score, shared, known_sources[i], known_sources[j]))
 
     print(
         f"   -> {name}: {len(edges)} directed edges "
-        f"(shared_genes >= {min_shared}, Jaccard >= {threshold}, Top-{top_k})"
+        f"(shared_genes >= {min_shared}, Jaccard >= {threshold}, "
+        f"sparsify={sparsify_mode}, max_topk={top_k})"
     )
     return edges
 
@@ -393,6 +435,7 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
 
     relation_registry = RelationRegistry()
     edge_set = set()
+    edge_weight_lookup = {}
     summary = []
 
     def add_summary(item, count, note=""):
@@ -455,11 +498,17 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
             min_shared=args.herb_gene_min_shared,
             top_k=args.herb_gene_topk,
             source_type="herb",
+            sparsify_mode=args.gene_jaccard_sparsify_mode,
+            score_percentile=args.gene_jaccard_score_percentile,
+            adaptive_alpha=args.gene_jaccard_adaptive_alpha,
+            min_topk=args.gene_jaccard_min_topk,
         )
         herb_gene_rel = relation_registry.add("herb_gene_jaccard")
         before = len(edge_set)
-        for src_idx, dst_idx, _, _ in herb_gene_edges:
+        for src_idx, dst_idx, _, _, _, _ in herb_gene_edges:
             edge_set.add((src_idx, dst_idx, herb_gene_rel))
+        for src_idx, dst_idx, score, _, _, _ in herb_gene_edges:
+            edge_weight_lookup[(src_idx, dst_idx, herb_gene_rel)] = float(score)
         add_summary(
             "herb_gene_jaccard_edges",
             len(edge_set) - before,
@@ -473,16 +522,48 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
             min_shared=args.disease_gene_min_shared,
             top_k=args.disease_gene_topk,
             source_type="disease",
+            sparsify_mode=args.gene_jaccard_sparsify_mode,
+            score_percentile=args.gene_jaccard_score_percentile,
+            adaptive_alpha=args.gene_jaccard_adaptive_alpha,
+            min_topk=args.gene_jaccard_min_topk,
         )
         disease_gene_rel = relation_registry.add("disease_gene_jaccard")
         before = len(edge_set)
-        for src_idx, dst_idx, _, _ in disease_gene_edges:
+        for src_idx, dst_idx, _, _, _, _ in disease_gene_edges:
             edge_set.add((src_idx, dst_idx, disease_gene_rel))
+        for src_idx, dst_idx, score, _, _, _ in disease_gene_edges:
+            edge_weight_lookup[(src_idx, dst_idx, disease_gene_rel)] = float(score)
         add_summary(
             "disease_gene_jaccard_edges",
             len(edge_set) - before,
             "Built from shared disease-associated ETCM genes.",
         )
+        gene_jaccard_rows = []
+        for edge_name, edge_rows in [
+            ("herb_gene_jaccard", herb_gene_edges),
+            ("disease_gene_jaccard", disease_gene_edges),
+        ]:
+            for src_idx, dst_idx, score, shared, src_id, dst_id in edge_rows:
+                gene_jaccard_rows.append(
+                    {
+                        "relation": edge_name,
+                        "src_node_id": src_id,
+                        "dst_node_id": dst_id,
+                        "src_node_index": src_idx,
+                        "dst_node_index": dst_idx,
+                        "jaccard": score,
+                        "shared_genes": shared,
+                    }
+                )
+        pd.DataFrame(gene_jaccard_rows).to_csv(
+            os.path.join(output_dir, "gene_jaccard_edges.csv"),
+            index=False,
+            encoding="utf-8-sig",
+        )
+        add_summary("gene_jaccard_sparsify_mode", args.gene_jaccard_sparsify_mode)
+        add_summary("gene_jaccard_score_percentile", args.gene_jaccard_score_percentile)
+        add_summary("gene_jaccard_adaptive_alpha", args.gene_jaccard_adaptive_alpha)
+        add_summary("gene_jaccard_min_topk", args.gene_jaccard_min_topk)
 
     for filename, relation in variant["extra_relations"]:
         pairs = load_relation_pairs(os.path.join(RELATION_DIR, filename))
@@ -494,9 +575,14 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
         src, dst, rel = zip(*sorted_edges)
         edge_index = torch.tensor([src, dst], dtype=torch.long)
         edge_type = torch.tensor(rel, dtype=torch.long)
+        edge_weight = torch.tensor(
+            [edge_weight_lookup.get(edge, 1.0) for edge in sorted_edges],
+            dtype=torch.float32,
+        )
     else:
         edge_index = torch.empty((2, 0), dtype=torch.long)
         edge_type = torch.empty((0,), dtype=torch.long)
+        edge_weight = torch.empty((0,), dtype=torch.float32)
 
     train_dict = convert_label_dict(node_registry, train_dict_ids)
     val_dict = convert_label_dict(node_registry, val_dict_ids)
@@ -530,6 +616,7 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
 
     torch.save(edge_index, os.path.join(output_dir, "edge_index.pt"))
     torch.save(edge_type, os.path.join(output_dir, "edge_type.pt"))
+    torch.save(edge_weight, os.path.join(output_dir, "edge_weight.pt"))
     torch.save(data_dict, os.path.join(output_dir, "rec_data.pt"))
     node_registry.to_frame().to_csv(os.path.join(output_dir, "node_map.csv"), index=False, encoding="utf-8-sig")
     relation_registry.to_frame().to_csv(os.path.join(output_dir, "relation_map.csv"), index=False, encoding="utf-8-sig")
@@ -537,6 +624,11 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
     add_summary("num_nodes", data_dict["num_nodes"])
     add_summary("num_relations", data_dict["num_relations"])
     add_summary("edge_count", int(edge_index.shape[1]))
+    add_summary(
+        "weighted_gene_jaccard_edge_count",
+        int((edge_weight != 1.0).sum().item()),
+        "edge_weight.pt stores raw Jaccard for gene-overlap edges and 1.0 for other edges.",
+    )
     add_summary("train_disease_count", len(train_dict))
     add_summary("val_disease_count", len(val_dict))
     add_summary("test_disease_count", len(test_dict))
@@ -570,6 +662,20 @@ def parse_args():
     parser.add_argument("--disease-gene-jaccard-threshold", type=float, default=0.2)
     parser.add_argument("--disease-gene-min-shared", type=int, default=5)
     parser.add_argument("--disease-gene-topk", type=int, default=15)
+    parser.add_argument(
+        "--gene-jaccard-sparsify-mode",
+        choices=["topk", "percentile", "adaptive"],
+        default="topk",
+        help=(
+            "Sparsification after shared-gene Jaccard filtering. "
+            "topk keeps the historical bounded Top-K rule; percentile keeps edges above a "
+            "per-source score percentile before capping by topk; adaptive keeps edges above "
+            "mean + alpha * std before capping by topk."
+        ),
+    )
+    parser.add_argument("--gene-jaccard-score-percentile", type=float, default=90.0)
+    parser.add_argument("--gene-jaccard-adaptive-alpha", type=float, default=0.0)
+    parser.add_argument("--gene-jaccard-min-topk", type=int, default=1)
     return parser.parse_args()
 
 
