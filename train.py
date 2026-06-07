@@ -288,9 +288,22 @@ def main():
 
     # Edge-weighted gene-jaccard RGCN:
     # only reweight herb_gene_jaccard / disease_gene_jaccard edges in local branch.
-    USE_EDGE_WEIGHTED_GENE_JACCARD = True
+    USE_EDGE_WEIGHTED_GENE_JACCARD = False
     # jaccard: use raw Jaccard in [0, 1]; one_plus_jaccard: use 1 + Jaccard.
     GENE_JACCARD_EDGE_WEIGHT_MODE = 'jaccard'
+
+    # Relation dropout: randomly drops whole relation types during perturbed
+    # training views. This tests whether the model is robust to local relation
+    # groups rather than overfitting one constructed edge type.
+    USE_RELATION_DROPOUT = False
+    RELATION_DROPOUT_RATE = 0.2
+    RELATION_DROPOUT_SCOPE = 'local'  # local, global, or all
+
+    # Semantic residual: add a scaled pure-semantic stream back to graph
+    # branches before branch fusion, preserving raw disease/herb semantics after
+    # RGCN propagation.
+    USE_SEMANTIC_RESIDUAL = True
+    SEMANTIC_RESIDUAL_WEIGHT = 0.3
 
     # =========================================================================
 
@@ -317,6 +330,17 @@ def main():
     print(f"  [Feat] Chem Fingerprint: {USE_CHEM_FINGERPRINT}")
     print(f"  [Feat] Disease Text (BERT): {USE_DISEASE_TEXT}")
     print(f"  [Graph] Edge-weighted Gene-Jaccard: {USE_EDGE_WEIGHTED_GENE_JACCARD} ({GENE_JACCARD_EDGE_WEIGHT_MODE if USE_EDGE_WEIGHTED_GENE_JACCARD else '-'})")
+    print(
+        "  [Graph] Relation Dropout: "
+        f"{USE_RELATION_DROPOUT} "
+        f"(rate={RELATION_DROPOUT_RATE if USE_RELATION_DROPOUT else 0.0}, "
+        f"scope={RELATION_DROPOUT_SCOPE if USE_RELATION_DROPOUT else '-'})"
+    )
+    print(
+        "  [Fuse] Semantic Residual: "
+        f"{USE_SEMANTIC_RESIDUAL} "
+        f"(weight={SEMANTIC_RESIDUAL_WEIGHT if USE_SEMANTIC_RESIDUAL else 0.0})"
+    )
     print(f"{'='*40}\n")
 
     # --- 1. 动态路径调整 ---
@@ -328,8 +352,8 @@ def main():
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'etcm_graph_leak_data', ETCM_GRAPH_VARIANT)
     elif USE_DISEASE_SPLIT_GRAPH:
         print(f">>> [Experiment] Loading DISEASE-SPLIT GRAPH variant: {ETCM_GRAPH_VARIANT}")
-        Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data', ETCM_GRAPH_VARIANT)
-        # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_percentile90', ETCM_GRAPH_VARIANT)
+        #Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data', ETCM_GRAPH_VARIANT)
+        Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_percentile90', ETCM_GRAPH_VARIANT)
         # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_adaptive05', ETCM_GRAPH_VARIANT)
     elif USE_TFIDF_GRAPH:
         print(">>> [Experiment] Loading TF-IDF GRAPH (Anti-Hub Strategy)...")
@@ -541,6 +565,10 @@ def main():
         use_branch_gate=USE_MRHAF_BRANCH_FUSION,
         branch_fusion_mode=BRANCH_FUSION_MODE,
         use_edge_weighted_rgcn=USE_EDGE_WEIGHTED_GENE_JACCARD,
+        relation_dropout_rate=RELATION_DROPOUT_RATE if USE_RELATION_DROPOUT else 0.0,
+        relation_dropout_scope=RELATION_DROPOUT_SCOPE,
+        use_semantic_residual=USE_SEMANTIC_RESIDUAL,
+        semantic_residual_weight=SEMANTIC_RESIDUAL_WEIGHT,
     ).to(Config.device)
     if getattr(model, 'use_gated_fusion', False):
         if getattr(model, 'use_herb_gated_fusion', False):

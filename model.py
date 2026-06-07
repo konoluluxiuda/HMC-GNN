@@ -83,6 +83,10 @@ class HMC_GNN_SSL(nn.Module):
         use_local_branch=True,
         use_semantic_branch=True,
         use_edge_weighted_rgcn=False,
+        relation_dropout_rate=0.0,
+        relation_dropout_scope='local',
+        use_semantic_residual=False,
+        semantic_residual_weight=0.2,
     ):
         super().__init__()
         
@@ -144,6 +148,10 @@ class HMC_GNN_SSL(nn.Module):
         self.use_local_branch = use_local_branch
         self.use_semantic_branch = use_semantic_branch
         self.use_edge_weighted_rgcn = use_edge_weighted_rgcn
+        self.relation_dropout_rate = relation_dropout_rate
+        self.relation_dropout_scope = relation_dropout_scope
+        self.use_semantic_residual = use_semantic_residual
+        self.semantic_residual_weight = semantic_residual_weight
         self.herb_gate_stream_names = ['structure']
         if self.use_attr:
             self.herb_gate_stream_names.append('attr')
@@ -269,6 +277,12 @@ class HMC_GNN_SSL(nn.Module):
                 self.local_layer_fusion = nn.Linear(self.hidden_dim * 2, self.hidden_dim)
 
             if self.use_semantic_branch:
+                self.semantic_proj = nn.Sequential(
+                    nn.Linear(self.emb_dim, self.hidden_dim),
+                    nn.ReLU(),
+                    nn.Dropout(Config.dropout),
+                )
+            elif self.use_semantic_residual:
                 self.semantic_proj = nn.Sequential(
                     nn.Linear(self.emb_dim, self.hidden_dim),
                     nn.ReLU(),
@@ -500,11 +514,30 @@ class HMC_GNN_SSL(nn.Module):
         bn2,
         layer_fusion,
         edge_weight=None,
+        relation_dropout_rate=0.0,
     ):
         # ==================================
         # 下面是常规的图传播 (Graph Propagation)
         # ==================================
         if perturbed and self.training:
+            if relation_dropout_rate > 0:
+                unique_relations = torch.unique(edge_type)
+                if unique_relations.numel() > 1:
+                    keep_relation_mask = (
+                        torch.rand(unique_relations.size(0), device=edge_type.device)
+                        > relation_dropout_rate
+                    )
+                    if not torch.any(keep_relation_mask):
+                        keep_relation_mask[
+                            torch.randint(unique_relations.size(0), (1,), device=edge_type.device)
+                        ] = True
+                    keep_relations = unique_relations[keep_relation_mask]
+                    rel_mask = torch.isin(edge_type, keep_relations)
+                    edge_index = edge_index[:, rel_mask]
+                    edge_type = edge_type[rel_mask]
+                    if edge_weight is not None:
+                        edge_weight = edge_weight[rel_mask]
+
             mask = torch.rand(edge_index.size(1), device=edge_index.device) > Config.edge_drop_rate
             edge_index = edge_index[:, mask]
             edge_type = edge_type[mask]
@@ -589,8 +622,23 @@ class HMC_GNN_SSL(nn.Module):
             local_edge_weight = edge_weight
 
         streams = []
+        semantic_stream = None
+        if self.use_semantic_branch or self.use_semantic_residual:
+            x_semantic_input = self._build_pure_semantic_input()
+            semantic_stream = self.semantic_proj(x_semantic_input)
+
+        global_relation_dropout_rate = (
+            self.relation_dropout_rate
+            if self.relation_dropout_scope in {'global', 'all'}
+            else 0.0
+        )
+        local_relation_dropout_rate = (
+            self.relation_dropout_rate
+            if self.relation_dropout_scope in {'local', 'all'}
+            else 0.0
+        )
         if self.use_global_branch:
-            streams.append(self._run_rgcn_stack(
+            global_stream = self._run_rgcn_stack(
                 x_input,
                 edge_index,
                 edge_type,
@@ -601,10 +649,14 @@ class HMC_GNN_SSL(nn.Module):
                 self.bn2,
                 self.layer_fusion,
                 edge_weight=edge_weight,
-            ))
+                relation_dropout_rate=global_relation_dropout_rate,
+            )
+            if self.use_semantic_residual and semantic_stream is not None:
+                global_stream = global_stream + self.semantic_residual_weight * semantic_stream
+            streams.append(global_stream)
 
         if self.use_local_branch:
-            streams.append(self._run_rgcn_stack(
+            local_stream = self._run_rgcn_stack(
                 x_input,
                 local_edge_index,
                 local_edge_type,
@@ -615,11 +667,14 @@ class HMC_GNN_SSL(nn.Module):
                 self.local_bn2,
                 self.local_layer_fusion,
                 edge_weight=local_edge_weight,
-            ))
+                relation_dropout_rate=local_relation_dropout_rate,
+            )
+            if self.use_semantic_residual and semantic_stream is not None:
+                local_stream = local_stream + self.semantic_residual_weight * semantic_stream
+            streams.append(local_stream)
 
-        if self.use_semantic_branch:
-            x_semantic_input = self._build_pure_semantic_input()
-            streams.append(self.semantic_proj(x_semantic_input))
+        if self.use_semantic_branch and semantic_stream is not None:
+            streams.append(semantic_stream)
 
         return self._apply_branch_fusion(streams)
 
