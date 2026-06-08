@@ -262,7 +262,7 @@ def main():
     USE_MRHAF_BRANCH_FUSION = True
     # sum/add: unnormalized branch addition; mean: averaged branch addition;
     # gate: learn per-node branch weights.
-    BRANCH_FUSION_MODE = 'gate'
+    BRANCH_FUSION_MODE = 'sum'
     # Complementary-view ablation switches. These only take effect when
     # USE_MRHAF_BRANCH_FUSION=True.
     USE_GLOBAL_BRANCH = True
