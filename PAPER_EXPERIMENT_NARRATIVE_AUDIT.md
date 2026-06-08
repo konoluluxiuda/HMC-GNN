@@ -1149,3 +1149,358 @@ The paper can retain the full objective as the main model. The auxiliary objecti
 Caution:
 
 If the `w/o cross-modal SSL` run was produced with `USE_CROSS_MODAL=False`, rename it to `w/o cross-modal chemical stream + SSL` and rerun the clean loss-only ablation with `USE_CROSS_MODAL=True, CROSS_MODAL_WEIGHT=0.0`.
+
+## Added Test Log: Gene-Jaccard Source Ablation
+
+Date: 2026-06-08
+
+Purpose:
+
+Test whether the gain from gene-overlap local semantic augmentation comes from herb-side same-type edges, disease-side same-type edges, or their joint use.
+
+Shared configuration:
+
+```text
+ETCM_GRAPH_VARIANT = g4_gene_bridge_chemical_gene_jaccard
+Gene-overlap sparsification = percentile
+gene_jaccard_score_percentile = 90.0
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+BRANCH_FUSION_MODE = gate
+FUSION_MODE = gated
+USE_RELATION_DROPOUT = False
+USE_EDGE_WEIGHTED_GENE_JACCARD = False
+Full objective enabled
+```
+
+Graph statistics:
+
+```text
+disease_split_graph_data_genejacc_herb:
+  herb_gene_jaccard_edges = 3100
+  disease_gene_jaccard_edges = 0
+  edge_count = 717574
+
+disease_split_graph_data_genejacc_disease:
+  herb_gene_jaccard_edges = 0
+  disease_gene_jaccard_edges = 1507
+  edge_count = 715981
+
+disease_split_graph_data_percentile90 / disease_split_graph_data_genejacc_both:
+  herb_gene_jaccard_edges = 3100
+  disease_gene_jaccard_edges = 1507
+  edge_count = 719081
+```
+
+### herb_gene_jaccard only
+
+Configuration:
+
+```text
+Graph root = disease_split_graph_data_genejacc_herb
+gene_jaccard_source = herb
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1784
+```
+
+Test results:
+
+```text
+P@5=0.5904   R@5=0.1012   F1@5=0.1200   NDCG@5=0.6246
+P@10=0.5391  R@10=0.1468  F1@10=0.1621  NDCG@10=0.5936
+P@20=0.4923  R@20=0.2272  F1@20=0.2198  NDCG@20=0.5678
+P@50=0.4255  R@50=0.3902  F1@50=0.2905  NDCG@50=0.5763
+```
+
+### disease_gene_jaccard only
+
+Configuration:
+
+```text
+Graph root = disease_split_graph_data_genejacc_disease
+gene_jaccard_source = disease
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1680
+```
+
+Test results:
+
+```text
+P@5=0.5535   R@5=0.0665   F1@5=0.0961   NDCG@5=0.5753
+P@10=0.5229  R@10=0.1208  F1@10=0.1506  NDCG@10=0.5540
+P@20=0.4878  R@20=0.2208  F1@20=0.2155  NDCG@20=0.5397
+P@50=0.4246  R@50=0.4078  F1@50=0.2944  NDCG@50=0.5570
+```
+
+### herb + disease gene_jaccard
+
+Configuration:
+
+```text
+Graph root = disease_split_graph_data_percentile90
+Equivalent graph root = disease_split_graph_data_genejacc_both
+gene_jaccard_source = both
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.2806
+```
+
+Test results:
+
+```text
+P@5=0.7454   R@5=0.1810   F1@5=0.1984   NDCG@5=0.7948
+P@10=0.7044  R@10=0.2715  F1@10=0.2657  NDCG@10=0.7829
+P@20=0.6380  R@20=0.3918  F1@20=0.3334  NDCG@20=0.7647
+P@50=0.5230  R@50=0.5820  F1@50=0.3889  NDCG@50=0.7746
+```
+
+### Comparison
+
+```text
+Gene-jaccard source       Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   NDCG@20  F1@50   NDCG@50
+herb only                 0.1784     0.5391  0.1468  0.1621  0.5936   0.2198  0.5678   0.2905  0.5763
+disease only              0.1680     0.5229  0.1208  0.1506  0.5540   0.2155  0.5397   0.2944  0.5570
+herb + disease            0.2806     0.7044  0.2715  0.2657  0.7829   0.3334  0.7647   0.3889  0.7746
+```
+
+Interpretation:
+
+The performance gain does not come from herb-side or disease-side gene-overlap edges alone. Both single-source variants perform close to the weak local/global graph settings, whereas the joint herb+disease setting restores the strong main result. This suggests that herb-side and disease-side same-type semantic neighborhoods are complementary: herb-gene overlap helps organize candidate herbs, while disease-gene overlap helps organize disease-side query semantics. The useful signal emerges when both sides are available to support disease-herb ranking.
+
+Manuscript implication:
+
+This ablation strengthens the gene-overlap contribution, but the wording should avoid claiming that either herb or disease gene similarity alone is sufficient. A careful statement is:
+
+```text
+The improvement of gene-overlap-guided augmentation mainly arises from jointly constructing herb-side and disease-side same-type semantic neighborhoods. Removing either side substantially weakens performance, indicating that the two gene-overlap structures provide complementary propagation paths under sparse disease-herb supervision.
+```
+
+Caution:
+
+Before finalizing this table, confirm that the herb-only and disease-only graph directories contain the same optional feature files as the main graph, especially `node_gene_matrix.pt`, `node_attributes.pt`, `node_chem_fingerprint.pt`, `node_chem_dense.pt`, and `node_disease_text.pt`. Otherwise, the comparison may mix graph-source ablation with missing-feature ablation.
+
+## Added Test Log: Complementary View Ablation
+
+Date: 2026-06-08
+
+Purpose:
+
+Evaluate whether the three-view design is necessary. The current HMC-GNN uses a local branch, a global branch, and a semantic branch. This ablation removes or isolates these views to test their respective contribution.
+
+Mapping note:
+
+```text
+The third run is interpreted as both w/o semantic and local + global,
+because disabling the semantic branch and disabling semantic residual leaves
+only local and global graph branches.
+The final local + global + semantic row uses the current main configuration.
+```
+
+Assumed shared configuration:
+
+```text
+Graph root = disease_split_graph_data_percentile90
+ETCM_GRAPH_VARIANT = g4_gene_bridge_chemical_gene_jaccard
+BRANCH_FUSION_MODE = gate
+FUSION_MODE = gated
+USE_RELATION_DROPOUT = False
+USE_EDGE_WEIGHTED_GENE_JACCARD = False
+Full objective enabled
+```
+
+### w/o local
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = False
+USE_SEMANTIC_BRANCH = True
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.2771
+```
+
+Test results:
+
+```text
+P@5=0.7565   R@5=0.1738   F1@5=0.1943   NDCG@5=0.7972
+P@10=0.7059  R@10=0.2664  F1@10=0.2626  NDCG@10=0.7804
+P@20=0.6443  R@20=0.3905  F1@20=0.3372  NDCG@20=0.7640
+P@50=0.5301  R@50=0.5967  F1@50=0.3965  NDCG@50=0.7792
+```
+
+### w/o global
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = False
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = True
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1776
+```
+
+Test results:
+
+```text
+P@5=0.5904   R@5=0.1012   F1@5=0.1200   NDCG@5=0.6260
+P@10=0.5373  R@10=0.1452  F1@10=0.1606  NDCG@10=0.5932
+P@20=0.4934  R@20=0.2299  F1@20=0.2210  NDCG@20=0.5697
+P@50=0.4242  R@50=0.3900  F1@50=0.2911  NDCG@50=0.5762
+```
+
+### w/o semantic / local + global
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = False
+USE_SEMANTIC_RESIDUAL = False
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1862
+```
+
+Test results:
+
+```text
+P@5=0.6140   R@5=0.1051   F1@5=0.1274   NDCG@5=0.6393
+P@10=0.5314  R@10=0.1495  F1@10=0.1667  NDCG@10=0.5878
+P@20=0.4782  R@20=0.2308  F1@20=0.2180  NDCG@20=0.5585
+P@50=0.4098  R@50=0.4112  F1@50=0.2863  NDCG@50=0.5713
+```
+
+### local only
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = False
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = False
+USE_SEMANTIC_RESIDUAL = False
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1810
+```
+
+Test results:
+
+```text
+P@5=0.5365   R@5=0.0973   F1@5=0.1134   NDCG@5=0.5571
+P@10=0.5236  R@10=0.1508  F1@10=0.1662  NDCG@10=0.5554
+P@20=0.4716  R@20=0.2276  F1@20=0.2160  NDCG@20=0.5338
+P@50=AUTHOR_INPUT_NEEDED  R@50=AUTHOR_INPUT_NEEDED  F1@50=AUTHOR_INPUT_NEEDED  NDCG@50=AUTHOR_INPUT_NEEDED
+```
+
+### global only
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = False
+USE_SEMANTIC_BRANCH = False
+USE_SEMANTIC_RESIDUAL = False
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.2651
+```
+
+Test results:
+
+```text
+P@5=0.7314   R@5=0.1694   F1@5=0.1852   NDCG@5=0.7821
+P@10=0.6716  R@10=0.2450  F1@10=0.2425  NDCG@10=0.7545
+P@20=0.6175  R@20=0.3711  F1@20=0.3164  NDCG@20=0.7405
+P@50=0.5099  R@50=0.5596  F1@50=0.3741  NDCG@50=0.7513
+```
+
+### local + global + semantic
+
+Configuration:
+
+```text
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = True
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+```
+
+This is the current main configuration:
+
+```text
+Best validation F1@10 = 0.2806
+P@5=0.7454   R@5=0.1810   F1@5=0.1984   NDCG@5=0.7948
+P@10=0.7044  R@10=0.2715  F1@10=0.2657  NDCG@10=0.7829
+P@20=0.6380  R@20=0.3918  F1@20=0.3334  NDCG@20=0.7647
+P@50=0.5230  R@50=0.5820  F1@50=0.3889  NDCG@50=0.7746
+```
+
+### Comparison
+
+```text
+View setting                Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   NDCG@20  F1@50
+w/o local                   0.2771     0.7059  0.2664  0.2626  0.7804   0.3372  0.7640   0.3965
+w/o global                  0.1776     0.5373  0.1452  0.1606  0.5932   0.2210  0.5697   0.2911
+w/o semantic / local+global 0.1862     0.5314  0.1495  0.1667  0.5878   0.2180  0.5585   0.2863
+local only                  0.1810     0.5236  0.1508  0.1662  0.5554   0.2160  0.5338   AUTHOR_INPUT_NEEDED
+global only                 0.2651     0.6716  0.2450  0.2425  0.7545   0.3164  0.7405   0.3741
+local+global+semantic       0.2806     0.7044  0.2715  0.2657  0.7829   0.3334  0.7647   0.3889
+```
+
+Interpretation:
+
+The global branch is the strongest single graph view. `global only` remains competitive, while `local only` performs poorly, indicating that local gene-overlap and interaction edges cannot replace the external heterogeneous knowledge branch. Removing the global branch causes a large drop, confirming that global heterogeneous knowledge is essential.
+
+The semantic view is also critical. Removing the semantic branch and semantic residual causes a sharp drop from F1@10=0.2657 to F1@10=0.1667, even when both local and global graph branches are retained. This shows that raw multimodal node semantics are not merely auxiliary; they stabilize and enrich graph-propagated representations.
+
+The local branch provides a smaller but still meaningful contribution at the selected validation point. The full model has the highest validation F1@10, R@10, F1@10, and NDCG@10, while `w/o local` is very close and even slightly stronger at K=20/50 in this single run. Therefore, the manuscript should avoid overclaiming that the local branch alone drives the improvement. A more accurate statement is that local gene-overlap structure complements global knowledge and semantic representations, but the main performance foundation is the global-semantic combination.
+
+Manuscript implication:
+
+This ablation supports the complementary-view framing, but with nuance:
+
+```text
+The global view provides the main relational backbone, the semantic view preserves multimodal node information, and the local gene-overlap view provides additional task-specific neighborhood signals. The best validation and top-10 ranking performance is obtained when all three views are combined.
+```
+
+Caution:
+
+The `local only` run is missing @50 metrics in the provided log. Fill these values before finalizing the table. Because `w/o local` is close to or better than the full model at some larger K values, the paper should report full metrics rather than only F1@10 and should frame the local branch as complementary rather than universally dominant.

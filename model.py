@@ -564,11 +564,17 @@ class HMC_GNN_SSL(nn.Module):
         return layer_fusion(x_concat)
 
     def _apply_branch_fusion(self, streams):
-        if self.branch_fusion_mode == 'sum':
+        if self.branch_fusion_mode in {'sum', 'add'}:
             return sum(streams)
 
-        if self.branch_fusion_mode != 'gate':
+        if self.branch_fusion_mode == 'mean':
             return sum(streams) / len(streams)
+
+        if self.branch_fusion_mode != 'gate':
+            raise ValueError(
+                f"Unsupported branch_fusion_mode={self.branch_fusion_mode}. "
+                "Use 'gate', 'sum', 'add', or 'mean'."
+            )
 
         x_fused = sum(streams) / len(streams)
 

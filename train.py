@@ -260,8 +260,14 @@ def main():
     #   local branch    = disease-herb/Jaccard interaction RGCN
     #   semantic branch = pure type-aware fused node features without graph propagation
     USE_MRHAF_BRANCH_FUSION = True
-    # sum: follows MRHAF final fusion; gate: learn per-node branch weights.
+    # sum/add: unnormalized branch addition; mean: averaged branch addition;
+    # gate: learn per-node branch weights.
     BRANCH_FUSION_MODE = 'gate'
+    # Complementary-view ablation switches. These only take effect when
+    # USE_MRHAF_BRANCH_FUSION=True.
+    USE_GLOBAL_BRANCH = True
+    USE_LOCAL_BRANCH = True
+    USE_SEMANTIC_BRANCH = True
 
     # 开启跨模态对比学习
     USE_CROSS_MODAL = True
@@ -321,6 +327,13 @@ def main():
     print(f"  [Fuse] Fusion Mode: {FUSION_MODE}")
     print(f"  [Fuse] MRHAF-style Branch Fusion: {USE_MRHAF_BRANCH_FUSION}")
     print(f"  [Fuse] Branch Fusion Mode: {BRANCH_FUSION_MODE if USE_MRHAF_BRANCH_FUSION else '-'}")
+    if USE_MRHAF_BRANCH_FUSION:
+        print(
+            "  [Fuse] Branches: "
+            f"global={USE_GLOBAL_BRANCH}, "
+            f"local={USE_LOCAL_BRANCH}, "
+            f"semantic={USE_SEMANTIC_BRANCH}"
+        )
     print(f"  [Feat]  Base Attributes (Property/Meridian): {USE_BASE_ATTR}")
     print(f"  [Feat]  Deep Chemical (BERT/SMILES): {USE_CHEM_DENSE}")
     print(f"  [Feat]  Gene Feature: {USE_GENE_FEATURE}")
@@ -352,9 +365,8 @@ def main():
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'etcm_graph_leak_data', ETCM_GRAPH_VARIANT)
     elif USE_DISEASE_SPLIT_GRAPH:
         print(f">>> [Experiment] Loading DISEASE-SPLIT GRAPH variant: {ETCM_GRAPH_VARIANT}")
-        #Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data', ETCM_GRAPH_VARIANT)
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_percentile90', ETCM_GRAPH_VARIANT)
-        # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_adaptive05', ETCM_GRAPH_VARIANT)
+        # Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'disease_split_graph_data_genejacc_both', ETCM_GRAPH_VARIANT)
     elif USE_TFIDF_GRAPH:
         print(">>> [Experiment] Loading TF-IDF GRAPH (Anti-Hub Strategy)...")
         Config.REC_DATA_DIR = os.path.join(Config.DATA_ROOT, 'tfidf_graph_data')
@@ -564,6 +576,9 @@ def main():
         disease_indices=data_manager.disease_indices,
         use_branch_gate=USE_MRHAF_BRANCH_FUSION,
         branch_fusion_mode=BRANCH_FUSION_MODE,
+        use_global_branch=USE_GLOBAL_BRANCH,
+        use_local_branch=USE_LOCAL_BRANCH,
+        use_semantic_branch=USE_SEMANTIC_BRANCH,
         use_edge_weighted_rgcn=USE_EDGE_WEIGHTED_GENE_JACCARD,
         relation_dropout_rate=RELATION_DROPOUT_RATE if USE_RELATION_DROPOUT else 0.0,
         relation_dropout_scope=RELATION_DROPOUT_SCOPE,

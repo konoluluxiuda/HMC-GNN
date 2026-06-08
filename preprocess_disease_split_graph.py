@@ -491,53 +491,70 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
     add_summary("disease_herb_jaccard_edges", len(edge_set) - before, "Built from train diseases only.")
 
     if variant.get("use_gene_jaccard_edges", False):
-        herb_gene_edges = build_gene_jaccard_edges(
-            "herbTOgene_etcm_matched.csv",
-            node_registry,
-            threshold=args.herb_gene_jaccard_threshold,
-            min_shared=args.herb_gene_min_shared,
-            top_k=args.herb_gene_topk,
-            source_type="herb",
-            sparsify_mode=args.gene_jaccard_sparsify_mode,
-            score_percentile=args.gene_jaccard_score_percentile,
-            adaptive_alpha=args.gene_jaccard_adaptive_alpha,
-            min_topk=args.gene_jaccard_min_topk,
-        )
-        herb_gene_rel = relation_registry.add("herb_gene_jaccard")
-        before = len(edge_set)
-        for src_idx, dst_idx, _, _, _, _ in herb_gene_edges:
-            edge_set.add((src_idx, dst_idx, herb_gene_rel))
-        for src_idx, dst_idx, score, _, _, _ in herb_gene_edges:
-            edge_weight_lookup[(src_idx, dst_idx, herb_gene_rel)] = float(score)
-        add_summary(
-            "herb_gene_jaccard_edges",
-            len(edge_set) - before,
-            "Built from shared herb-associated ETCM genes.",
-        )
+        herb_gene_edges = []
+        disease_gene_edges = []
 
-        disease_gene_edges = build_gene_jaccard_edges(
-            "diseaseTOgene_etcm_matched.csv",
-            node_registry,
-            threshold=args.disease_gene_jaccard_threshold,
-            min_shared=args.disease_gene_min_shared,
-            top_k=args.disease_gene_topk,
-            source_type="disease",
-            sparsify_mode=args.gene_jaccard_sparsify_mode,
-            score_percentile=args.gene_jaccard_score_percentile,
-            adaptive_alpha=args.gene_jaccard_adaptive_alpha,
-            min_topk=args.gene_jaccard_min_topk,
-        )
-        disease_gene_rel = relation_registry.add("disease_gene_jaccard")
-        before = len(edge_set)
-        for src_idx, dst_idx, _, _, _, _ in disease_gene_edges:
-            edge_set.add((src_idx, dst_idx, disease_gene_rel))
-        for src_idx, dst_idx, score, _, _, _ in disease_gene_edges:
-            edge_weight_lookup[(src_idx, dst_idx, disease_gene_rel)] = float(score)
-        add_summary(
-            "disease_gene_jaccard_edges",
-            len(edge_set) - before,
-            "Built from shared disease-associated ETCM genes.",
-        )
+        if args.gene_jaccard_source in {"both", "herb"}:
+            herb_gene_edges = build_gene_jaccard_edges(
+                "herbTOgene_etcm_matched.csv",
+                node_registry,
+                threshold=args.herb_gene_jaccard_threshold,
+                min_shared=args.herb_gene_min_shared,
+                top_k=args.herb_gene_topk,
+                source_type="herb",
+                sparsify_mode=args.gene_jaccard_sparsify_mode,
+                score_percentile=args.gene_jaccard_score_percentile,
+                adaptive_alpha=args.gene_jaccard_adaptive_alpha,
+                min_topk=args.gene_jaccard_min_topk,
+            )
+            herb_gene_rel = relation_registry.add("herb_gene_jaccard")
+            before = len(edge_set)
+            for src_idx, dst_idx, _, _, _, _ in herb_gene_edges:
+                edge_set.add((src_idx, dst_idx, herb_gene_rel))
+            for src_idx, dst_idx, score, _, _, _ in herb_gene_edges:
+                edge_weight_lookup[(src_idx, dst_idx, herb_gene_rel)] = float(score)
+            add_summary(
+                "herb_gene_jaccard_edges",
+                len(edge_set) - before,
+                "Built from shared herb-associated ETCM genes.",
+            )
+        else:
+            add_summary(
+                "herb_gene_jaccard_edges",
+                0,
+                f"Skipped because gene_jaccard_source={args.gene_jaccard_source}.",
+            )
+
+        if args.gene_jaccard_source in {"both", "disease"}:
+            disease_gene_edges = build_gene_jaccard_edges(
+                "diseaseTOgene_etcm_matched.csv",
+                node_registry,
+                threshold=args.disease_gene_jaccard_threshold,
+                min_shared=args.disease_gene_min_shared,
+                top_k=args.disease_gene_topk,
+                source_type="disease",
+                sparsify_mode=args.gene_jaccard_sparsify_mode,
+                score_percentile=args.gene_jaccard_score_percentile,
+                adaptive_alpha=args.gene_jaccard_adaptive_alpha,
+                min_topk=args.gene_jaccard_min_topk,
+            )
+            disease_gene_rel = relation_registry.add("disease_gene_jaccard")
+            before = len(edge_set)
+            for src_idx, dst_idx, _, _, _, _ in disease_gene_edges:
+                edge_set.add((src_idx, dst_idx, disease_gene_rel))
+            for src_idx, dst_idx, score, _, _, _ in disease_gene_edges:
+                edge_weight_lookup[(src_idx, dst_idx, disease_gene_rel)] = float(score)
+            add_summary(
+                "disease_gene_jaccard_edges",
+                len(edge_set) - before,
+                "Built from shared disease-associated ETCM genes.",
+            )
+        else:
+            add_summary(
+                "disease_gene_jaccard_edges",
+                0,
+                f"Skipped because gene_jaccard_source={args.gene_jaccard_source}.",
+            )
         gene_jaccard_rows = []
         for edge_name, edge_rows in [
             ("herb_gene_jaccard", herb_gene_edges),
@@ -560,6 +577,7 @@ def build_variant(variant_name, node_registry, args, train_dict_ids, val_dict_id
             index=False,
             encoding="utf-8-sig",
         )
+        add_summary("gene_jaccard_source", args.gene_jaccard_source)
         add_summary("gene_jaccard_sparsify_mode", args.gene_jaccard_sparsify_mode)
         add_summary("gene_jaccard_score_percentile", args.gene_jaccard_score_percentile)
         add_summary("gene_jaccard_adaptive_alpha", args.gene_jaccard_adaptive_alpha)
@@ -676,6 +694,15 @@ def parse_args():
     parser.add_argument("--gene-jaccard-score-percentile", type=float, default=90.0)
     parser.add_argument("--gene-jaccard-adaptive-alpha", type=float, default=0.0)
     parser.add_argument("--gene-jaccard-min-topk", type=int, default=1)
+    parser.add_argument(
+        "--gene-jaccard-source",
+        choices=["both", "herb", "disease"],
+        default="both",
+        help=(
+            "Which same-type shared-gene Jaccard edges to add for gene-source ablation: "
+            "both, herb-only, or disease-only."
+        ),
+    )
     return parser.parse_args()
 
 
