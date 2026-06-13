@@ -250,6 +250,7 @@ def main():
 
     # 2.1 融合策略
     # add: 原始逐元素相加
+    # shared_gated: herb/disease 共用一个统一模态槽位 gate
     # gated: 类型感知门控融合
     #   Herb:    structure / attr / chem / gene
     #   Disease: structure / disease_text / gene
@@ -262,7 +263,7 @@ def main():
     USE_MRHAF_BRANCH_FUSION = True
     # sum/add: unnormalized branch addition; mean: averaged branch addition;
     # gate: learn per-node branch weights.
-    BRANCH_FUSION_MODE = 'sum'
+    BRANCH_FUSION_MODE = 'gate'
     # Complementary-view ablation switches. These only take effect when
     # USE_MRHAF_BRANCH_FUSION=True.
     USE_GLOBAL_BRANCH = True
@@ -586,6 +587,8 @@ def main():
         semantic_residual_weight=SEMANTIC_RESIDUAL_WEIGHT,
     ).to(Config.device)
     if getattr(model, 'use_gated_fusion', False):
+        if getattr(model, 'use_shared_gated_fusion', False):
+            print(f"✅ Shared gated fusion streams: {', '.join(model.shared_gate_stream_names)}")
         if getattr(model, 'use_herb_gated_fusion', False):
             print(f"✅ Herb gated fusion streams: {', '.join(model.herb_gate_stream_names)}")
         if getattr(model, 'use_disease_gated_fusion', False):

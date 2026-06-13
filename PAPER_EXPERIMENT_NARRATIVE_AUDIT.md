@@ -11,11 +11,11 @@ Latest user decision:
 ```text
 Final main configuration: gate
 Sum result:
-P@5=0.5786   R@5=0.0993   F1@5=0.1186   NDCG@5=0.6083
-P@10=0.5465  R@10=0.1551  F1@10=0.1725  NDCG@10=0.5906
-P@20=0.4810  R@20=0.2316  F1@20=0.2203  NDCG@20=0.5554
-P@50=0.4008  R@50=0.3925  F1@50=0.2811  NDCG@50=0.5558
-Best validation F1@10 = 0.1901
+P@5=0.5948   R@5=0.1007   F1@5=0.1210   NDCG@5=0.6208
+P@10=0.5373  R@10=0.1497  F1@10=0.1649  NDCG@10=0.5858
+P@20=0.4703  R@20=0.2221  F1@20=0.2132  NDCG@20=0.5469
+P@50=0.4131  R@50=0.3988  F1@50=0.2863  NDCG@50=0.5632
+Best validation F1@10 = 0.1850
 ```
 
 Important caveat:
@@ -29,9 +29,8 @@ The current manuscript narrative must distinguish between:
 If gate is the final main model, the paper should not use previous `sum` high-score logs as the main result unless that exact configuration is restored and rerun. The current `sum` result above is much lower than the earlier logged gene-jaccard-sum result, so the safest narrative is:
 
 ```text
-Gate is the final architecture because it is more flexible and node-adaptive.
+Gate is the final architecture because it is more flexible and node-adaptive and currently performs much better than sum.
 Sum is reported as an ablation or diagnostic baseline.
-AUTHOR_INPUT_NEEDED: final gate test result table.
 ```
 
 Risk:
@@ -1504,3 +1503,646 @@ The global view provides the main relational backbone, the semantic view preserv
 Caution:
 
 The `local only` run is missing @50 metrics in the provided log. Fill these values before finalizing the table. Because `w/o local` is close to or better than the full model at some larger K values, the paper should report full metrics rather than only F1@10 and should frame the local branch as complementary rather than universally dominant.
+
+## Added Test Log: Branch Fusion Ablation
+
+Date: 2026-06-08
+
+Purpose:
+
+Compare the branch-level fusion strategy for combining local, global, and semantic representations. The current implementation supports:
+
+```text
+gate: learn node-type-aware branch weights
+sum/add: direct unnormalized addition of branch embeddings
+mean: averaged addition of branch embeddings
+```
+
+In this experiment, `add` is not run separately because it is implemented as an alias of `sum`. `mean` is not tested in the current round by design.
+
+Shared configuration:
+
+```text
+Graph root = disease_split_graph_data_genejacc_both or equivalent disease_split_graph_data_percentile90
+ETCM_GRAPH_VARIANT = g4_gene_bridge_chemical_gene_jaccard
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = True
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+FUSION_MODE = gated
+USE_RELATION_DROPOUT = False
+USE_EDGE_WEIGHTED_GENE_JACCARD = False
+Full objective enabled
+```
+
+### sum / add
+
+Configuration:
+
+```text
+BRANCH_FUSION_MODE = sum
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1850
+```
+
+Test results:
+
+```text
+P@5=0.5948   R@5=0.1007   F1@5=0.1210   NDCG@5=0.6208
+P@10=0.5373  R@10=0.1497  F1@10=0.1649  NDCG@10=0.5858
+P@20=0.4703  R@20=0.2221  F1@20=0.2132  NDCG@20=0.5469
+P@50=0.4131  R@50=0.3988  F1@50=0.2863  NDCG@50=0.5632
+```
+
+### gate
+
+Configuration:
+
+```text
+BRANCH_FUSION_MODE = gate
+```
+
+This is the current main configuration:
+
+```text
+Best validation F1@10 = 0.2806
+P@5=0.7454   R@5=0.1810   F1@5=0.1984   NDCG@5=0.7948
+P@10=0.7044  R@10=0.2715  F1@10=0.2657  NDCG@10=0.7829
+P@20=0.6380  R@20=0.3918  F1@20=0.3334  NDCG@20=0.7647
+P@50=0.5230  R@50=0.5820  F1@50=0.3889  NDCG@50=0.7746
+```
+
+### mean
+
+Status:
+
+```text
+Not tested in this round.
+```
+
+Reason:
+
+```text
+The current comparison focuses on adaptive branch weighting versus non-adaptive additive fusion.
+Since add is equivalent to sum in the implementation, sum is sufficient as the additive baseline.
+Mean can be treated as a future diagnostic if reviewers specifically ask whether scale-normalized addition changes the result.
+```
+
+### Comparison
+
+```text
+Branch fusion  Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   NDCG@20  F1@50   NDCG@50
+sum/add        0.1850     0.5373  0.1497  0.1649  0.5858   0.2132  0.5469   0.2863  0.5632
+gate           0.2806     0.7044  0.2715  0.2657  0.7829   0.3334  0.7647   0.3889  0.7746
+mean           not tested
+```
+
+Interpretation:
+
+The gated branch fusion substantially outperforms direct additive fusion. This suggests that local, global, and semantic branches should not be combined with fixed equal contribution. Instead, the model benefits from learning node-specific branch weights, especially because disease and herb nodes rely on different information sources.
+
+Manuscript implication:
+
+This result supports the branch-gate design as a meaningful part of the complementary-view framework. The paper can state that adaptive branch fusion is necessary for effectively combining heterogeneous views, while direct summation is too rigid and leads to severe performance degradation.
+
+Caution:
+
+Do not claim that every possible non-gated fusion strategy has been exhausted, because `mean` has not been tested. The defensible claim is that learned gate fusion clearly outperforms the implemented additive baseline (`sum/add`) under the current main configuration.
+
+## Added Test Log: Type-Aware Feature Fusion Ablation
+
+Date: 2026-06-08
+
+Purpose:
+
+Test whether feature-level multimodal fusion needs no gate, a shared gate, or separate herb/disease type-aware gates.
+
+Fusion definitions:
+
+```text
+add:
+  Directly adds projected structure, attr, chem, disease_text, and gene streams.
+
+shared_gated:
+  Uses one shared gate for herb and disease nodes with unified modality slots:
+  structure / attr / chem / disease_text / gene.
+  Herb nodes use structure / attr / chem / 0 / gene.
+  Disease nodes use structure / 0 / 0 / disease_text / gene.
+
+gated:
+  Uses type-aware gates:
+  Herb:    structure / attr / chem / gene
+  Disease: structure / disease_text / gene
+```
+
+Shared configuration:
+
+```text
+Graph root = disease_split_graph_data_genejacc_both or equivalent disease_split_graph_data_percentile90
+ETCM_GRAPH_VARIANT = g4_gene_bridge_chemical_gene_jaccard
+BRANCH_FUSION_MODE = gate
+USE_GLOBAL_BRANCH = True
+USE_LOCAL_BRANCH = True
+USE_SEMANTIC_BRANCH = True
+USE_SEMANTIC_RESIDUAL = True
+SEMANTIC_RESIDUAL_WEIGHT = 0.3
+USE_RELATION_DROPOUT = False
+USE_EDGE_WEIGHTED_GENE_JACCARD = False
+Full objective enabled
+```
+
+### add fusion
+
+Configuration:
+
+```text
+FUSION_MODE = add
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1813
+```
+
+Test results:
+
+```text
+P@5=0.5889   R@5=0.1020   F1@5=0.1217   NDCG@5=0.6239
+P@10=0.5413  R@10=0.1505  F1@10=0.1649  NDCG@10=0.5936
+P@20=0.4784  R@20=0.2229  F1@20=0.2123  NDCG@20=0.5578
+P@50=0.4165  R@50=0.4161  F1@50=0.2914  NDCG@50=0.5754
+```
+
+### shared gate
+
+Configuration:
+
+```text
+FUSION_MODE = shared_gated
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.2753
+```
+
+Test results:
+
+```text
+P@5=0.7469   R@5=0.1869   F1@5=0.2008   NDCG@5=0.7941
+P@10=0.7033  R@10=0.2774  F1@10=0.2681  NDCG@10=0.7833
+P@20=0.6406  R@20=0.3955  F1@20=0.3394  NDCG@20=0.7677
+P@50=0.5171  R@50=0.5770  F1@50=0.3868  NDCG@50=0.7721
+```
+
+### type-aware gate
+
+Configuration:
+
+```text
+FUSION_MODE = gated
+```
+
+This is the current main configuration:
+
+```text
+Best validation F1@10 = 0.2806
+P@5=0.7454   R@5=0.1810   F1@5=0.1984   NDCG@5=0.7948
+P@10=0.7044  R@10=0.2715  F1@10=0.2657  NDCG@10=0.7829
+P@20=0.6380  R@20=0.3918  F1@20=0.3334  NDCG@20=0.7647
+P@50=0.5230  R@50=0.5820  F1@50=0.3889  NDCG@50=0.7746
+```
+
+### Comparison
+
+```text
+Feature fusion   Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   NDCG@20  F1@50   NDCG@50
+add              0.1813     0.5413  0.1505  0.1649  0.5936   0.2123  0.5578   0.2914  0.5754
+shared gate      0.2753     0.7033  0.2774  0.2681  0.7833   0.3394  0.7677   0.3868  0.7721
+type-aware gate  0.2806     0.7044  0.2715  0.2657  0.7829   0.3334  0.7647   0.3889  0.7746
+```
+
+Interpretation:
+
+Gated feature fusion is clearly necessary: both shared gate and type-aware gate substantially outperform direct additive fusion. However, shared gate and type-aware gate are very close in this run. Shared gate is slightly higher on test F1@10 and NDCG@10, while type-aware gate is higher on validation F1@10 and F1@50. Therefore, the current evidence supports using a gated multimodal fusion mechanism, but it does not strongly prove that separate herb/disease gates are the sole source of improvement.
+
+Manuscript implication:
+
+Keep `type-aware gate` as the main implementation because it is semantically better aligned with asymmetric herb/disease modalities and has the best validation F1@10. But in the paper, phrase the claim carefully:
+
+```text
+Gated multimodal fusion is important for integrating heterogeneous semantic streams. We adopt a type-aware gate to match the asymmetric modality availability of herbs and diseases. In ablation, both shared and type-aware gates outperform additive fusion, while the type-aware gate provides a semantically principled final design.
+```
+
+Caution:
+
+Do not overclaim that type-aware gate dramatically outperforms shared gate. The stronger supported claim is that learnable gated fusion is important, while type-aware separation is a reasonable and interpretable architectural choice.
+
+## Adapted External Baselines Under The Same Disease-Label-Disjoint Protocol
+
+### Baseline Positioning
+
+Many published TCM prescription recommendation models are designed for symptom-set-to-herb-set prediction. Directly comparing their original reported results with the current disease-to-herb setting is not fair. The comparison below therefore adapts the core modeling idea of each method to the same HMC-GNN data protocol:
+
+```text
+Same split: disease-label-disjoint train/validation/test diseases
+Same candidate herbs
+Same metrics: P/R/F1/NDCG @ 5/10/20/50
+Validation/test disease-herb labels are excluded from graph construction
+```
+
+These should be reported as adapted baselines, not direct reproductions.
+
+### KDHR-style Multi-Graph GCN
+
+Original KDHR idea:
+
+```text
+symptom-herb graph
+symptom-symptom graph
+herb-herb graph
+multi-graph GCN fusion
+```
+
+Adapted disease-herb version:
+
+```text
+D-H graph: treats_disease + rev_treats_disease
+D-D graph: disease_herb_jaccard and/or disease_gene_jaccard
+H-H graph: herb_disease_jaccard and/or herb_gene_jaccard
+```
+
+Shared configuration:
+
+```text
+Script = compare_model/KDHR/hmc_kdhr_style.py
+Graph root = disease_split_graph_data_percentile90/g4_gene_bridge_chemical_gene_jaccard
+Input streams = structure, dense_semantic, gene
+Fusion = gate
+No relation-aware RGCN
+No local/global/semantic branch decomposition
+No semantic residual
+No SSL/alignment losses
+```
+
+Two KDHR-style data-control settings are used:
+
+```text
+local-only:
+  Uses D-H, D-D, and H-H graphs only.
+
+controlled external:
+  Additionally gives KDHR-style the same external/global side-information edge pool used by HMC-GNN's global branch, but aggregates it with a plain relation-agnostic GCN layer.
+```
+
+#### KDHR-style both co-occurrence and gene-jaccard
+
+Configuration:
+
+```text
+--same-type-mode both
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1756
+```
+
+Test results:
+
+```text
+P@5=0.5351   R@5=0.0852   F1@5=0.1018   NDCG@5=0.5831
+P@10=0.5203  R@10=0.1404  F1@10=0.1546  NDCG@10=0.5729
+P@20=0.4834  R@20=0.2202  F1@20=0.2152  NDCG@20=0.5535
+P@50=0.4140  R@50=0.3929  F1@50=0.2882  NDCG@50=0.5630
+```
+
+#### KDHR-style co-occurrence only
+
+Configuration:
+
+```text
+--same-type-mode cooccurrence
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1728
+```
+
+Test results:
+
+```text
+P@5=0.5830   R@5=0.0949   F1@5=0.1156   NDCG@5=0.6131
+P@10=0.5362  R@10=0.1449  F1@10=0.1595  NDCG@10=0.5875
+P@20=0.4727  R@20=0.2155  F1@20=0.2057  NDCG@20=0.5504
+P@50=0.4176  R@50=0.3923  F1@50=0.2887  NDCG@50=0.5672
+```
+
+#### KDHR-style gene-jaccard only
+
+Configuration:
+
+```text
+--same-type-mode gene_jaccard
+--global-context none
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1946
+```
+
+Test results:
+
+```text
+P@5=0.5897   R@5=0.0993   F1@5=0.1196   NDCG@5=0.6142
+P@10=0.5491  R@10=0.1564  F1@10=0.1748  NDCG@10=0.5924
+P@20=0.4917  R@20=0.2310  F1@20=0.2256  NDCG@20=0.5620
+P@50=0.4235  R@50=0.4223  F1@50=0.2996  NDCG@50=0.5809
+```
+
+#### KDHR-style gene-jaccard with controlled external context
+
+Configuration:
+
+```text
+--same-type-mode gene_jaccard
+--global-context external
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1702
+```
+
+Test results:
+
+```text
+P@5=0.5808   R@5=0.0981   F1@5=0.1168   NDCG@5=0.6180
+P@10=0.5159  R@10=0.1383  F1@10=0.1508  NDCG@10=0.5739
+P@20=0.4854  R@20=0.2271  F1@20=0.2194  NDCG@20=0.5579
+P@50=0.4188  R@50=0.3958  F1@50=0.2906  NDCG@50=0.5696
+```
+
+#### KDHR-style gene-jaccard local-only rerun
+
+Configuration:
+
+```text
+--same-type-mode gene_jaccard
+--global-context none
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1937
+```
+
+Test results:
+
+```text
+P@5=0.6103   R@5=0.1060   F1@5=0.1270   NDCG@5=0.6321
+P@10=0.5480  R@10=0.1561  F1@10=0.1752  NDCG@10=0.5954
+P@20=0.4910  R@20=0.2375  F1@20=0.2264  NDCG@20=0.5663
+P@50=0.4224  R@50=0.4235  F1@50=0.2988  NDCG@50=0.5825
+```
+
+#### KDHR-style both with normalized scoring
+
+Configuration:
+
+```text
+--same-type-mode both
+--normalize-score
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1313
+```
+
+Test results:
+
+```text
+P@5=0.4716   R@5=0.0449   F1@5=0.0700   NDCG@5=0.4826
+P@10=0.4428  R@10=0.0781  F1@10=0.1097  NDCG@10=0.4608
+P@20=0.4315  R@20=0.1728  F1@20=0.1802  NDCG@20=0.4586
+P@50=0.4018  R@50=0.3537  F1@50=0.2693  NDCG@50=0.4964
+```
+
+#### KDHR-style both with controlled external context
+
+Configuration:
+
+```text
+--same-type-mode both
+--global-context external
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1578
+```
+
+Test results:
+
+```text
+P@5=0.5077   R@5=0.0747   F1@5=0.0897   NDCG@5=0.5518
+P@10=0.5125  R@10=0.1450  F1@10=0.1545  NDCG@10=0.5577
+P@20=0.4566  R@20=0.2145  F1@20=0.1990  NDCG@20=0.5292
+P@50=0.4059  R@50=0.3859  F1@50=0.2780  NDCG@50=0.5452
+```
+
+#### KDHR-style comparison
+
+```text
+KDHR-style variant                 Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   F1@50
+both local-only                    0.1756     0.5203  0.1404  0.1546  0.5729   0.2152  0.2882
+both + external context            0.1578     0.5125  0.1450  0.1545  0.5577   0.1990  0.2780
+cooccurrence local-only            0.1728     0.5362  0.1449  0.1595  0.5875   0.2057  0.2887
+gene-jaccard local-only            0.1937     0.5480  0.1561  0.1752  0.5954   0.2264  0.2988
+gene-jaccard + external context    0.1702     0.5159  0.1383  0.1508  0.5739   0.2194  0.2906
+both + norm score                  0.1313     0.4428  0.0781  0.1097  0.4608   0.1802  0.2693
+```
+
+Interpretation:
+
+The adapted KDHR-style baseline is a more credible external graph baseline than the PresRecRF-style two-tower baseline because it preserves a multi-graph GCN structure. Among KDHR-style variants, gene-jaccard local-only performs best, which supports the usefulness of gene-overlap same-type edges beyond HMC-GNN itself. Adding the external/global side-information edge pool through a plain relation-agnostic GCN does not improve KDHR-style and instead reduces F1@10 in both the gene-jaccard and both-side settings. This suggests that external heterogeneous knowledge is not automatically beneficial when all relation types are averaged together.
+
+The controlled external result is important: it reduces the concern that HMC-GNN only wins because it has access to more data. KDHR-style can be given the same external/global edge pool, but without relation-aware propagation and complementary local/global/semantic view learning, this additional information is not effectively used.
+
+Manuscript implication:
+
+Use KDHR-style gene-jaccard local-only as the strongest adapted KDHR result in the main comparison table, and report the controlled external variant as a diagnostic fairness check. The careful claim is:
+
+```text
+Gene-overlap same-type edges improve even a conventional multi-graph GCN baseline. However, simply adding the same external heterogeneous edges to KDHR-style via relation-agnostic GCN does not close the gap, indicating that HMC-GNN's advantage comes from how heterogeneous knowledge is organized and propagated: relation-aware local/global/semantic view learning, semantic residual preservation, and multi-objective alignment.
+```
+
+### BSGAM-style Multi-Graph Attention
+
+Original BSGAM idea:
+
+```text
+symptom-herb graph
+symptom-symptom graph
+herb-herb graph
+GCN encoding
+multi-head attention fusion between interaction and same-type graph views
+```
+
+Adapted disease-herb version:
+
+```text
+D-H graph: treats_disease + rev_treats_disease
+D-D graph: disease_herb_jaccard and/or disease_gene_jaccard
+H-H graph: herb_disease_jaccard and/or herb_gene_jaccard
+Multi-head attention fuses interaction and same-type graph views
+```
+
+Shared configuration:
+
+```text
+Script = compare_model/BSGAM/hmc_bsgam_style.py
+Graph root = disease_split_graph_data_percentile90/g4_gene_bridge_chemical_gene_jaccard
+Input streams = structure, dense_semantic, gene
+Fusion = gate
+Attention heads = 4
+No relation-aware RGCN
+No local/global/semantic branch decomposition
+No semantic residual
+No SSL/alignment losses
+```
+
+#### BSGAM-style gene-jaccard local-only
+
+Configuration:
+
+```text
+--same-type-mode gene_jaccard
+--global-context none
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1935
+```
+
+Test results:
+
+```text
+P@5=0.5889   R@5=0.1020   F1@5=0.1217   NDCG@5=0.6252
+P@10=0.5417  R@10=0.1542  F1@10=0.1713  NDCG@10=0.5956
+P@20=0.4847  R@20=0.2248  F1@20=0.2172  NDCG@20=0.5625
+P@50=0.4206  R@50=0.4268  F1@50=0.2958  NDCG@50=0.5830
+```
+
+#### BSGAM-style gene-jaccard with controlled external context
+
+Configuration:
+
+```text
+--same-type-mode gene_jaccard
+--global-context external
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1886
+```
+
+Test results:
+
+```text
+P@5=0.6148   R@5=0.1052   F1@5=0.1275   NDCG@5=0.6417
+P@10=0.5417  R@10=0.1524  F1@10=0.1701  NDCG@10=0.5969
+P@20=0.4849  R@20=0.2247  F1@20=0.2171  NDCG@20=0.5640
+P@50=0.4228  R@50=0.4121  F1@50=0.2963  NDCG@50=0.5817
+```
+
+#### BSGAM-style both with controlled external context
+
+Configuration:
+
+```text
+--same-type-mode both
+--global-context external
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1776
+```
+
+Test results:
+
+```text
+P@5=0.5904   R@5=0.1012   F1@5=0.1200   NDCG@5=0.6244
+P@10=0.5343  R@10=0.1460  F1@10=0.1604  NDCG@10=0.5903
+P@20=0.4712  R@20=0.2166  F1@20=0.2088  NDCG@20=0.5517
+P@50=0.4142  R@50=0.4109  F1@50=0.2915  NDCG@50=0.5716
+```
+
+#### BSGAM-style co-occurrence local-only
+
+Configuration:
+
+```text
+--same-type-mode cooccurrence
+--global-context none
+```
+
+Training:
+
+```text
+Best validation F1@10 = 0.1936
+```
+
+Test results:
+
+```text
+P@5=0.5970   R@5=0.1040   F1@5=0.1265   NDCG@5=0.6288
+P@10=0.5491  R@10=0.1543  F1@10=0.1738  NDCG@10=0.5988
+P@20=0.4792  R@20=0.2196  F1@20=0.2137  NDCG@20=0.5581
+P@50=0.4225  R@50=0.4100  F1@50=0.2956  NDCG@50=0.5801
+```
+
+#### BSGAM-style comparison
+
+```text
+BSGAM-style variant                 Val F1@10  P@10    R@10    F1@10   NDCG@10  F1@20   F1@50
+gene-jaccard local-only             0.1935     0.5417  0.1542  0.1713  0.5956   0.2172  0.2958
+gene-jaccard + external context     0.1886     0.5417  0.1524  0.1701  0.5969   0.2171  0.2963
+both + external context             0.1776     0.5343  0.1460  0.1604  0.5903   0.2088  0.2915
+cooccurrence local-only             0.1936     0.5491  0.1543  0.1738  0.5988   0.2137  0.2956
+```
+
+Interpretation:
+
+BSGAM-style is a stronger and fairer adapted external baseline than a simple two-tower fusion model because it includes multi-graph GCN encoding and multi-head view attention. Its performance is close to KDHR-style and slightly stronger on some top-K metrics, but it remains far below HMC-GNN. The controlled external-context versions do not meaningfully improve over local-only, and the both-side controlled setting is worse than the local-only variants. This again suggests that simply exposing an adapted baseline to the same external heterogeneous edge pool is insufficient when relation types are not explicitly modeled.
+
+Manuscript implication:
+
+Use BSGAM-style co-occurrence local-only or gene-jaccard local-only as the representative adapted attention baseline. The careful claim is:
+
+```text
+Multi-head attention over conventional disease-herb, disease-disease, and herb-herb graph views improves the adapted graph baseline only modestly. HMC-GNN's stronger performance indicates that relation-aware heterogeneous propagation and complementary local/global/semantic organization are more important than applying attention to a small number of coarse graph views.
+```

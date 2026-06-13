@@ -398,47 +398,47 @@ Five representative baseline models are included for comparison to evaluate the 
 Compared with these methods, HMC-GNN follows a different modeling strategy. Rather than relying on predefined meta-paths or localized subgraph partitioning, it adopts an end-to-end multimodal graph contrastive learning framework that preserves global topological structure while integrating deep chemical and semantic features, including ChemBERTa embeddings and MACCS fingerprints.
 
 \subsubsection{Evaluation Metrics}
-To evaluate disease-driven herb recommendation performance, three widely used metrics are adopted: Precision@K, Recall@K, and F1-Score@K, as defined in Eqs. (\ref{eq:precision}), (\ref{eq:recall}), and (\ref{eq:f1}). For a given disease query $d_i$, let $\hat{H}_K(d_i)$ denote the set of Top-K herbs recommended by the model, and let $H^*(d_i)$ denote the ground-truth set of herbs historically prescribed for that disease. The metrics for an individual query are defined as follows:
+To evaluate disease-driven herb recommendation performance, four widely used metrics are adopted: Precision@K, Recall@K, F1-Score@K, and NDCG@K, as defined in Eqs. (\ref{eq:precision})--(\ref{eq:ndcg}). For a given disease query $d_i$, let $\hat{H}_K(d_i)$ denote the set of Top-K herbs recommended by the model, let $\hat{h}_r$ denote the herb ranked at position $r$, and let $H^*(d_i)$ denote the ground-truth set of herbs historically prescribed for that disease. The metrics for an individual query are defined as follows:
 \begin{gather}
 \label{eq:precision}
 \mathit{Precision}@K = \frac{|\hat{H}_K(d_i) \cap H^*(d_i)|}{|\hat{H}_K(d_i)|} \\
 \label{eq:recall}
 \mathit{Recall}@K = \frac{|\hat{H}_K(d_i) \cap H^*(d_i)|}{|H^*(d_i)|} \\
 \label{eq:f1}
-\mathit{F1}@K = \frac{2 \times \mathit{Precision}@K \times \mathit{Recall}@K}{\mathit{Precision}@K + \mathit{Recall}@K}
+\mathit{F1}@K = \frac{2 \times \mathit{Precision}@K \times \mathit{Recall}@K}{\mathit{Precision}@K + \mathit{Recall}@K} \\
+\label{eq:ndcg}
+\mathit{NDCG}@K = \frac{1}{\mathit{IDCG}@K} \sum_{r=1}^{K} \frac{\mathbf{1}(\hat{h}_r \in H^*(d_i))}{\log_2(r+1)}
 \end{gather}
-Here, Eq. (\ref{eq:precision}) measures precision, which quantifies the proportion of correctly recommended herbs among the top-K outputs. Eq. (\ref{eq:recall}) defines recall, evaluating the proportion of ground-truth herbs successfully captured by the recommendation list. Eq. (\ref{eq:f1}) gives the harmonic mean of precision and recall, providing a comprehensive and balanced evaluation of both exactness and completeness.
+Here, Eq. (\ref{eq:precision}) measures precision, which quantifies the proportion of correctly recommended herbs among the top-K outputs. Eq. (\ref{eq:recall}) defines recall, evaluating the proportion of ground-truth herbs successfully captured by the recommendation list. Eq. (\ref{eq:f1}) gives the harmonic mean of precision and recall, providing a comprehensive and balanced evaluation of both exactness and completeness. Eq. (\ref{eq:ndcg}) measures whether relevant herbs are ranked earlier; since the current disease-herb labels are binary, relevance is set to one for ground-truth herbs and zero otherwise.
 
-In the experiments, the reported results are averaged over all test diseases $d_i \in D_{test}$, with the cutoff $K$ set to $\{5, 10, 20\}$.
+In the experiments, the reported results are averaged over all test diseases $d_i \in D_{test}$, with the cutoff $K$ set to $\{5, 10, 20, 50\}$.
 
 \subsection{Overall Performance (RQ1)}
 
-As shown in Table \ref{tbl3}, HMC-GNN achieves the best performance across all evaluation metrics. Using F1-score as the primary summary metric, the model shows clear improvements over all competing baselines. In particular, HMC-GNN improves F1@10 by 39.5\%, 69.1\%, and 81.4\% relative to TCMPR, KDHR, and BSGAM, respectively. It also achieves a Recall@10 of 0.3435, compared with 0.1521 for the strongest graph-based baseline, KDHR. Taken together, these results indicate that HMC-GNN provides a stronger balance between precision and recall for disease-driven prescription recommendation.
+As shown in Table \ref{tbl3}, HMC-GNN achieves the best overall performance under the disease-label-disjoint evaluation protocol. Compared with basic collaborative filtering and adapted graph-based recommendation baselines, HMC-GNN consistently obtains higher precision, recall, F1-score, and NDCG at both $K=5$ and $K=10$. In particular, HMC-GNN improves F1@10 by 51.66\% over the strongest baseline result, indicating that the proposed gene-overlap-guided local semantic augmentation, complementary local-global-semantic view learning, and gated multimodal fusion provide more effective generalization to held-out diseases.
 
-\begin{table*}[width=\textwidth,cols=7,pos=htbp]
-\caption{Overall Performance Comparison.}\label{tbl3}
-\footnotesize % <----- 在这里加上 \small，表示缩小一号
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l c c c c c c @{}}
+\begin{table*}[width=\textwidth,cols=9,pos=htbp]
+\caption{Overall performance comparison under the disease-label-disjoint evaluation protocol.}\label{tbl3}
+\footnotesize
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l c c c c c c c c @{}}
 \toprule
-Model & P@5 & R@5 & F1@5 & P@10 & R@10 & F1@10 \\
+Model & P@5 & R@5 & F1@5 & NDCG@5 & P@10 & R@10 & F1@10 & NDCG@10 \\
 \midrule
-PTM & 0.1173 & 0.0710 & 0.0632 & 0.1122 & 0.1187 & 0.0831 \\
-TCMPR & 0.1348 & 0.0848 & 0.0736 & 0.1250 & 0.1360 & 0.0953 \\
-PresRecRF & 0.1283 & 0.0704 & 0.0679 & 0.1239 & 0.1367 & 0.0935 \\
-KDHR & 0.1255 & 0.0903 & 0.0768 & 0.1232 & 0.1521 & 0.1035 \\
-BSGAM & 0.1356 & 0.0858 & 0.0747 & 0.1273 & 0.1391 & 0.0965 \\
-HMC-GNN (Ours) & \textbf{0.2029} & \textbf{0.2373} & \textbf{0.1557} & \textbf{0.1853} & \textbf{0.3435} & \textbf{0.1751} \\
+BPR-MF & 0.2982 & 0.0426 & 0.0525 & 0.3113 & 0.2790 & 0.0677 & 0.0742 & 0.3013 \\
+LightGCN & 0.2886 & 0.0431 & 0.0584 & 0.3034 & 0.2683 & 0.0727 & 0.0843 & 0.2917 \\
+PresRecRF-style & 0.5904 & 0.1012 & 0.1200 & 0.6116 & 0.5339 & 0.1511 & 0.1672 & 0.5785 \\
+KDHR-style & 0.6103 & 0.1060 & 0.1270 & 0.6321 & 0.5480 & 0.1561 & 0.1752 & 0.5954 \\
+BSGAM-style & 0.5970 & 0.1040 & 0.1265 & 0.6288 & 0.5491 & 0.1543 & 0.1738 & 0.5988 \\
+HMC-GNN (Ours) & \textbf{0.7454} & \textbf{0.1810} & \textbf{0.1984} & \textbf{0.7948} & \textbf{0.7044} & \textbf{0.2715} & \textbf{0.2657} & \textbf{0.7829} \\
 \midrule
-Improve. By TCMPR & 50.52\% & 179.83\% & 111.55\% & 48.24\% & 152.57\% & 83.74\% \\
-Improve. By KDHR & 61.67\% & 162.79\% & 102.73\% & 50.41\% & 125.84\% & 69.18\% \\
-Improve. By BSGAM & 49.63\% & 176.57\% & 108.43\% & 45.56\% & 146.94\% & 81.45\% \\
+Improve. over best baseline & 22.14\% & 70.75\% & 56.22\% & 25.74\% & 28.28\% & 73.93\% & 51.66\% & 30.74\% \\
 \bottomrule
 \end{tabular*}
 \end{table*}
 
-These performance differences are consistent with the modeling assumptions of the baselines. Traditional statistical and shallow representation methods, including PTM, TCMPR, and PresRecRF, rely heavily on direct co-occurrence statistics or subnetwork projections. Because disease-herb interactions are sparse, many nodes receive limited association information, which restricts feature learning and leads to weaker overall performance. By contrast, the graph-based models KDHR and BSGAM achieve stronger results. KDHR incorporates external herb attributes and multi-layer information fusion, whereas BSGAM applies graph attention over bipartite subgraphs to emphasize local structural roles. As a result, both models capture higher-order therapeutic associations more effectively than the non-graph baselines.
+The basic BPR-MF and LightGCN baselines rely mainly on observed disease-herb interactions and therefore perform poorly when validation and test disease labels are excluded from graph construction. The adapted PresRecRF-style, KDHR-style, and BSGAM-style baselines are stronger because they incorporate richer feature or graph information, but their representations are still learned through relatively coupled or relation-agnostic aggregation strategies. HMC-GNN obtains higher scores because it separates local recommendation-specific topology, global heterogeneous knowledge, and raw multimodal semantics, while using gene-overlap-induced same-type edges to provide additional local semantic neighborhoods for sparse disease-herb supervision.
 
-However, these graph-based methods remain constrained by two structural limitations. First, they operate on raw scale-free TCM networks in which connectivity is dominated by a small number of hub herbs, such as \textit{Glycyrrhiza uralensis}. Under this setting, unfiltered message passing can lead to over-smoothing, bias recommendations toward generic herbs, and weaken signals from specific long-tail candidates. Second, their feature integration remains limited in its ability to bridge discrete topological structure and continuous molecular properties. HMC-GNN addresses these issues by introducing asymmetric Top-K Jaccard pruning to reduce hub-node interference and by using multimodal contrastive learning to complement sparse topological signals with chemical and property-level semantics. More detailed empirical analyses of these components are provided in the ablation studies for RQ2 and RQ3.
+Notably, the improvement is not limited to a single metric. The higher Recall@10 indicates that HMC-GNN retrieves more relevant herbs for held-out diseases, while the higher Precision@10 and NDCG@10 show that these herbs are ranked earlier in the recommendation list. These results support the effectiveness of the proposed complementary-view graph learning and multimodal fusion strategy. More detailed empirical analyses of these components are provided in the ablation studies for RQ2 and RQ3.
 
 \subsection{Ablation Study (RQ2 and RQ3)}
 

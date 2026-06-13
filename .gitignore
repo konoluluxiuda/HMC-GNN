@@ -38,6 +38,38 @@ __pycache__/
 *.pyo
 *.egg-info/
 
+# Imported third-party baseline artifacts
+*:Zone.Identifier
+*.whl
+*.pt
+*.pth
+*.ckpt
+*.log
+*.synctex.gz
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+IEEE-TJ-color-latex-template/main.pdf
+IEEE-TJ-color-latex-template/main.synctex.gz
+IEEE-TJ-color-latex-template/main.log
+
+# Imported baseline datasets and non-reproducible local artifacts
+compare_model/**/data/
+compare_model/**/KG/
+compare_model/**/result/
+compare_model/**/img/
+compare_model/**/fig/
+compare_model/**/model/
+compare_model/PTM/
+compare_model/KDHR/khdr.txt
+compare_model/PresRecRF/script/1.1
+
 # IDE / 系统
 .vscode/
 .idea/

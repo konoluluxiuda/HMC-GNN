@@ -166,6 +166,27 @@ class HMC_GNN_SSL(nn.Module):
         if self.use_gene:
             self.disease_gate_stream_names.append('gene')
 
+        self.shared_gate_stream_names = ['structure']
+        if self.use_attr:
+            self.shared_gate_stream_names.append('attr')
+        if self.use_chem:
+            self.shared_gate_stream_names.append('chem')
+        if self.use_disease:
+            self.shared_gate_stream_names.append('disease_text')
+        if self.use_gene:
+            self.shared_gate_stream_names.append('gene')
+
+        self.use_shared_gated_fusion = (
+            self.fusion_mode == 'shared_gated'
+            and len(self.shared_gate_stream_names) > 1
+        )
+        if self.use_shared_gated_fusion:
+            self.shared_fusion_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.shared_gate_stream_names), self.emb_dim),
+                nn.ReLU(),
+                nn.Linear(self.emb_dim, len(self.shared_gate_stream_names))
+            )
+
         self.use_herb_gated_fusion = (
             self.fusion_mode == 'gated'
             and self.herb_indices is not None
@@ -190,7 +211,11 @@ class HMC_GNN_SSL(nn.Module):
                 nn.Linear(self.emb_dim, len(self.disease_gate_stream_names))
             )
 
-        self.use_gated_fusion = self.use_herb_gated_fusion or self.use_disease_gated_fusion
+        self.use_gated_fusion = (
+            self.use_shared_gated_fusion
+            or self.use_herb_gated_fusion
+            or self.use_disease_gated_fusion
+        )
 
         self.herb_semantic_stream_names = []
         if self.use_attr:
@@ -205,6 +230,27 @@ class HMC_GNN_SSL(nn.Module):
             self.disease_semantic_stream_names.append('disease_text')
         if self.use_gene:
             self.disease_semantic_stream_names.append('gene')
+
+        self.shared_semantic_stream_names = []
+        if self.use_attr:
+            self.shared_semantic_stream_names.append('attr')
+        if self.use_chem:
+            self.shared_semantic_stream_names.append('chem')
+        if self.use_disease:
+            self.shared_semantic_stream_names.append('disease_text')
+        if self.use_gene:
+            self.shared_semantic_stream_names.append('gene')
+
+        self.use_shared_semantic_gate = (
+            self.fusion_mode == 'shared_gated'
+            and len(self.shared_semantic_stream_names) > 1
+        )
+        if self.use_shared_semantic_gate:
+            self.shared_semantic_gate = nn.Sequential(
+                nn.Linear(self.emb_dim * len(self.shared_semantic_stream_names), self.emb_dim),
+                nn.ReLU(),
+                nn.Linear(self.emb_dim, len(self.shared_semantic_stream_names))
+            )
 
         self.use_herb_semantic_gate = (
             self.fusion_mode == 'gated'
@@ -335,6 +381,24 @@ class HMC_GNN_SSL(nn.Module):
         x_updated[node_indices] = node_fused
         return x_updated
 
+    def _typed_node_indices(self):
+        indices = []
+        if self.herb_indices is not None and self.herb_indices.numel() > 0:
+            indices.append(self.herb_indices)
+        if self.disease_indices is not None and self.disease_indices.numel() > 0:
+            indices.append(self.disease_indices)
+        if not indices:
+            return None
+        return torch.unique(torch.cat(indices))
+
+    def _mask_stream_for_nodes(self, stream, node_indices):
+        if stream is None:
+            return None
+        masked = torch.zeros_like(stream)
+        if node_indices is not None and node_indices.numel() > 0:
+            masked[node_indices] = stream[node_indices]
+        return masked
+
     def _build_fused_input(self):
         # 1. 获取结构特征 (ST)
         x_st = self.embedding.weight # [N, 128]
@@ -372,6 +436,24 @@ class HMC_GNN_SSL(nn.Module):
             if stream is not None:
                 add_streams.append(stream)
         x_fused = sum(add_streams)
+
+        if self.use_shared_gated_fusion:
+            typed_indices = self._typed_node_indices()
+            shared_streams = [x_st]
+            if x_attr is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_attr, self.herb_indices))
+            if x_chem is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_chem, self.herb_indices))
+            if x_disease is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_disease, self.disease_indices))
+            if x_gene is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_gene, typed_indices))
+            x_fused = self._apply_node_gate(
+                x_fused,
+                typed_indices,
+                shared_streams,
+                self.shared_fusion_gate,
+            )
 
         if self.use_herb_gated_fusion:
             herb_streams = [x_st]
@@ -469,6 +551,25 @@ class HMC_GNN_SSL(nn.Module):
             x_semantic = sum(semantic_streams)
         else:
             x_semantic = torch.zeros_like(self.embedding.weight)
+
+        if self.use_shared_semantic_gate:
+            typed_indices = self._typed_node_indices()
+            shared_streams = []
+            if x_attr is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_attr, self.herb_indices))
+            if x_chem is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_chem, self.herb_indices))
+            if x_disease is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_disease, self.disease_indices))
+            if x_gene is not None:
+                shared_streams.append(self._mask_stream_for_nodes(x_gene, typed_indices))
+            if len(shared_streams) > 1:
+                x_semantic = self._apply_node_gate(
+                    x_semantic,
+                    typed_indices,
+                    shared_streams,
+                    self.shared_semantic_gate,
+                )
 
         if self.use_herb_semantic_gate:
             herb_streams = []
